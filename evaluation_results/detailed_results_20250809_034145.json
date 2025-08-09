@@ -1,0 +1,507 @@
+{
+  "summary": {
+    "total_videos": 3,
+    "average_scores": {
+      "content_accuracy": 3.9333333333333336,
+      "anomaly_detection": 3.4333333333333336,
+      "confidence_calibration": 3.1999999999999997,
+      "hallucination": 2.566666666666667,
+      "overall": 3.2833333333333337
+    },
+    "score_std": {
+      "content_accuracy": 2.500666577801474,
+      "anomaly_detection": 0.472581562625261,
+      "confidence_calibration": 1.5620499351813308,
+      "hallucination": 1.0969655114602888,
+      "overall": 1.1619846527959536
+    },
+    "score_ranges": {
+      "content_accuracy": {
+        "min": 2.2,
+        "max": 6.800000000000001
+      },
+      "anomaly_detection": {
+        "min": 2.9,
+        "max": 3.8000000000000003
+      },
+      "confidence_calibration": {
+        "min": 2.2,
+        "max": 5.0
+      },
+      "hallucination": {
+        "min": 1.7000000000000002,
+        "max": 3.8
+      },
+      "overall": {
+        "min": 2.6000000000000005,
+        "max": 4.625
+      }
+    }
+  },
+  "detailed_results": [
+    {
+      "video_name": "anomaly_video_0000.mp4",
+      "ground_truth": {
+        "anomaly_video_name": "anomaly_video_0000.mp4",
+        "original_video_id": "9632M",
+        "original_scene": "Entryway (A hall that is generally located at the entrance of a house)",
+        "original_script": "A person walks through the entryway, laughing and eating from a bag of snacks. The person wipes their mouth with a paper towel.",
+        "combined_video_id": "FX1T5",
+        "combined_script": "A person sitting in a chair in a kitchen puts a picture in a book.",
+        "original_actions": "c156 5.50 30.90;c097 2.30 14.00;c061 4.90 33.00;c152 14.00 33.00;c033 27.40 33.00;c035 26.60 32.00",
+        "decoded_actions": "c156 5.50 30.90 (Someone is eating something);c097 2.30 14.00 (Walking through a doorway);c061 4.90 33.00 (Holding some food);c152 14.00 33.00 (Someone is smiling);c033 27.40 33.00 (Holding a towel/s);c035 26.60 32.00 (Taking a towel/s from somewhere)",
+        "anomalies_applied": "object_insertion;combined_scenes_Entryway (A hall that is generally located at the entrance of a house)_Kitchen;combined_videos_9632M_FX1T5;noise_injection;geometric_distortion;color_shift",
+        "anomaly_timestamps": "scene_mixing 31.95 56.99;video_combination 0.00 56.99;noise_injection 0.65 1.65;color_shift 0.85 1.85;geometric_distortion 0.85 1.85;noise_injection 0.85 1.85;object_insertion 1.16 2.16;color_shift 1.87 2.87;color_shift 1.94 2.94;geometric_distortion 2.04 3.04;geometric_distortion 2.38 3.38;noise_injection 2.52 3.52;object_insertion 2.69 3.69;object_insertion 3.17 4.17;object_insertion 3.51 4.51;noise_injection 3.51 4.51;color_shift 3.58 4.58;geometric_distortion 3.71 4.71;geometric_distortion 4.53 5.53;color_shift 4.67 5.67;object_insertion 5.59 6.59;color_shift 5.59 6.59;color_shift 5.79 6.79;object_insertion 6.13 7.13;object_insertion 6.40 7.40;object_insertion 7.19 8.19;color_shift 7.29 8.29;color_shift 7.56 8.56;geometric_distortion 7.63 8.63;object_insertion 7.97 8.97;geometric_distortion 8.24 9.24;color_shift 8.35 9.35;object_insertion 8.89 9.89;object_insertion 8.96 9.96;noise_injection 9.50 10.50;geometric_distortion 9.54 10.54;color_shift 9.71 10.71;object_insertion 9.81 10.81;noise_injection 9.91 10.91;object_insertion 10.42 11.42;object_insertion 10.46 11.46;noise_injection 10.90 11.90;geometric_distortion 10.97 11.97;geometric_distortion 11.17 12.17;object_insertion 11.79 12.79;geometric_distortion 11.89 12.89;color_shift 11.99 12.99;color_shift 12.09 13.09;object_insertion 12.23 13.23;color_shift 12.71 13.71;color_shift 12.77 13.77;noise_injection 13.01 14.01;object_insertion 13.11 14.11;noise_injection 13.11 14.11;color_shift 13.52 14.52;color_shift 13.80 14.80;noise_injection 14.00 15.00;object_insertion 14.54 15.54;object_insertion 14.89 15.89;color_shift 14.89 15.89;object_insertion 14.92 15.92;color_shift 15.70 16.70;noise_injection 15.70 16.70;noise_injection 15.74 16.74;object_insertion 15.94 16.94;noise_injection 16.11 17.11;noise_injection 16.21 17.21;color_shift 16.59 17.59;noise_injection 16.62 17.62;noise_injection 16.86 17.86;object_insertion 17.03 18.03;geometric_distortion 17.10 18.10;noise_injection 17.20 18.20;color_shift 17.30 18.30;object_insertion 17.34 18.34;noise_injection 17.44 18.44;object_insertion 17.58 18.58;color_shift 17.71 18.71;noise_injection 17.71 18.71;object_insertion 18.29 19.29;object_insertion 18.33 19.33;object_insertion 18.43 19.43;color_shift 18.53 19.53;geometric_distortion 18.84 19.84;object_insertion 19.59 20.59;color_shift 19.82 20.82;color_shift 20.10 21.10;noise_injection 20.10 21.10;geometric_distortion 20.13 21.13;geometric_distortion 20.27 21.27;geometric_distortion 20.44 21.44;noise_injection 20.57 21.57;noise_injection 20.88 21.88;color_shift 20.95 21.95;noise_injection 21.05 22.05;geometric_distortion 21.53 22.53;object_insertion 21.63 22.63;object_insertion 21.70 22.70;color_shift 21.80 22.80;noise_injection 21.80 22.80;object_insertion 21.94 22.94;object_insertion 21.97 22.97;noise_injection 22.14 23.14;geometric_distortion 22.21 23.21;noise_injection 22.24 23.24;color_shift 22.62 23.62;object_insertion 22.89 23.89;object_insertion 23.30 24.30;object_insertion 23.40 24.40;object_insertion 23.54 24.54;noise_injection 23.57 24.57;object_insertion 23.84 24.84;noise_injection 24.08 25.08;color_shift 24.59 25.59;noise_injection 24.73 25.73;object_insertion 25.79 26.79;noise_injection 25.99 26.99;noise_injection 26.13 27.13;object_insertion 26.40 27.40;noise_injection 26.57 27.57;color_shift 26.64 27.64;noise_injection 27.62 28.62;geometric_distortion 27.66 28.66;color_shift 28.17 29.17;color_shift 28.37 29.37;object_insertion 29.02 30.02;noise_injection 29.09 30.09;object_insertion 29.16 30.16;object_insertion 29.23 30.23;geometric_distortion 29.77 30.77;color_shift 30.25 31.25;color_shift 30.35 31.35;noise_injection 30.59 31.59;object_insertion 31.20 32.20;object_insertion 31.68 32.68;object_insertion 31.75 32.75;object_insertion 31.85 32.85;geometric_distortion 31.92 32.92;object_insertion 32.15 33.15;color_shift 32.39 33.39;object_insertion 32.60 33.60;object_insertion 32.73 33.73;color_shift 32.94 33.94;object_insertion 33.28 34.28;geometric_distortion 33.28 34.28;geometric_distortion 33.65 34.65;object_insertion 33.96 34.96;noise_injection 34.03 35.03;color_shift 34.71 35.71;geometric_distortion 34.81 35.81;object_insertion 35.02 36.02;noise_injection 35.02 36.02;object_insertion 35.05 36.05;object_insertion 35.12 36.12;noise_injection 35.15 36.15;noise_injection 35.19 36.19;object_insertion 36.41 37.41;object_insertion 36.75 37.75;object_insertion 37.06 38.06;object_insertion 37.23 38.23;object_insertion 37.71 38.71;noise_injection 37.88 38.88;object_insertion 38.35 39.35;geometric_distortion 38.46 39.46;noise_injection 38.52 39.52;geometric_distortion 38.59 39.59;object_insertion 38.83 39.83;geometric_distortion 39.44 40.44;object_insertion 39.89 40.89;object_insertion 40.53 41.53;object_insertion 41.05 42.05;object_insertion 41.96 42.96;geometric_distortion 41.96 42.96;geometric_distortion 42.07 43.07;geometric_distortion 42.17 43.17;color_shift 43.26 44.26;noise_injection 43.26 44.26;object_insertion 43.33 44.33;noise_injection 43.63 44.63;color_shift 44.32 45.32;color_shift 44.52 45.52;noise_injection 44.52 45.52;object_insertion 45.13 46.13;object_insertion 45.27 46.27;noise_injection 45.41 46.41;color_shift 45.54 46.54;object_insertion 45.58 46.58;geometric_distortion 45.64 46.64;color_shift 45.78 46.78;object_insertion 46.46 47.46;color_shift 46.60 47.60;object_insertion 46.87 47.87;object_insertion 47.24 48.24;color_shift 47.28 48.28;object_insertion 47.76 48.76;noise_injection 48.40 49.40;object_insertion 48.64 49.64;color_shift 49.42 50.42;geometric_distortion 49.63 50.63;object_insertion 50.00 51.00;object_insertion 50.79 51.79;object_insertion 51.03 52.03;object_insertion 51.40 52.40;color_shift 51.50 52.50;color_shift 51.91 52.91;object_insertion 52.80 53.80;object_insertion 52.90 53.90;noise_injection 53.85 54.85;noise_injection 53.99 54.99;color_shift 54.23 55.23;noise_injection 54.47 55.47;object_insertion 54.57 55.57;color_shift 54.91 55.91;object_insertion 55.42 56.42;object_insertion 55.73 56.73;color_shift 55.96 56.96;noise_injection 56.95 57.95",
+        "anomaly_count": 6
+      },
+      "responses": {
+        "basic_description": "The video begins with a view of an open wooden door leading to another room, partially covered by a curtain. The setting appears to be indoors, possibly a home or a small building. A man wearing an orange polo shirt and blue jeans enters the frame from the right side. He is holding a yellow packet of Mondelez cookies and is eating one while walking towards the camera. As he moves closer, he continues to eat the cookie and seems to be enjoying it. His facial expressions suggest that he is savoring the taste. The background includes a glimpse of a purple wall and some furniture, indicating a domestic environment. The lighting is warm, creating a cozy atmosphere.",
+        "anomaly_detection": "In the video, everything appears to be normal and typical for an indoor setting. The man is casually entering a room while eating a snack, which is a common everyday activity. There are no visual distortions or anomalies that stand out as unusual. The environment looks like a standard home interior with furniture and decor that do not appear distorted or out of place. The lighting and colors are consistent throughout the frames, and there are no sudden changes or unexpected elements that would suggest something is amiss.",
+        "temporal_analysis": "The video appears to be playing in normal forward motion, as the sequence of events is logical and follows a natural progression. The man enters the room, walks towards the camera, and interacts with the snack packet without any indication of reversed playback or shuffled frames.",
+        "spatial_analysis": "In the video, the man is seen entering a room while eating a snack from a yellow packet labeled \"Mondelez.\" The setting appears to be a domestic interior with wooden doors and a traditional design. There are no obvious objects that seem out of place in this scene.\n\nRegarding color distortions or visual artifacts, the video does not exhibit any noticeable issues. The colors appear consistent throughout the frames, and there are no signs of pixelation, blurring, or other visual anomalies that would suggest a problem with the video quality.",
+        "semantic_analysis": "The sequence of events in the video appears to be logical and smooth. The man enters the room, walks towards the camera while eating a snack, and then stops to interact with the camera. There are no abrupt or unnatural scene transitions; each action flows naturally into the next. The setting remains consistent throughout the video, indicating a continuous indoor environment without any significant changes in location or time.",
+        "confidence_assessment": "I am confident in the description of the video content provided. The sequence of events is clear: a person enters a room, opens a snack packet, and eats from it while smiling. There are no parts that I'm uncertain about based on the given information. If you have any specific questions or need further details, feel free to ask!"
+      },
+      "scores": {
+        "content_accuracy": 6.800000000000001,
+        "anomaly_detection": 2.9,
+        "confidence_calibration": 5.0,
+        "hallucination": 3.8,
+        "overall": 4.625
+      },
+      "judgments": {
+        "content_accuracy": {
+          "content_coverage_score": 7,
+          "accuracy_score": 6,
+          "detail_level_score": 8,
+          "overall_assessment": "The model response captures some key actions and setting but misses specific details and includes inaccuracies.",
+          "correctly_described_elements": [
+            "eating",
+            "walking through a doorway"
+          ],
+          "missing_elements": [
+            "wiping mouth with a paper towel",
+            "smiling"
+          ],
+          "incorrect_descriptions": [
+            "man wearing an orange polo shirt",
+            "yellow packet of Mondelez cookies"
+          ]
+        },
+        "anomaly_detection": {
+          "anomaly_detection_score": 0,
+          "accuracy_score": 3,
+          "false_positive_score": 10,
+          "overall_assessment": "The model failed to detect any anomalies present in the video.",
+          "detected_anomalies": [],
+          "missed_anomalies": [
+            "object_insertion",
+            "combined_scenes_Entryway (A hall that is generally located at the entrance of a house)_Kitchen",
+            "combined_videos_9632M_FX1T5",
+            "noise_injection",
+            "geometric_distortion",
+            "color_shift"
+          ],
+          "false_positives": []
+        },
+        "confidence_calibration": {
+          "uncertainty_recognition_score": 4,
+          "confidence_appropriateness_score": 6,
+          "calibration_score": 5,
+          "overall_assessment": "The model demonstrates moderate recognition of uncertainty but lacks full confidence in its assertions.",
+          "uncertainty_indicators": [
+            "vague description of the setting",
+            "lack of specific actions mentioned"
+          ],
+          "confidence_indicators": [
+            "detailed description of the person's actions",
+            "specific mention of the environment"
+          ],
+          "calibration_issues": [
+            "inconsistency with ground truth actions",
+            "missing anomalies identification"
+          ]
+        },
+        "hallucination_detection": {
+          "hallucination_severity_score": 7,
+          "factual_accuracy_score": 5,
+          "speculation_control_score": 4,
+          "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions.",
+          "hallucinated_elements": [
+            "orange polo shirt",
+            "yellow packet of Mondelez cookies",
+            "purple wall",
+            "furniture"
+          ],
+          "factual_errors": [
+            "man entering from the right",
+            "eating a cookie"
+          ],
+          "speculative_content": [
+            "enjoying the taste",
+            "cozy atmosphere"
+          ]
+        }
+      }
+    },
+    {
+      "video_name": "anomaly_video_0001.mp4",
+      "ground_truth": {
+        "anomaly_video_name": "anomaly_video_0001.mp4",
+        "original_video_id": "ORD96",
+        "original_scene": "Laundry room",
+        "original_script": "A person is standing in their laundry room with a pillow in their left hand. They put the pillow down and pick up some groceries that they start washing under the sink.",
+        "combined_video_id": NaN,
+        "combined_script": NaN,
+        "original_actions": "c139 11.80 31.00;c076 0.00 12.30;c061 13.20 31.00;c080 8.30 13.10;c003 8.50 14.60;c063 14.10 31.00;c000 0.00 13.10",
+        "decoded_actions": "c139 11.80 31.00 (Washing their hands);c076 0.00 12.30 (Holding a pillow);c061 13.20 31.00 (Holding some food);c080 8.30 13.10 (Throwing a pillow somewhere);c003 8.50 14.60 (Throwing clothes somewhere);c063 14.10 31.00 (Taking food from somewhere);c000 0.00 13.10 (Holding some clothes)",
+        "anomalies_applied": "object_insertion;noise_injection;color_shift;geometric_distortion",
+        "anomaly_timestamps": "object_insertion 0.00 1.00;color_shift 0.57 1.57;object_insertion 0.63 1.63;object_insertion 1.47 2.47;noise_injection 1.70 2.70;color_shift 1.73 2.73;object_insertion 1.77 2.77;geometric_distortion 3.90 4.90;noise_injection 4.30 5.30;color_shift 4.87 5.87;color_shift 5.10 6.10;object_insertion 5.13 6.13;geometric_distortion 5.53 6.53;color_shift 5.57 6.57;color_shift 5.80 6.80;geometric_distortion 5.83 6.83;noise_injection 5.83 6.83;color_shift 5.93 6.93;geometric_distortion 6.07 7.07;color_shift 6.10 7.10;color_shift 6.70 7.70;color_shift 6.87 7.87;object_insertion 7.33 8.33;noise_injection 8.27 9.27;color_shift 8.40 9.40;object_insertion 9.13 10.13;object_insertion 9.23 10.23;color_shift 9.40 10.40;object_insertion 9.83 10.83;object_insertion 10.07 11.07;noise_injection 10.30 11.30;geometric_distortion 10.33 11.33;color_shift 10.80 11.80;noise_injection 11.70 12.70;object_insertion 12.23 13.23;object_insertion 12.30 13.30;object_insertion 12.70 13.70;object_insertion 12.93 13.93;object_insertion 13.03 14.03;object_insertion 13.10 14.10;geometric_distortion 13.37 14.37;object_insertion 13.77 14.77;object_insertion 13.93 14.93;noise_injection 14.07 15.07;geometric_distortion 14.10 15.10;object_insertion 14.40 15.40;geometric_distortion 14.73 15.73;object_insertion 14.93 15.93;color_shift 15.07 16.07;noise_injection 15.17 16.17;geometric_distortion 15.43 16.43;noise_injection 15.50 16.50;geometric_distortion 15.73 16.73;object_insertion 15.77 16.77;color_shift 16.00 17.00;object_insertion 16.10 17.10;geometric_distortion 16.30 17.30;noise_injection 16.37 17.37;color_shift 16.43 17.43;object_insertion 16.97 17.97;noise_injection 17.17 18.17;geometric_distortion 17.47 18.47;object_insertion 17.60 18.60;color_shift 17.90 18.90;geometric_distortion 18.10 19.10;object_insertion 18.33 19.33;object_insertion 19.10 20.10;noise_injection 19.47 20.47;color_shift 19.87 20.87;noise_injection 20.13 21.13;color_shift 20.27 21.27;noise_injection 21.57 22.57;noise_injection 21.60 22.60;color_shift 21.67 22.67;color_shift 21.83 22.83;noise_injection 22.00 23.00;geometric_distortion 22.07 23.07;object_insertion 22.73 23.73;noise_injection 22.90 23.90;color_shift 22.97 23.97;geometric_distortion 23.00 24.00;noise_injection 23.93 24.93;object_insertion 24.13 25.13;object_insertion 24.27 25.27;noise_injection 24.40 25.40;object_insertion 24.73 25.73;color_shift 25.23 26.23;noise_injection 25.50 26.50;geometric_distortion 25.97 26.97;noise_injection 26.43 27.43;color_shift 26.47 27.47;color_shift 26.73 27.73;object_insertion 27.37 28.37;object_insertion 27.47 28.47;color_shift 27.67 28.67;object_insertion 28.33 29.33;object_insertion 28.37 29.37;object_insertion 28.77 29.77;object_insertion 28.87 29.87;object_insertion 28.93 29.93;geometric_distortion 29.03 30.03;object_insertion 29.23 30.23;noise_injection 29.40 30.40;object_insertion 29.47 30.47;color_shift 30.03 31.03;color_shift 30.13 31.13;noise_injection 30.20 31.20;geometric_distortion 30.27 31.27;noise_injection 30.30 31.30;object_insertion 30.33 31.33",
+        "anomaly_count": 4
+      },
+      "responses": {
+        "basic_description": "The video shows a man standing in a kitchen, holding a plastic bag filled with items. He is wearing a blue and white striped shirt and dark pants. The kitchen has a tiled backsplash with a floral pattern and various kitchen items on the counter, including a yellow bowl, a metal pot, and a basket.\n\nThe man appears to be speaking or gesturing with his free hand while holding the bag. He then moves towards the sink area, bends down, and places the bag on the counter next to the sink. He proceeds to open the bag and seems to be organizing or inspecting its contents. The camera follows his movements closely, capturing the details of the kitchen environment and his actions.",
+        "anomaly_detection": "In the video, the man appears to be in a kitchen setting, holding what looks like a bag of groceries. He moves around the room and approaches the sink area where he seems to be preparing something. The video quality is somewhat blurry and grainy, which might suggest it was recorded with a low-resolution camera or in poor lighting conditions.\n\nThere are no obvious visual distortions or anomalies that stand out. However, the blurriness could make it difficult to discern finer details about the objects or actions taking place. The movement of the camera also adds to the lack of clarity, as it seems to be handheld and not perfectly steady. Overall, the scene appears to be a casual, everyday activity without any apparent issues or abnormalities.",
+        "temporal_analysis": "The video appears to be playing normally without any visible signs of reversed playback or shuffled frames. The sequence of events is consistent with what one would expect from a recording of someone moving around in a kitchen, performing tasks such as washing dishes. There are no abrupt changes in the frames that suggest the video has been manipulated.",
+        "spatial_analysis": "In the video, the man is in what appears to be a kitchen setting. He is holding a bag and seems to be preparing to wash something at the sink. The objects visible include a blue striped shirt, gray pants, an orange bucket, a yellow basket, and various kitchen items like bowls and utensils.\n\nThere do not appear to be any objects that clearly do not belong in this scene. However, the video quality is somewhat blurry, which might make it difficult to discern finer details. There are no obvious color distortions or visual artifacts that stand out as being particularly noticeable or problematic. The overall scene looks like a typical domestic kitchen activity.",
+        "semantic_analysis": "The sequence of events in the video appears to be logical and follows a natural progression of actions. The man is initially standing in what looks like a kitchen, holding a bag. He then moves towards the sink area, which suggests he might be preparing to wash something. The transition from holding the bag to moving towards the sink seems smooth and purposeful, indicating a logical flow of activities.\n\nThere are no abrupt or unnatural scene transitions visible in the provided frames. Each action flows into the next without any sudden changes in context or environment, maintaining a coherent narrative.",
+        "confidence_assessment": "I am confident in the description of the video content based on the provided frames. The man is seen standing in a kitchen, holding a bag and moving towards the sink area. He appears to be preparing to wash something, as he reaches for a pot or pan. There are no parts that seem uncertain; the actions and setting are clearly depicted. If you have any specific questions or need further details, feel free to ask!"
+      },
+      "scores": {
+        "content_accuracy": 2.8,
+        "anomaly_detection": 3.8000000000000003,
+        "confidence_calibration": 2.2,
+        "hallucination": 1.7000000000000002,
+        "overall": 2.625
+      },
+      "judgments": {
+        "content_accuracy": {
+          "content_coverage_score": 3,
+          "accuracy_score": 2,
+          "detail_level_score": 4,
+          "overall_assessment": "The model response inaccurately describes the scene and actions.",
+          "correctly_described_elements": [],
+          "missing_elements": [
+            "laundry room",
+            "pillow",
+            "washing groceries"
+          ],
+          "incorrect_descriptions": [
+            "kitchen",
+            "man",
+            "plastic bag",
+            "blue and white striped shirt",
+            "dark pants",
+            "tiled backsplash",
+            "floral pattern",
+            "yellow bowl",
+            "metal pot",
+            "basket"
+          ]
+        },
+        "anomaly_detection": {
+          "anomaly_detection_score": 2,
+          "accuracy_score": 4,
+          "false_positive_score": 8,
+          "overall_assessment": "The model failed to identify the actual anomalies present in the video.",
+          "detected_anomalies": [],
+          "missed_anomalies": [
+            "object_insertion",
+            "noise_injection",
+            "color_shift",
+            "geometric_distortion"
+          ],
+          "false_positives": []
+        },
+        "confidence_calibration": {
+          "uncertainty_recognition_score": 2,
+          "confidence_appropriateness_score": 3,
+          "calibration_score": 1,
+          "overall_assessment": "The model response shows significant discrepancies from the ground truth, indicating low confidence calibration.",
+          "uncertainty_indicators": [
+            "incorrect scene description",
+            "misidentified actions"
+          ],
+          "confidence_indicators": [
+            "detailed description of environment",
+            "specific clothing details"
+          ],
+          "calibration_issues": [
+            "scene mismatch",
+            "action misinterpretation",
+            "contextual inaccuracies"
+          ]
+        },
+        "hallucination_detection": {
+          "hallucination_severity_score": 9,
+          "factual_accuracy_score": 2,
+          "speculation_control_score": 3,
+          "overall_assessment": "The model response contains significant hallucinations and factual inaccuracies.",
+          "hallucinated_elements": [
+            "man",
+            "kitchen",
+            "plastic bag",
+            "blue and white striped shirt",
+            "dark pants",
+            "tiled backsplash",
+            "yellow bowl",
+            "metal pot",
+            "basket"
+          ],
+          "factual_errors": [
+            "man",
+            "kitchen",
+            "plastic bag",
+            "blue and white striped shirt",
+            "dark pants"
+          ],
+          "speculative_content": [
+            "speaking or gesturing",
+            "organizing or inspecting contents"
+          ]
+        }
+      }
+    },
+    {
+      "video_name": "anomaly_video_0002.mp4",
+      "ground_truth": {
+        "anomaly_video_name": "anomaly_video_0002.mp4",
+        "original_video_id": "16CWY",
+        "original_scene": "Laundry room",
+        "original_script": "A person is laughing as the person looks at a picture. Then, smiling, the person sits down to put their shoes on.",
+        "combined_video_id": NaN,
+        "combined_script": NaN,
+        "original_actions": "c053 8.80 14.20;c056 8.10 12.90;c152 0.00 6.40;c131 0.00 5.80;c055 8.60 33.00;c149 0.00 13.40;c059 0.00 33.00;c132 0.00 33.00;c011 0.00 33.00",
+        "decoded_actions": "c053 8.80 14.20 (Holding a shoe/shoes);c056 8.10 12.90 (Taking shoes from somewhere);c152 0.00 6.40 (Someone is smiling);c131 0.00 5.80 (Laughing at television);c055 8.60 33.00 (Putting on shoe/shoes);c149 0.00 13.40 (Someone is laughing);c059 0.00 33.00 (Sitting in a chair);c132 0.00 33.00 (Watching television);c011 0.00 33.00 (Sitting at a table)",
+        "anomalies_applied": "object_insertion;noise_injection;frame_shuffling;geometric_distortion;color_shift",
+        "anomaly_timestamps": "frame_shuffling 0.00 3.11;frame_shuffling 3.11 6.22;frame_shuffling 6.22 9.33;frame_shuffling 9.33 12.44;frame_shuffling 12.44 15.56;frame_shuffling 15.56 18.67;frame_shuffling 18.67 21.78;frame_shuffling 21.78 24.89;frame_shuffling 24.89 28.00;frame_shuffling 28.00 31.11;frame_shuffling 31.11 31.61;noise_injection 3.22 4.22;geometric_distortion 4.17 5.17;color_shift 5.33 6.33;object_insertion 5.89 6.89;color_shift 6.33 7.33;color_shift 6.78 7.78;noise_injection 7.11 8.11;color_shift 7.72 8.72;color_shift 8.06 9.06;object_insertion 8.17 9.17;object_insertion 9.00 10.00;color_shift 9.11 10.11;geometric_distortion 9.11 10.11;noise_injection 10.28 11.28;color_shift 11.00 12.00;object_insertion 11.39 12.39;color_shift 12.61 13.61;noise_injection 12.89 13.89;noise_injection 13.11 14.11;object_insertion 13.17 14.17;geometric_distortion 14.61 15.61;object_insertion 15.89 16.89;color_shift 16.33 17.33;noise_injection 16.50 17.50;noise_injection 17.06 18.06;color_shift 17.78 18.78;color_shift 18.06 19.06;noise_injection 18.56 19.56;object_insertion 18.83 19.83;noise_injection 19.00 20.00;geometric_distortion 19.39 20.39;color_shift 19.50 20.50;object_insertion 19.72 20.72;noise_injection 19.83 20.83;color_shift 19.94 20.94;geometric_distortion 20.72 21.72;object_insertion 20.78 21.78;object_insertion 21.44 22.44;object_insertion 22.50 23.50;noise_injection 23.44 24.44;noise_injection 23.67 24.67;object_insertion 24.39 25.39;geometric_distortion 24.56 25.56;noise_injection 25.22 26.22;noise_injection 27.44 28.44;geometric_distortion 28.33 29.33;object_insertion 28.61 29.61;color_shift 29.39 30.39;noise_injection 29.94 30.94;noise_injection 30.56 31.56;noise_injection 30.78 31.78;geometric_distortion 31.00 32.00",
+        "anomaly_count": 5
+      },
+      "responses": {
+        "basic_description": "The video depicts a small, modestly furnished room with a television mounted on the wall displaying a program. Clothes are hanging on a line against the wall, suggesting a casual and lived-in environment. A man wearing a yellow shirt and blue jeans is seated on a chair near a desk that holds a laptop, a mouse, and some other items. He appears to be engaged in an activity at the desk, possibly working or studying. The room has a simple setup with a bed visible in the background, indicating it might be a bedroom or a shared living space. The man's posture and focus suggest he is concentrating on his task.",
+        "anomaly_detection": "In the video, the scene appears to be set in a modest room with a television mounted on the wall displaying what seems to be a show or program. There is a person sitting on a chair, and another individual is partially visible in the background. The room has clothes hanging on a line, suggesting it might be a living space or a dormitory.\n\nThe video quality is somewhat grainy, which could be due to low lighting conditions or the camera's resolution. However, there doesn't appear to be any significant visual distortion or anomaly that stands out. The movements of the individuals seem natural, and the environment looks like a typical indoor setting without any unusual elements.",
+        "temporal_analysis": "The video appears to be playing normally without any visible issues such as reversed playback or shuffled frames. The sequence of events is coherent, and the actions of the individuals in the room are consistent with what one would expect from a normal recording. There are no abrupt changes in the video's timeline that suggest temporal anomalies.",
+        "spatial_analysis": "In the video, there is no clear indication of objects that do not belong in the scene. The room appears to be a typical living space with a television, clothes hanging on a line, and a desk with a laptop and other items.\n\nHowever, there seems to be a visual artifact or distortion in the video, as the image quality fluctuates between clear and blurry frames. This could be due to camera movement, lighting changes, or recording issues. The colors appear natural without any noticeable distortions.",
+        "semantic_analysis": "The sequence of events in the video appears to be logical and follows a natural progression of actions. The individual is initially seen standing near a wall with clothes hanging on it, then moves towards a table where a laptop and other items are placed. The person sits down on a chair next to the table, adjusts their position, and begins interacting with the laptop. There are no abrupt or unnatural scene transitions; each action flows smoothly into the next, suggesting a continuous and coherent sequence of events.",
+        "confidence_assessment": "The video depicts a room with a television mounted on the wall, showing what appears to be a program or show. There is a person wearing a yellow shirt and blue jeans who is seated on a chair near a table that has a laptop and other items on it. The person seems to be adjusting their position or interacting with something off-camera. The room also contains clothes hanging on a line against the wall.\n\nThere are no specific details in the video that suggest any uncertainty in the description. The actions and setting appear clear and straightforward based on the visual content provided. If you have any specific questions or need further clarification, feel free to ask!"
+      },
+      "scores": {
+        "content_accuracy": 2.2,
+        "anomaly_detection": 3.6,
+        "confidence_calibration": 2.4,
+        "hallucination": 2.2,
+        "overall": 2.6000000000000005
+      },
+      "judgments": {
+        "content_accuracy": {
+          "content_coverage_score": 2,
+          "accuracy_score": 2,
+          "detail_level_score": 3,
+          "overall_assessment": "The model response does not accurately reflect the actions or setting described in the ground truth.",
+          "correctly_described_elements": [],
+          "missing_elements": [
+            "laughing",
+            "putting on shoes",
+            "laundry room"
+          ],
+          "incorrect_descriptions": [
+            "television program",
+            "man working or studying",
+            "bed in background"
+          ]
+        },
+        "anomaly_detection": {
+          "anomaly_detection_score": 1,
+          "accuracy_score": 5,
+          "false_positive_score": 8,
+          "overall_assessment": "The model failed to detect the specified anomalies and provided a vague description.",
+          "detected_anomalies": [],
+          "missed_anomalies": [
+            "object_insertion",
+            "noise_injection",
+            "frame_shuffling",
+            "geometric_distortion",
+            "color_shift"
+          ],
+          "false_positives": []
+        },
+        "confidence_calibration": {
+          "uncertainty_recognition_score": 2,
+          "confidence_appropriateness_score": 3,
+          "calibration_score": 2,
+          "overall_assessment": "The model response lacks alignment with the ground truth, indicating low confidence calibration.",
+          "uncertainty_indicators": [
+            "misinterpretation of scene",
+            "lack of action recognition"
+          ],
+          "confidence_indicators": [
+            "overconfidence in description",
+            "inaccurate details"
+          ],
+          "calibration_issues": [
+            "failure to recognize key actions",
+            "inconsistent scene description"
+          ]
+        },
+        "hallucination_detection": {
+          "hallucination_severity_score": 8,
+          "factual_accuracy_score": 2,
+          "speculation_control_score": 3,
+          "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions described in the ground truth.",
+          "hallucinated_elements": [
+            "television program",
+            "man in yellow shirt",
+            "desk with laptop"
+          ],
+          "factual_errors": [
+            "room description",
+            "activity at desk",
+            "presence of bed"
+          ],
+          "speculative_content": [
+            "engaged in an activity",
+            "working or studying"
+          ]
+        }
+      }
+    }
+  ],
+  "anomaly_analysis": {
+    "temporal": {
+      "count": 1,
+      "avg_score": 2.6000000000000005,
+      "videos": [
+        {
+          "video_name": "anomaly_video_0002.mp4",
+          "anomalies": [
+            "frame_shuffling"
+          ],
+          "scores": {
+            "content_accuracy": 2.2,
+            "anomaly_detection": 3.6,
+            "confidence_calibration": 2.4,
+            "hallucination": 2.2,
+            "overall": 2.6000000000000005
+          }
+        }
+      ]
+    },
+    "spatial": {
+      "count": 3,
+      "avg_score": 3.2833333333333337,
+      "videos": [
+        {
+          "video_name": "anomaly_video_0000.mp4",
+          "anomalies": [
+            "object_insertion",
+            "noise_injection",
+            "geometric_distortion",
+            "color_shift"
+          ],
+          "scores": {
+            "content_accuracy": 6.800000000000001,
+            "anomaly_detection": 2.9,
+            "confidence_calibration": 5.0,
+            "hallucination": 3.8,
+            "overall": 4.625
+          }
+        },
+        {
+          "video_name": "anomaly_video_0001.mp4",
+          "anomalies": [
+            "object_insertion",
+            "noise_injection",
+            "color_shift",
+            "geometric_distortion"
+          ],
+          "scores": {
+            "content_accuracy": 2.8,
+            "anomaly_detection": 3.8000000000000003,
+            "confidence_calibration": 2.2,
+            "hallucination": 1.7000000000000002,
+            "overall": 2.625
+          }
+        },
+        {
+          "video_name": "anomaly_video_0002.mp4",
+          "anomalies": [
+            "object_insertion",
+            "noise_injection",
+            "geometric_distortion",
+            "color_shift"
+          ],
+          "scores": {
+            "content_accuracy": 2.2,
+            "anomaly_detection": 3.6,
+            "confidence_calibration": 2.4,
+            "hallucination": 2.2,
+            "overall": 2.6000000000000005
+          }
+        }
+      ]
+    },
+    "semantic": {
+      "count": 1,
+      "avg_score": 4.625,
+      "videos": [
+        {
+          "video_name": "anomaly_video_0000.mp4",
+          "anomalies": [
+            "combined_scenes_Entryway (A hall that is generally located at the entrance of a house)_Kitchen",
+            "combined_videos_9632M_FX1T5"
+          ],
+          "scores": {
+            "content_accuracy": 6.800000000000001,
+            "anomaly_detection": 2.9,
+            "confidence_calibration": 5.0,
+            "hallucination": 3.8,
+            "overall": 4.625
+          }
+        }
+      ]
+    }
+  },
+  "judge_analysis": {
+    "judgment_quality": {
+      "successful_judgments": 12,
+      "failed_judgments": 0,
+      "error_types": {},
+      "success_rate": 1.0
+    },
+    "assessment_patterns": {
+      "content_accuracy": {
+        "avg_score": 0,
+        "common_issues": [
+          "The model response captures some key actions and setting but misses specific details and includes inaccuracies.",
+          "The model response inaccurately describes the scene and actions.",
+          "The model response does not accurately reflect the actions or setting described in the ground truth."
+        ]
+      },
+      "anomaly_detection": {
+        "avg_score": 0,
+        "common_issues": [
+          "The model failed to detect any anomalies present in the video.",
+          "The model failed to identify the actual anomalies present in the video.",
+          "The model failed to detect the specified anomalies and provided a vague description."
+        ]
+      },
+      "confidence_calibration": {
+        "avg_score": 0,
+        "common_issues": [
+          "The model demonstrates moderate recognition of uncertainty but lacks full confidence in its assertions.",
+          "The model response shows significant discrepancies from the ground truth, indicating low confidence calibration.",
+          "The model response lacks alignment with the ground truth, indicating low confidence calibration."
+        ]
+      },
+      "hallucination_detection": {
+        "avg_score": 0,
+        "common_issues": [
+          "The model response contains significant hallucinations and inaccuracies regarding the scene and actions.",
+          "The model response contains significant hallucinations and factual inaccuracies.",
+          "The model response contains significant hallucinations and inaccuracies regarding the scene and actions described in the ground truth."
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-08-09T03:41:45.409877"
+}

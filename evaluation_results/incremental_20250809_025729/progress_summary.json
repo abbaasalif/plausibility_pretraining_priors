@@ -1,0 +1,86 @@
+{
+  "timestamp": "2025-08-09T03:41:45.392137",
+  "progress": "3/3",
+  "completed_videos": 3,
+  "latest_video": "anomaly_video_0002.mp4",
+  "latest_scores": {
+    "content_accuracy": 2.2,
+    "anomaly_detection": 3.6,
+    "confidence_calibration": 2.4,
+    "hallucination": 2.2,
+    "overall": 2.6000000000000005
+  },
+  "average_overall_score": 3.2833333333333337,
+  "latest_judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 2,
+      "accuracy_score": 2,
+      "detail_level_score": 3,
+      "overall_assessment": "The model response does not accurately reflect the actions or setting described in the ground truth.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "laughing",
+        "putting on shoes",
+        "laundry room"
+      ],
+      "incorrect_descriptions": [
+        "television program",
+        "man working or studying",
+        "bed in background"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 1,
+      "accuracy_score": 5,
+      "false_positive_score": 8,
+      "overall_assessment": "The model failed to detect the specified anomalies and provided a vague description.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "frame_shuffling",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 2,
+      "confidence_appropriateness_score": 3,
+      "calibration_score": 2,
+      "overall_assessment": "The model response lacks alignment with the ground truth, indicating low confidence calibration.",
+      "uncertainty_indicators": [
+        "misinterpretation of scene",
+        "lack of action recognition"
+      ],
+      "confidence_indicators": [
+        "overconfidence in description",
+        "inaccurate details"
+      ],
+      "calibration_issues": [
+        "failure to recognize key actions",
+        "inconsistent scene description"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 2,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions described in the ground truth.",
+      "hallucinated_elements": [
+        "television program",
+        "man in yellow shirt",
+        "desk with laptop"
+      ],
+      "factual_errors": [
+        "room description",
+        "activity at desk",
+        "presence of bed"
+      ],
+      "speculative_content": [
+        "engaged in an activity",
+        "working or studying"
+      ]
+    }
+  }
+}

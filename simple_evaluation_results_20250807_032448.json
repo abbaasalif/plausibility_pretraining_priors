@@ -1,0 +1,62 @@
+[
+  {
+    "video_name": "anomaly_video_0000.mp4",
+    "original_script": "A person walks through the entryway, laughing and eating from a bag of snacks. The person wipes their mouth with a paper towel.",
+    "expected_anomalies": "object_insertion;combined_scenes_Entryway (A hall that is generally located at the entrance of a house)_Kitchen;combined_videos_9632M_FX1T5;noise_injection;geometric_distortion;color_shift",
+    "basic_description": "The video begins with a view of an open wooden door leading to another room, partially covered by a curtain. The setting appears to be indoors, possibly a home or a small building. A man wearing an orange polo shirt and blue jeans enters the frame from the right side. He is holding a yellow packet of Mondelez cookies and is eating one while walking towards the camera. As he approaches, he continues to eat the cookie and looks around, appearing to be in a casual and relaxed mood. The background shows part of the interior of the room, including a wall with a light switch and some furniture. The lighting suggests it might be daytime.",
+    "anomaly_detection": "In the video, everything appears to be normal and typical for an indoor setting. The man is casually entering a room while eating a snack, which is a common everyday activity. There are no visual distortions or anomalies that stand out as unusual. The environment looks like a standard home interior with furniture and decor that do not appear distorted or out of place. The lighting and colors are consistent throughout the frames, and there are no sudden changes or unexpected elements that would suggest something unusual or out of the ordinary.",
+    "scores": {
+      "content_accuracy": 3.1578947368421053,
+      "anomaly_detection": 0.0,
+      "overall": 1.5789473684210527
+    }
+  },
+  {
+    "video_name": "anomaly_video_0001.mp4",
+    "original_script": "A person is standing in their laundry room with a pillow in their left hand. They put the pillow down and pick up some groceries that they start washing under the sink.",
+    "expected_anomalies": "object_insertion;noise_injection;color_shift;geometric_distortion",
+    "basic_description": "The video shows a man standing in a kitchen, holding a plastic bag filled with items. He is wearing a blue and white striped shirt and dark pants. The kitchen has a tiled backsplash with a floral pattern, and there are various kitchen items on the counter, including a yellow bowl, a metal pot, and a basket.\n\nThe man appears to be speaking or gesturing with his free hand while holding the bag. He then moves towards the sink area, where he bends down and begins to wash something under running water. The camera follows him as he moves, capturing the motion of his actions. The lighting in the room is natural, suggesting it might be daytime. The overall atmosphere seems casual and domestic.",
+    "anomaly_detection": "In the video, the man appears to be in a kitchen setting, holding what looks like a bag of groceries. He moves around the room and approaches the sink area where he seems to be preparing something. The video quality is somewhat blurry, which might suggest it was recorded with a low-resolution camera or in motion.\n\nThere are no obvious visual distortions or anomalies in the video. However, the blurriness could make it difficult to discern finer details about the objects or actions taking place. The lighting in the room is adequate, and the environment appears to be a typical home kitchen with common items such as a sink, utensils, and containers visible.",
+    "scores": {
+      "content_accuracy": 3.4615384615384617,
+      "anomaly_detection": 0.0,
+      "overall": 1.7307692307692308
+    }
+  },
+  {
+    "video_name": "anomaly_video_0002.mp4",
+    "original_script": "A person is laughing as the person looks at a picture. Then, smiling, the person sits down to put their shoes on.",
+    "expected_anomalies": "object_insertion;noise_injection;frame_shuffling;geometric_distortion;color_shift",
+    "basic_description": "The video depicts a small, modestly furnished room with a television mounted on the wall displaying a program. Clothes are hanging on a line against the wall, suggesting a casual and lived-in environment. A man wearing a yellow shirt and blue jeans is seated on a chair near a desk that holds a laptop, a mouse, and some other items. He appears to be engaged in an activity at the desk, possibly working or studying. The room has a simple setup with a bed visible in the background, indicating it might be a bedroom or a study area. The man seems focused on his task, occasionally looking up and around the room. The overall atmosphere of the video suggests a quiet, everyday moment in someone's life.",
+    "anomaly_detection": "In the video, the scene appears to be set in a modest room with a television mounted on the wall displaying what seems to be a show or program. There is a person sitting on a chair, and another individual is partially visible in the background. The room has clothes hanging on a line, suggesting it might be a living space or a shared area.\n\nThe video quality is somewhat grainy, which could be due to low lighting or a lower resolution camera. However, there doesn't appear to be any significant visual distortion or anomaly that stands out. The movements of the individuals seem natural and consistent with typical human behavior. The overall setting looks like an ordinary domestic environment without any unusual elements.",
+    "scores": {
+      "content_accuracy": 3.888888888888889,
+      "anomaly_detection": 0.0,
+      "overall": 1.9444444444444444
+    }
+  },
+  {
+    "video_name": "anomaly_video_0003.mp4",
+    "original_script": "A person is working on a sink, then laughing as he grabs the doorknob.",
+    "expected_anomalies": "object_insertion;noise_injection;frame_shuffling;geometric_distortion;color_shift",
+    "basic_description": "The video shows a person in a bathroom, standing at the sink and washing their hands. The individual is wearing a dark t-shirt with a graphic design on it and a beanie. They are focused on washing their hands thoroughly under running water from the faucet. After washing, they turn off the faucet and dry their hands with a towel. The bathroom has a mirror above the sink, a light fixture above the mirror, and a towel hanging on a rack to the right of the frame. There is also a framed picture on the wall behind the person. The scene appears to be casual and routine, likely part of a morning or evening hygiene routine.",
+    "anomaly_detection": "In the video, the person appears to be washing their hands at a sink in a bathroom. The scene is typical and does not exhibit any obvious visual distortions or anomalies. The lighting is consistent, and the actions performed by the individual are normal for such an environment. There are no sudden movements or changes that suggest something unusual or out of place.",
+    "scores": {
+      "content_accuracy": 3.8461538461538463,
+      "anomaly_detection": 0.0,
+      "overall": 1.9230769230769231
+    }
+  },
+  {
+    "video_name": "anomaly_video_0004.mp4",
+    "original_script": "A person is holding a bottle of medicine and walking through the door in the recreation room / man cave.",
+    "expected_anomalies": "object_insertion;speed_change;frame_shuffling;noise_injection;geometric_distortion;color_shift",
+    "basic_description": "The video depicts a small, sparsely furnished room with a bed frame and a window covered by blinds. A person wearing a pink top and dark pants enters the room from the left side, walks towards the center, and interacts with a device on a stand that appears to be a 3D printer. The individual seems to be adjusting or inspecting something on the device. After a brief interaction, they turn around and exit the room through the same door they entered. The room is minimally decorated, with a blue cooler and some other items visible near the bed frame. The lighting suggests it's daytime due to the light coming through the window.",
+    "anomaly_detection": "In the video, there is a noticeable visual distortion that occurs when the woman enters the room. The image becomes pixelated and distorted, making it difficult to discern details clearly. This effect seems to be a sudden and unexpected occurrence, as it does not appear to be part of the normal scene. It could be an intentional effect for artistic purposes or a technical glitch during recording. There are no other apparent anomalies or unusual elements in the rest of the video.",
+    "scores": {
+      "content_accuracy": 4.117647058823529,
+      "anomaly_detection": 1.0,
+      "overall": 2.5588235294117645
+    }
+  }
+]

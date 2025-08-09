@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-08-08T01:28:16.308316",
+  "progress": "1/3",
+  "completed_videos": 1,
+  "latest_video": "anomaly_video_0000.mp4",
+  "latest_scores": {
+    "content_accuracy": 2.4096728307254622,
+    "anomaly_detection": 2.0,
+    "confidence_calibration": 7.0,
+    "hallucination": 9.5,
+    "overall": 5.227418207681366
+  },
+  "average_overall_score": 5.227418207681366
+}

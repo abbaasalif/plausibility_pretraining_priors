@@ -1,0 +1,6 @@
+*.zip
+sampled_videos/
+anomaly_videos/
+synthetic_objects/
+.env
+Charades/

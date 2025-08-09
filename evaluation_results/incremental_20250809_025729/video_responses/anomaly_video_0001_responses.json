@@ -1,0 +1,119 @@
+{
+  "video_name": "anomaly_video_0001.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0001.mp4",
+    "original_video_id": "ORD96",
+    "original_scene": "Laundry room",
+    "original_script": "A person is standing in their laundry room with a pillow in their left hand. They put the pillow down and pick up some groceries that they start washing under the sink.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c139 11.80 31.00;c076 0.00 12.30;c061 13.20 31.00;c080 8.30 13.10;c003 8.50 14.60;c063 14.10 31.00;c000 0.00 13.10",
+    "decoded_actions": "c139 11.80 31.00 (Washing their hands);c076 0.00 12.30 (Holding a pillow);c061 13.20 31.00 (Holding some food);c080 8.30 13.10 (Throwing a pillow somewhere);c003 8.50 14.60 (Throwing clothes somewhere);c063 14.10 31.00 (Taking food from somewhere);c000 0.00 13.10 (Holding some clothes)",
+    "anomalies_applied": "object_insertion;noise_injection;color_shift;geometric_distortion",
+    "anomaly_timestamps": "object_insertion 0.00 1.00;color_shift 0.57 1.57;object_insertion 0.63 1.63;object_insertion 1.47 2.47;noise_injection 1.70 2.70;color_shift 1.73 2.73;object_insertion 1.77 2.77;geometric_distortion 3.90 4.90;noise_injection 4.30 5.30;color_shift 4.87 5.87;color_shift 5.10 6.10;object_insertion 5.13 6.13;geometric_distortion 5.53 6.53;color_shift 5.57 6.57;color_shift 5.80 6.80;geometric_distortion 5.83 6.83;noise_injection 5.83 6.83;color_shift 5.93 6.93;geometric_distortion 6.07 7.07;color_shift 6.10 7.10;color_shift 6.70 7.70;color_shift 6.87 7.87;object_insertion 7.33 8.33;noise_injection 8.27 9.27;color_shift 8.40 9.40;object_insertion 9.13 10.13;object_insertion 9.23 10.23;color_shift 9.40 10.40;object_insertion 9.83 10.83;object_insertion 10.07 11.07;noise_injection 10.30 11.30;geometric_distortion 10.33 11.33;color_shift 10.80 11.80;noise_injection 11.70 12.70;object_insertion 12.23 13.23;object_insertion 12.30 13.30;object_insertion 12.70 13.70;object_insertion 12.93 13.93;object_insertion 13.03 14.03;object_insertion 13.10 14.10;geometric_distortion 13.37 14.37;object_insertion 13.77 14.77;object_insertion 13.93 14.93;noise_injection 14.07 15.07;geometric_distortion 14.10 15.10;object_insertion 14.40 15.40;geometric_distortion 14.73 15.73;object_insertion 14.93 15.93;color_shift 15.07 16.07;noise_injection 15.17 16.17;geometric_distortion 15.43 16.43;noise_injection 15.50 16.50;geometric_distortion 15.73 16.73;object_insertion 15.77 16.77;color_shift 16.00 17.00;object_insertion 16.10 17.10;geometric_distortion 16.30 17.30;noise_injection 16.37 17.37;color_shift 16.43 17.43;object_insertion 16.97 17.97;noise_injection 17.17 18.17;geometric_distortion 17.47 18.47;object_insertion 17.60 18.60;color_shift 17.90 18.90;geometric_distortion 18.10 19.10;object_insertion 18.33 19.33;object_insertion 19.10 20.10;noise_injection 19.47 20.47;color_shift 19.87 20.87;noise_injection 20.13 21.13;color_shift 20.27 21.27;noise_injection 21.57 22.57;noise_injection 21.60 22.60;color_shift 21.67 22.67;color_shift 21.83 22.83;noise_injection 22.00 23.00;geometric_distortion 22.07 23.07;object_insertion 22.73 23.73;noise_injection 22.90 23.90;color_shift 22.97 23.97;geometric_distortion 23.00 24.00;noise_injection 23.93 24.93;object_insertion 24.13 25.13;object_insertion 24.27 25.27;noise_injection 24.40 25.40;object_insertion 24.73 25.73;color_shift 25.23 26.23;noise_injection 25.50 26.50;geometric_distortion 25.97 26.97;noise_injection 26.43 27.43;color_shift 26.47 27.47;color_shift 26.73 27.73;object_insertion 27.37 28.37;object_insertion 27.47 28.47;color_shift 27.67 28.67;object_insertion 28.33 29.33;object_insertion 28.37 29.37;object_insertion 28.77 29.77;object_insertion 28.87 29.87;object_insertion 28.93 29.93;geometric_distortion 29.03 30.03;object_insertion 29.23 30.23;noise_injection 29.40 30.40;object_insertion 29.47 30.47;color_shift 30.03 31.03;color_shift 30.13 31.13;noise_injection 30.20 31.20;geometric_distortion 30.27 31.27;noise_injection 30.30 31.30;object_insertion 30.33 31.33",
+    "anomaly_count": 4
+  },
+  "responses": {
+    "basic_description": "The video shows a man standing in a kitchen, holding a plastic bag filled with items. He is wearing a blue and white striped shirt and dark pants. The kitchen has a tiled backsplash with a floral pattern and various kitchen items on the counter, including a yellow bowl, a metal pot, and a basket.\n\nThe man appears to be speaking or gesturing with his free hand while holding the bag. He then moves towards the sink area, bends down, and places the bag on the counter next to the sink. He proceeds to open the bag and seems to be organizing or inspecting its contents. The camera follows his movements closely, capturing the details of the kitchen environment and his actions.",
+    "anomaly_detection": "In the video, the man appears to be in a kitchen setting, holding what looks like a bag of groceries. He moves around the room and approaches the sink area where he seems to be preparing something. The video quality is somewhat blurry and grainy, which might suggest it was recorded with a low-resolution camera or in poor lighting conditions.\n\nThere are no obvious visual distortions or anomalies that stand out. However, the blurriness could make it difficult to discern finer details about the objects or actions taking place. The movement of the camera also adds to the lack of clarity, as it seems to be handheld and not perfectly steady. Overall, the scene appears to be a casual, everyday activity without any apparent issues or abnormalities.",
+    "temporal_analysis": "The video appears to be playing normally without any visible signs of reversed playback or shuffled frames. The sequence of events is consistent with what one would expect from a recording of someone moving around in a kitchen, performing tasks such as washing dishes. There are no abrupt changes in the frames that suggest the video has been manipulated.",
+    "spatial_analysis": "In the video, the man is in what appears to be a kitchen setting. He is holding a bag and seems to be preparing to wash something at the sink. The objects visible include a blue striped shirt, gray pants, an orange bucket, a yellow basket, and various kitchen items like bowls and utensils.\n\nThere do not appear to be any objects that clearly do not belong in this scene. However, the video quality is somewhat blurry, which might make it difficult to discern finer details. There are no obvious color distortions or visual artifacts that stand out as being particularly noticeable or problematic. The overall scene looks like a typical domestic kitchen activity.",
+    "semantic_analysis": "The sequence of events in the video appears to be logical and follows a natural progression of actions. The man is initially standing in what looks like a kitchen, holding a bag. He then moves towards the sink area, which suggests he might be preparing to wash something. The transition from holding the bag to moving towards the sink seems smooth and purposeful, indicating a logical flow of activities.\n\nThere are no abrupt or unnatural scene transitions visible in the provided frames. Each action flows into the next without any sudden changes in context or environment, maintaining a coherent narrative.",
+    "confidence_assessment": "I am confident in the description of the video content based on the provided frames. The man is seen standing in a kitchen, holding a bag and moving towards the sink area. He appears to be preparing to wash something, as he reaches for a pot or pan. There are no parts that seem uncertain; the actions and setting are clearly depicted. If you have any specific questions or need further details, feel free to ask!"
+  },
+  "scores": {
+    "content_accuracy": 2.8,
+    "anomaly_detection": 3.8000000000000003,
+    "confidence_calibration": 2.2,
+    "hallucination": 1.7000000000000002,
+    "overall": 2.625
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 3,
+      "accuracy_score": 2,
+      "detail_level_score": 4,
+      "overall_assessment": "The model response inaccurately describes the scene and actions.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "laundry room",
+        "pillow",
+        "washing groceries"
+      ],
+      "incorrect_descriptions": [
+        "kitchen",
+        "man",
+        "plastic bag",
+        "blue and white striped shirt",
+        "dark pants",
+        "tiled backsplash",
+        "floral pattern",
+        "yellow bowl",
+        "metal pot",
+        "basket"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 2,
+      "accuracy_score": 4,
+      "false_positive_score": 8,
+      "overall_assessment": "The model failed to identify the actual anomalies present in the video.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "color_shift",
+        "geometric_distortion"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 2,
+      "confidence_appropriateness_score": 3,
+      "calibration_score": 1,
+      "overall_assessment": "The model response shows significant discrepancies from the ground truth, indicating low confidence calibration.",
+      "uncertainty_indicators": [
+        "incorrect scene description",
+        "misidentified actions"
+      ],
+      "confidence_indicators": [
+        "detailed description of environment",
+        "specific clothing details"
+      ],
+      "calibration_issues": [
+        "scene mismatch",
+        "action misinterpretation",
+        "contextual inaccuracies"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 9,
+      "factual_accuracy_score": 2,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and factual inaccuracies.",
+      "hallucinated_elements": [
+        "man",
+        "kitchen",
+        "plastic bag",
+        "blue and white striped shirt",
+        "dark pants",
+        "tiled backsplash",
+        "yellow bowl",
+        "metal pot",
+        "basket"
+      ],
+      "factual_errors": [
+        "man",
+        "kitchen",
+        "plastic bag",
+        "blue and white striped shirt",
+        "dark pants"
+      ],
+      "speculative_content": [
+        "speaking or gesturing",
+        "organizing or inspecting contents"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T03:27:59.999151"
+}

@@ -1,0 +1,2 @@
+video_name,content_accuracy,anomaly_detection,confidence_calibration,hallucination,overall_score
+anomaly_video_0000.mp4,2.4096728307254622,2.0,7.0,9.5,5.227418207681366
