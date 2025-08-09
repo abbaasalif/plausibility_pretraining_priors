@@ -737,16 +737,6 @@ We welcome contributions! Please:
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📞 Support
-
-For questions or issues:
-
-1. Check the troubleshooting section
-2. Review the code comments
-3. Examine the example outputs
-4. Modify the configuration as needed
-5. Open an issue on GitHub
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
