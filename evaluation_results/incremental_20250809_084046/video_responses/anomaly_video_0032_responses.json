@@ -1,0 +1,112 @@
+{
+  "video_name": "anomaly_video_0032.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0032.mp4",
+    "original_video_id": "KAU5T",
+    "original_scene": "Hallway",
+    "original_script": "A person drinks water from a glass and puts it down on a shelf, then runs out of the room.",
+    "combined_video_id": "N4Q0O",
+    "combined_script": "A person awakens from under a blanket.  Then starts washing a chair.",
+    "original_actions": "c106 0.00 14.40;c150 21.50 33.00;c154 14.50 22.70;c135 0.00 18.10",
+    "decoded_actions": "c106 0.00 14.40 (Drinking from a cup/glass/bottle);c150 21.50 33.00 (Someone is running somewhere);c154 14.50 22.70 (Someone is standing up from somewhere);c135 0.00 18.10 (Sitting in a bed)",
+    "anomalies_applied": "object_insertion;combined_scenes_Hallway_Basement (A room below the ground floor);speed_change;noise_injection;frame_reversal;geometric_distortion;color_shift;combined_videos_KAU5T_N4Q0O",
+    "anomaly_timestamps": "scene_mixing 31.79 75.17;video_combination 0.00 75.17;frame_reversal 0.00 75.17;speed_change 0.00 75.17;geometric_distortion 0.00 1.00;color_shift 0.95 1.95;object_insertion 1.24 2.24;noise_injection 1.29 2.29;color_shift 2.00 3.00;noise_injection 2.05 3.05;color_shift 2.19 3.19;noise_injection 2.38 3.38;noise_injection 4.81 5.81;color_shift 5.24 6.24;object_insertion 5.58 6.58;noise_injection 5.96 6.96;noise_injection 6.10 7.10;noise_injection 6.29 7.29;geometric_distortion 6.63 7.63;color_shift 6.96 7.96;object_insertion 7.15 8.15;noise_injection 7.29 8.29;noise_injection 7.67 8.67;color_shift 7.86 8.86;color_shift 8.10 9.10;color_shift 8.39 9.39;color_shift 9.10 10.10;geometric_distortion 9.10 10.10;object_insertion 9.77 10.77;color_shift 10.01 11.01;object_insertion 10.11 11.11;color_shift 10.53 11.53;color_shift 10.82 11.82;object_insertion 10.92 11.92;color_shift 10.96 11.96;noise_injection 11.06 12.06;geometric_distortion 11.54 12.54;noise_injection 11.82 12.82;color_shift 12.01 13.01;color_shift 12.30 13.30;geometric_distortion 13.25 14.25;object_insertion 13.97 14.97;color_shift 15.49 16.49;color_shift 16.02 17.02;color_shift 16.54 17.54;object_insertion 17.02 18.02;object_insertion 17.97 18.97;color_shift 18.92 19.92;noise_injection 19.02 20.02;noise_injection 19.45 20.45;color_shift 19.64 20.64;color_shift 19.88 20.88;object_insertion 20.50 21.50;geometric_distortion 20.73 21.73;color_shift 20.97 21.97;geometric_distortion 21.12 22.12;color_shift 21.21 22.21;object_insertion 21.69 22.69;geometric_distortion 22.02 23.02;noise_injection 22.40 23.40;color_shift 22.59 23.59;geometric_distortion 23.02 24.02;geometric_distortion 23.17 24.17;noise_injection 24.45 25.45;object_insertion 24.93 25.93;noise_injection 25.22 26.22;color_shift 25.84 26.84;object_insertion 26.22 27.22;color_shift 26.45 27.45;object_insertion 26.65 27.65;color_shift 26.69 27.69;noise_injection 26.84 27.84;color_shift 27.03 28.03;color_shift 27.27 28.27;color_shift 30.55 31.55;noise_injection 30.60 31.60;noise_injection 31.13 32.13;color_shift 31.27 32.27;noise_injection 31.46 32.46;color_shift 31.56 32.56;noise_injection 31.94 32.94;geometric_distortion 32.08 33.08;color_shift 32.17 33.17;geometric_distortion 32.56 33.56;noise_injection 32.56 33.56;noise_injection 32.60 33.60;noise_injection 33.03 34.03;geometric_distortion 33.65 34.65;object_insertion 34.22 35.22;object_insertion 34.70 35.70;noise_injection 35.13 36.13;geometric_distortion 35.56 36.56;object_insertion 35.80 36.80;geometric_distortion 36.18 37.18;object_insertion 36.23 37.23;object_insertion 36.75 37.75;object_insertion 36.99 37.99",
+    "anomaly_count": 8
+  },
+  "responses": {
+    "basic_description": "The video begins with a person in a dimly lit room, which appears to be a dormitory or small living space. The individual is seen bending over and moving around the room, possibly organizing or searching for something. The room has a bed with some clothes on it, a desk with various items including a computer, and posters on the wall.\n\nThe scene then transitions to an outdoor setting where a person is walking through a narrow corridor between two buildings. The corridor is lined with green plants and has a bright, well-lit environment. The person continues walking down the corridor, and the camera follows them as they move forward.\n\nFinally, the video shifts to another indoor setting, likely a different room within the same building. Here, a person is sitting on a white couch, holding a water bottle. They appear to be drinking from the bottle while looking around the room. The room has a simple setup with a bed and some hanging clothes in the background. The lighting here is softer compared to the previous scenes.",
+    "anomaly_detection": "In the video, the first scene appears to be set in a dimly lit room with a bed and some posters on the wall. The person is seen bending over and then lying down on the bed, which seems normal. However, the transition to the next scene is abrupt and blurry, showing a hallway with a yellow wall and some greenery outside. This sudden change in setting and lack of clear context might be considered unusual.\n\nThe third scene shows another individual sitting on a bed in a different environment, possibly a hostel or shared living space. This individual is holding a water bottle and appears to be drinking from it. The room has a simple setup with clothes hanging on the wall, indicating a casual and lived-in atmosphere.\n\nOverall, while the actions in each scene appear normal, the transitions between scenes could be perceived as jarring due to the abrupt changes in location and the lack of a smooth narrative flow. There are no apparent visual distortions or anomalies within each scene itself.",
+    "temporal_analysis": "The video appears to be playing normally without any visible issues such as reversed playback or shuffled frames. The transitions between scenes seem to follow a logical sequence, and the actions of the individuals in each scene are coherent and not disrupted by temporal anomalies.",
+    "spatial_analysis": "In the video, the first scene appears to be set in a dorm room with a bed, a desk, and some posters on the wall. The person is seen moving around the room, possibly organizing or searching for something. There doesn't seem to be any object out of place in this scene.\n\nThe second scene shifts to what looks like an outdoor area with plants and a building in the background. A person is seen walking through a doorway into a different indoor setting. This transition suggests a change in location rather than an object being out of place.\n\nThe third scene shows a person sitting on a bed in a small room with minimal furniture. The individual is holding a bottle and appears to be drinking from it. The room has a simple setup with clothes hanging on the wall behind them. There are no apparent color distortions or visual artifacts in this scene either.\n\nOverall, the scenes appear to be normal and without any objects that don't belong in their respective settings.",
+    "semantic_analysis": "The sequence of events in the video appears to be somewhat disjointed and lacks a clear narrative flow, which might suggest abrupt or unnatural scene transitions. Here's a breakdown:\n\n1. **First Scene**: A person is seen in a dimly lit room with a bed, a chair, and some posters on the wall. The individual is moving around, possibly organizing or searching for something.\n\n2. **Scene Transition**: The video cuts abruptly to an outdoor setting where a person is walking through a corridor with plants on both sides. This transition seems sudden and does not logically connect the indoor activity to the outdoor scene.\n\n3. **Second Scene**: The video then shifts to another indoor setting where a person is sitting on a bed, holding a water bottle and drinking from it. This scene feels disconnected from the previous one, as it introduces a new character and setting without a clear link to the first scene.\n\nThe transitions between these scenes do not provide a coherent story or context, making them appear abrupt and unnatural. Each scene introduces a different environment and character, which could be intentional if the video aims to showcase different settings or characters independently. However, without additional context, the abrupt nature of the transitions makes it challenging to understand the intended narrative.",
+    "confidence_assessment": "The video appears to show two different scenes. In the first scene, a person is seen moving around a room with a bed and posters on the wall. The individual seems to be adjusting or interacting with something on the bed before lying down. The second scene shifts to a different setting where another person is sitting on a bed, holding a bottle, and appears to be drinking from it. There's no indication of direct interaction between the two scenes.\n\nIf there are any uncertainties, they might arise from the lack of additional context or audio that could provide more clues about the actions or intentions of the individuals. However, based on the visual information provided, the descriptions seem accurate."
+  },
+  "scores": {
+    "content_accuracy": 2.8,
+    "anomaly_detection": 4.1,
+    "confidence_calibration": 2.4,
+    "hallucination": 2.2,
+    "overall": 2.875
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 3,
+      "accuracy_score": 2,
+      "detail_level_score": 4,
+      "overall_assessment": "The model response inaccurately describes the video content and misses key actions.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "drinking from a glass",
+        "running out of the room",
+        "sitting in a bed"
+      ],
+      "incorrect_descriptions": [
+        "bending over",
+        "organizing or searching",
+        "walking through a corridor",
+        "sitting on a white couch",
+        "holding a water bottle"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 2,
+      "accuracy_score": 5,
+      "false_positive_score": 8,
+      "overall_assessment": "The model failed to identify the actual anomalies present in the video and provided a somewhat accurate description of the scenes, but it did not recognize the abrupt transitions as anomalies.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "combined_scenes_Hallway_Basement",
+        "speed_change",
+        "noise_injection",
+        "frame_reversal",
+        "geometric_distortion",
+        "color_shift",
+        "combined_videos_KAU5T_N4Q0O"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 2,
+      "confidence_appropriateness_score": 3,
+      "calibration_score": 2,
+      "overall_assessment": "The model shows low recognition of uncertainty and misalignment in confidence levels with the actions described.",
+      "uncertainty_indicators": [
+        "inaccurate scene description",
+        "failure to identify key actions"
+      ],
+      "confidence_indicators": [
+        "overconfidence in scene transitions",
+        "misinterpretation of actions"
+      ],
+      "calibration_issues": [
+        "discrepancy between actions and descriptions",
+        "lack of alignment with ground truth"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 2,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions described in the ground truth.",
+      "hallucinated_elements": [
+        "dormitory",
+        "narrow corridor",
+        "green plants",
+        "white couch",
+        "water bottle"
+      ],
+      "factual_errors": [
+        "person bending over",
+        "organizing or searching for something",
+        "walking through a corridor",
+        "sitting on a couch"
+      ],
+      "speculative_content": [
+        "lighting differences",
+        "room setup descriptions"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T09:08:55.754474"
+}

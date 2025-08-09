@@ -1,0 +1,107 @@
+{
+  "video_name": "anomaly_video_0036.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0036.mp4",
+    "original_video_id": "T87QE",
+    "original_scene": "Bathroom",
+    "original_script": "A person is sitting on a chair drinking a glass of water then begins to undress their clothes with a smile.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c059 0.00 37.00;c106 2.10 18.30;c155 21.80 34.90;c152 31.60 37.00;c000 32.10 37.00;c107 0.00 3.30;c107 6.20 11.10;c109 14.40 22.20",
+    "decoded_actions": "c059 0.00 37.00 (Sitting in a chair);c106 2.10 18.30 (Drinking from a cup/glass/bottle);c155 21.80 34.90 (Someone is undressing);c152 31.60 37.00 (Someone is smiling);c000 32.10 37.00 (Holding some clothes);c107 0.00 3.30 (Holding a cup/glass/bottle of something);c107 6.20 11.10 (Holding a cup/glass/bottle of something);c109 14.40 22.20 (Putting a cup/glass/bottle somewhere)",
+    "anomalies_applied": "object_insertion;speed_change;noise_injection;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_reversal 0.00 35.72;speed_change 0.00 35.72;noise_injection 0.27 1.27;noise_injection 0.44 1.44;color_shift 1.40 2.40;noise_injection 1.47 2.47;object_insertion 1.57 2.57;noise_injection 1.94 2.94;geometric_distortion 2.32 3.32;noise_injection 2.32 3.32;object_insertion 2.42 3.42;geometric_distortion 2.79 3.79;color_shift 2.83 3.83;noise_injection 3.07 4.07;object_insertion 3.58 4.58;object_insertion 3.68 4.68;color_shift 3.82 4.82;noise_injection 3.99 4.99;noise_injection 4.02 5.02;geometric_distortion 4.06 5.06;noise_injection 4.53 5.53;geometric_distortion 5.39 6.39;object_insertion 5.49 6.49;geometric_distortion 5.56 6.56;object_insertion 6.41 7.41;noise_injection 6.51 7.51;noise_injection 8.18 9.18;color_shift 8.38 9.38;geometric_distortion 8.69 9.69;geometric_distortion 9.13 10.13;object_insertion 9.34 10.34;color_shift 9.65 10.65;object_insertion 9.68 10.68;object_insertion 9.85 10.85;geometric_distortion 10.02 11.02;noise_injection 10.36 11.36;object_insertion 11.66 12.66;object_insertion 11.96 12.96;color_shift 12.17 13.17;object_insertion 12.47 13.47;color_shift 12.58 13.58;noise_injection 13.91 14.91;geometric_distortion 14.83 15.83;color_shift 15.54 16.54;color_shift 15.68 16.68;geometric_distortion 15.75 16.75;object_insertion 15.99 16.99;noise_injection 16.29 17.29;color_shift 16.39 17.39;noise_injection 16.39 17.39;color_shift 16.50 17.50;color_shift 16.73 17.73;object_insertion 17.25 18.25;noise_injection 17.59 18.59;object_insertion 17.86 18.86;geometric_distortion 18.10 19.10;object_insertion 18.17 19.17;color_shift 18.30 19.30;color_shift 18.44 19.44;noise_injection 18.71 19.71;geometric_distortion 19.60 20.60;noise_injection 19.97 20.97;geometric_distortion 20.04 21.04;geometric_distortion 20.14 21.14;geometric_distortion 20.25 21.25;geometric_distortion 20.35 21.35;geometric_distortion 20.72 21.72;noise_injection 21.85 22.85;color_shift 21.98 22.98;object_insertion 22.12 23.12;object_insertion 22.43 23.43;color_shift 22.43 23.43;noise_injection 22.80 23.80;geometric_distortion 22.97 23.97;noise_injection 23.14 24.14;object_insertion 23.18 24.18;object_insertion 23.28 24.28;noise_injection 23.55 24.55;geometric_distortion 23.72 24.72;color_shift 24.37 25.37;object_insertion 24.54 25.54;object_insertion 25.15 26.15;color_shift 26.14 27.14;color_shift 26.28 27.28;color_shift 26.62 27.62;noise_injection 26.79 27.79;geometric_distortion 27.03 28.03;object_insertion 27.06 28.06;geometric_distortion 27.33 28.33;geometric_distortion 27.54 28.54;noise_injection 27.98 28.98;noise_injection 28.05 29.05;object_insertion 28.70 29.70;noise_injection 29.62 30.62;color_shift 29.99 30.99;color_shift 30.13 31.13;geometric_distortion 30.30 31.30;color_shift 30.47 31.47;object_insertion 31.05 32.05;geometric_distortion 31.32 32.32;object_insertion 31.42 32.42;object_insertion 31.83 32.83;color_shift 32.17 33.17;noise_injection 32.45 33.45;object_insertion 32.75 33.75;object_insertion 33.81 34.81;color_shift 34.32 35.32;object_insertion 34.94 35.94;object_insertion 35.14 36.14;noise_injection 35.17 36.17;noise_injection 35.55 36.55;noise_injection 35.72 36.72;object_insertion 35.92 36.92;object_insertion 36.20 37.20;color_shift 36.40 37.40;geometric_distortion 36.40 37.40;color_shift 36.50 37.50;noise_injection 36.91 37.91;color_shift 36.95 37.95;geometric_distortion 37.08 38.08;color_shift 37.18 38.18;object_insertion 38.34 39.34;color_shift 38.45 39.45;noise_injection 38.55 39.55;object_insertion 39.06 40.06;geometric_distortion 39.57 40.57;noise_injection 39.60 40.60;noise_injection 39.78 40.78;object_insertion 39.95 40.95;geometric_distortion 39.98 40.98;object_insertion 40.01 41.01;noise_injection 40.22 41.22;object_insertion 40.42 41.42;object_insertion 40.49 41.49;object_insertion 40.66 41.66;noise_injection 41.10 42.10;geometric_distortion 41.14 42.14;geometric_distortion 41.21 42.21;color_shift 41.96 42.96;noise_injection 42.19 43.19;geometric_distortion 42.26 43.26;color_shift 42.47 43.47;color_shift 42.88 43.88;noise_injection 42.88 43.88;object_insertion 43.29 44.29;geometric_distortion 43.63 44.63;object_insertion 43.97 44.97;object_insertion 44.07 45.07;noise_injection 44.17 45.17;geometric_distortion 44.27 45.27;noise_injection 44.38 45.38;noise_injection 44.72 45.72;noise_injection 44.79 45.79;object_insertion 45.16 46.16;noise_injection 46.25 47.25;noise_injection 46.35 47.35;geometric_distortion 46.39 47.39;noise_injection 46.59 47.59;noise_injection 47.34 48.34;object_insertion 47.38 48.38;object_insertion 47.89 48.89;object_insertion 48.06 49.06;noise_injection 48.60 49.60;object_insertion 48.81 49.81;noise_injection 49.66 50.66;noise_injection 49.86 50.86;color_shift 50.10 51.10;object_insertion 50.51 51.51;noise_injection 50.82 51.82;object_insertion 50.95 51.95;noise_injection 50.99 51.99;noise_injection 51.09 52.09;geometric_distortion 51.57 52.57;geometric_distortion 51.64 52.64;object_insertion 51.74 52.74;noise_injection 51.81 52.81;noise_injection 52.45 53.45;geometric_distortion 52.83 53.83;color_shift 53.00 54.00;color_shift 53.07 54.07;object_insertion 54.67 55.67;noise_injection 55.90 56.90;geometric_distortion 56.17 57.17;noise_injection 57.19 58.19;geometric_distortion 57.29 58.29;geometric_distortion 57.43 58.43;noise_injection 57.43 58.43;object_insertion 57.77 58.77;geometric_distortion 58.55 59.55;object_insertion 58.59 59.59;object_insertion 58.62 59.62;geometric_distortion 58.73 59.73;color_shift 58.96 59.96;object_insertion 59.13 60.13;geometric_distortion 59.13 60.13;object_insertion 59.34 60.34;noise_injection 59.44 60.44;object_insertion 60.05 61.05;geometric_distortion 60.16 61.16;geometric_distortion 61.08 62.08;object_insertion 61.42 62.42;color_shift 62.54 63.54;noise_injection 63.09 64.09;geometric_distortion 63.33 64.33;color_shift 64.38 65.38;object_insertion 64.55 65.55;object_insertion 64.89 65.89;noise_injection 65.10 66.10;noise_injection 65.17 66.17;color_shift 65.71 66.71;object_insertion 66.33 67.33;object_insertion 66.56 67.56;color_shift 67.21 68.21;object_insertion 67.45 68.45;noise_injection 67.72 68.72;color_shift 68.23 69.23;color_shift 68.54 69.54;noise_injection 68.75 69.75;color_shift 68.78 69.78;noise_injection 68.81 69.81;color_shift 69.53 70.53;noise_injection 69.56 70.56;color_shift 69.77 70.77;noise_injection 70.28 71.28;object_insertion 70.79 71.79;noise_injection 70.89 71.89;noise_injection 71.30 72.30",
+    "anomaly_count": 6
+  },
+  "responses": {
+    "basic_description": "The video depicts a man sitting on a red plastic chair inside a small, tiled room that appears to be a bathroom or washroom. The walls are covered with patterned tiles, and there is a sink with a faucet mounted on the wall to his right. A green bucket is placed on the floor next to him.\n\nThe man is wearing a light-colored shirt and dark pants. He is engaged in an activity involving a black object, which he picks up from the floor and examines closely. He then brings the object to his mouth, suggesting he might be drinking from it. The object appears to be a cup or a similar container.\n\nThroughout the video, the man shifts slightly in his seat but remains seated for the duration of the frames shown. His actions are deliberate and focused on the object in his hands. The environment is simple and utilitarian, with no additional people or significant movement visible in the background. The lighting is dim, giving the scene a subdued atmosphere.",
+    "anomaly_detection": "The video appears to be taken in a small, tiled room that resembles a bathroom or a similar setting. The man is seated on a red chair and is engaged in an activity involving a cup, possibly drinking from it. There are no obvious visual distortions or anomalies in the video. The environment looks normal, with a sink and a faucet visible in the background. The man's actions are straightforward and do not suggest any unusual behavior. The lighting seems adequate for the setting, and there are no signs of interference or manipulation of the footage.",
+    "temporal_analysis": "The video appears to be playing normally without any visible signs of reversed playback or shuffled frames. The sequence of events is consistent, and the actions of the man are clear and coherent. There are no abrupt changes in the video's timeline that suggest any temporal issues.",
+    "spatial_analysis": "The video shows a man sitting on a chair in what appears to be a small, tiled room with a sink and a faucet. The man is wearing a light-colored shirt and dark pants. There is a green bucket next to him, and the walls have a patterned tile design.\n\nIn terms of objects that might not belong in this scene, it's difficult to determine without more context. However, the presence of the bucket could suggest that this is a utility or storage area rather than a typical bathroom setting.\n\nRegarding color distortions or visual artifacts, the video seems to have some noise or graininess, which is common in low-light conditions or when recording with older cameras. This affects the clarity of the image but does not seem to obscure the main subject or the environment significantly.",
+    "semantic_analysis": "The sequence of events in the video appears to be logical and follows a natural progression. The man is initially seated on a chair, engaging with an object in his hands, which could be interpreted as a phone or a similar device. He then leans forward, possibly to pick something up from the floor or to interact more closely with the object. Afterward, he sits back down and begins drinking from a cup, suggesting a casual and relaxed setting.\n\nThere are no abrupt or unnatural scene transitions; each action flows smoothly into the next, maintaining a coherent narrative. The setting remains consistent throughout the video, indicating that the entire sequence takes place within the same location.",
+    "confidence_assessment": "I am confident in the description of the video content based on the provided frames. The man is seated in a small, tiled room that resembles a bathroom or a similar setting. He is wearing a light-colored shirt and dark pants. There is a sink with a faucet visible to his right, and a green bucket is placed near him on the floor. The man appears to be engaged in an activity involving a cup, which he brings up to his mouth as if drinking from it. The environment suggests a casual, everyday scenario.\n\nIf there were any parts of the video that were unclear or not visible in the provided frames, I would need additional information or frames to provide a more accurate description. However, based on the available frames, the description above accurately reflects what can be observed."
+  },
+  "scores": {
+    "content_accuracy": 3.8000000000000003,
+    "anomaly_detection": 3.8,
+    "confidence_calibration": 4.0,
+    "hallucination": 2.7,
+    "overall": 3.575
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 4,
+      "accuracy_score": 3,
+      "detail_level_score": 5,
+      "overall_assessment": "The model response contains several inaccuracies and misses key actions and elements from the ground truth.",
+      "correctly_described_elements": [
+        "sitting on a chair",
+        "drinking from a cup/glass"
+      ],
+      "missing_elements": [
+        "undressing clothes",
+        "smiling",
+        "holding clothes"
+      ],
+      "incorrect_descriptions": [
+        "man wearing a light-colored shirt",
+        "black object",
+        "dim lighting"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 0,
+      "accuracy_score": 6,
+      "false_positive_score": 10,
+      "overall_assessment": "The model failed to detect any anomalies despite their presence, but provided a reasonable description of the scene.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "speed_change",
+        "noise_injection",
+        "frame_reversal",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 3,
+      "confidence_appropriateness_score": 5,
+      "calibration_score": 4,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks accuracy in action identification and context.",
+      "uncertainty_indicators": [
+        "misidentification of actions",
+        "lack of clarity in scene description"
+      ],
+      "confidence_indicators": [
+        "detailed description of environment",
+        "specificity in object handling"
+      ],
+      "calibration_issues": [
+        "inconsistent action timing",
+        "incorrect object identification"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 3,
+      "speculation_control_score": 4,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and environment.",
+      "hallucinated_elements": [
+        "red plastic chair",
+        "green bucket",
+        "black object"
+      ],
+      "factual_errors": [
+        "man undressing",
+        "man drinking from a cup"
+      ],
+      "speculative_content": [
+        "dim lighting",
+        "examining closely"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T09:12:41.586237"
+}

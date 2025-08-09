@@ -1,0 +1,106 @@
+{
+  "video_name": "anomaly_video_0029.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0029.mp4",
+    "original_video_id": "9632M",
+    "original_scene": "Entryway (A hall that is generally located at the entrance of a house)",
+    "original_script": "A person walks through the entryway, laughing and eating from a bag of snacks. The person wipes their mouth with a paper towel.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c156 5.50 30.90;c097 2.30 14.00;c061 4.90 33.00;c152 14.00 33.00;c033 27.40 33.00;c035 26.60 32.00",
+    "decoded_actions": "c156 5.50 30.90 (Someone is eating something);c097 2.30 14.00 (Walking through a doorway);c061 4.90 33.00 (Holding some food);c152 14.00 33.00 (Someone is smiling);c033 27.40 33.00 (Holding a towel/s);c035 26.60 32.00 (Taking a towel/s from somewhere)",
+    "anomalies_applied": "object_insertion;temporal_cut;noise_injection;geometric_distortion;color_shift",
+    "anomaly_timestamps": "temporal_cut 7.97 23.95;noise_injection 0.17 1.17;geometric_distortion 0.51 1.51;geometric_distortion 0.65 1.65;object_insertion 1.43 2.43;object_insertion 1.74 2.74;geometric_distortion 1.87 2.87;object_insertion 2.08 3.08;noise_injection 2.32 3.32;object_insertion 2.45 3.45;geometric_distortion 2.72 3.72;color_shift 2.79 3.79;geometric_distortion 3.41 4.41;object_insertion 5.01 6.01;object_insertion 5.55 6.55;object_insertion 6.10 7.10;color_shift 6.40 7.40;noise_injection 6.54 7.54;noise_injection 6.71 7.71;color_shift 6.85 7.85;object_insertion 6.98 7.98;geometric_distortion 7.53 8.53;noise_injection 7.70 8.70;noise_injection 8.00 9.00;noise_injection 8.07 9.07;object_insertion 8.69 9.69;object_insertion 9.67 10.67;geometric_distortion 9.78 10.78;object_insertion 9.98 10.98;object_insertion 10.39 11.39;noise_injection 10.46 11.46;object_insertion 10.76 11.76;noise_injection 11.07 12.07;noise_injection 11.24 12.24;noise_injection 11.41 12.41;object_insertion 11.44 12.44;noise_injection 11.55 12.55;object_insertion 12.53 13.53;geometric_distortion 13.05 14.05;object_insertion 13.32 14.32;color_shift 13.42 14.42;noise_injection 13.66 14.66;object_insertion 13.90 14.90;geometric_distortion 13.90 14.90;geometric_distortion 14.00 15.00;color_shift 14.03 15.03;object_insertion 14.54 15.54;color_shift 15.09 16.09;noise_injection 15.09 16.09;color_shift 15.16 16.16;geometric_distortion 15.80 16.80",
+    "anomaly_count": 5
+  },
+  "responses": {
+    "basic_description": "The video begins with a view of an open wooden door leading to another room, partially covered by a curtain. The scene is indoors, and the lighting suggests it might be evening or night due to the artificial light illuminating the space.\n\nAs the video progresses, a man wearing an orange shirt enters the frame from the right side. He appears to be holding a yellow packet, which he opens and brings close to his mouth as if he is about to eat something. His actions suggest a casual and relaxed environment, possibly at home. The background shows part of a room with a purple wall and some furniture, indicating that the setting is likely a residential interior. The man's movements are smooth and deliberate, and there is no indication of any urgency or haste in his actions.",
+    "anomaly_detection": "The video starts with a view of an open wooden door leading to another room, which appears to be part of a home interior. The scene then cuts to a man wearing an orange shirt who is eating from a yellow packet. There doesn't appear to be anything unusual or out of place in the video itself; it seems to be a normal sequence of events. However, if we consider the context of the video, the transition from the doorway to the man eating could be seen as abrupt without additional context. There are no visual distortions or anomalies that stand out in the frames provided.",
+    "temporal_analysis": "The video appears to be playing in normal forward order without any signs of reversed playback or shuffled frames. The sequence starts with a view through an open door, transitions to a person entering the room, and then shows the individual eating from a packet. Each frame follows logically from the previous one, indicating a smooth progression of events.",
+    "spatial_analysis": "In the video, the scene starts with a view of an open wooden door leading to another room. The environment appears to be indoors, possibly a home setting, given the furniture and decor.\n\nThe second frame shows a person wearing an orange shirt. They appear to be eating something from a yellow packet labeled \"Ponta.\" The person's actions suggest they might be enjoying a snack. There is no indication of objects that do not belong in this scene; it seems like a casual, everyday moment.\n\nThere are no apparent color distortions or visual artifacts in the frames provided. The colors appear natural, and the lighting is consistent with indoor settings.",
+    "semantic_analysis": "The video starts with a view of an open door leading to another room, suggesting a transition from one space to another. The scene then cuts to a man in an orange shirt who is eating chips directly from a yellow packet. This transition seems abrupt because it shifts from a static shot of the doorway to a close-up of the person eating, without any clear indication of how the man entered the frame or what led him to be there.\n\nIf the video aims to show a sequence where the man was previously outside and has just entered through the door, the transition could be improved by showing the man approaching the door or entering the room before the camera focuses on him eating. Alternatively, if the man was already inside the room and the camera was positioned to capture his entrance, the abrupt cut might be intentional for dramatic effect or to focus attention on the action of eating chips. Without additional context, the abruptness of the transition remains noticeable.",
+    "confidence_assessment": "I am confident in the description of the video content provided. The sequence starts with a view of an open wooden door leading to another room, which is partially visible. The scene then transitions to a person entering the frame from the right side, holding and eating from a yellow packet labeled \"Pond's.\" The person appears to be casually dressed in an orange shirt and dark pants. There are no ambiguous or uncertain parts in the description based on the provided frames."
+  },
+  "scores": {
+    "content_accuracy": 4.800000000000001,
+    "anomaly_detection": 4.1,
+    "confidence_calibration": 5.0,
+    "hallucination": 3.7,
+    "overall": 4.4
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 4,
+      "accuracy_score": 5,
+      "detail_level_score": 6,
+      "overall_assessment": "The model response captures some elements but misses key actions and context.",
+      "correctly_described_elements": [
+        "man wearing an orange shirt",
+        "holding a yellow packet"
+      ],
+      "missing_elements": [
+        "laughing",
+        "wiping mouth with a paper towel",
+        "entryway scene"
+      ],
+      "incorrect_descriptions": [
+        "open wooden door",
+        "purple wall and furniture"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 2,
+      "accuracy_score": 5,
+      "false_positive_score": 8,
+      "overall_assessment": "The model failed to identify the actual anomalies present in the video.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "temporal_cut",
+        "noise_injection",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 6,
+      "calibration_score": 5,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks precision in confidence levels.",
+      "uncertainty_indicators": [
+        "vague description of lighting",
+        "generalized environment"
+      ],
+      "confidence_indicators": [
+        "specific actions described",
+        "details about the person's appearance"
+      ],
+      "calibration_issues": [
+        "inconsistency with ground truth actions",
+        "lack of detail on anomalies"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 4,
+      "speculation_control_score": 5,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions.",
+      "hallucinated_elements": [
+        "open wooden door",
+        "purple wall",
+        "man wearing an orange shirt"
+      ],
+      "factual_errors": [
+        "no mention of laughing",
+        "no mention of wiping mouth",
+        "incorrect description of the setting"
+      ],
+      "speculative_content": [
+        "suggests a casual and relaxed environment",
+        "indicates a residential interior"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T09:06:00.028034"
+}

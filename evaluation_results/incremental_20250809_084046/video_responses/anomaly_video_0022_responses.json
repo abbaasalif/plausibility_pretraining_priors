@@ -1,0 +1,108 @@
+{
+  "video_name": "anomaly_video_0022.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0022.mp4",
+    "original_video_id": "KAU5T",
+    "original_scene": "Hallway",
+    "original_script": "A person drinks water from a glass and puts it down on a shelf, then runs out of the room.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c106 0.00 14.40;c150 21.50 33.00;c154 14.50 22.70;c135 0.00 18.10",
+    "decoded_actions": "c106 0.00 14.40 (Drinking from a cup/glass/bottle);c150 21.50 33.00 (Someone is running somewhere);c154 14.50 22.70 (Someone is standing up from somewhere);c135 0.00 18.10 (Sitting in a bed)",
+    "anomalies_applied": "object_insertion;noise_injection;color_shift;geometric_distortion",
+    "anomaly_timestamps": "noise_injection 0.00 1.00;geometric_distortion 0.19 1.19;object_insertion 1.48 2.48;color_shift 1.53 2.53;color_shift 3.62 4.62;geometric_distortion 4.05 5.05;object_insertion 4.15 5.15;geometric_distortion 4.53 5.53;color_shift 5.58 6.58;noise_injection 5.77 6.77;object_insertion 5.82 6.82;color_shift 6.05 7.05;color_shift 6.34 7.34;color_shift 6.63 7.63;object_insertion 7.05 8.05;geometric_distortion 8.34 9.34;noise_injection 8.39 9.39;color_shift 9.10 10.10;object_insertion 9.25 10.25;object_insertion 9.49 10.49;noise_injection 10.53 11.53;object_insertion 10.82 11.82;geometric_distortion 10.92 11.92;color_shift 11.15 12.15;color_shift 11.39 12.39;color_shift 11.68 12.68;object_insertion 13.25 14.25;object_insertion 13.30 14.30;object_insertion 13.87 14.87;geometric_distortion 14.30 15.30;object_insertion 15.59 16.59;color_shift 15.92 16.92;object_insertion 16.45 17.45;noise_injection 16.73 17.73;noise_injection 16.92 17.92;object_insertion 17.54 18.54;color_shift 18.78 19.78;color_shift 18.92 19.92;geometric_distortion 19.02 20.02;object_insertion 19.26 20.26;color_shift 19.83 20.83;noise_injection 19.97 20.97;object_insertion 20.40 21.40;noise_injection 20.73 21.73;object_insertion 20.78 21.78;object_insertion 21.55 22.55;object_insertion 22.36 23.36;object_insertion 22.50 23.50;object_insertion 22.83 23.83;object_insertion 22.93 23.93;color_shift 22.93 23.93;color_shift 23.02 24.02;object_insertion 24.17 25.17;color_shift 24.36 25.36;object_insertion 24.98 25.98;color_shift 25.07 26.07;noise_injection 25.12 26.12;geometric_distortion 25.17 26.17;object_insertion 25.26 26.26;noise_injection 25.79 26.79;color_shift 26.22 27.22;object_insertion 26.69 27.69;object_insertion 26.79 27.79;color_shift 26.84 27.84;color_shift 26.98 27.98;geometric_distortion 27.60 28.60;geometric_distortion 28.41 29.41;geometric_distortion 29.74 30.74;noise_injection 30.51 31.51;color_shift 31.03 32.03;color_shift 31.56 32.56",
+    "anomaly_count": 4
+  },
+  "responses": {
+    "basic_description": "The video begins with a man sitting on a bed in a small room. He is wearing a yellow shirt and jeans, and he is holding a water bottle. The room has a simple setup with clothes hanging on the wall behind him. The man takes a sip from the water bottle and then stands up, walking out of the room.\n\nAs he exits the room, the camera follows him into a hallway. The hallway is brightly lit and features a yellow planter box filled with plants along one side. The man continues walking down the hallway, moving away from the camera's view. The hallway appears to be part of a residential or institutional building, given its clean and orderly appearance.",
+    "anomaly_detection": "In the video, the man is seen sitting on a bed and drinking from a bottle. The setting appears to be a simple room with clothes hanging on the wall behind him. As he finishes his drink, he stands up and walks out of the room through a doorway into what looks like an outdoor corridor or hallway. The transition from the indoor setting to the outdoor environment seems normal.\n\nThere are no apparent visual distortions or anomalies in the video. The lighting and clarity are consistent throughout the scenes, and the actions performed by the individual appear natural and without any unusual elements. The corridor outside has plants and a window, which suggests it might be part of a residential or institutional building. Overall, the video captures a routine activity without any noticeable irregularities.",
+    "temporal_analysis": "The video appears to be playing normally without any visible issues such as reversed playback or shuffled frames. The sequence of events is clear, with the person sitting on the bed, drinking water, and then walking out of the room. There are no signs of temporal anomalies in the video.",
+    "spatial_analysis": "The video shows a person sitting on a bed inside a room, drinking from a bottle. The room has clothes hanging on the wall and a bed with white sheets. The person then gets up and walks out of the room through a doorway into what appears to be an outdoor area with plants and a yellow wall.\n\nThere are no obvious objects that don't belong in this scene. However, the video quality is somewhat grainy, which could be considered a visual artifact. Additionally, the colors appear slightly distorted, particularly in the outdoor scene where the yellow wall seems overly saturated compared to the indoor lighting. This could also be due to the video quality or lighting conditions.",
+    "semantic_analysis": "The sequence of events in the video appears to be logical and follows a natural progression of actions. The man is initially seen sitting on a bed, drinking from a bottle, which suggests he might be taking a break or refreshing himself. After drinking, he stands up and walks out of the room, indicating a transition from a private space to an outdoor area.\n\nThe transition from the indoor setting to the outdoor corridor seems smooth as it involves the man moving through a doorway into a well-lit area with plants and flowers, suggesting a change in environment but maintaining continuity in his activity. There are no abrupt or unnatural scene transitions observed in the video.",
+    "confidence_assessment": "The video shows a person sitting on a bed in a room, drinking from a bottle. The individual is wearing a yellow shirt and jeans. After taking a sip, they stand up and walk out of the room through a doorway into what appears to be an outdoor or semi-outdoor corridor with plants and a sink visible. The corridor seems to be part of a building, possibly residential.\n\nThere are no specific details that suggest any uncertainty in the description. The actions and setting are clearly depicted without ambiguity. If you have any specific questions or need further clarification, feel free to ask!"
+  },
+  "scores": {
+    "content_accuracy": 5.800000000000001,
+    "anomaly_detection": 3.5,
+    "confidence_calibration": 5.0,
+    "hallucination": 3.7,
+    "overall": 4.5
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 6,
+      "accuracy_score": 5,
+      "detail_level_score": 7,
+      "overall_assessment": "The model response captures some elements but includes inaccuracies and missing details.",
+      "correctly_described_elements": [
+        "sitting on a bed",
+        "standing up",
+        "walking out of the room"
+      ],
+      "missing_elements": [
+        "drinking from a glass",
+        "shelf",
+        "running"
+      ],
+      "incorrect_descriptions": [
+        "water bottle instead of glass",
+        "small room instead of hallway"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 0,
+      "accuracy_score": 5,
+      "false_positive_score": 10,
+      "overall_assessment": "The model failed to detect any anomalies present in the video.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "color_shift",
+        "geometric_distortion"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 6,
+      "calibration_score": 5,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks accuracy in action identification.",
+      "uncertainty_indicators": [
+        "misidentification of actions",
+        "lack of detail in scene description"
+      ],
+      "confidence_indicators": [
+        "detailed description of the setting",
+        "clear sequence of actions"
+      ],
+      "calibration_issues": [
+        "incorrect action timing",
+        "inconsistent object identification"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 4,
+      "speculation_control_score": 5,
+      "overall_assessment": "The model introduces significant hallucinations and inaccuracies regarding the scene and actions.",
+      "hallucinated_elements": [
+        "water bottle",
+        "yellow shirt",
+        "jeans",
+        "yellow planter box"
+      ],
+      "factual_errors": [
+        "man sitting on a bed",
+        "man holding a water bottle",
+        "camera following into a hallway"
+      ],
+      "speculative_content": [
+        "small room",
+        "clothes hanging on the wall",
+        "residential or institutional building"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T08:59:56.637151"
+}

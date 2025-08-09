@@ -1,0 +1,105 @@
+{
+  "video_name": "anomaly_video_0011.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0011.mp4",
+    "original_video_id": "RCD08",
+    "original_scene": "Laundry room",
+    "original_script": "A person smiling at a mirror starts waving a towel around and starts laughing.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c036 24.20 30.20;c094 1.30 8.70;c152 1.30 13.00;c073 6.70 12.70;c001 24.80 30.10;c000 7.20 29.50",
+    "decoded_actions": "c036 24.20 30.20 (Throwing a towel/s somewhere);c094 1.30 8.70 (Smiling in a mirror);c152 1.30 13.00 (Someone is smiling);c073 6.70 12.70 (Taking a blanket from somewhere);c001 24.80 30.10 (Putting clothes somewhere);c000 7.20 29.50 (Holding some clothes)",
+    "anomalies_applied": "object_insertion;speed_change;frame_shuffling;noise_injection;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_reversal 0.00 31.05;frame_shuffling 0.00 3.05;frame_shuffling 3.05 6.10;frame_shuffling 6.10 9.16;frame_shuffling 9.16 12.21;frame_shuffling 12.21 15.26;frame_shuffling 15.26 18.31;frame_shuffling 18.31 21.36;frame_shuffling 21.36 24.42;frame_shuffling 24.42 27.47;frame_shuffling 27.47 30.52;frame_shuffling 30.52 31.05;speed_change 0.00 31.05;color_shift 0.73 1.73;color_shift 1.33 2.33;object_insertion 2.52 3.52;color_shift 2.99 3.99;object_insertion 3.05 4.05;noise_injection 3.25 4.25;object_insertion 3.45 4.45;color_shift 4.18 5.18;color_shift 5.18 6.18;geometric_distortion 5.51 6.51;object_insertion 5.71 6.71;color_shift 6.10 7.10;noise_injection 6.10 7.10;color_shift 6.44 7.44;color_shift 6.83 7.83;noise_injection 8.09 9.09;object_insertion 10.02 11.02;color_shift 10.02 11.02;color_shift 10.68 11.68;noise_injection 11.21 12.21;color_shift 12.08 13.08;noise_injection 13.40 14.40;object_insertion 13.87 14.87;geometric_distortion 14.20 15.20;geometric_distortion 14.60 15.60;noise_injection 14.93 15.93;noise_injection 15.53 16.53;noise_injection 15.86 16.86;object_insertion 15.99 16.99;object_insertion 16.06 17.06;noise_injection 17.71 18.71;object_insertion 17.91 18.91;geometric_distortion 17.98 18.98;object_insertion 18.38 19.38;color_shift 18.98 19.98;geometric_distortion 19.17 20.17;color_shift 19.57 20.57;noise_injection 19.77 20.77;noise_injection 20.24 21.24;color_shift 20.44 21.44;object_insertion 20.57 21.57;color_shift 21.10 22.10;noise_injection 21.56 22.56;object_insertion 21.63 22.63;noise_injection 21.76 22.76;object_insertion 21.96 22.96;noise_injection 23.02 24.02;color_shift 24.28 25.28;color_shift 25.35 26.35;noise_injection 26.21 27.21;object_insertion 28.53 29.53;noise_injection 29.52 30.52;object_insertion 30.72 31.72;noise_injection 30.92 31.92;geometric_distortion 31.05 32.05;color_shift 31.45 32.45;geometric_distortion 31.65 32.65;color_shift 31.78 32.78;noise_injection 31.91 32.91;color_shift 32.11 33.11;object_insertion 33.77 34.77;object_insertion 33.90 34.90;object_insertion 34.30 35.30;color_shift 34.30 35.30;noise_injection 34.30 35.30;noise_injection 34.90 35.90;object_insertion 35.23 36.23;object_insertion 35.76 36.76;color_shift 37.02 38.02;object_insertion 37.09 38.09;object_insertion 37.29 38.29;object_insertion 37.95 38.95;object_insertion 38.02 39.02;noise_injection 38.02 39.02;noise_injection 38.68 39.68;color_shift 39.34 40.34;noise_injection 40.54 41.54;object_insertion 40.74 41.74;noise_injection 41.07 42.07;color_shift 41.27 42.27;color_shift 41.73 42.73;color_shift 41.93 42.93;object_insertion 43.46 44.46;noise_injection 43.72 44.72;noise_injection 44.06 45.06;noise_injection 44.12 45.12;geometric_distortion 44.79 45.79;noise_injection 45.51 46.51;color_shift 46.18 47.18;noise_injection 46.71 47.71;color_shift 47.31 48.31;color_shift 47.51 48.51;object_insertion 48.24 49.24;object_insertion 48.96 49.96;color_shift 50.42 51.42;geometric_distortion 50.82 51.82;color_shift 51.49 52.49;object_insertion 54.01 55.01;color_shift 54.34 55.34;noise_injection 54.80 55.80;geometric_distortion 55.14 56.14;object_insertion 55.53 56.53;noise_injection 57.39 58.39;object_insertion 58.52 59.52;color_shift 58.78 59.78;geometric_distortion 59.71 60.71;noise_injection 61.17 62.17;object_insertion 61.44 62.44;noise_injection 61.57 62.57",
+    "anomaly_count": 7
+  },
+  "responses": {
+    "basic_description": "The video depicts a person in a laundry room performing various tasks related to laundry. The setting is a small, well-lit room with white walls and a shelf above the washing machine and dryer holding various items such as bottles, a bowl, and other household objects. There is also a broom leaning against the wall near a trash bin.\n\nThe individual, dressed in a dark long-sleeve shirt and camouflage pants, is seen moving around the room. They open the door of the washing machine, take out a piece of clothing, and place it on top of the dryer. They then proceed to fold the clothing item neatly. This process repeats as they continue to remove more clothes from the washing machine, fold them, and place them on the dryer.\n\nThroughout the video, the person appears focused on their task, methodically handling each piece of clothing. The environment suggests a routine activity, likely part of a daily chore or preparation for an upcoming event. The overall atmosphere is calm and domestic, emphasizing the mundane yet essential nature of laundry work.",
+    "anomaly_detection": "The video appears to be taken in a laundry room with a washing machine and dryer, along with various items on shelves above the machines. The person in the video is performing typical laundry tasks such as handling clothes and interacting with the machines.\n\nThere are no obvious visual distortions or anomalies in the video. The lighting seems consistent throughout the frames, and the actions performed by the individual appear normal for someone doing laundry. The environment looks like a standard household laundry area without any noticeable oddities or disruptions.",
+    "temporal_analysis": "The video appears to be playing normally without any visible signs of reversed playback or shuffled frames. The sequence of actions, such as the person moving towards the washing machine, opening it, and placing items inside, follows a logical order that suggests normal playback. There is no indication of temporal issues in the provided frames.",
+    "spatial_analysis": "The video appears to be set in a laundry room with a washing machine and dryer, along with various items on shelves above the machines, such as bottles and cleaning supplies. The man is performing actions related to laundry, such as handling clothes and interacting with the machines.\n\nIn terms of objects that might not belong in this scene, it's difficult to determine without more context. However, if there were any items that seemed out of place, they would likely stand out due to their size, shape, or color compared to typical laundry room items.\n\nRegarding color distortions or visual artifacts, the video seems to have some noise or graininess, which could be due to low lighting conditions or the quality of the camera used to record the footage. This gives the video a somewhat pixelated or static appearance at times. There are no significant color distortions visible; the colors appear consistent with what one would expect from an indoor setting like a laundry room.",
+    "semantic_analysis": "The sequence of events in the video appears to be logical and follows a typical laundry routine. The man is seen entering the room, which contains a washing machine and dryer, and he begins by handling clothes. He moves between the washer and dryer, suggesting he is sorting and preparing the clothes for washing. There are no abrupt or unnatural scene transitions; each action flows smoothly into the next, indicating a continuous and coherent activity.\n\nIf you have specific questions about the actions or the environment, feel free to ask!",
+    "confidence_assessment": "I am confident in the description provided based on the visual content of the image. The sequence of actions and the setting appear clear, with no parts that seem ambiguous or uncertain. If you have any specific questions or need further clarification on certain aspects, feel free to ask!"
+  },
+  "scores": {
+    "content_accuracy": 2.8,
+    "anomaly_detection": 3.5,
+    "confidence_calibration": 3.0000000000000004,
+    "hallucination": 2.2,
+    "overall": 2.875
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 3,
+      "accuracy_score": 2,
+      "detail_level_score": 4,
+      "overall_assessment": "The model response inaccurately describes the actions and setting of the video.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "smiling at a mirror",
+        "waving a towel",
+        "laughing"
+      ],
+      "incorrect_descriptions": [
+        "folding clothing",
+        "opening washing machine door",
+        "calm and domestic atmosphere"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 0,
+      "accuracy_score": 5,
+      "false_positive_score": 10,
+      "overall_assessment": "The model failed to detect any anomalies despite the ground truth indicating several. The description was somewhat accurate but did not address the anomalies.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "speed_change",
+        "frame_shuffling",
+        "noise_injection",
+        "frame_reversal",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 2,
+      "confidence_appropriateness_score": 4,
+      "calibration_score": 3,
+      "overall_assessment": "The model response lacks recognition of key actions and anomalies present in the ground truth.",
+      "uncertainty_indicators": [
+        "failure to identify specific actions",
+        "lack of acknowledgment of anomalies"
+      ],
+      "confidence_indicators": [
+        "detailed description of the environment",
+        "description of the person's actions"
+      ],
+      "calibration_issues": [
+        "overconfidence in mundane task description",
+        "underestimation of the importance of identified actions"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 2,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and setting described in the ground truth.",
+      "hallucinated_elements": [
+        "broom",
+        "trash bin",
+        "shelf with items"
+      ],
+      "factual_errors": [
+        "folding clothing",
+        "removing clothes from washing machine"
+      ],
+      "speculative_content": [
+        "routine activity",
+        "preparation for an upcoming event"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T08:50:51.798429"
+}

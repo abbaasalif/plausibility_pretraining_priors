@@ -1,0 +1,110 @@
+{
+  "video_name": "anomaly_video_0017.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0017.mp4",
+    "original_video_id": "TETZ7",
+    "original_scene": "Entryway (A hall that is generally located at the entrance of a house)",
+    "original_script": "A person is standing in the entryway looking out the window.  The person grabs their camera and laughs as they leave through the doorway.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c092 0.00 10.40;c097 14.40 23.50;c149 7.00 12.60;c141 14.30 21.60;c152 6.30 12.40;c018 12.50 19.50;c008 14.00 20.60;c015 11.50 17.40",
+    "decoded_actions": "c092 0.00 10.40 (Watching/Looking outside of a window);c097 14.40 23.50 (Walking through a doorway);c149 7.00 12.60 (Someone is laughing);c141 14.30 21.60 (Grasping onto a doorknob);c152 6.30 12.40 (Someone is smiling);c018 12.50 19.50 (Taking a phone/camera from somewhere);c008 14.00 20.60 (Opening a door);c015 11.50 17.40 (Holding a phone/camera)",
+    "anomalies_applied": "object_insertion;speed_change;noise_injection;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_reversal 0.00 22.82;speed_change 0.00 22.82;color_shift 0.43 1.43;color_shift 0.50 1.50;noise_injection 0.80 1.80;noise_injection 0.97 1.97;color_shift 1.03 2.03;object_insertion 2.04 3.04;color_shift 2.27 3.27;geometric_distortion 2.44 3.44;color_shift 2.84 3.84;color_shift 3.24 4.24;noise_injection 3.57 4.57;geometric_distortion 3.64 4.64;color_shift 3.70 4.70;color_shift 4.84 5.84;color_shift 4.90 5.90;object_insertion 5.31 6.31;noise_injection 5.64 6.64;noise_injection 5.74 6.74;object_insertion 6.14 7.14;geometric_distortion 6.27 7.27;object_insertion 6.34 7.34;color_shift 6.47 7.47;noise_injection 6.67 7.67;object_insertion 6.94 7.94;geometric_distortion 7.11 8.11;object_insertion 7.31 8.31;object_insertion 7.37 8.37;object_insertion 7.61 8.61;color_shift 8.04 9.04;noise_injection 8.04 9.04;noise_injection 8.17 9.17;noise_injection 8.27 9.27;color_shift 8.51 9.51;color_shift 8.78 9.78;noise_injection 9.01 10.01;noise_injection 9.08 10.08;color_shift 9.74 10.74;color_shift 10.04 11.04;color_shift 10.28 11.28;noise_injection 10.61 11.61;color_shift 10.64 11.64;object_insertion 10.71 11.71;object_insertion 11.21 12.21;noise_injection 11.31 12.31;noise_injection 11.88 12.88;object_insertion 11.95 12.95;color_shift 12.11 13.11;geometric_distortion 12.28 13.28;object_insertion 12.35 13.35;object_insertion 12.51 13.51;color_shift 12.65 13.65;object_insertion 13.58 14.58;noise_injection 13.65 14.65;noise_injection 13.68 14.68;object_insertion 13.75 14.75;object_insertion 14.61 15.61;color_shift 15.32 16.32;object_insertion 15.45 16.45;noise_injection 15.65 16.65;noise_injection 16.22 17.22;object_insertion 16.25 17.25;color_shift 16.25 17.25;geometric_distortion 16.32 17.32;object_insertion 16.58 17.58;geometric_distortion 16.62 17.62;object_insertion 17.65 18.65;noise_injection 17.72 18.72;noise_injection 17.88 18.88;geometric_distortion 18.12 19.12;geometric_distortion 19.25 20.25;object_insertion 19.39 20.39;color_shift 19.79 20.79;geometric_distortion 21.55 22.55;noise_injection 21.89 22.89;geometric_distortion 21.99 22.99;noise_injection 22.46 23.46;object_insertion 22.82 23.82;object_insertion 23.09 24.09;geometric_distortion 23.12 24.12;noise_injection 23.32 24.32;object_insertion 23.59 24.59;object_insertion 23.62 24.62;noise_injection 23.96 24.96;geometric_distortion 24.02 25.02;object_insertion 24.06 25.06;object_insertion 24.09 25.09;color_shift 24.26 25.26;noise_injection 24.32 25.32;color_shift 24.46 25.46;noise_injection 24.82 25.82;noise_injection 24.89 25.89;object_insertion 25.43 26.43;geometric_distortion 25.69 26.69;noise_injection 27.46 28.46;noise_injection 27.83 28.83;object_insertion 28.06 29.06;noise_injection 28.06 29.06;geometric_distortion 28.53 29.53;object_insertion 28.66 29.66;noise_injection 28.80 29.80;geometric_distortion 29.16 30.16;object_insertion 29.46 30.46;color_shift 30.90 31.90;noise_injection 30.96 31.96;noise_injection 31.23 32.23;object_insertion 31.43 32.43;geometric_distortion 31.50 32.50;geometric_distortion 31.77 32.77;noise_injection 31.87 32.87;object_insertion 32.97 33.97;noise_injection 33.73 34.73;noise_injection 34.13 35.13;geometric_distortion 34.27 35.27;color_shift 34.93 35.93;noise_injection 35.07 36.07;noise_injection 35.14 36.14;object_insertion 35.17 36.17;geometric_distortion 35.20 36.20;color_shift 35.27 36.27;object_insertion 35.44 36.44;noise_injection 35.50 36.50;geometric_distortion 35.70 36.70;object_insertion 35.94 36.94;object_insertion 36.57 37.57;object_insertion 36.84 37.84;color_shift 36.97 37.97;noise_injection 37.07 38.07;object_insertion 37.17 38.17;color_shift 37.27 38.27;object_insertion 37.54 38.54;object_insertion 37.84 38.84;color_shift 37.90 38.90;object_insertion 37.97 38.97;geometric_distortion 38.00 39.00;noise_injection 38.00 39.00;object_insertion 38.44 39.44;color_shift 38.67 39.67;noise_injection 39.71 40.71;color_shift 39.87 40.87;object_insertion 40.47 41.47;object_insertion 40.64 41.64;object_insertion 41.24 42.24;noise_injection 41.67 42.67;object_insertion 42.54 43.54;noise_injection 42.61 43.61;object_insertion 42.71 43.71;noise_injection 43.01 44.01;geometric_distortion 43.04 44.04;color_shift 43.48 44.48;color_shift 43.58 44.58;noise_injection 43.71 44.71;noise_injection 44.04 45.04;color_shift 44.11 45.11;noise_injection 44.28 45.28;object_insertion 44.61 45.61;noise_injection 44.61 45.61;object_insertion 44.84 45.84;geometric_distortion 45.01 46.01;object_insertion 45.15 46.15;noise_injection 45.31 46.31",
+    "anomaly_count": 6
+  },
+  "responses": {
+    "basic_description": "The video depicts a person standing outside a door, looking through the peephole. The individual is wearing a maroon sweater and dark pants. After a moment, they open the door slightly and step inside, closing it behind them. They then proceed to close the door again from the inside. The setting appears to be a residential interior with a visible kitchen area in the background, featuring various items on the counter. The lighting suggests it might be evening or night. The person's actions seem routine, possibly checking for visitors or ensuring the door is secure.",
+    "anomaly_detection": "In the video, there is a noticeable visual distortion that occurs around the 8th second mark. The image becomes pixelated and distorted, making it difficult to discern specific details about what is happening. This distortion seems to be a sudden and unexpected event, as the scene appears normal before this moment. There are no other apparent anomalies or unusual elements in the video prior to this distortion.",
+    "temporal_analysis": "The video appears to be playing normally without any visible signs of reversed playback or shuffled frames. The sequence of events is consistent, with the person entering the room, closing the door, and then walking back out. There are no abrupt changes in the order of actions that would suggest temporal issues.",
+    "spatial_analysis": "In the video, there is a noticeable visual artifact where a person appears to be partially obscured by a rectangular block of color (purple and yellow) at certain points. This suggests a possible glitch or error in the video editing process rather than an intentional effect.\n\nRegarding objects that might not belong in this scene, it's difficult to determine without more context about what is expected in the scene. However, if the setting is supposed to be indoors with no unusual elements, the presence of the colored blocks could be considered out of place. The rest of the environment seems consistent with a typical indoor setting, such as a hallway or room with a door and curtains.",
+    "semantic_analysis": "The sequence of events in the video appears to be logical and follows a natural progression. The person is seen entering through a door, moving towards the window, and then interacting with it by opening it. There are no abrupt or unnatural scene transitions; each action flows smoothly into the next, suggesting a continuous and coherent narrative. The actions are performed in a way that aligns with typical human behavior, such as entering a room and looking out a window.",
+    "confidence_assessment": "The video shows a person entering a room through a doorway, walking towards the window, and then opening it. The individual appears to be wearing a dark-colored sweater and dark pants. The room has a window with a checkered curtain partially drawn. There is no additional context or information provided about the setting or the actions of the person, so I can only describe what is visible in the video. If there's anything specific you'd like to know or clarify, feel free to ask!"
+  },
+  "scores": {
+    "content_accuracy": 2.8,
+    "anomaly_detection": 5.9,
+    "confidence_calibration": 3.2,
+    "hallucination": 2.2,
+    "overall": 3.5249999999999995
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 3,
+      "accuracy_score": 2,
+      "detail_level_score": 4,
+      "overall_assessment": "The model response inaccurately describes the scene and actions.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "person standing in entryway",
+        "laughing",
+        "grasping doorknob",
+        "taking camera",
+        "smiling"
+      ],
+      "incorrect_descriptions": [
+        "standing outside a door",
+        "looking through the peephole",
+        "wearing a maroon sweater",
+        "closing the door from inside",
+        "kitchen area in background"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 5,
+      "accuracy_score": 6,
+      "false_positive_score": 8,
+      "overall_assessment": "The model identified a visual distortion but missed several other anomalies.",
+      "detected_anomalies": [
+        "geometric_distortion"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "speed_change",
+        "noise_injection",
+        "frame_reversal",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 3,
+      "confidence_appropriateness_score": 4,
+      "calibration_score": 2,
+      "overall_assessment": "The model's response shows significant deviations from the ground truth, indicating low confidence calibration.",
+      "uncertainty_indicators": [
+        "misinterpretation of actions",
+        "incorrect scene description"
+      ],
+      "confidence_indicators": [
+        "specific details about clothing",
+        "description of the setting"
+      ],
+      "calibration_issues": [
+        "failure to recognize key actions",
+        "inaccurate timing of events"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 2,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions.",
+      "hallucinated_elements": [
+        "peephole",
+        "maroon sweater",
+        "kitchen area",
+        "evening lighting"
+      ],
+      "factual_errors": [
+        "standing outside a door",
+        "closing the door from the inside"
+      ],
+      "speculative_content": [
+        "checking for visitors",
+        "ensuring the door is secure"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T08:56:02.959528"
+}

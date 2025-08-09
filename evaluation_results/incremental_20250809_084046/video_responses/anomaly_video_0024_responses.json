@@ -1,0 +1,107 @@
+{
+  "video_name": "anomaly_video_0024.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0024.mp4",
+    "original_video_id": "9SP9P",
+    "original_scene": "Living room",
+    "original_script": "A person sits in a chair while holding a sandwich and starts drinking from a cup.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c059 0.00 33.00;c106 5.70 13.00;c067 0.90 33.00;c110 0.10 33.00;c063 0.40 33.00;c069 0.60 5.70;c107 0.00 33.00;c061 0.90 28.30",
+    "decoded_actions": "c059 0.00 33.00 (Sitting in a chair);c106 5.70 13.00 (Drinking from a cup/glass/bottle);c067 0.90 33.00 (Holding a sandwich);c110 0.10 33.00 (Taking a cup/glass/bottle from somewhere);c063 0.40 33.00 (Taking food from somewhere);c069 0.60 5.70 (Taking a sandwich from somewhere);c107 0.00 33.00 (Holding a cup/glass/bottle of something);c061 0.90 28.30 (Holding some food)",
+    "anomalies_applied": "object_insertion;noise_injection;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_reversal 0.00 31.89;noise_injection 0.74 1.74;color_shift 1.04 2.04;geometric_distortion 1.14 2.14;geometric_distortion 1.31 2.31;object_insertion 1.74 2.74;object_insertion 1.81 2.81;object_insertion 2.15 3.15;color_shift 2.28 3.28;geometric_distortion 2.38 3.38;object_insertion 3.96 4.96;geometric_distortion 4.12 5.12;object_insertion 4.33 5.33;noise_injection 4.49 5.49;geometric_distortion 4.83 5.83;color_shift 5.00 6.00;geometric_distortion 5.03 6.03;geometric_distortion 5.16 6.16;geometric_distortion 5.40 6.40;noise_injection 6.67 7.67;noise_injection 6.87 7.87;object_insertion 7.24 8.24;geometric_distortion 7.28 8.28;object_insertion 7.91 8.91;object_insertion 7.95 8.95;object_insertion 8.22 9.22;color_shift 8.38 9.38;object_insertion 8.72 9.72;color_shift 8.72 9.72;geometric_distortion 8.79 9.79;noise_injection 8.95 9.95;color_shift 9.02 10.02;noise_injection 9.29 10.29;geometric_distortion 9.36 10.36;object_insertion 9.66 10.66;noise_injection 9.89 10.89;noise_injection 10.50 11.50;object_insertion 10.66 11.66;object_insertion 11.10 12.10;object_insertion 11.17 12.17;object_insertion 11.50 12.50;color_shift 11.77 12.77;object_insertion 12.51 13.51;noise_injection 12.64 13.64;noise_injection 13.08 14.08;object_insertion 13.28 14.28;noise_injection 13.75 14.75;noise_injection 14.15 15.15;object_insertion 14.25 15.25;geometric_distortion 14.25 15.25;color_shift 14.79 15.79;noise_injection 14.96 15.96;object_insertion 15.39 16.39;noise_injection 15.49 16.49;object_insertion 15.56 16.56;object_insertion 16.33 17.33;noise_injection 16.53 17.53;color_shift 16.67 17.67;object_insertion 16.77 17.77;geometric_distortion 16.93 17.93;object_insertion 17.14 18.14;noise_injection 17.27 18.27;object_insertion 17.34 18.34;noise_injection 17.34 18.34;object_insertion 17.47 18.47;object_insertion 17.57 18.57;object_insertion 17.77 18.77;object_insertion 17.91 18.91;color_shift 17.91 18.91;object_insertion 18.04 19.04;color_shift 18.48 19.48;object_insertion 18.91 19.91;noise_injection 18.95 19.95;noise_injection 18.98 19.98;noise_injection 19.18 20.18;noise_injection 19.21 20.21;color_shift 19.95 20.95;color_shift 21.29 22.29;noise_injection 21.63 22.63;noise_injection 21.80 22.80;noise_injection 21.83 22.83;color_shift 22.27 23.27;object_insertion 22.50 23.50;object_insertion 22.67 23.67;object_insertion 23.31 24.31;color_shift 23.47 24.47;noise_injection 24.01 25.01;color_shift 24.04 25.04;color_shift 24.21 25.21;color_shift 24.48 25.48;object_insertion 24.85 25.85;object_insertion 24.92 25.92;object_insertion 25.02 26.02;color_shift 25.32 26.32;object_insertion 25.82 26.82;noise_injection 25.95 26.95;geometric_distortion 26.63 27.63;object_insertion 26.69 27.69;object_insertion 27.06 28.06;geometric_distortion 27.06 28.06;noise_injection 27.36 28.36;noise_injection 27.67 28.67;noise_injection 27.73 28.73;noise_injection 27.80 28.80;color_shift 28.07 29.07;geometric_distortion 28.27 29.27;color_shift 28.91 29.91;noise_injection 29.04 30.04;object_insertion 29.14 30.14;object_insertion 29.54 30.54;noise_injection 31.19 32.19;geometric_distortion 31.22 32.22",
+    "anomaly_count": 5
+  },
+  "responses": {
+    "basic_description": "The video shows a man sitting on a white plastic chair indoors, wearing a blue polo shirt and plaid pajama pants. He is holding a smartphone in his hands and appears to be engaged with it, possibly playing a game or watching something. The room has wooden doors and a tiled floor. At one point, the man looks up and to the side, then continues to interact with the phone. The camera angle shifts slightly as he moves, but the setting remains consistent throughout the frames. There is no significant change in the environment or actions of the man between the frames provided.",
+    "anomaly_detection": "In the video, the man appears to be sitting on a chair and is holding a smartphone, seemingly engaged with it. The setting looks like an indoor environment, possibly a home, with wooden doors and a tiled floor visible in the background.\n\nThere doesn't appear to be anything particularly unusual or out of place in the video itself. However, there is a noticeable visual distortion that occurs around the 10-second mark. This distortion seems to affect the image quality, making it appear pixelated or distorted for a brief moment. After this, the video returns to normal, and the man continues his activity without any further interruptions.",
+    "temporal_analysis": "The video appears to be playing normally without any visible signs of reversed playback or shuffled frames. The sequence of events is consistent, and the actions of the person are fluid and coherent. There are no abrupt changes in the video's timeline that suggest temporal issues.",
+    "spatial_analysis": "In the video, the man is sitting on a white plastic chair and appears to be interacting with a handheld device, possibly a phone or a small camera. The room has wooden doors and a tiled floor, which seem typical for an indoor setting.\n\nThere are no objects that appear out of place in this scene. However, there seems to be a visual artifact or distortion in one of the frames where the image becomes pixelated, making it difficult to discern details clearly. This could be due to a sudden change in lighting or a camera malfunction rather than an intentional object placement.",
+    "semantic_analysis": "The video shows a man sitting in a chair, holding and interacting with a smartphone. He appears to be engaged with the device, possibly watching something on the screen or typing. The setting is indoors, with wooden doors visible in the background.\n\nThere are no abrupt or unnatural scene transitions in this short clip. The actions flow smoothly from one moment to the next, indicating a continuous and coherent sequence of events. The man's focus on his phone suggests he might be enjoying media content or communicating with someone. The environment remains consistent throughout the frames, reinforcing the idea of a single, uninterrupted scene.",
+    "confidence_assessment": "I am confident in the description of the image provided. The individual is sitting on a white plastic chair, wearing a blue shirt and plaid pajama pants, holding a smartphone with both hands. They appear to be looking at the phone's screen intently. The background includes wooden doors and a light-colored wall. There are no parts of the description that I am uncertain about based on the visible elements in the image."
+  },
+  "scores": {
+    "content_accuracy": 1.2000000000000002,
+    "anomaly_detection": 5.300000000000001,
+    "confidence_calibration": 2.4,
+    "hallucination": 1.2000000000000002,
+    "overall": 2.5250000000000004
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 1,
+      "accuracy_score": 1,
+      "detail_level_score": 2,
+      "overall_assessment": "The model response does not accurately reflect the content of the video.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "sitting in a chair",
+        "holding a sandwich",
+        "drinking from a cup"
+      ],
+      "incorrect_descriptions": [
+        "holding a smartphone",
+        "wearing a blue polo shirt",
+        "engaged with the phone"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 5,
+      "accuracy_score": 4,
+      "false_positive_score": 8,
+      "overall_assessment": "The model detected some visual distortion but missed several key anomalies.",
+      "detected_anomalies": [
+        "geometric_distortion"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "frame_reversal",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 2,
+      "confidence_appropriateness_score": 3,
+      "calibration_score": 2,
+      "overall_assessment": "The model fails to recognize key actions and context, leading to low confidence calibration.",
+      "uncertainty_indicators": [
+        "misidentification of actions",
+        "lack of context awareness"
+      ],
+      "confidence_indicators": [
+        "overconfidence in irrelevant details",
+        "inaccurate scene description"
+      ],
+      "calibration_issues": [
+        "failure to align with ground truth actions",
+        "inconsistent interpretation of scene elements"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 9,
+      "factual_accuracy_score": 1,
+      "speculation_control_score": 2,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies.",
+      "hallucinated_elements": [
+        "smartphone",
+        "blue polo shirt",
+        "plaid pajama pants",
+        "wooden doors",
+        "tiled floor"
+      ],
+      "factual_errors": [
+        "sitting in a chair",
+        "holding a sandwich",
+        "drinking from a cup"
+      ],
+      "speculative_content": [
+        "engaged with it",
+        "possibly playing a game or watching something"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T09:01:36.616453"
+}

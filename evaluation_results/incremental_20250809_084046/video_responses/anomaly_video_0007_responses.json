@@ -1,0 +1,108 @@
+{
+  "video_name": "anomaly_video_0007.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0007.mp4",
+    "original_video_id": "8NSDT",
+    "original_scene": "Entryway (A hall that is generally located at the entrance of a house)",
+    "original_script": "A person stands in their entryway, holding a camera. The person sets the camera down, then walks to a nearby table where they pick up some food.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c009 6.40 12.40;c015 0.00 11.90;c017 4.80 12.20;c061 15.50 21.50;c065 15.30 32.00;c097 0.00 3.40",
+    "decoded_actions": "c009 6.40 12.40 (Putting something on a table);c015 0.00 11.90 (Holding a phone/camera);c017 4.80 12.20 (Putting a phone/camera somewhere);c061 15.50 21.50 (Holding some food);c065 15.30 32.00 (Eating a sandwich);c097 0.00 3.40 (Walking through a doorway)",
+    "anomalies_applied": "object_insertion;speed_change;noise_injection;geometric_distortion;color_shift",
+    "anomaly_timestamps": "speed_change 0.00 30.93;color_shift 0.17 1.17;object_insertion 0.53 1.53;color_shift 0.57 1.57;noise_injection 0.67 1.67;object_insertion 1.20 2.20;color_shift 1.40 2.40;noise_injection 1.40 2.40;geometric_distortion 1.53 2.53;object_insertion 1.73 2.73;noise_injection 2.03 3.03;noise_injection 2.23 3.23;color_shift 2.50 3.50;object_insertion 2.67 3.67;object_insertion 2.77 3.77;color_shift 3.17 4.17;noise_injection 3.20 4.20;geometric_distortion 3.27 4.27;object_insertion 3.37 4.37;noise_injection 3.57 4.57;color_shift 3.83 4.83;noise_injection 4.23 5.23;object_insertion 4.50 5.50;noise_injection 4.67 5.67;color_shift 5.10 6.10;object_insertion 5.30 6.30;noise_injection 5.30 6.30;color_shift 5.83 6.83;noise_injection 6.10 7.10;object_insertion 6.43 7.43;noise_injection 6.63 7.63;object_insertion 7.23 8.23;geometric_distortion 7.23 8.23;color_shift 7.63 8.63;object_insertion 7.90 8.90;color_shift 7.97 8.97;color_shift 8.10 9.10;color_shift 8.33 9.33;color_shift 8.77 9.77;color_shift 9.00 10.00;color_shift 9.17 10.17;noise_injection 9.97 10.97;noise_injection 10.03 11.03;color_shift 10.07 11.07;color_shift 10.73 11.73;noise_injection 10.77 11.77;color_shift 11.03 12.03;color_shift 11.07 12.07;object_insertion 11.33 12.33;object_insertion 11.50 12.50;geometric_distortion 11.90 12.90;geometric_distortion 12.27 13.27;geometric_distortion 12.40 13.40;noise_injection 12.73 13.73;color_shift 13.20 14.20;noise_injection 13.73 14.73;geometric_distortion 14.00 15.00;color_shift 14.13 15.13;object_insertion 14.80 15.80;noise_injection 14.80 15.80;noise_injection 15.00 16.00;color_shift 15.30 16.30;object_insertion 15.40 16.40",
+    "anomaly_count": 5
+  },
+  "responses": {
+    "basic_description": "The video begins with a man walking through a doorway into a room. He is wearing a teal t-shirt and dark pants, and he appears to be holding something small in his hands, possibly a phone or a small device. As he enters the room, he bends down slightly, possibly to pick something up from the floor or to adjust something on a table.\n\nThe room has a wooden floor and is furnished with various items, including a desk with a laptop, some shelves filled with books and decorative objects, and a chair. The man seems to be engaged in an activity at the desk, possibly working on the laptop or organizing items on the desk. He moves around the room, bending over and reaching for different objects, indicating that he is focused on a task.\n\nThroughout the video, the man's movements suggest he is actively involved in some form of work or study, as he interacts with the items on the desk and the surrounding area. The setting appears to be a home office or study area, given the presence of the desk, laptop, and personal items on the shelves.",
+    "anomaly_detection": "In the video, the man appears to be walking through a hallway and then bends down to pick up an object from a table. The scene seems normal until he picks up what looks like a large, irregularly shaped object that resembles a piece of clothing or fabric. This object is disproportionately large compared to the man's body, which could be considered unusual. Additionally, the object has a bright pink square on it, which might be an anomaly as it doesn't appear to be part of the object itself but rather added digitally or through a filter. There are no other obvious visual distortions or anomalies in the rest of the video.",
+    "temporal_analysis": "The video appears to be playing in normal forward motion without any signs of reversed playback or shuffled frames. The sequence of events is clear, with the man entering the room and then moving towards the desk where he interacts with objects. There are no abrupt changes in the video's timeline that suggest temporal issues.",
+    "spatial_analysis": "In the video, the man is seen entering a room and interacting with various objects. The scene appears to be set in a home environment, with furniture like a desk and shelves filled with items such as books, decorative objects, and possibly some personal belongings.\n\n1. **Objects in Scene**: \n   - The man is holding what looks like a phone or a small electronic device.\n   - He places an object on the desk, which seems to be a laptop or a similar device.\n   - There are no obvious objects that seem out of place in this domestic setting.\n\n2. **Color Distortions or Visual Artifacts**:\n   - The video quality appears to be somewhat low, with some motion blur, especially noticeable when the man moves quickly.\n   - There is a noticeable pink square in one of the frames, which might be an artifact from the video editing software or a glitch during recording.\n   - The lighting in the room is natural, coming from outside, and it seems consistent throughout the video without any significant color distortions.\n\nOverall, the scene depicts a normal activity within a home, and while there are minor issues with video quality, they do not significantly detract from understanding the context of the video.",
+    "semantic_analysis": "The sequence of events in the video appears to be logical and follows a natural progression. The man enters through a doorway, walks down a hallway, and then bends over at a desk to interact with something on it. There are no abrupt or unnatural scene transitions; each action flows smoothly into the next. The setting remains consistent throughout the video, indicating a continuous indoor environment.",
+    "confidence_assessment": "I am confident in my description of the video based on the provided frames. The sequence shows a person entering a room, moving towards a desk, and interacting with objects on it. There are no parts that seem uncertain or ambiguous from the given frames. If you have more specific questions or need further details, feel free to ask!"
+  },
+  "scores": {
+    "content_accuracy": 2.8,
+    "anomaly_detection": 5.4,
+    "confidence_calibration": 3.2,
+    "hallucination": 2.3,
+    "overall": 3.425
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 3,
+      "accuracy_score": 2,
+      "detail_level_score": 4,
+      "overall_assessment": "The model response inaccurately describes the scene and actions.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "entryway",
+        "holding a camera",
+        "picking up food"
+      ],
+      "incorrect_descriptions": [
+        "home office",
+        "working on a laptop",
+        "bending down to pick something up"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 4,
+      "accuracy_score": 6,
+      "false_positive_score": 8,
+      "overall_assessment": "The model identified some anomalies but missed key ones and included a false positive.",
+      "detected_anomalies": [
+        "large irregularly shaped object",
+        "bright pink square"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "speed_change",
+        "noise_injection",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 3,
+      "confidence_appropriateness_score": 4,
+      "calibration_score": 2,
+      "overall_assessment": "The model shows low recognition of uncertainty and inappropriate confidence in its descriptions, leading to significant calibration issues.",
+      "uncertainty_indicators": [
+        "misidentification of objects",
+        "lack of clarity in actions"
+      ],
+      "confidence_indicators": [
+        "assertive descriptions",
+        "detailed scene analysis"
+      ],
+      "calibration_issues": [
+        "inaccurate action timing",
+        "failure to recognize anomalies"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 3,
+      "speculation_control_score": 2,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions.",
+      "hallucinated_elements": [
+        "man wearing a teal t-shirt",
+        "home office or study area",
+        "desk with a laptop"
+      ],
+      "factual_errors": [
+        "man walking through a doorway",
+        "bending down to pick something up",
+        "interacting with items on the desk"
+      ],
+      "speculative_content": [
+        "possibly a phone or a small device",
+        "engaged in an activity at the desk",
+        "focused on a task"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T08:47:21.836269"
+}

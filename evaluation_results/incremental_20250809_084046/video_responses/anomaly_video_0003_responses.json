@@ -1,0 +1,107 @@
+{
+  "video_name": "anomaly_video_0003.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0003.mp4",
+    "original_video_id": "3D0WV",
+    "original_scene": "Bathroom",
+    "original_script": "A person is working on a sink, then laughing as he grabs the doorknob.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c141 17.30 31.00;c149 17.70 30.40",
+    "decoded_actions": "c141 17.30 31.00 (Grasping onto a doorknob);c149 17.70 30.40 (Someone is laughing)",
+    "anomalies_applied": "object_insertion;noise_injection;frame_shuffling;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_shuffling 0.00 3.03;frame_shuffling 3.03 6.07;frame_shuffling 6.07 9.10;frame_shuffling 9.10 12.13;frame_shuffling 12.13 15.17;frame_shuffling 15.17 18.20;frame_shuffling 18.20 21.23;frame_shuffling 21.23 24.27;frame_shuffling 24.27 27.30;frame_shuffling 27.30 30.33;frame_shuffling 30.33 30.37;noise_injection 0.43 1.43;object_insertion 0.47 1.47;color_shift 0.63 1.63;noise_injection 0.70 1.70;noise_injection 0.77 1.77;noise_injection 1.20 2.20;color_shift 2.17 3.17;object_insertion 2.40 3.40;object_insertion 2.43 3.43;object_insertion 2.50 3.50;object_insertion 2.73 3.73;object_insertion 3.17 4.17;noise_injection 3.17 4.17;noise_injection 3.27 4.27;geometric_distortion 3.33 4.33;noise_injection 3.50 4.50;color_shift 3.60 4.60;object_insertion 3.67 4.67;noise_injection 4.07 5.07;object_insertion 4.20 5.20;object_insertion 4.93 5.93;geometric_distortion 5.33 6.33;object_insertion 5.83 6.83;object_insertion 6.93 7.93;noise_injection 7.00 8.00;noise_injection 7.43 8.43;color_shift 7.90 8.90;geometric_distortion 8.10 9.10;noise_injection 8.47 9.47;noise_injection 8.90 9.90;object_insertion 9.00 10.00;color_shift 9.23 10.23;color_shift 9.40 10.40;object_insertion 9.57 10.57;color_shift 10.40 11.40;color_shift 10.80 11.80;object_insertion 10.83 11.83;object_insertion 10.87 11.87;noise_injection 11.07 12.07;object_insertion 11.30 12.30;object_insertion 12.30 13.30;object_insertion 12.33 13.33;geometric_distortion 13.30 14.30;color_shift 13.33 14.33;noise_injection 13.33 14.33;object_insertion 13.43 14.43;geometric_distortion 13.70 14.70;geometric_distortion 13.90 14.90;object_insertion 14.03 15.03;color_shift 14.20 15.20;geometric_distortion 14.47 15.47;noise_injection 14.80 15.80;color_shift 15.03 16.03;noise_injection 15.07 16.07;object_insertion 15.27 16.27;noise_injection 15.50 16.50;geometric_distortion 15.67 16.67;geometric_distortion 15.83 16.83;noise_injection 15.87 16.87;noise_injection 16.00 17.00;object_insertion 16.40 17.40;object_insertion 16.90 17.90;object_insertion 16.93 17.93;color_shift 16.97 17.97;geometric_distortion 17.03 18.03;noise_injection 17.07 18.07;color_shift 17.80 18.80;noise_injection 17.83 18.83;object_insertion 18.50 19.50;object_insertion 18.57 19.57;object_insertion 18.70 19.70;noise_injection 18.93 19.93;noise_injection 19.23 20.23;object_insertion 19.77 20.77;color_shift 20.63 21.63;object_insertion 20.77 21.77;noise_injection 20.97 21.97;geometric_distortion 21.00 22.00;geometric_distortion 21.83 22.83;object_insertion 22.10 23.10;color_shift 22.20 23.20;object_insertion 22.27 23.27;geometric_distortion 22.37 23.37;object_insertion 22.40 23.40;object_insertion 22.70 23.70;object_insertion 22.73 23.73;object_insertion 22.90 23.90;object_insertion 23.20 24.20;geometric_distortion 23.50 24.50;object_insertion 23.57 24.57;color_shift 23.83 24.83;geometric_distortion 23.87 24.87;noise_injection 24.20 25.20;noise_injection 25.17 26.17;color_shift 25.37 26.37;object_insertion 25.43 26.43;color_shift 25.50 26.50;color_shift 25.53 26.53;object_insertion 26.07 27.07;color_shift 26.47 27.47;color_shift 26.93 27.93;object_insertion 27.27 28.27;noise_injection 27.33 28.33;object_insertion 27.50 28.50;geometric_distortion 27.50 28.50;noise_injection 28.47 29.47;color_shift 28.77 29.77;object_insertion 28.80 29.80;object_insertion 29.30 30.30;object_insertion 29.70 30.70;object_insertion 29.83 30.83;geometric_distortion 29.87 30.87;object_insertion 30.00 31.00",
+    "anomaly_count": 5
+  },
+  "responses": {
+    "basic_description": "In the video, a person is seen in a bathroom, engaging in a series of actions. The individual, wearing a dark t-shirt and a beanie, is initially bent over at the sink, appearing to wash their hands or face. The bathroom is well-lit with a mirror above the sink reflecting part of the room. There are towels hanging on the wall, and a picture frame is visible on the wall near the mirror.\n\nAfter washing, the person stands up straight and moves towards the door, opening it slightly as if preparing to exit the bathroom. The person then turns back towards the camera, possibly adjusting something on their clothing or hair, before the video ends. The overall setting suggests a casual, everyday activity within a home environment.",
+    "anomaly_detection": "In the video, the person appears to be washing their hands at a sink in a bathroom. The scene is typical and does not exhibit any obvious visual distortions or anomalies. The lighting is consistent, and the actions performed by the individual are normal for such an environment. There are no sudden movements or changes that suggest something unusual or out of place. The setting looks like a standard residential bathroom with a mirror, towels, and a sink.",
+    "temporal_analysis": "The video appears to be playing normally without any visible signs of reversed playback or shuffled frames. The actions of the person washing their hands and then moving towards the door seem to follow a logical sequence, indicating that the video is not experiencing any temporal issues.",
+    "spatial_analysis": "In the video, the person appears to be washing their hands at a sink in a bathroom. The environment looks like a typical bathroom setup with a mirror, a towel rack, and some toiletries on the counter. There are no objects that appear out of place in this scene.\n\nRegarding color distortions or visual artifacts, the video seems to have a slight foggy or hazy effect, which could be due to the lighting conditions or the quality of the camera used to record the footage. However, it does not seem to obscure the main actions taking place in the scene.",
+    "semantic_analysis": "The sequence of events in the video appears to be logical and natural. The person is initially seen washing their hands at the sink, which is a common activity in a bathroom setting. After washing their hands, they stand up straight and walk towards the door, indicating they might be preparing to leave the bathroom. There are no abrupt or unnatural scene transitions; the actions flow smoothly from one to the next, suggesting a typical routine.",
+    "confidence_assessment": "The video shows a person in a bathroom, washing their hands at the sink. They are wearing a dark t-shirt and a beanie. After washing their hands, they turn off the faucet and dry their hands with a towel. The bathroom has a mirror above the sink, a light fixture, and some towels hanging on the wall. There is also a framed picture on the wall.\n\nYour description seems clear and accurate based on the visible actions and environment in the video. If you have any specific questions or need further clarification, feel free to ask!"
+  },
+  "scores": {
+    "content_accuracy": 5.800000000000001,
+    "anomaly_detection": 3.2,
+    "confidence_calibration": 5.0,
+    "hallucination": 3.8,
+    "overall": 4.45
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 6,
+      "accuracy_score": 5,
+      "detail_level_score": 7,
+      "overall_assessment": "The model's description captures some elements of the scene but misses key actions and includes inaccuracies.",
+      "correctly_described_elements": [
+        "bathroom",
+        "person engaging in actions"
+      ],
+      "missing_elements": [
+        "grasping onto a doorknob",
+        "laughing"
+      ],
+      "incorrect_descriptions": [
+        "washing hands or face",
+        "adjusting something on clothing or hair"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 0,
+      "accuracy_score": 4,
+      "false_positive_score": 10,
+      "overall_assessment": "The model failed to detect any anomalies present in the video.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "frame_shuffling",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 6,
+      "calibration_score": 5,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks precision in identifying key actions.",
+      "uncertainty_indicators": [
+        "vague description of actions",
+        "lack of specific details on anomalies"
+      ],
+      "confidence_indicators": [
+        "detailed scene description",
+        "contextual understanding of the environment"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "overconfidence in scene interpretation"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 5,
+      "speculation_control_score": 4,
+      "overall_assessment": "The model introduces significant hallucinations and speculative elements not present in the ground truth.",
+      "hallucinated_elements": [
+        "dark t-shirt",
+        "beanie",
+        "mirror",
+        "towels",
+        "picture frame"
+      ],
+      "factual_errors": [
+        "washing hands or face",
+        "moving towards the door",
+        "adjusting clothing or hair"
+      ],
+      "speculative_content": [
+        "casual, everyday activity",
+        "home environment"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T08:44:09.986326"
+}

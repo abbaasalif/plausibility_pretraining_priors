@@ -1,0 +1,115 @@
+{
+  "video_name": "anomaly_video_0025.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0025.mp4",
+    "original_video_id": "6HHCU",
+    "original_scene": "Stairs",
+    "original_script": "One person walks up the stairs and takes a picture from a small table. Another person is smiling on the phone.",
+    "combined_video_id": "OLH8O",
+    "combined_script": "A person is grasping a doorknob while another person is snuggling with a vacuum.",
+    "original_actions": "c015 0.00 31.00;c087 10.80 17.30;c152 11.90 17.40;c154 12.00 17.90;c016 9.00 31.00;c154 8.80 31.00;c087 10.40 31.00",
+    "decoded_actions": "c015 0.00 31.00 (Holding a phone/camera);c087 10.80 17.30 (Taking a picture of something);c152 11.90 17.40 (Someone is smiling);c154 12.00 17.90 (Someone is standing up from somewhere);c016 9.00 31.00 (Playing with a phone/camera);c154 8.80 31.00 (Someone is standing up from somewhere);c087 10.40 31.00 (Taking a picture of something)",
+    "anomalies_applied": "object_insertion;combined_videos_6HHCU_OLH8O;speed_change;combined_scenes_Stairs_Hallway;frame_shuffling;noise_injection;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "scene_mixing 30.50 60.63;video_combination 0.00 60.63;frame_reversal 0.00 60.63;frame_shuffling 0.00 6.03;frame_shuffling 6.03 12.07;frame_shuffling 12.07 18.10;frame_shuffling 18.10 24.13;frame_shuffling 24.13 30.17;frame_shuffling 30.17 36.20;frame_shuffling 36.20 42.23;frame_shuffling 42.23 48.27;frame_shuffling 48.27 54.30;frame_shuffling 54.30 60.33;frame_shuffling 60.33 60.63;speed_change 0.00 60.63;object_insertion 0.17 1.17;color_shift 0.23 1.23;object_insertion 0.57 1.57;object_insertion 0.80 1.80;color_shift 0.93 1.93;noise_injection 1.10 2.10;noise_injection 1.77 2.77;noise_injection 1.83 2.83;noise_injection 1.97 2.97;color_shift 2.30 3.30;geometric_distortion 2.47 3.47;color_shift 2.57 3.57;object_insertion 2.87 3.87;color_shift 2.87 3.87;geometric_distortion 3.10 4.10;geometric_distortion 3.23 4.23;object_insertion 3.27 4.27;color_shift 4.63 5.63;noise_injection 4.80 5.80;color_shift 4.90 5.90;geometric_distortion 6.03 7.03;noise_injection 7.13 8.13;geometric_distortion 7.23 8.23;noise_injection 8.00 9.00;noise_injection 8.03 9.03;object_insertion 8.17 9.17;object_insertion 8.33 9.33;object_insertion 8.43 9.43;object_insertion 8.57 9.57;object_insertion 9.00 10.00;noise_injection 9.47 10.47;color_shift 9.93 10.93;noise_injection 10.03 11.03;geometric_distortion 10.73 11.73;object_insertion 11.27 12.27;object_insertion 11.70 12.70;object_insertion 11.77 12.77;color_shift 11.93 12.93;color_shift 12.13 13.13;color_shift 12.23 13.23;object_insertion 12.53 13.53;color_shift 12.90 13.90;color_shift 12.93 13.93;geometric_distortion 13.07 14.07;object_insertion 13.30 14.30;object_insertion 13.50 14.50;noise_injection 13.70 14.70;noise_injection 14.07 15.07;object_insertion 14.10 15.10;object_insertion 14.37 15.37;color_shift 14.57 15.57;geometric_distortion 15.40 16.40;object_insertion 15.70 16.70;color_shift 15.83 16.83;noise_injection 16.03 17.03;geometric_distortion 17.37 18.37;object_insertion 17.40 18.40;object_insertion 17.57 18.57;noise_injection 17.63 18.63;color_shift 18.00 19.00;geometric_distortion 18.00 19.00;object_insertion 18.23 19.23;geometric_distortion 18.40 19.40;object_insertion 18.93 19.93;color_shift 19.17 20.17;object_insertion 19.43 20.43;object_insertion 20.40 21.40;geometric_distortion 21.30 22.30;object_insertion 22.13 23.13;object_insertion 22.27 23.27;noise_injection 22.27 23.27;object_insertion 22.33 23.33;noise_injection 22.60 23.60;color_shift 23.77 24.77;geometric_distortion 24.20 25.20;object_insertion 24.27 25.27;object_insertion 24.63 25.63;color_shift 24.80 25.80;geometric_distortion 25.70 26.70;color_shift 25.90 26.90;color_shift 26.57 27.57;geometric_distortion 26.57 27.57;noise_injection 27.30 28.30;color_shift 27.40 28.40;object_insertion 27.47 28.47;color_shift 27.57 28.57;object_insertion 27.80 28.80;noise_injection 27.87 28.87;object_insertion 28.03 29.03;object_insertion 28.10 29.10;color_shift 28.70 29.70;object_insertion 28.93 29.93;geometric_distortion 29.07 30.07;object_insertion 30.00 31.00;object_insertion 30.20 31.20;color_shift 30.30 31.30;geometric_distortion 30.33 31.33;geometric_distortion 31.23 32.23;color_shift 31.80 32.80;noise_injection 31.87 32.87;noise_injection 32.13 33.13;color_shift 32.90 33.90;object_insertion 33.00 34.00;geometric_distortion 33.23 34.23;noise_injection 33.30 34.30;geometric_distortion 33.57 34.57;geometric_distortion 33.90 34.90;noise_injection 33.93 34.93;noise_injection 34.43 35.43;noise_injection 34.80 35.80;noise_injection 35.30 36.30;object_insertion 35.57 36.57;noise_injection 36.23 37.23;object_insertion 36.90 37.90;color_shift 37.33 38.33;noise_injection 38.00 39.00;noise_injection 38.07 39.07;color_shift 38.23 39.23;geometric_distortion 38.23 39.23;noise_injection 38.37 39.37;color_shift 38.93 39.93;color_shift 39.00 40.00;geometric_distortion 39.43 40.43;color_shift 39.60 40.60;color_shift 39.97 40.97;noise_injection 40.90 41.90;object_insertion 41.50 42.50;color_shift 41.67 42.67;object_insertion 41.83 42.83;object_insertion 41.97 42.97;noise_injection 42.20 43.20;noise_injection 42.40 43.40;color_shift 42.43 43.43;geometric_distortion 42.47 43.47;color_shift 42.60 43.60;color_shift 42.90 43.90;geometric_distortion 43.07 44.07;geometric_distortion 43.17 44.17;color_shift 43.53 44.53;color_shift 43.80 44.80;object_insertion 44.00 45.00;noise_injection 44.30 45.30;noise_injection 44.33 45.33;color_shift 45.37 46.37;noise_injection 45.43 46.43;object_insertion 45.77 46.77;color_shift 45.90 46.90;noise_injection 45.93 46.93;color_shift 46.03 47.03;noise_injection 46.27 47.27;color_shift 46.60 47.60;geometric_distortion 46.87 47.87;color_shift 46.97 47.97;geometric_distortion 46.97 47.97;color_shift 47.00 48.00;object_insertion 47.23 48.23;object_insertion 47.97 48.97;color_shift 48.40 49.40;object_insertion 48.43 49.43;object_insertion 48.47 49.47;noise_injection 48.47 49.47;noise_injection 48.50 49.50;geometric_distortion 48.70 49.70;geometric_distortion 48.90 49.90;geometric_distortion 49.07 50.07;object_insertion 49.10 50.10;geometric_distortion 49.77 50.77;geometric_distortion 50.20 51.20;noise_injection 50.57 51.57;object_insertion 51.03 52.03;noise_injection 51.03 52.03;geometric_distortion 51.07 52.07;object_insertion 51.70 52.70;noise_injection 51.93 52.93;object_insertion 52.00 53.00;object_insertion 52.90 53.90;color_shift 52.90 53.90;noise_injection 52.90 53.90;color_shift 53.17 54.17;geometric_distortion 53.83 54.83;color_shift 54.03 55.03;color_shift 54.23 55.23;geometric_distortion 54.87 55.87;color_shift 54.90 55.90;color_shift 55.30 56.30;object_insertion 55.37 56.37;color_shift 55.43 56.43;color_shift 55.63 56.63;geometric_distortion 55.90 56.90;color_shift 56.03 57.03;color_shift 56.67 57.67;geometric_distortion 56.83 57.83;noise_injection 56.93 57.93;noise_injection 57.13 58.13;color_shift 57.43 58.43;object_insertion 57.77 58.77;object_insertion 58.00 59.00;object_insertion 58.27 59.27;object_insertion 58.30 59.30;noise_injection 58.40 59.40;color_shift 58.53 59.53;noise_injection 58.80 59.80;color_shift 59.00 60.00;color_shift 59.03 60.03;geometric_distortion 59.70 60.70;color_shift 60.07 61.07;object_insertion 60.47 61.47;color_shift 60.50 61.50;object_insertion 60.93 61.93;color_shift 61.30 62.30;noise_injection 61.43 62.43;object_insertion 61.60 62.60;geometric_distortion 61.80 62.80;geometric_distortion 62.33 63.33;geometric_distortion 62.73 63.73;color_shift 63.20 64.20;object_insertion 63.30 64.30;geometric_distortion 63.33 64.33;geometric_distortion 64.37 65.37;color_shift 64.43 65.43;object_insertion 64.57 65.57;object_insertion 64.83 65.83;object_insertion 65.50 66.50;noise_injection 66.03 67.03;color_shift 66.20 67.20;color_shift 66.37 67.37;color_shift 66.53 67.53;object_insertion 66.90 67.90;noise_injection 66.90 67.90;object_insertion 67.20 68.20;color_shift 67.57 68.57;object_insertion 67.70 68.70;geometric_distortion 68.07 69.07;noise_injection 68.17 69.17;object_insertion 68.37 69.37;geometric_distortion 68.77 69.77;noise_injection 68.87 69.87;noise_injection 69.07 70.07;color_shift 69.13 70.13;geometric_distortion 69.17 70.17;object_insertion 69.93 70.93;geometric_distortion 70.03 71.03;object_insertion 70.37 71.37;noise_injection 70.63 71.63;noise_injection 71.37 72.37;noise_injection 71.63 72.63;object_insertion 72.30 73.30;object_insertion 72.57 73.57;noise_injection 72.57 73.57;object_insertion 72.83 73.83;color_shift 72.83 73.83;noise_injection 73.10 74.10;object_insertion 73.27 74.27;color_shift 73.50 74.50;color_shift 74.23 75.23;geometric_distortion 74.37 75.37;object_insertion 74.50 75.50;color_shift 74.83 75.83;color_shift 75.87 76.87;color_shift 76.53 77.53;geometric_distortion 76.60 77.60;geometric_distortion 77.33 78.33;geometric_distortion 77.43 78.43;color_shift 77.50 78.50;geometric_distortion 77.53 78.53;noise_injection 77.67 78.67;color_shift 77.70 78.70;color_shift 77.87 78.87;object_insertion 79.10 80.10;color_shift 79.37 80.37;object_insertion 79.57 80.57;color_shift 79.77 80.77;noise_injection 79.97 80.97;noise_injection 80.30 81.30;noise_injection 80.47 81.47;object_insertion 80.50 81.50;geometric_distortion 80.73 81.73;geometric_distortion 80.90 81.90;object_insertion 80.97 81.97;color_shift 82.07 83.07;object_insertion 82.13 83.13;object_insertion 82.23 83.23;noise_injection 82.27 83.27;noise_injection 82.37 83.37;color_shift 83.53 84.53;object_insertion 83.70 84.70;noise_injection 83.80 84.80;noise_injection 83.87 84.87;noise_injection 84.07 85.07;object_insertion 84.27 85.27;color_shift 84.47 85.47;color_shift 84.50 85.50;color_shift 84.53 85.53;noise_injection 84.70 85.70;object_insertion 84.87 85.87;color_shift 84.93 85.93;object_insertion 85.23 86.23;geometric_distortion 85.23 86.23;noise_injection 85.83 86.83;object_insertion 86.73 87.73;noise_injection 86.73 87.73;noise_injection 86.80 87.80;noise_injection 87.20 88.20;geometric_distortion 87.43 88.43;object_insertion 88.20 89.20;geometric_distortion 88.43 89.43;object_insertion 88.50 89.50;geometric_distortion 88.83 89.83;object_insertion 88.87 89.87;color_shift 89.17 90.17;object_insertion 89.30 90.30;geometric_distortion 89.40 90.40;object_insertion 89.57 90.57;object_insertion 89.77 90.77;geometric_distortion 89.77 90.77;geometric_distortion 89.87 90.87;noise_injection 90.17 91.17;noise_injection 90.27 91.27;noise_injection 90.60 91.60;geometric_distortion 90.67 91.67;object_insertion 91.03 92.03;noise_injection 91.20 92.20;object_insertion 91.93 92.93;noise_injection 92.20 93.20;color_shift 92.57 93.57;noise_injection 92.87 93.87;geometric_distortion 93.07 94.07;noise_injection 93.27 94.27;object_insertion 93.47 94.47;object_insertion 93.57 94.57;noise_injection 94.03 95.03;noise_injection 94.27 95.27;color_shift 94.50 95.50;noise_injection 94.63 95.63;color_shift 94.87 95.87;geometric_distortion 95.70 96.70;object_insertion 95.87 96.87;object_insertion 96.20 97.20;geometric_distortion 96.67 97.67;geometric_distortion 96.87 97.87;noise_injection 96.97 97.97;noise_injection 97.17 98.17;object_insertion 97.30 98.30;noise_injection 97.37 98.37;color_shift 97.80 98.80;object_insertion 97.97 98.97;object_insertion 98.27 99.27;noise_injection 99.47 100.47;object_insertion 99.53 100.53;geometric_distortion 99.67 100.67;object_insertion 100.00 101.00;object_insertion 100.07 101.07;noise_injection 100.10 101.10;color_shift 100.43 101.43;color_shift 101.10 102.10;geometric_distortion 101.40 102.40;color_shift 101.57 102.57;color_shift 101.67 102.67;noise_injection 101.77 102.77;object_insertion 101.80 102.80;geometric_distortion 102.17 103.17;color_shift 102.23 103.23;geometric_distortion 102.23 103.23;geometric_distortion 102.30 103.30;object_insertion 102.93 103.93;color_shift 103.13 104.13;geometric_distortion 103.47 104.47;color_shift 103.50 104.50;geometric_distortion 103.97 104.97;color_shift 104.67 105.67;color_shift 104.77 105.77;geometric_distortion 105.20 106.20;noise_injection 105.50 106.50;noise_injection 106.13 107.13;color_shift 106.27 107.27;geometric_distortion 106.57 107.57;geometric_distortion 107.00 108.00;geometric_distortion 107.03 108.03;object_insertion 107.10 108.10;object_insertion 107.43 108.43;object_insertion 107.47 108.47;object_insertion 107.50 108.50;object_insertion 107.60 108.60;object_insertion 107.67 108.67;geometric_distortion 107.67 108.67;object_insertion 107.70 108.70;noise_injection 108.10 109.10;object_insertion 108.47 109.47;color_shift 108.83 109.83;object_insertion 109.13 110.13;geometric_distortion 109.43 110.43;color_shift 109.50 110.50;color_shift 110.07 111.07;object_insertion 110.10 111.10;object_insertion 110.87 111.87;object_insertion 110.90 111.90;color_shift 111.03 112.03;object_insertion 111.10 112.10;noise_injection 111.37 112.37;object_insertion 111.50 112.50;color_shift 111.53 112.53;noise_injection 111.53 112.53;noise_injection 111.83 112.83;color_shift 112.47 113.47;object_insertion 112.53 113.53;color_shift 112.57 113.57;geometric_distortion 112.87 113.87;color_shift 113.20 114.20;color_shift 113.27 114.27;object_insertion 113.77 114.77;color_shift 113.90 114.90;color_shift 114.07 115.07;object_insertion 114.10 115.10;color_shift 114.17 115.17;color_shift 114.57 115.57;geometric_distortion 115.00 116.00;noise_injection 115.43 116.43;object_insertion 115.87 116.87;color_shift 116.07 117.07;geometric_distortion 116.60 117.60;noise_injection 116.90 117.90;color_shift 117.03 118.03;geometric_distortion 117.17 118.17;noise_injection 117.40 118.40;object_insertion 117.47 118.47;object_insertion 117.70 118.70;noise_injection 117.73 118.73;object_insertion 118.17 119.17;noise_injection 118.33 119.33;noise_injection 118.47 119.47;object_insertion 118.60 119.60;noise_injection 118.83 119.83;noise_injection 119.10 120.10;object_insertion 119.57 120.57;object_insertion 119.63 120.63;noise_injection 119.83 120.83;color_shift 119.97 120.97;noise_injection 120.00 121.00;noise_injection 120.60 121.60;object_insertion 120.70 121.70;noise_injection 120.87 121.87;geometric_distortion 121.10 122.10",
+    "anomaly_count": 9
+  },
+  "responses": {
+    "basic_description": "The video depicts two individuals inside a room with blue curtains and a staircase leading to an upper level. The person on the left, dressed in a pink checkered shirt and beige pants, is holding a camera and appears to be taking photos or videos of the other individual standing on the stairs. This second person, wearing a light purple shirt and beige pants, stands still, occasionally shifting their weight from one foot to the other.\n\nAs the video progresses, the person with the camera moves closer to the stairs, adjusting their position to get better angles for the shots. They then kneel down, continuing to capture images or videos. The person on the stairs remains stationary throughout, maintaining a composed posture.\n\nThe setting includes a staircase with black steps and a white wall, along with some furniture visible in the background, such as a chair and a small shelf. The overall atmosphere suggests a casual, indoor environment where the primary activity is photography or videography.",
+    "anomaly_detection": "In the video, the scene appears to be set indoors with two individuals interacting on a staircase. The person in the pink checkered shirt is holding a camera and seems to be taking photos or videos of the other individual who is standing on the stairs. There doesn't appear to be anything unusual or out of place in terms of the setting or actions of the individuals.\n\nHowever, there is a noticeable visual anomaly in the video where the image quality fluctuates. At certain points, the video becomes pixelated or distorted, which could be due to various factors such as camera shake, low lighting conditions, or a sudden change in the camera's focus or exposure settings. This distortion disrupts the clarity of the video momentarily but does not seem to affect the overall narrative or interaction between the two individuals.",
+    "temporal_analysis": "The video appears to be playing in normal forward motion, as the actions of the individuals and the camera movement suggest a continuous sequence without any indication of reversed playback or shuffled frames. The transitions between scenes seem smooth, and the actions of the men are consistent with what would be expected from a normal recording.",
+    "spatial_analysis": "In the video, there is no clear indication of objects that do not belong in the scene. The setting appears to be a typical indoor environment with stairs, curtains, and some furniture like a table and chairs.\n\nRegarding color distortions or visual artifacts, the video quality seems to fluctuate slightly, which might cause minor color shifts or pixelation at times. However, these issues do not significantly detract from the overall understanding of the scene. The colors appear natural, and the visual content is clear enough to discern the actions and interactions between the individuals.",
+    "semantic_analysis": "The sequence of events in the video appears to be logical and follows a natural progression. The man in the pink shirt is taking photos of the other man, who is standing on the stairs. There are no abrupt or unnatural scene transitions; instead, the camera movement seems to follow the action smoothly as it pans down to show the man in the pink shirt walking up the stairs. The transition from the initial scene to the man walking up the stairs is seamless, maintaining the flow of the activity without any sudden changes in context or setting.",
+    "confidence_assessment": "I am confident in my description of the video content based on the provided frames. The actions and setting described are clear and consistent with the visual information available. There are no parts that seem uncertain or ambiguous from the given frames. If you have any specific questions or need further clarification, feel free to ask!"
+  },
+  "scores": {
+    "content_accuracy": 6.800000000000001,
+    "anomaly_detection": 6.3999999999999995,
+    "confidence_calibration": 5.0,
+    "hallucination": 2.8000000000000003,
+    "overall": 5.25
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 7,
+      "accuracy_score": 6,
+      "detail_level_score": 8,
+      "overall_assessment": "The model response captures some key elements but misses specific actions and anomalies.",
+      "correctly_described_elements": [
+        "two individuals",
+        "staircase"
+      ],
+      "missing_elements": [
+        "taking a picture",
+        "smiling on the phone"
+      ],
+      "incorrect_descriptions": [
+        "person on the left",
+        "person on the stairs remains stationary"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 5,
+      "accuracy_score": 7,
+      "false_positive_score": 9,
+      "overall_assessment": "The model identified some visual anomalies but missed several listed in the ground truth.",
+      "detected_anomalies": [
+        "image quality fluctuation"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "speed_change",
+        "frame_shuffling",
+        "noise_injection",
+        "frame_reversal",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 6,
+      "calibration_score": 5,
+      "overall_assessment": "The model shows moderate recognition of uncertainty but lacks precision in confidence levels.",
+      "uncertainty_indicators": [
+        "vague descriptions",
+        "lack of specific actions"
+      ],
+      "confidence_indicators": [
+        "detailed descriptions of individuals",
+        "specific clothing mentioned"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "overconfidence in scene description"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 4,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions.",
+      "hallucinated_elements": [
+        "blue curtains",
+        "pink checkered shirt",
+        "beige pants",
+        "light purple shirt",
+        "black steps",
+        "white wall",
+        "chair",
+        "small shelf"
+      ],
+      "factual_errors": [
+        "two individuals inside a room",
+        "person on the left",
+        "kneeling down"
+      ],
+      "speculative_content": [
+        "adjusting their position",
+        "better angles for the shots",
+        "maintaining a composed posture"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T09:02:39.668154"
+}

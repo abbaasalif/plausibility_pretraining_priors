@@ -1,0 +1,110 @@
+{
+  "video_name": "anomaly_video_0006.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0006.mp4",
+    "original_video_id": "PVCFQ",
+    "original_scene": "Stairs",
+    "original_script": "A person is laughing on the phone while holding clothes and then they sneeze.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c015 0.00 39.00;c019 2.90 39.00;c000 0.00 39.00;c153 22.30 32.00;c033 0.00 39.00",
+    "decoded_actions": "c015 0.00 39.00 (Holding a phone/camera);c019 2.90 39.00 (Talking on a phone/camera);c000 0.00 39.00 (Holding some clothes);c153 22.30 32.00 (Someone is sneezing);c033 0.00 39.00 (Holding a towel/s)",
+    "anomalies_applied": "object_insertion;speed_change;frame_shuffling;noise_injection;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_shuffling 0.00 3.80;frame_shuffling 3.80 7.60;frame_shuffling 7.60 11.40;frame_shuffling 11.40 15.20;frame_shuffling 15.20 19.00;frame_shuffling 19.00 22.80;frame_shuffling 22.80 26.60;frame_shuffling 26.60 30.40;frame_shuffling 30.40 34.20;frame_shuffling 34.20 38.00;speed_change 0.00 38.00;color_shift 0.07 1.07;color_shift 0.17 1.17;geometric_distortion 0.27 1.27;object_insertion 1.13 2.13;noise_injection 1.50 2.50;object_insertion 1.63 2.63;object_insertion 1.90 2.90;color_shift 2.07 3.07;color_shift 2.33 3.33;object_insertion 2.47 3.47;geometric_distortion 2.50 3.50;color_shift 2.77 3.77;object_insertion 2.80 3.80;object_insertion 3.07 4.07;object_insertion 3.17 4.17;object_insertion 3.33 4.33;noise_injection 3.63 4.63;geometric_distortion 3.77 4.77;noise_injection 3.80 4.80;color_shift 3.93 4.93;color_shift 4.03 5.03;noise_injection 4.07 5.07;object_insertion 4.10 5.10;geometric_distortion 4.37 5.37;geometric_distortion 4.87 5.87;object_insertion 4.93 5.93;color_shift 4.97 5.97;noise_injection 4.97 5.97;geometric_distortion 5.17 6.17;color_shift 5.37 6.37;geometric_distortion 5.50 6.50;geometric_distortion 5.67 6.67;geometric_distortion 5.73 6.73;geometric_distortion 5.80 6.80;object_insertion 5.93 6.93;object_insertion 5.97 6.97;noise_injection 6.47 7.47;color_shift 6.70 7.70;color_shift 7.27 8.27;object_insertion 7.47 8.47;geometric_distortion 7.50 8.50;object_insertion 7.60 8.60;geometric_distortion 7.83 8.83;noise_injection 7.83 8.83;color_shift 8.00 9.00;color_shift 8.37 9.37;object_insertion 9.13 10.13;object_insertion 9.67 10.67;geometric_distortion 9.97 10.97;noise_injection 10.80 11.80;object_insertion 10.97 11.97;color_shift 11.30 12.30;noise_injection 11.50 12.50;geometric_distortion 11.63 12.63;color_shift 12.13 13.13;object_insertion 12.67 13.67;object_insertion 13.83 14.83;object_insertion 13.97 14.97;noise_injection 14.03 15.03;geometric_distortion 14.23 15.23;noise_injection 14.33 15.33;noise_injection 15.03 16.03;geometric_distortion 15.67 16.67;object_insertion 15.70 16.70;geometric_distortion 15.77 16.77;color_shift 16.70 17.70;object_insertion 16.83 17.83;noise_injection 16.87 17.87;color_shift 17.20 18.20;noise_injection 17.90 18.90;color_shift 17.93 18.93;object_insertion 18.10 19.10;noise_injection 18.57 19.57",
+    "anomaly_count": 6
+  },
+  "responses": {
+    "basic_description": "The video shows a man walking up a staircase while talking on a mobile phone. He is holding a green cloth or garment in his left hand and appears to be engaged in a conversation, as he gestures with his right hand while speaking. The staircase has a wooden handrail on the left side, and the walls are painted a light color. The lighting suggests it might be daytime, as there is natural light coming from an unseen source. The man is wearing a green t-shirt and dark pants. As he ascends the stairs, he continues his phone call, occasionally looking around.",
+    "anomaly_detection": "In the video, the individual is walking up a staircase while talking on a phone and carrying clothes. There doesn't appear to be anything particularly unusual or out of place in the scene itself. The person's actions are typical for someone multitasking while ascending stairs. However, the video quality seems slightly grainy, which might suggest it was recorded with a lower-resolution camera or in low-light conditions. There are no obvious visual distortions or anomalies that stand out as being out of the ordinary.",
+    "temporal_analysis": "The video appears to be playing normally without any signs of reversed playback or shuffled frames. The sequence of events is consistent, showing a person ascending stairs while talking on a phone and carrying clothes. There are no abrupt changes in the frames that would suggest temporal issues.",
+    "spatial_analysis": "In the video, the man is walking up a staircase while talking on his phone and carrying clothes. There doesn't appear to be any object that clearly doesn't belong in this scene. The environment looks like a typical residential setting with stairs leading upwards.\n\nRegarding color distortions or visual artifacts, the image quality seems relatively clear without any noticeable distortions. However, the lighting appears somewhat dim, which might affect the perception of colors slightly. The colors in the video seem natural, but the overall brightness could be adjusted for better visibility.",
+    "semantic_analysis": "The sequence of events in the video appears to be logical and smooth. The individual is seen ascending a staircase while holding clothes, which suggests they might be moving from one floor to another, possibly to clean or organize something. The act of talking on the phone while carrying the clothes adds a layer of multitasking, which is common in daily life scenarios.\n\nThere are no abrupt or unnatural scene transitions visible in the provided frames. The continuity of the action and the setting (staircase) remain consistent throughout the clip. The individual's movement up the stairs is steady, and the environment does not change suddenly, indicating a natural progression of events.",
+    "confidence_assessment": "I am confident in my description of the image. The person is standing on a staircase, holding a phone to their ear with one hand and a green cloth or garment in the other. They appear to be engaged in a conversation while holding the item. There are no parts that I'm uncertain about based on the visible details in the image."
+  },
+  "scores": {
+    "content_accuracy": 4.800000000000001,
+    "anomaly_detection": 4.1,
+    "confidence_calibration": 4.0,
+    "hallucination": 2.8000000000000003,
+    "overall": 3.9250000000000003
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 5,
+      "accuracy_score": 4,
+      "detail_level_score": 6,
+      "overall_assessment": "The description captures some elements but misses key actions and contains inaccuracies.",
+      "correctly_described_elements": [
+        "talking on a phone",
+        "holding clothes"
+      ],
+      "missing_elements": [
+        "sneezing",
+        "stairs"
+      ],
+      "incorrect_descriptions": [
+        "man walking up a staircase",
+        "gesturing with his right hand",
+        "green t-shirt and dark pants"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 2,
+      "accuracy_score": 5,
+      "false_positive_score": 8,
+      "overall_assessment": "The model failed to identify the actual anomalies present in the video.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "speed_change",
+        "frame_shuffling",
+        "noise_injection",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 3,
+      "confidence_appropriateness_score": 5,
+      "calibration_score": 4,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks accuracy in action identification and context.",
+      "uncertainty_indicators": [
+        "misidentification of actions",
+        "lack of specific details about sneezing"
+      ],
+      "confidence_indicators": [
+        "detailed description of the scene",
+        "mention of clothing"
+      ],
+      "calibration_issues": [
+        "inaccurate action timing",
+        "failure to recognize key actions like sneezing"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 4,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies.",
+      "hallucinated_elements": [
+        "man walking up a staircase",
+        "wooden handrail",
+        "light color walls",
+        "green t-shirt",
+        "dark pants",
+        "natural light"
+      ],
+      "factual_errors": [
+        "man is laughing",
+        "sneezing action"
+      ],
+      "speculative_content": [
+        "gestures with his right hand",
+        "appears to be engaged in a conversation",
+        "occasionally looking around"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T08:46:33.745111"
+}

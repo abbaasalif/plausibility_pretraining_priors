@@ -1,0 +1,107 @@
+{
+  "video_name": "anomaly_video_0018.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0018.mp4",
+    "original_video_id": "E7Q3R",
+    "original_scene": "Dining room",
+    "original_script": "A person runs into their dining room, puts their coffee on the table, and takes off their shoes.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c057 9.70 18.70;c151 3.80 9.80;c009 5.20 12.40;c154 18.60 23.40;c109 5.20 12.40;c107 3.00 12.10;c150 19.20 23.90;c118 2.90 12.10;c107 0.00 2.80;c059 0.00 23.00;c150 0.00 2.60;c011 4.00 23.10;c118 0.00 2.80",
+    "decoded_actions": "c057 9.70 18.70 (Taking off some shoes);c151 3.80 9.80 (Someone is going from standing to sitting);c009 5.20 12.40 (Putting something on a table);c154 18.60 23.40 (Someone is standing up from somewhere);c109 5.20 12.40 (Putting a cup/glass/bottle somewhere);c107 3.00 12.10 (Holding a cup/glass/bottle of something);c150 19.20 23.90 (Someone is running somewhere);c118 2.90 12.10 (Holding a dish);c107 0.00 2.80 (Holding a cup/glass/bottle of something);c059 0.00 23.00 (Sitting in a chair);c150 0.00 2.60 (Someone is running somewhere);c011 4.00 23.10 (Sitting at a table);c118 0.00 2.80 (Holding a dish)",
+    "anomalies_applied": "object_insertion;noise_injection;frame_shuffling;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_reversal 0.00 27.76;frame_shuffling 0.00 2.77;frame_shuffling 2.77 5.54;frame_shuffling 5.54 8.31;frame_shuffling 8.31 11.08;frame_shuffling 11.08 13.85;frame_shuffling 13.85 16.62;frame_shuffling 16.62 19.39;frame_shuffling 19.39 22.16;frame_shuffling 22.16 24.92;frame_shuffling 24.92 27.69;frame_shuffling 27.69 27.76;object_insertion 0.40 1.40;noise_injection 0.53 1.53;object_insertion 1.13 2.13;object_insertion 1.20 2.20;noise_injection 1.53 2.53;color_shift 1.60 2.60;noise_injection 2.07 3.07;object_insertion 2.57 3.57;object_insertion 3.00 4.00;color_shift 3.37 4.37;geometric_distortion 3.37 4.37;color_shift 3.40 4.40;color_shift 3.44 4.44;noise_injection 3.80 4.80;color_shift 5.81 6.81;object_insertion 6.54 7.54;object_insertion 6.74 7.74;object_insertion 7.01 8.01;object_insertion 7.07 8.07;object_insertion 7.77 8.77;color_shift 7.94 8.94;noise_injection 7.97 8.97;color_shift 8.04 9.04;color_shift 8.24 9.24;object_insertion 8.74 9.74;object_insertion 9.11 10.11;color_shift 10.34 11.34;color_shift 10.41 11.41;object_insertion 10.68 11.68;object_insertion 10.78 11.78;color_shift 10.88 11.88;object_insertion 10.94 11.94;object_insertion 11.01 12.01;object_insertion 11.18 12.18;object_insertion 11.58 12.58;color_shift 11.71 12.71;geometric_distortion 12.05 13.05;color_shift 12.41 13.41;geometric_distortion 12.45 13.45;noise_injection 12.45 13.45;noise_injection 12.48 13.48;object_insertion 12.88 13.88;noise_injection 12.88 13.88;object_insertion 13.05 14.05;color_shift 13.35 14.35;color_shift 13.45 14.45;object_insertion 13.48 14.48;noise_injection 13.55 14.55;color_shift 13.61 14.61;object_insertion 13.91 14.91;object_insertion 14.15 15.15;color_shift 14.45 15.45;geometric_distortion 14.65 15.65;object_insertion 14.71 15.71;color_shift 14.98 15.98;noise_injection 14.98 15.98;noise_injection 15.02 16.02;color_shift 15.18 16.18;object_insertion 15.38 16.38;color_shift 15.38 16.38;noise_injection 15.38 16.38;geometric_distortion 15.78 16.78;object_insertion 16.18 17.18;object_insertion 16.55 17.55;noise_injection 16.62 17.62;color_shift 16.78 17.78;object_insertion 16.95 17.95;geometric_distortion 17.48 18.48;noise_injection 18.65 19.65;noise_injection 19.29 20.29;noise_injection 20.32 21.32;object_insertion 20.59 21.59;noise_injection 22.29 23.29;color_shift 22.32 23.32;noise_injection 22.42 23.42;noise_injection 22.59 23.59;color_shift 22.92 23.92;geometric_distortion 22.92 23.92;object_insertion 23.06 24.06;object_insertion 23.36 24.36;object_insertion 23.39 24.39;object_insertion 23.42 24.42;object_insertion 23.96 24.96;object_insertion 24.12 25.12;noise_injection 24.16 25.16;color_shift 24.36 25.36;object_insertion 24.62 25.62;color_shift 24.62 25.62;color_shift 25.49 26.49;noise_injection 25.56 26.56;color_shift 25.73 26.73;object_insertion 25.76 26.76;color_shift 25.89 26.89;color_shift 26.16 27.16;geometric_distortion 26.16 27.16;geometric_distortion 26.23 27.23;color_shift 26.26 27.26;object_insertion 26.43 27.43;object_insertion 26.89 27.89;object_insertion 27.36 28.36;object_insertion 27.56 28.56",
+    "anomaly_count": 6
+  },
+  "responses": {
+    "basic_description": "The video depicts a casual indoor setting, likely a dining area within a home. The room features a round wooden table with various items on it, including a box of Reese's Puffs cereal, a vase with flowers, and some other miscellaneous objects like a mug and a can. There is a clock on the wall above a doorway, and a framed picture hangs on the wall to the right.\n\nA person enters the frame from the left side, carrying a black bag over their shoulder. They walk towards the table, place the bag down, and then turn around to exit the frame. The person appears to be casually dressed and seems to be moving quickly, possibly in a hurry or preparing for an activity outside the frame. The overall atmosphere suggests a relaxed, everyday scene at home.",
+    "anomaly_detection": "The video appears to be a standard home setting with a dining table and chairs, some items on the table, and a person entering the frame. There doesn't seem to be anything particularly unusual or out of place in terms of the environment or objects. However, the image quality is somewhat grainy and pixelated, which could be considered an anomaly as it might affect the clarity of the video. The person's movements are also somewhat abrupt, but without further context, it's hard to determine if this is intentional or due to the video quality.",
+    "temporal_analysis": "The video appears to be playing normally without any visible temporal issues such as reversed playback or shuffled frames. The sequence of events is consistent with what one would expect from a normal recording, where an individual enters the frame, interacts with objects on the table, and then exits the frame. There are no signs of reversed or shuffled frames that would suggest otherwise.",
+    "spatial_analysis": "In the video, the scene appears to be set in a dining area with a table and chairs. The objects on the table include a box of Reese's Puffs cereal, a vase with flowers, and some other miscellaneous items like a mug and a bag. There is no obvious object that doesn't belong in this scene.\n\nRegarding color distortions or visual artifacts, the video seems to have some noise or graininess, which might be due to low lighting conditions or the quality of the camera used to record the video. However, these artifacts do not significantly interfere with the understanding of the scene.",
+    "semantic_analysis": "The sequence of events in the video appears to be abrupt and unnatural, as it lacks context and coherence. The video starts with an empty dining room setting, then a person suddenly appears, moves around the table, and exits the frame without any clear reason or purpose. There is no indication of what the person was doing or why they entered the scene. This sudden appearance and disappearance create a disjointed feel, making it difficult to understand the intended narrative or purpose of the video.",
+    "confidence_assessment": "I am confident in the description of the video content provided. The scene depicts a dining area with a table, chairs, and various items on the table such as cereal boxes and a vase with flowers. A person enters the frame, interacts briefly by moving around the table, and then exits. There are no parts that I'm uncertain about based on the visual information available. If you have any specific questions or need further clarification, feel free to ask!"
+  },
+  "scores": {
+    "content_accuracy": 2.8,
+    "anomaly_detection": 4.1,
+    "confidence_calibration": 3.2,
+    "hallucination": 2.2,
+    "overall": 3.075
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 3,
+      "accuracy_score": 2,
+      "detail_level_score": 4,
+      "overall_assessment": "The model response contains significant inaccuracies and misses key actions and elements from the ground truth.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "taking off shoes",
+        "putting coffee on the table",
+        "sitting down",
+        "dining room setting"
+      ],
+      "incorrect_descriptions": [
+        "carrying a black bag",
+        "placing the bag down",
+        "turning around to exit"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 2,
+      "accuracy_score": 5,
+      "false_positive_score": 8,
+      "overall_assessment": "The model failed to identify the actual anomalies present in the video.",
+      "detected_anomalies": [
+        "grainy image quality"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "frame_shuffling",
+        "frame_reversal",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 3,
+      "confidence_appropriateness_score": 4,
+      "calibration_score": 2,
+      "overall_assessment": "The model's response lacks alignment with the ground truth actions and context, indicating low confidence calibration.",
+      "uncertainty_indicators": [
+        "misalignment with actions",
+        "lack of specific details"
+      ],
+      "confidence_indicators": [
+        "general description of the scene",
+        "identification of a person entering"
+      ],
+      "calibration_issues": [
+        "failure to recognize key actions",
+        "inaccurate scene interpretation"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 2,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions.",
+      "hallucinated_elements": [
+        "box of Reese's Puffs cereal",
+        "vase with flowers",
+        "black bag"
+      ],
+      "factual_errors": [
+        "person entering from the left",
+        "placing a bag down"
+      ],
+      "speculative_content": [
+        "person appears to be casually dressed",
+        "moving quickly, possibly in a hurry"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T08:56:49.657704"
+}

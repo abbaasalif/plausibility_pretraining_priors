@@ -1,0 +1,104 @@
+{
+  "video_name": "anomaly_video_0040.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0040.mp4",
+    "original_video_id": "F56YP",
+    "original_scene": "Stairs",
+    "original_script": "A person is closing a box and sneezing, then kissing a picture in a glass frame on the stairs.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c039 0.00 4.80;c040 0.00 9.00;c084 8.30 17.00;c042 0.00 9.70;c088 7.70 17.00;c083 7.50 13.60;c086 13.50 17.00",
+    "decoded_actions": "c039 0.00 4.80 (Closing a box);c040 0.00 9.00 (Holding a box);c084 8.30 17.00 (Holding a picture);c042 0.00 9.70 (Putting a box somewhere);c088 7.70 17.00 (Watching/looking at a picture);c083 7.50 13.60 (Reaching for and grabbing a picture);c086 13.50 17.00 (Putting a picture somewhere)",
+    "anomalies_applied": "object_insertion;noise_injection;color_shift;geometric_distortion",
+    "anomaly_timestamps": "noise_injection 0.07 1.07;color_shift 0.10 1.10;noise_injection 0.60 1.60;noise_injection 1.97 2.97;color_shift 2.24 3.24;geometric_distortion 2.30 3.30;geometric_distortion 2.40 3.40;object_insertion 2.97 3.97;object_insertion 3.14 4.14;color_shift 3.14 4.14;object_insertion 3.30 4.30;color_shift 3.34 4.34;noise_injection 3.57 4.57;noise_injection 3.67 4.67;color_shift 4.24 5.24;noise_injection 4.60 5.60;geometric_distortion 4.87 5.87;color_shift 5.07 6.07;object_insertion 5.61 6.61;geometric_distortion 5.74 6.74;object_insertion 5.77 6.77;object_insertion 6.97 7.97;color_shift 8.11 9.11;color_shift 8.51 9.51;noise_injection 8.94 9.94;object_insertion 9.71 10.71;geometric_distortion 10.21 11.21;noise_injection 10.38 11.38;object_insertion 10.84 11.84;color_shift 10.91 11.91;color_shift 10.94 11.94;object_insertion 11.11 12.11;object_insertion 11.14 12.14;object_insertion 11.24 12.24;object_insertion 11.31 12.31;color_shift 11.61 12.61;noise_injection 11.98 12.98;object_insertion 12.11 13.11;geometric_distortion 12.15 13.15;object_insertion 12.25 13.25;object_insertion 12.28 13.28;color_shift 12.28 13.28;geometric_distortion 12.41 13.41;color_shift 13.18 14.18;noise_injection 13.25 14.25;object_insertion 13.75 14.75;color_shift 14.48 15.48;object_insertion 14.71 15.71;noise_injection 14.78 15.78;noise_injection 15.12 16.12",
+    "anomaly_count": 4
+  },
+  "responses": {
+    "basic_description": "The video shows a person sitting on a green armchair placed at the base of a staircase with wooden railings and carpeted steps. The individual is wearing a dark-colored hoodie and shorts. They are holding a cardboard box with a patterned design on it, which they open to reveal its contents. After opening the box, they take out a black object that appears to be a wallet or a similar item. The person then examines the wallet closely, turning it over in their hands. The setting appears to be indoors, possibly in a home environment. The lighting is natural, suggesting daylight coming from a window outside the frame. There are no other significant objects or people visible in the scene.",
+    "anomaly_detection": "In the video, the person is sitting on a chair in front of a staircase and appears to be interacting with a cardboard box. The video seems to have some visual distortions or artifacts, particularly noticeable around the edges of the person's face and the box. These distortions appear as pixelation or blurring, which could be due to low resolution, motion blur, or compression artifacts from the video recording. There are no other objects or people that stand out as being unusual or out of place in the scene.",
+    "temporal_analysis": "The video appears to be playing normally without any visible temporal issues such as reversed playback or shuffled frames. The sequence of events is consistent, and the actions of the person are clear and logical. There are no abrupt changes in the video's timeline that would suggest any form of playback manipulation.",
+    "spatial_analysis": "In the video, the person is sitting on a chair in front of a staircase, holding and opening a cardboard box. The setting appears to be indoors, with a staircase and a railing visible in the background. There are no objects that seem out of place in this scene.\n\nRegarding color distortions or visual artifacts, the video appears to have some noise or graininess, which might be due to low lighting conditions or the quality of the camera used to record the video. However, there are no significant color distortions or obvious visual artifacts that would suggest a problem with the recording.",
+    "semantic_analysis": "The video starts with a person sitting on a chair in front of a staircase, holding a cardboard box. The person appears to be preparing to open the box. There is no indication of a scene transition; the setting remains consistent throughout the frames provided. The abruptness or naturalness of the scene transition cannot be determined without additional context or frames beyond what is shown here. However, based on the visual content, it seems like a continuous and logical sequence of events.",
+    "confidence_assessment": "The video shows a person sitting on a chair in front of a staircase, holding and opening a cardboard box. The individual appears to be interacting with the box, possibly examining its contents or preparing to open it further. The setting is indoors, with a staircase and a railing visible in the background. There's also a striped garment hanging on the railing.\n\nIf there's any uncertainty, it might be related to the exact actions being performed by the individual with the box, as the video does not provide detailed information about what they are doing beyond opening the box. However, based on the visual content, the description seems accurate."
+  },
+  "scores": {
+    "content_accuracy": 2.2,
+    "anomaly_detection": 5.9,
+    "confidence_calibration": 2.4,
+    "hallucination": 1.3,
+    "overall": 2.9500000000000006
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 2,
+      "accuracy_score": 2,
+      "detail_level_score": 3,
+      "overall_assessment": "The model response does not accurately reflect the actions or scene described in the ground truth.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "closing a box",
+        "sneezing",
+        "kissing a picture",
+        "stairs"
+      ],
+      "incorrect_descriptions": [
+        "sitting on a green armchair",
+        "opening a box",
+        "examining a wallet"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 5,
+      "accuracy_score": 6,
+      "false_positive_score": 8,
+      "overall_assessment": "The model identified some visual distortions but missed key anomalies and provided a somewhat accurate description.",
+      "detected_anomalies": [
+        "geometric_distortion"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 2,
+      "confidence_appropriateness_score": 3,
+      "calibration_score": 2,
+      "overall_assessment": "The model response shows significant deviation from the ground truth, indicating low confidence calibration.",
+      "uncertainty_indicators": [
+        "misidentification of actions",
+        "lack of recognition of anomalies"
+      ],
+      "confidence_indicators": [
+        "assertive description of scene",
+        "detailed account of actions"
+      ],
+      "calibration_issues": [
+        "inaccurate scene description",
+        "failure to match actions with ground truth"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 9,
+      "factual_accuracy_score": 2,
+      "speculation_control_score": 1,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and setting described in the ground truth.",
+      "hallucinated_elements": [
+        "green armchair",
+        "wallet"
+      ],
+      "factual_errors": [
+        "sitting on a green armchair",
+        "opening a box",
+        "examining a wallet"
+      ],
+      "speculative_content": [
+        "home environment",
+        "natural lighting"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T09:15:38.562150"
+}

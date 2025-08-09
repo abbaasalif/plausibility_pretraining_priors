@@ -1,0 +1,104 @@
+{
+  "video_name": "anomaly_video_0042.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0042.mp4",
+    "original_video_id": "UFVO8",
+    "original_scene": "Closet / Walk-in closet / Spear closet",
+    "original_script": "A person opens a door and throws a broom in a closet with clothes inside.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c006 7.60 13.20;c008 3.00 9.80;c098 0.00 10.80;c099 5.40 11.00;c113 3.20 10.90;c112 7.60 13.90",
+    "decoded_actions": "c006 7.60 13.20 (Closing a door);c008 3.00 9.80 (Opening a door);c098 0.00 10.80 (Holding a broom);c099 5.40 11.00 (Putting a broom somewhere);c113 3.20 10.90 (Opening a closet/cabinet);c112 7.60 13.90 (Closing a closet/cabinet)",
+    "anomalies_applied": "object_insertion;noise_injection;frame_shuffling;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_reversal 0.00 15.72;frame_shuffling 0.00 1.56;frame_shuffling 1.56 3.12;frame_shuffling 3.12 4.69;frame_shuffling 4.69 6.25;frame_shuffling 6.25 7.81;frame_shuffling 7.81 9.37;frame_shuffling 9.37 10.94;frame_shuffling 10.94 12.50;frame_shuffling 12.50 14.06;frame_shuffling 14.06 15.62;frame_shuffling 15.62 15.72;object_insertion 1.27 2.27;object_insertion 1.66 2.66;geometric_distortion 1.95 2.95;noise_injection 5.08 6.08;object_insertion 5.37 6.37;noise_injection 6.25 7.25;object_insertion 6.44 7.44;noise_injection 6.74 7.74;noise_injection 8.40 9.40;object_insertion 8.69 9.69;object_insertion 9.67 10.67;noise_injection 10.84 11.84;object_insertion 12.01 13.01;color_shift 12.60 13.60;noise_injection 14.45 15.45;noise_injection 14.65 15.65;object_insertion 14.84 15.84;color_shift 14.94 15.94;noise_injection 15.04 16.04;color_shift 15.33 16.33",
+    "anomaly_count": 6
+  },
+  "responses": {
+    "basic_description": "The video shows a wooden door with a white bag hanging on it. The bag has an image of a person and the text \"LET ME\" printed on it. A person wearing a gray shirt and plaid pants walks into the frame from the right side, carrying a blue dustpan with a long handle. They swing the dustpan around, moving it from one side to the other, as if demonstrating or playing with it. The person then exits the frame to the left, leaving the door and the bag in view. The setting appears to be indoors, possibly in a hallway or entryway.",
+    "anomaly_detection": "In the video, it appears that the person is holding a broom and dustpan in an unusual manner. Typically, one would hold a broom with both hands for balance while sweeping, but here the individual seems to be holding the broom with only one hand, which might not be the most efficient way to use the tool. Additionally, the dustpan is being held upside down, which is not the standard way to use it for collecting dust. These actions could be interpreted as playful or unconventional, but they do not appear to be part of a cleaning routine. The rest of the scene looks normal, with no other noticeable visual distortions or anomalies.",
+    "temporal_analysis": "The video appears to have some temporal issues, as it seems to skip frames or reverse playback at certain points. For example, in the second frame, the person is not fully visible and the image is blurry, which suggests a skipped frame. Additionally, the third frame shows an object (a blue dustpan) that is not present in the first two frames, indicating a possible reverse or shuffled playback issue. The fourth frame returns to normal, showing the person standing next to the door with the bag hanging on it.",
+    "spatial_analysis": "In the video, there is an object that appears to be a blue dustpan being held by someone who walks into the frame and then exits quickly. The dustpan seems out of place in the context of the room, which has a bag hanging on the door and some furniture visible in the background.\n\nRegarding color distortions or visual artifacts, the image quality appears somewhat grainy and pixelated, especially around the edges where the person's hand holding the dustpan is visible. This could be due to motion blur or low lighting conditions during the recording. The colors seem natural, but the overall image quality is affected by these artifacts.",
+    "semantic_analysis": "The video starts with a view of a wooden door with a bag hanging on it. A person enters the frame, and then quickly exits, carrying a blue dustpan. The person's movement is swift, and the transition from entering to exiting the frame is abrupt.\n\nThere doesn't appear to be any logical connection between the person entering the frame with the dustpan and the initial scene of the door and bag. The abruptness of the scene change suggests an unnatural or unexpected sequence of events. Typically, such a scene would require more context or a clear reason for the person to carry a dustpan into the room.",
+    "confidence_assessment": "I am confident in the description of the image provided. The video shows a person entering a room, holding a blue dustpan with a white handle. There is no uncertainty in the description based on the visible elements in the image. If you have any specific questions or need further clarification, feel free to ask!"
+  },
+  "scores": {
+    "content_accuracy": 2.2,
+    "anomaly_detection": 3.8000000000000003,
+    "confidence_calibration": 2.4,
+    "hallucination": 1.3,
+    "overall": 2.4250000000000003
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 2,
+      "accuracy_score": 2,
+      "detail_level_score": 3,
+      "overall_assessment": "The model response does not accurately reflect the video content described in the ground truth.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "broom",
+        "closet",
+        "door opening/closing"
+      ],
+      "incorrect_descriptions": [
+        "wooden door",
+        "white bag",
+        "blue dustpan"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 2,
+      "accuracy_score": 4,
+      "false_positive_score": 8,
+      "overall_assessment": "The model failed to identify the actual anomalies present in the video.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "frame_shuffling",
+        "frame_reversal",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 2,
+      "confidence_appropriateness_score": 3,
+      "calibration_score": 2,
+      "overall_assessment": "The model response shows significant deviation from the ground truth, indicating low confidence calibration.",
+      "uncertainty_indicators": [
+        "misinterpretation of actions",
+        "lack of relevant details"
+      ],
+      "confidence_indicators": [
+        "assertive description of irrelevant objects",
+        "overconfidence in scene interpretation"
+      ],
+      "calibration_issues": [
+        "failure to recognize key actions",
+        "inaccurate scene context"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 9,
+      "factual_accuracy_score": 2,
+      "speculation_control_score": 1,
+      "overall_assessment": "The model response contains significant hallucinations and factual inaccuracies.",
+      "hallucinated_elements": [
+        "white bag",
+        "blue dustpan"
+      ],
+      "factual_errors": [
+        "person carrying a broom",
+        "opening a door",
+        "throwing a broom in a closet"
+      ],
+      "speculative_content": [
+        "setting appears to be indoors",
+        "demonstrating or playing with the dustpan"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T09:17:14.866011"
+}

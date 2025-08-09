@@ -1,0 +1,102 @@
+{
+  "video_name": "anomaly_video_0027.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0027.mp4",
+    "original_video_id": "DNB5L",
+    "original_scene": "Laundry room",
+    "original_script": "A person grasps a box of laundry soap from the shelf, then pours the detergent into the machine and starts washing clothes.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": NaN,
+    "decoded_actions": NaN,
+    "anomalies_applied": "object_insertion;geometric_distortion;color_shift;noise_injection",
+    "anomaly_timestamps": "geometric_distortion 0.17 1.17;color_shift 0.20 1.20;noise_injection 0.23 1.23;color_shift 0.67 1.67;object_insertion 0.74 1.74;object_insertion 0.94 1.94;noise_injection 1.00 2.00;noise_injection 1.41 2.41;color_shift 1.51 2.51;noise_injection 1.64 2.64;color_shift 1.77 2.77;noise_injection 2.17 3.17;object_insertion 2.48 3.48;object_insertion 3.18 4.18;object_insertion 3.21 4.21;color_shift 3.28 4.28;object_insertion 3.88 4.88;object_insertion 3.91 4.91;color_shift 3.95 4.95;object_insertion 4.08 5.08;noise_injection 4.12 5.12;object_insertion 4.52 5.52;object_insertion 4.55 5.55;noise_injection 4.65 5.65;noise_injection 4.72 5.72;color_shift 5.72 6.72;geometric_distortion 5.79 6.79;geometric_distortion 6.26 7.26;color_shift 6.49 7.49;object_insertion 6.73 7.73;color_shift 6.83 7.83;noise_injection 6.86 7.86;noise_injection 6.93 7.93;noise_injection 7.09 8.09;object_insertion 7.23 8.23;object_insertion 7.33 8.33;color_shift 7.43 8.43;object_insertion 8.03 9.03;object_insertion 8.20 9.20;noise_injection 8.20 9.20;color_shift 8.43 9.43;noise_injection 8.77 9.77;noise_injection 9.03 10.03;geometric_distortion 9.33 10.33;noise_injection 9.50 10.50;color_shift 9.80 10.80;noise_injection 9.97 10.97;noise_injection 10.10 11.10;noise_injection 10.57 11.57;noise_injection 10.81 11.81;object_insertion 10.87 11.87;color_shift 11.24 12.24;object_insertion 11.44 12.44;noise_injection 11.88 12.88;noise_injection 11.91 12.91;color_shift 12.71 13.71;noise_injection 13.15 14.15;object_insertion 13.32 14.32;geometric_distortion 13.38 14.38;color_shift 14.32 15.32;noise_injection 14.69 15.69;color_shift 14.82 15.82;object_insertion 15.36 16.36;noise_injection 15.39 16.39;object_insertion 15.66 16.66;noise_injection 16.23 17.23;color_shift 16.49 17.49;noise_injection 16.63 17.63;geometric_distortion 16.66 17.66;color_shift 17.23 18.23;color_shift 17.90 18.90;color_shift 17.97 18.97;object_insertion 18.34 19.34;object_insertion 18.40 19.40;object_insertion 19.27 20.27;color_shift 19.61 20.61;noise_injection 20.51 21.51;color_shift 20.58 21.58;object_insertion 20.64 21.64;noise_injection 20.74 21.74;noise_injection 20.84 21.84;color_shift 20.88 21.88;noise_injection 21.01 22.01;color_shift 21.58 22.58;geometric_distortion 21.98 22.98;object_insertion 22.12 23.12;object_insertion 22.18 23.18;noise_injection 23.15 24.15;object_insertion 23.32 24.32;object_insertion 23.52 24.52;color_shift 23.59 24.59;color_shift 23.62 24.62;noise_injection 24.02 25.02;color_shift 24.52 25.52;noise_injection 24.63 25.63;noise_injection 25.16 26.16;object_insertion 25.43 26.43;object_insertion 25.96 26.96;geometric_distortion 26.33 27.33;object_insertion 26.47 27.47;object_insertion 26.83 27.83;noise_injection 26.83 27.83;object_insertion 27.54 28.54;noise_injection 27.54 28.54;noise_injection 27.90 28.90;color_shift 28.91 29.91;color_shift 29.81 30.81;geometric_distortion 30.55 31.55;object_insertion 30.61 31.61;noise_injection 30.68 31.68;noise_injection 30.95 31.95;color_shift 32.19 33.19;object_insertion 32.29 33.29;color_shift 32.89 33.89;noise_injection 33.19 34.19;geometric_distortion 33.46 34.46;object_insertion 34.09 35.09;object_insertion 34.23 35.23;object_insertion 34.36 35.36;object_insertion 34.40 35.40;object_insertion 34.83 35.83;object_insertion 34.93 35.93;noise_injection 35.13 36.13;noise_injection 35.16 36.16",
+    "anomaly_count": 4
+  },
+  "responses": {
+    "basic_description": "The video shows a person in a kitchen, standing near a white appliance that appears to be a washing machine or dryer. The individual is wearing a dark t-shirt and dark pants. They are reaching up towards the upper cabinets above the appliance, seemingly searching for something. The person opens one of the cabinets and looks inside before closing it and then opening another cabinet. They continue to search through the cabinets, moving items around and looking intently at the contents. The kitchen has wooden cabinets and a window with blinds in the background. There are various items on the counter, including a bottle of dish soap and other cleaning supplies. The lighting in the room is bright, likely from overhead lights.",
+    "anomaly_detection": "In the video, the man appears to be performing an action that involves reaching into a cabinet above a washing machine. The scene is set in what looks like a laundry room with wooden cabinets and a window with blinds in the background. There are cleaning supplies visible on top of the washing machine.\n\nThe video quality seems slightly grainy, which might suggest it was recorded with a low-resolution camera or in a low-light environment. However, there are no obvious visual distortions or anomalies in the video itself. The actions performed by the man appear normal for someone using a laundry room. If you have specific concerns about the content or context of the video, please let me know!",
+    "temporal_analysis": "The video appears to be playing normally without any visible signs of reversed playback or shuffled frames. The actions of the person in the kitchen seem to be in a logical sequence, and there is no indication that the video has been manipulated to show events out of order.",
+    "spatial_analysis": "In the video, the man appears to be in a kitchen setting, interacting with a washing machine and a cabinet above it. The environment looks like a typical home laundry area with wooden cabinets, a window with blinds, and various cleaning supplies on the counter.\n\nThere are no objects that appear out of place in this scene. However, the image quality seems somewhat grainy, which could be due to motion blur or low lighting conditions. Additionally, there is a noticeable color distortion in one frame where a pink square appears on the right side of the screen, which might be an artifact from the video recording process rather than part of the scene itself. This could be due to a camera malfunction or an external interference during the recording.",
+    "semantic_analysis": "The video shows a person in a kitchen, opening a cabinet and retrieving an item. The individual then proceeds to place something on top of a washing machine. There is no indication of scene transitions as the setting remains consistent throughout the frames. The actions appear to be part of a routine task, such as organizing or preparing for laundry. The sequence of events seems logical and natural within the context of the kitchen environment.",
+    "confidence_assessment": "I am confident in the description of the video content based on the provided frames. The man is seen opening a cabinet, retrieving an item, and then placing it into the washing machine. There are no parts that seem uncertain or ambiguous from the given information. If you have more details or need further clarification, feel free to ask!"
+  },
+  "scores": {
+    "content_accuracy": 1.8000000000000003,
+    "anomaly_detection": 3.8,
+    "confidence_calibration": 2.4,
+    "hallucination": 1.7000000000000002,
+    "overall": 2.425
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 2,
+      "accuracy_score": 1,
+      "detail_level_score": 3,
+      "overall_assessment": "The model response inaccurately describes the scene and actions.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "laundry soap",
+        "washing machine",
+        "laundry room"
+      ],
+      "incorrect_descriptions": [
+        "kitchen",
+        "upper cabinets",
+        "dish soap"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 0,
+      "accuracy_score": 6,
+      "false_positive_score": 10,
+      "overall_assessment": "The model failed to detect any anomalies present in the video.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "geometric_distortion",
+        "color_shift",
+        "noise_injection"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 2,
+      "confidence_appropriateness_score": 3,
+      "calibration_score": 2,
+      "overall_assessment": "The model response shows significant deviations from the ground truth, indicating low confidence calibration.",
+      "uncertainty_indicators": [
+        "misidentification of location",
+        "failure to recognize actions"
+      ],
+      "confidence_indicators": [
+        "detailed description of irrelevant items",
+        "specificity in clothing"
+      ],
+      "calibration_issues": [
+        "incorrect scene identification",
+        "lack of relevant actions"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 9,
+      "factual_accuracy_score": 2,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions.",
+      "hallucinated_elements": [
+        "kitchen",
+        "upper cabinets",
+        "bottle of dish soap"
+      ],
+      "factual_errors": [
+        "kitchen",
+        "upper cabinets"
+      ],
+      "speculative_content": [
+        "searching for something",
+        "moving items around"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T09:04:25.325465"
+}

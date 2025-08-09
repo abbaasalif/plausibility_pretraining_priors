@@ -1,0 +1,112 @@
+{
+  "video_name": "anomaly_video_0008.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0008.mp4",
+    "original_video_id": "YYGJV",
+    "original_scene": "Hallway",
+    "original_script": "A person is grasping some homework while standing in the hallway. The person then picks up a pillow off the floor.",
+    "combined_video_id": "FQA3W",
+    "combined_script": "A person in their bedroom is playing with their shoes. Once they have put their shoes on, they start briskly running towards the door and grab onto the doorknob.",
+    "original_actions": "c127 2.90 12.90;c079 2.80 11.70;c115 0.00 14.00;c097 0.00 13.30;c076 5.10 12.20;c026 0.00 6.70",
+    "decoded_actions": "c127 2.90 12.90 (Tidying something on the floor);c079 2.80 11.70 (Taking a pillow from somewhere);c115 0.00 14.00 (Someone is holding a paper/notebook);c097 0.00 13.30 (Walking through a doorway);c076 5.10 12.20 (Holding a pillow);c026 0.00 6.70 (Holding a book)",
+    "anomalies_applied": "combined_videos_YYGJV_FQA3W;object_insertion;combined_scenes_Hallway_Bedroom;noise_injection;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "scene_mixing 12.96 43.80;video_combination 0.00 43.80;frame_reversal 0.00 43.80;noise_injection 0.00 1.00;object_insertion 1.02 2.02;color_shift 1.20 2.20;object_insertion 1.68 2.68;color_shift 2.04 3.04;object_insertion 2.40 3.40;noise_injection 3.00 4.00;color_shift 3.84 4.84;color_shift 4.14 5.14;noise_injection 4.62 5.62;noise_injection 4.68 5.68;color_shift 5.28 6.28;object_insertion 5.52 6.52;noise_injection 5.76 6.76;noise_injection 6.42 7.42;object_insertion 7.38 8.38;noise_injection 7.56 8.56;color_shift 8.94 9.94;object_insertion 9.48 10.48;geometric_distortion 9.54 10.54;noise_injection 10.80 11.80;object_insertion 11.70 12.70;object_insertion 11.88 12.88;geometric_distortion 12.60 13.60;color_shift 13.02 14.02;color_shift 14.16 15.16;object_insertion 14.22 15.22;noise_injection 14.40 15.40;noise_injection 15.00 16.00;geometric_distortion 15.24 16.24;noise_injection 15.54 16.54;object_insertion 16.02 17.02;noise_injection 16.32 17.32;color_shift 16.44 17.44;noise_injection 16.86 17.86;object_insertion 16.98 17.98;color_shift 17.16 18.16;object_insertion 17.64 18.64;color_shift 18.00 19.00;object_insertion 18.18 19.18;geometric_distortion 18.90 19.90;color_shift 19.68 20.68;object_insertion 19.80 20.80;object_insertion 20.76 21.76;geometric_distortion 21.18 22.18;object_insertion 21.60 22.60;object_insertion 22.08 23.08;geometric_distortion 22.32 23.32;geometric_distortion 22.50 23.50;object_insertion 22.80 23.80;color_shift 25.08 26.08;geometric_distortion 25.44 26.44;object_insertion 26.04 27.04;color_shift 26.10 27.10;object_insertion 26.16 27.16;object_insertion 26.82 27.82;noise_injection 27.30 28.30;noise_injection 27.54 28.54;geometric_distortion 28.32 29.32;object_insertion 29.16 30.16;object_insertion 30.00 31.00;geometric_distortion 30.72 31.72;color_shift 31.14 32.14;noise_injection 31.62 32.62;color_shift 31.98 32.98;noise_injection 32.40 33.40;color_shift 32.52 33.52;noise_injection 32.52 33.52;color_shift 33.00 34.00;object_insertion 34.26 35.26;geometric_distortion 34.32 35.32;geometric_distortion 34.38 35.38;color_shift 34.80 35.80;object_insertion 34.86 35.86;geometric_distortion 35.22 36.22;color_shift 35.28 36.28;noise_injection 35.64 36.64;color_shift 35.82 36.82;color_shift 36.78 37.78;color_shift 37.02 38.02;object_insertion 37.26 38.26;noise_injection 37.38 38.38;object_insertion 38.10 39.10;color_shift 38.58 39.58;object_insertion 39.06 40.06;color_shift 39.48 40.48;noise_injection 39.72 40.72;object_insertion 39.90 40.90;noise_injection 40.74 41.74;color_shift 41.76 42.76;object_insertion 41.94 42.94;object_insertion 42.42 43.42;object_insertion 42.78 43.78;noise_injection 43.50 44.50;object_insertion 43.68 44.68",
+    "anomaly_count": 7
+  },
+  "responses": {
+    "basic_description": "The video begins with a person sitting on a bed in a dimly lit room. The individual appears to be adjusting or handling something on the bed, possibly a piece of clothing or an item they are examining closely. The room has a simple decor, with a framed picture hanging on the wall and a small table beside the bed.\n\nAs the scene progresses, the person continues their activity on the bed, occasionally looking up and around the room. The lighting is low, creating a somewhat subdued atmosphere.\n\nSuddenly, the camera shifts perspective, moving quickly through a doorway into another part of the house. This transition is abrupt, and the new environment is briefly visible before the camera stabilizes. In the new setting, another person is seen holding a pillow and a book, standing in a hallway that leads to other rooms. The second individual seems to be engaged in some form of activity, perhaps preparing for bed or organizing items.\n\nThe overall sequence suggests a casual, everyday scenario within a home, with the individuals going about their routines in different parts of the house.",
+    "anomaly_detection": "The video appears to be intentionally edited with visual effects, such as a vertical purple line that seems to divide the frame and a yellow rectangular shape that briefly appears on the left side of the screen. These effects could be part of an artistic or experimental edit rather than a malfunction. The room setting looks like a typical bedroom with a bed, a picture on the wall, and some items scattered around. The person's actions also appear normal\u2014sitting on the bed, moving around, and interacting with objects. There is no indication of anything unusual or out of place within the context of the video itself.",
+    "temporal_analysis": "The video appears to be playing normally without any visible signs of reversed playback or shuffled frames. The sequence of events is consistent, and the actions of the individuals in the video seem to follow a logical progression. There are no abrupt changes in the timing or order of events that would suggest temporal issues.",
+    "spatial_analysis": "In the video, the scene appears to be set in a bedroom with a person sitting on a bed. The room has a picture frame on the wall and some items scattered around, including what looks like a stuffed toy. There is a noticeable visual artifact in the form of a vertical blue line running down the right side of the screen, which seems to be an unintended distortion.\n\nThe person on the bed is engaged in some activity, possibly playing with something small in their hands. Another individual enters the room holding a pillow and a book, suggesting they might be preparing for bed or organizing the room.\n\nOverall, the scene depicts a typical domestic setting without any obvious objects that don't belong. The visual artifact, however, is a significant distraction and could potentially affect the clarity of the video.",
+    "semantic_analysis": "The sequence of events in the video appears to be somewhat abrupt and lacks clear transitions, which might suggest an informal or spontaneous recording style rather than a carefully planned narrative. The first part of the video shows a person sitting on a bed in a dimly lit room, engaging in some activity with their hands. This scene is relatively static and focused.\n\nThe transition to the next scene involves a sudden shift in location and context. The person is now standing in a different room, holding a pillow and a remote control. This change seems abrupt because it introduces new elements (the remote control) and a different setting (a different room), which could imply a jump in time or a change in the storyline without proper visual or audio cues to bridge the gap between the two scenes.\n\nIn summary, while the actions within each scene appear coherent, the transition between the two scenes feels abrupt and lacks natural flow, possibly due to the informal nature of the recording.",
+    "confidence_assessment": "I am confident in the description provided based on the image and video content. The details such as the person's actions, the room setting, and the presence of the pillow and remote control are clear and consistent across the frames. There are no parts that seem uncertain or ambiguous. If you have any specific questions or need further clarification on any aspect of the description, feel free to ask!"
+  },
+  "scores": {
+    "content_accuracy": 2.2,
+    "anomaly_detection": 3.0,
+    "confidence_calibration": 2.4,
+    "hallucination": 1.7000000000000002,
+    "overall": 2.325
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 2,
+      "accuracy_score": 2,
+      "detail_level_score": 3,
+      "overall_assessment": "The model response inaccurately describes the scene and actions.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "homework",
+        "tidying something on the floor",
+        "holding a paper/notebook",
+        "walking through a doorway"
+      ],
+      "incorrect_descriptions": [
+        "sitting on a bed",
+        "adjusting or handling something on the bed",
+        "another person holding a pillow and a book"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 1,
+      "accuracy_score": 3,
+      "false_positive_score": 8,
+      "overall_assessment": "The model failed to identify the actual anomalies present in the video and provided an inaccurate description.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "combined_videos_YYGJV_FQA3W",
+        "object_insertion",
+        "combined_scenes_Hallway_Bedroom",
+        "noise_injection",
+        "frame_reversal",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 2,
+      "confidence_appropriateness_score": 3,
+      "calibration_score": 2,
+      "overall_assessment": "The model's response deviates significantly from the ground truth, indicating low confidence calibration.",
+      "uncertainty_indicators": [
+        "incorrect scene description",
+        "misidentified actions"
+      ],
+      "confidence_indicators": [
+        "attempted detail in description",
+        "recognition of multiple individuals"
+      ],
+      "calibration_issues": [
+        "scene mismatch",
+        "action misinterpretation"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 9,
+      "factual_accuracy_score": 2,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions described.",
+      "hallucinated_elements": [
+        "bed",
+        "clothing",
+        "framed picture",
+        "small table",
+        "another person"
+      ],
+      "factual_errors": [
+        "sitting on a bed",
+        "dimly lit room",
+        "adjusting or handling something on the bed",
+        "camera shifts perspective",
+        "another person holding a pillow and a book"
+      ],
+      "speculative_content": [
+        "preparing for bed",
+        "organizing items",
+        "casual, everyday scenario"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T08:48:18.657356"
+}

@@ -1,0 +1,116 @@
+{
+  "video_name": "anomaly_video_0047.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0047.mp4",
+    "original_video_id": "9VK0J",
+    "original_scene": "Closet / Walk-in closet / Spear closet",
+    "original_script": "A person is standing around snuggling a blanket with a pillow under their shirt.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c070 0.80 29.00;c072 1.00 29.00;c076 2.10 28.50;c079 20.90 26.40",
+    "decoded_actions": "c070 0.80 29.00 (Holding a blanket);c072 1.00 29.00 (Snuggling with a blanket);c076 2.10 28.50 (Holding a pillow);c079 20.90 26.40 (Taking a pillow from somewhere)",
+    "anomalies_applied": "object_insertion;noise_injection;frame_shuffling;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_shuffling 0.00 2.73;frame_shuffling 2.73 5.47;frame_shuffling 5.47 8.20;frame_shuffling 8.20 10.94;frame_shuffling 10.94 13.67;frame_shuffling 13.67 16.41;frame_shuffling 16.41 19.14;frame_shuffling 19.14 21.88;frame_shuffling 21.88 24.61;frame_shuffling 24.61 27.35;frame_shuffling 27.35 27.56;object_insertion 0.91 1.91;noise_injection 1.09 2.09;color_shift 1.86 2.86;object_insertion 2.10 3.10;geometric_distortion 2.28 3.28;color_shift 2.73 3.73;color_shift 3.19 4.19;object_insertion 3.26 4.26;color_shift 3.33 4.33;noise_injection 3.33 4.33;noise_injection 3.37 4.37;object_insertion 3.58 4.58;object_insertion 4.00 5.00;geometric_distortion 4.66 5.66;object_insertion 4.80 5.80;object_insertion 5.15 6.15;object_insertion 5.82 6.82;noise_injection 5.82 6.82;geometric_distortion 6.24 7.24;object_insertion 6.56 7.56;color_shift 6.63 7.63;geometric_distortion 7.12 8.12;noise_injection 7.47 8.47;color_shift 7.89 8.89;object_insertion 8.17 9.17;color_shift 8.69 9.69;object_insertion 8.76 9.76;geometric_distortion 8.91 9.91;object_insertion 9.33 10.33;color_shift 9.33 10.33;noise_injection 9.68 10.68;object_insertion 9.78 10.78;object_insertion 9.85 10.85;color_shift 10.38 11.38;noise_injection 10.80 11.80;object_insertion 11.60 12.60;geometric_distortion 11.71 12.71;geometric_distortion 11.74 12.74;noise_injection 11.99 12.99;object_insertion 12.20 13.20;geometric_distortion 12.31 13.31;geometric_distortion 12.45 13.45;object_insertion 12.48 13.48;object_insertion 12.69 13.69;geometric_distortion 12.76 13.76;object_insertion 13.22 14.22;noise_injection 13.32 14.32;object_insertion 13.78 14.78;noise_injection 14.02 15.02;object_insertion 14.06 15.06;object_insertion 14.44 15.44;object_insertion 14.62 15.62;object_insertion 15.67 16.67;noise_injection 16.09 17.09;noise_injection 16.20 17.20;object_insertion 16.27 17.27;geometric_distortion 16.65 17.65;noise_injection 17.18 18.18;color_shift 17.42 18.42;noise_injection 17.56 18.56;object_insertion 17.71 18.71;noise_injection 17.71 18.71;object_insertion 18.09 19.09;color_shift 18.34 19.34;geometric_distortion 19.07 20.07;noise_injection 19.18 20.18;geometric_distortion 19.53 20.53;object_insertion 19.60 20.60;object_insertion 20.12 21.12;geometric_distortion 20.12 21.12;noise_injection 20.69 21.69;object_insertion 20.97 21.97;color_shift 21.07 22.07;noise_injection 21.63 22.63;color_shift 21.84 22.84;color_shift 22.09 23.09;color_shift 22.23 23.23;noise_injection 22.40 23.40;object_insertion 22.65 23.65;object_insertion 22.68 23.68;geometric_distortion 22.72 23.72;color_shift 23.00 24.00;noise_injection 23.17 24.17;object_insertion 23.28 24.28;color_shift 23.52 24.52;color_shift 23.56 24.56;noise_injection 24.30 25.30;color_shift 24.37 25.37;object_insertion 24.47 25.47;object_insertion 24.68 25.68;object_insertion 24.86 25.86;color_shift 25.07 26.07;color_shift 25.21 26.21;noise_injection 25.66 26.66;color_shift 25.70 26.70;color_shift 26.15 27.15;object_insertion 26.68 27.68;noise_injection 26.75 27.75;color_shift 27.07 28.07;color_shift 27.42 28.42;noise_injection 27.45 28.45",
+    "anomaly_count": 5
+  },
+  "responses": {
+    "basic_description": "In the video, a person is standing in front of an open closet. They are holding a bundle of clothes and appear to be sorting through them. The individual is wearing a dark hoodie and blue pajama pants with a star pattern. The closet contains various items such as hanging clothes, boxes, and other storage containers. The person seems to be organizing or deciding what to do with the clothes they are holding. The setting appears to be a home environment, likely a bedroom or a dressing area.",
+    "anomaly_detection": "In the video, the person appears to be holding and interacting with a large stuffed animal or plush toy. The size of the plush seems disproportionately large compared to the person's body, which might initially give the impression that it is an anomaly. However, this could simply be due to the angle or perspective of the camera capturing the scene. There are no other visual distortions or anomalies apparent in the video. The setting looks like a typical room with a closet in the background, and the person is dressed casually in pajamas.",
+    "temporal_analysis": "The video appears to be playing normally without any visible issues such as reversed playback or shuffled frames. The actions of the woman and the dog seem natural and continuous, indicating that the video is being displayed in its intended order.",
+    "spatial_analysis": "In the video, the woman is holding a large, wrapped object that appears to be a stuffed animal or a similar item. The object is quite large compared to her size and seems to be wrapped in a patterned fabric. The setting appears to be a closet with clothes hanging on racks and shelves.\n\nThere do not seem to be any objects that clearly do not belong in this scene. The environment looks like a typical home setting for organizing or storing items. \n\nRegarding color distortions or visual artifacts, the video quality appears to be somewhat grainy, which might suggest it was recorded with a lower-resolution camera or in low light conditions. However, no specific color distortions or visual artifacts are apparent in the frames provided.",
+    "semantic_analysis": "The video starts with a person entering a room, and then it cuts to them standing in front of an open closet. The person is holding a bundle of clothes and appears to be sorting through them. There doesn't seem to be any abrupt or unnatural scene transitions; the actions flow logically from one moment to the next as the person continues to organize the clothes.",
+    "confidence_assessment": "I am confident in the description provided. The video shows a person standing in front of an open closet, holding and adjusting a piece of clothing. The person is wearing pajama pants with a star pattern and a dark top. There are no other significant actions or objects that require further clarification. If you have any specific questions or need more details, feel free to ask!"
+  },
+  "scores": {
+    "content_accuracy": 2.2,
+    "anomaly_detection": 4.1,
+    "confidence_calibration": 2.4,
+    "hallucination": 1.7000000000000002,
+    "overall": 2.5999999999999996
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 2,
+      "accuracy_score": 2,
+      "detail_level_score": 3,
+      "overall_assessment": "The model response does not accurately reflect the actions or objects described in the ground truth.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "blanket",
+        "pillow",
+        "snuggling",
+        "closet type"
+      ],
+      "incorrect_descriptions": [
+        "bundle of clothes",
+        "sorting through them",
+        "dark hoodie",
+        "blue pajama pants",
+        "home environment"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 2,
+      "accuracy_score": 5,
+      "false_positive_score": 8,
+      "overall_assessment": "The model failed to identify the actual anomalies present in the video and misinterpreted the scene.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "frame_shuffling",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 2,
+      "confidence_appropriateness_score": 3,
+      "calibration_score": 2,
+      "overall_assessment": "The model's response shows significant deviation from the ground truth, indicating low confidence calibration.",
+      "uncertainty_indicators": [
+        "misinterpretation of actions",
+        "lack of recognition of anomalies"
+      ],
+      "confidence_indicators": [
+        "overconfidence in description",
+        "inaccurate scene setting"
+      ],
+      "calibration_issues": [
+        "incorrect object identification",
+        "failure to recognize context"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 9,
+      "factual_accuracy_score": 2,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies.",
+      "hallucinated_elements": [
+        "bundle of clothes",
+        "dark hoodie",
+        "blue pajama pants",
+        "star pattern",
+        "sorting through clothes",
+        "home environment",
+        "bedroom",
+        "dressing area"
+      ],
+      "factual_errors": [
+        "holding a bundle of clothes",
+        "sorting through them",
+        "wearing a dark hoodie",
+        "wearing blue pajama pants",
+        "home environment",
+        "bedroom",
+        "dressing area"
+      ],
+      "speculative_content": [
+        "likely a bedroom",
+        "appears to be organizing"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T09:21:20.662070"
+}

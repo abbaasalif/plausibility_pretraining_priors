@@ -1,0 +1,106 @@
+{
+  "video_name": "anomaly_video_0015.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0015.mp4",
+    "original_video_id": "AOBWQ",
+    "original_scene": "Bedroom",
+    "original_script": "A person is vacuuming their room when they begin sneezing. They look on a table and begin throwing clothes on it.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c000 0.70 32.00;c003 22.70 30.30;c002 0.50 19.80;c004 1.00 32.00",
+    "decoded_actions": "c000 0.70 32.00 (Holding some clothes);c003 22.70 30.30 (Throwing clothes somewhere);c002 0.50 19.80 (Taking some clothes from somewhere);c004 1.00 32.00 (Tidying some clothes)",
+    "anomalies_applied": "object_insertion;temporal_cut;noise_injection;geometric_distortion;color_shift",
+    "anomaly_timestamps": "temporal_cut 7.81 23.42;object_insertion 0.60 1.60;object_insertion 0.95 1.95;object_insertion 2.35 3.35;geometric_distortion 2.40 3.40;object_insertion 2.45 3.45;object_insertion 2.55 3.55;noise_injection 3.55 4.55;noise_injection 4.10 5.10;noise_injection 4.70 5.70;color_shift 4.90 5.90;noise_injection 5.35 6.35;noise_injection 5.40 6.40;color_shift 5.75 6.75;geometric_distortion 6.15 7.15;object_insertion 6.45 7.45;object_insertion 6.60 7.60;object_insertion 6.65 7.65;color_shift 6.70 7.70;object_insertion 7.40 8.40;color_shift 7.56 8.56;noise_injection 8.01 9.01;noise_injection 8.21 9.21;object_insertion 9.91 10.91;geometric_distortion 9.91 10.91;object_insertion 10.16 11.16;noise_injection 10.31 11.31;color_shift 11.81 12.81;object_insertion 11.86 12.86;noise_injection 12.16 13.16;geometric_distortion 12.31 13.31;geometric_distortion 12.71 13.71;object_insertion 12.86 13.86;object_insertion 13.21 14.21;noise_injection 13.71 14.71;color_shift 13.76 14.76;geometric_distortion 14.86 15.86",
+    "anomaly_count": 5
+  },
+  "responses": {
+    "basic_description": "In the video, a person is seen in a small bedroom with light pink walls and a bed covered with a blue and yellow patterned bedspread. The room contains various items including clothes, a chair, a table with personal care products, and some luggage. The person, dressed in a white t-shirt and dark pants, is initially standing near the bed, looking around the room.\n\nThe individual then begins to pick up clothes from the bed and the floor, gathering them into a pile. They appear to be organizing or preparing to pack these clothes. As they continue to collect the clothes, they move towards the right side of the room, where there is a table holding various personal care items such as bottles and containers. The person seems focused on their task, methodically collecting and sorting through the clothes. The overall atmosphere suggests that the person might be getting ready for a trip or tidying up the room.",
+    "anomaly_detection": "In the video, everything appears to be normal and typical for a bedroom setting. The man is engaged in what seems to be a routine activity, such as packing or organizing his belongings. There are no obvious visual distortions or anomalies that stand out. The room looks like a standard bedroom with a bed, a chair, and various personal items scattered around, which suggests an everyday scenario without any unusual elements.",
+    "temporal_analysis": "The video appears to be playing normally without any visible issues such as reversed playback or shuffled frames. The sequence of actions is coherent, and the transitions between frames suggest a continuous recording of the man's movements in the room.",
+    "spatial_analysis": "The video shows a person in a bedroom, organizing and packing items into a bag. The room contains typical household items such as a bed with clothes on it, a chair, a table with various personal items, and a suitcase. There is no indication of objects that do not belong in the scene.\n\nRegarding color distortions or visual artifacts, the video appears to be shot in natural lighting without any noticeable color distortions. The colors seem consistent throughout the frames, and there are no visible visual artifacts that would suggest issues with the recording quality.",
+    "semantic_analysis": "The sequence of events in the video appears to be logical and follows a natural progression. The man is seen moving around his room, picking up clothes from the bed and placing them into a bag. This action suggests he might be preparing for a trip or organizing his belongings. There are no abrupt or unnatural scene transitions; each frame shows a continuous activity without any sudden changes in setting or context. The movement from one side of the room to another while carrying items is smooth and consistent with the task at hand.",
+    "confidence_assessment": "The video shows a person in a bedroom, moving around and interacting with various items on the bed and in the room. The individual appears to be organizing or packing, as they pick up clothes and other items from the bed and move them to different locations within the room. The room is modestly furnished with a bed covered in a blue patterned bedspread, a chair, and a small table with various personal items. There's also a suitcase visible in the background, suggesting that the person might be preparing for travel.\n\nIf there's any uncertainty, it would be in the exact purpose of the actions being performed by the individual, such as whether they are packing for a trip or simply tidying up the room. However, based on the visible context, the description provided seems accurate."
+  },
+  "scores": {
+    "content_accuracy": 5.800000000000001,
+    "anomaly_detection": 2.6,
+    "confidence_calibration": 5.0,
+    "hallucination": 3.8,
+    "overall": 4.3
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 6,
+      "accuracy_score": 5,
+      "detail_level_score": 7,
+      "overall_assessment": "The model response captures some actions and context but misses key elements and includes inaccuracies.",
+      "correctly_described_elements": [
+        "bedroom",
+        "clothes"
+      ],
+      "missing_elements": [
+        "sneezing",
+        "throwing clothes",
+        "tidying clothes"
+      ],
+      "incorrect_descriptions": [
+        "gathering clothes into a pile",
+        "personal care products"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 0,
+      "accuracy_score": 2,
+      "false_positive_score": 10,
+      "overall_assessment": "The model failed to detect any anomalies present in the video and provided an inaccurate description.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "temporal_cut",
+        "noise_injection",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 6,
+      "calibration_score": 5,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks precision in confidence levels.",
+      "uncertainty_indicators": [
+        "incomplete action description",
+        "lack of clarity on sneezing"
+      ],
+      "confidence_indicators": [
+        "detailed room description",
+        "specific clothing actions"
+      ],
+      "calibration_issues": [
+        "overconfidence in scene description",
+        "underestimation of anomalies"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 5,
+      "speculation_control_score": 4,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and context.",
+      "hallucinated_elements": [
+        "light pink walls",
+        "blue and yellow patterned bedspread",
+        "personal care products",
+        "luggage"
+      ],
+      "factual_errors": [
+        "gathering clothes into a pile",
+        "moving towards the right side of the room"
+      ],
+      "speculative_content": [
+        "getting ready for a trip",
+        "tidying up the room"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T08:54:26.998550"
+}

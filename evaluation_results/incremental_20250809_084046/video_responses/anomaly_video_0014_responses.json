@@ -1,0 +1,105 @@
+{
+  "video_name": "anomaly_video_0014.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0014.mp4",
+    "original_video_id": "I77FD",
+    "original_scene": "Living room",
+    "original_script": "One person is laughing and fixing a desk as another person is washing a table with dishes on it.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c119 9.00 20.00;c013 1.30 20.80;c009 0.00 31.00;c118 0.40 31.00;c014 0.00 31.00;c012 3.80 31.00;c120 5.70 11.20;c038 0.00 31.00",
+    "decoded_actions": "c119 9.00 20.00 (Putting a dish/es somewhere);c013 1.30 20.80 (Washing a table);c009 0.00 31.00 (Putting something on a table);c118 0.40 31.00 (Holding a dish);c014 0.00 31.00 (Working at a table);c012 3.80 31.00 (Tidying up a table);c120 5.70 11.20 (Taking a dish/es from somewhere);c038 0.00 31.00 (Washing something with a towel)",
+    "anomalies_applied": "object_insertion;temporal_cut;noise_injection;geometric_distortion;color_shift",
+    "anomaly_timestamps": "temporal_cut 7.38 22.19;object_insertion 0.00 1.00;noise_injection 0.42 1.42;noise_injection 0.75 1.75;noise_injection 1.17 2.17;geometric_distortion 1.63 2.63;object_insertion 2.50 3.50;color_shift 3.34 4.34;color_shift 3.46 4.46;object_insertion 3.71 4.71;noise_injection 3.75 4.75;object_insertion 4.25 5.25;color_shift 4.63 5.63;object_insertion 4.92 5.92;color_shift 5.26 6.26;geometric_distortion 5.26 6.26;object_insertion 5.34 6.34;noise_injection 5.55 6.55;color_shift 5.96 6.96;object_insertion 7.01 8.01;noise_injection 7.55 8.55;object_insertion 7.63 8.63;noise_injection 7.76 8.76;object_insertion 7.92 8.92;geometric_distortion 8.01 9.01;object_insertion 8.22 9.22;color_shift 8.55 9.55;object_insertion 8.88 9.88;object_insertion 9.47 10.47;noise_injection 10.43 11.43;color_shift 10.47 11.47;color_shift 10.93 11.93;geometric_distortion 11.26 12.26;color_shift 11.80 12.80;noise_injection 12.18 13.18;object_insertion 12.35 13.35;color_shift 12.43 13.43;color_shift 12.60 13.60;color_shift 12.76 13.76;geometric_distortion 13.14 14.14;object_insertion 13.47 14.47;noise_injection 13.60 14.60;color_shift 13.93 14.93",
+    "anomaly_count": 5
+  },
+  "responses": {
+    "basic_description": "The video shows two individuals engaged in cleaning or organizing a room. The person on the left, wearing an orange shirt and dark pants, is bending over a small blue stool, appearing to be picking up or sorting items from it. There are several bowls and containers on the stool, some of which seem to contain food or other objects.\n\nThe person on the right, dressed in a white sleeveless shirt and dark pants, is also bent over, working on a wooden table. This individual seems to be wiping or cleaning the surface of the table with a cloth or similar item. The room appears cluttered with various items, including boxes, bags, and other household objects scattered around. A chair with a floral pattern is visible in the background, along with a window that has bars on it. The floor is covered with a patterned rug, and there is a large water bottle on the floor near the person in the orange shirt. The overall scene suggests a thorough cleaning or tidying-up process.",
+    "anomaly_detection": "In the video, the scene appears to be set in a cluttered room where two individuals are engaged in some form of activity involving furniture and boxes. The room is filled with various items such as chairs, boxes, and household objects, which suggests that they might be moving or organizing belongings.\n\nThere are no obvious visual distortions or anomalies in the video. The individuals are bending over and appear to be handling a wooden table, possibly moving it or arranging it. The environment looks like a typical indoor setting without any noticeable abnormalities. The actions of the individuals seem normal and consistent with what one would expect in a scenario of moving or cleaning up a space.",
+    "temporal_analysis": "The video appears to be playing normally without any visible signs of reversed playback or shuffled frames. The actions of the individuals in the room seem to be continuous and coherent, indicating that the video is being displayed at its intended speed.",
+    "spatial_analysis": "In the image, it appears to be a domestic setting where two individuals are engaged in some form of activity, possibly cleaning or organizing. The room is cluttered with various items such as boxes, furniture, and household goods. There are no obvious objects that seem out of place for this context.\n\nRegarding color distortions or visual artifacts, the image does not exhibit any noticeable issues. The colors appear natural, and there are no signs of pixelation, blurring, or other visual anomalies that would suggest the presence of artifacts. The lighting seems adequate for the indoor environment, and the overall clarity of the image suggests it was taken without significant interference from distortions.",
+    "semantic_analysis": "The video shows two individuals in a room, each engaged in different activities. One person is bending over a small table, seemingly organizing or cleaning it, while the other is focused on a task near a chair and some boxes. The setting appears to be a domestic environment, possibly a living room or a similar space.\n\nThere are no abrupt or unnatural scene transitions visible in this short clip. The actions of the individuals appear to be continuous and logically connected within the context of the room. The individuals' movements and the items they interact with suggest a routine activity, such as tidying up or preparing for an event. The environment remains consistent throughout the frames, indicating a single, cohesive scene without any sudden changes in location or time.",
+    "confidence_assessment": "I am confident in the description of the image provided. The scene depicts two individuals in a room, each engaged in different activities. One person is bending over near a small table with bowls and other items on it, possibly preparing or organizing food. The other individual is also bent over, working on what appears to be a wooden object, perhaps assembling or repairing it. The room contains various household items, including chairs, boxes, and other miscellaneous objects scattered around, suggesting a casual, lived-in environment. There are no parts of the description that I find uncertain based on the visible elements in the image."
+  },
+  "scores": {
+    "content_accuracy": 6.800000000000001,
+    "anomaly_detection": 3.2,
+    "confidence_calibration": 5.0,
+    "hallucination": 3.8,
+    "overall": 4.7
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 7,
+      "accuracy_score": 6,
+      "detail_level_score": 8,
+      "overall_assessment": "The model response captures the general actions but lacks specific details and contains inaccuracies.",
+      "correctly_described_elements": [
+        "cleaning",
+        "organizing"
+      ],
+      "missing_elements": [
+        "laughing",
+        "fixing a desk"
+      ],
+      "incorrect_descriptions": [
+        "person on the left picking up items",
+        "cluttered room description"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 0,
+      "accuracy_score": 4,
+      "false_positive_score": 10,
+      "overall_assessment": "The model failed to detect any anomalies despite their presence in the ground truth.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "temporal_cut",
+        "noise_injection",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 6,
+      "calibration_score": 5,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks precision in identifying specific actions and anomalies.",
+      "uncertainty_indicators": [
+        "general description of actions",
+        "lack of specific action identification"
+      ],
+      "confidence_indicators": [
+        "detailed scene description",
+        "identification of individuals' clothing"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "failure to address anomalies"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 5,
+      "speculation_control_score": 4,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene.",
+      "hallucinated_elements": [
+        "blue stool",
+        "food in bowls",
+        "floral patterned chair",
+        "large water bottle"
+      ],
+      "factual_errors": [
+        "orange shirt",
+        "white sleeveless shirt"
+      ],
+      "speculative_content": [
+        "cluttered with various items",
+        "thorough cleaning process"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T08:53:43.182778"
+}

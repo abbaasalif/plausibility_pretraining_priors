@@ -1,0 +1,110 @@
+{
+  "video_name": "anomaly_video_0016.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0016.mp4",
+    "original_video_id": "N5Z8Z",
+    "original_scene": "Kitchen",
+    "original_script": "Person enters the dining room and closes the oven that was left open.  Immediately thereafter shoes and a sandwich are removed from the counter.",
+    "combined_video_id": "FPU57",
+    "combined_script": "A person is holding a bottle of medicine and walking through the door in the recreation room / man cave.",
+    "original_actions": "c053 10.10 16.30;c118 9.20 16.90;c120 11.00 16.90;c054 9.30 24.00;c063 6.70 13.40;c061 8.00 18.50",
+    "decoded_actions": "c053 10.10 16.30 (Holding a shoe/shoes);c118 9.20 16.90 (Holding a dish);c120 11.00 16.90 (Taking a dish/es from somewhere);c054 9.30 24.00 (Putting shoes somewhere);c063 6.70 13.40 (Taking food from somewhere);c061 8.00 18.50 (Holding some food)",
+    "anomalies_applied": "object_insertion;combined_videos_N5Z8Z_FPU57;combined_scenes_Kitchen_Living room;noise_injection;frame_shuffling;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "scene_mixing 23.22 56.69;video_combination 0.00 56.69;frame_reversal 0.00 56.69;frame_shuffling 0.00 5.64;frame_shuffling 5.64 11.28;frame_shuffling 11.28 16.92;frame_shuffling 16.92 22.56;frame_shuffling 22.56 28.19;frame_shuffling 28.19 33.83;frame_shuffling 33.83 39.47;frame_shuffling 39.47 45.11;frame_shuffling 45.11 50.75;frame_shuffling 50.75 56.39;frame_shuffling 56.39 56.69;noise_injection 0.03 1.03;geometric_distortion 0.17 1.17;geometric_distortion 0.57 1.57;object_insertion 0.63 1.63;object_insertion 0.87 1.87;object_insertion 1.23 2.23;color_shift 1.94 2.94;color_shift 2.37 3.37;geometric_distortion 2.94 3.94;object_insertion 3.14 4.14;noise_injection 3.30 4.30;object_insertion 3.40 4.40;geometric_distortion 4.00 5.00;color_shift 4.67 5.67;noise_injection 4.67 5.67;geometric_distortion 4.80 5.80;geometric_distortion 5.91 6.91;geometric_distortion 5.97 6.97;noise_injection 6.04 7.04;object_insertion 6.11 7.11;geometric_distortion 6.14 7.14;object_insertion 6.94 7.94;geometric_distortion 7.11 8.11;noise_injection 7.21 8.21;color_shift 7.71 8.71;object_insertion 7.74 8.74;object_insertion 7.81 8.81;object_insertion 8.07 9.07;noise_injection 8.17 9.17;noise_injection 8.54 9.54;geometric_distortion 8.78 9.78;geometric_distortion 8.81 9.81;color_shift 8.94 9.94;color_shift 9.01 10.01;object_insertion 9.34 10.34;object_insertion 9.64 10.64;geometric_distortion 9.91 10.91;object_insertion 10.04 11.04;object_insertion 10.48 11.48;geometric_distortion 11.98 12.98;noise_injection 12.08 13.08;noise_injection 12.81 13.81;color_shift 13.51 14.51;geometric_distortion 13.51 14.51;object_insertion 13.58 14.58;object_insertion 13.75 14.75;noise_injection 13.91 14.91;noise_injection 14.98 15.98;color_shift 15.05 16.05;color_shift 15.75 16.75;color_shift 16.88 17.88;noise_injection 17.65 18.65;object_insertion 17.88 18.88;geometric_distortion 17.98 18.98;noise_injection 18.85 19.85;object_insertion 19.02 20.02;geometric_distortion 19.39 20.39;object_insertion 19.72 20.72;geometric_distortion 20.05 21.05;noise_injection 20.35 21.35;noise_injection 20.42 21.42;geometric_distortion 20.49 21.49;noise_injection 20.69 21.69;color_shift 20.79 21.79;color_shift 20.82 21.82;object_insertion 20.99 21.99;geometric_distortion 21.25 22.25;noise_injection 21.49 22.49;noise_injection 21.65 22.65;color_shift 22.26 23.26;geometric_distortion 22.39 23.39;color_shift 22.46 23.46;object_insertion 22.66 23.66;color_shift 23.19 24.19;geometric_distortion 23.99 24.99;geometric_distortion 24.52 25.52;color_shift 24.56 25.56;geometric_distortion 25.29 26.29;color_shift 25.96 26.96;noise_injection 26.59 27.59;object_insertion 26.93 27.93;geometric_distortion 27.16 28.16;color_shift 27.73 28.73;object_insertion 27.79 28.79;color_shift 27.79 28.79;object_insertion 28.43 29.43;object_insertion 28.80 29.80;geometric_distortion 29.30 30.30;noise_injection 29.63 30.63;geometric_distortion 30.06 31.06;object_insertion 30.10 31.10;geometric_distortion 30.16 31.16;object_insertion 30.40 31.40;geometric_distortion 30.53 31.53;noise_injection 31.20 32.20;color_shift 31.36 32.36;noise_injection 31.40 32.40;geometric_distortion 31.60 32.60;color_shift 31.66 32.66;geometric_distortion 31.83 32.83;color_shift 32.20 33.20;object_insertion 32.23 33.23;noise_injection 32.27 33.27;color_shift 33.17 34.17;geometric_distortion 33.67 34.67;color_shift 34.20 35.20;noise_injection 34.67 35.67;geometric_distortion 35.07 36.07;color_shift 35.17 36.17;color_shift 35.57 36.57;noise_injection 35.64 36.64;noise_injection 36.07 37.07;color_shift 36.30 37.30;geometric_distortion 36.34 37.34;noise_injection 36.57 37.57;noise_injection 36.77 37.77;object_insertion 37.34 38.34;object_insertion 37.37 38.37;noise_injection 37.40 38.40;object_insertion 37.54 38.54;color_shift 38.00 39.00;noise_injection 38.94 39.94;color_shift 39.27 40.27;object_insertion 39.34 40.34;geometric_distortion 39.61 40.61;geometric_distortion 40.14 41.14;color_shift 40.17 41.17;object_insertion 40.47 41.47;object_insertion 40.87 41.87;object_insertion 40.97 41.97;object_insertion 41.17 42.17;noise_injection 41.44 42.44;object_insertion 41.47 42.47;color_shift 41.54 42.54;geometric_distortion 41.67 42.67;object_insertion 42.54 43.54;color_shift 42.78 43.78;color_shift 42.84 43.84;geometric_distortion 42.94 43.94;object_insertion 43.21 44.21;color_shift 43.44 44.44;object_insertion 43.51 44.51;color_shift 43.54 44.54;color_shift 43.78 44.78;object_insertion 43.84 44.84;object_insertion 43.88 44.88;object_insertion 44.24 45.24;object_insertion 44.44 45.44;noise_injection 44.84 45.84;color_shift 45.45 46.45;color_shift 45.58 46.58;object_insertion 45.61 46.61;geometric_distortion 45.71 46.71;object_insertion 45.91 46.91;geometric_distortion 46.35 47.35;object_insertion 47.08 48.08;color_shift 47.21 48.21;noise_injection 47.21 48.21;color_shift 47.55 48.55;geometric_distortion 48.18 49.18;object_insertion 48.85 49.85;object_insertion 48.92 49.92;geometric_distortion 48.98 49.98;color_shift 49.05 50.05;object_insertion 49.18 50.18;noise_injection 49.92 50.92;noise_injection 50.62 51.62;object_insertion 50.82 51.82;geometric_distortion 50.98 51.98;object_insertion 51.28 52.28;object_insertion 51.42 52.42;noise_injection 52.15 53.15;noise_injection 52.49 53.49;noise_injection 52.52 53.52;object_insertion 53.69 54.69;color_shift 54.09 55.09;geometric_distortion 54.19 55.19;noise_injection 54.65 55.65;geometric_distortion 55.02 56.02;object_insertion 55.09 56.09;object_insertion 55.39 56.39;noise_injection 55.69 56.69;color_shift 55.89 56.89;noise_injection 56.09 57.09;object_insertion 56.26 57.26",
+    "anomaly_count": 8
+  },
+  "responses": {
+    "basic_description": "The video shows a kitchen scene with a white stove, a black microwave above it, and wooden cabinets surrounding the area. On the counter to the left of the stove, there is a toaster, a pot on the stove, and some other kitchen items. To the right of the stove, there is a sink with a bottle of dish soap and a folded towel placed on the edge.\n\nA person wearing a blue shirt enters the frame from the left side. They are holding a plate with food on it and place it on the counter next to the stove. The person then bends down and opens the oven door, placing the plate inside. After closing the oven door, they exit the frame to the left. The scene remains static after the person leaves, showing the kitchen setup without any further activity.",
+    "anomaly_detection": "In the video, a person wearing a blue shirt is seen placing a plate with food on top of an open dishwasher and then closing it. The action seems unusual because typically, a dishwasher is used for washing dishes, not for storing food. Additionally, the presence of a pair of shoes on the counter next to the sink adds to the peculiarity of the scene. This could be interpreted as a humorous or unconventional use of the kitchen space. There are no apparent visual distortions or significant anomalies in the video itself; however, the context and actions performed are quite out of the ordinary.",
+    "temporal_analysis": "The video appears to be playing normally without any visible temporal issues such as reversed playback or shuffled frames. The sequence of events is clear, with the person entering the frame, placing an item on the counter, and then leaving the frame. The actions seem to occur in a logical order without any interruptions or anomalies.",
+    "spatial_analysis": "In the video, there is an object that appears to be out of place: a pair of shoes placed on top of the counter near the sink. This is unusual for a kitchen setting and suggests that the shoes might have been left there by accident.\n\nRegarding color distortions or visual artifacts, the video seems to have some noise or graininess, particularly noticeable when the person moves quickly across the frame. This could be due to low lighting conditions or motion blur. The colors appear somewhat muted, which is common in indoor lighting situations without strong artificial light sources.",
+    "semantic_analysis": "The sequence of events in the video appears to be abrupt and unnatural. The video starts with a static shot of a kitchen, then a person suddenly appears holding a plate with food on it. This sudden appearance is not preceded by any indication of the person entering the frame, making it feel like an unexpected interruption. Additionally, the person's action of placing the plate on the counter next to a pair of shoes seems out of context and does not logically follow from the initial setup of the kitchen scene. There are no clear scene transitions that would make these events feel more natural or connected.",
+    "confidence_assessment": "The video shows a kitchen scene with a stove, microwave, and various items on the counter. A person wearing a blue shirt enters the frame holding a plate with food. They place the plate on the counter and then open the oven door, placing the plate inside to cook or heat the food. The person then exits the frame. There is no uncertainty in the description as it is based on clear visual observations from the video."
+  },
+  "scores": {
+    "content_accuracy": 3.8000000000000003,
+    "anomaly_detection": 4.1,
+    "confidence_calibration": 4.0,
+    "hallucination": 2.3,
+    "overall": 3.55
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 4,
+      "accuracy_score": 3,
+      "detail_level_score": 5,
+      "overall_assessment": "The model response does not accurately reflect the actions and objects described in the ground truth.",
+      "correctly_described_elements": [
+        "kitchen",
+        "oven"
+      ],
+      "missing_elements": [
+        "shoes",
+        "sandwich",
+        "counter items"
+      ],
+      "incorrect_descriptions": [
+        "person holding a plate with food",
+        "placing the plate inside the oven",
+        "exiting the frame to the left"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 2,
+      "accuracy_score": 5,
+      "false_positive_score": 8,
+      "overall_assessment": "The model failed to identify the actual anomalies present in the scene and misinterpreted the actions.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "frame_shuffling",
+        "frame_reversal",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 3,
+      "confidence_appropriateness_score": 5,
+      "calibration_score": 4,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks confidence in key actions.",
+      "uncertainty_indicators": [
+        "incomplete action recognition",
+        "missing anomalies"
+      ],
+      "confidence_indicators": [
+        "detailed scene description",
+        "specific actions noted"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth",
+        "overconfidence in static scene"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 3,
+      "speculation_control_score": 2,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and items present in the scene.",
+      "hallucinated_elements": [
+        "plate with food",
+        "toaster",
+        "pot on the stove",
+        "bottle of dish soap",
+        "folded towel"
+      ],
+      "factual_errors": [
+        "opening the oven door",
+        "placing the plate inside",
+        "exiting the frame"
+      ],
+      "speculative_content": [
+        "person wearing a blue shirt",
+        "bending down"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T08:55:14.172892"
+}

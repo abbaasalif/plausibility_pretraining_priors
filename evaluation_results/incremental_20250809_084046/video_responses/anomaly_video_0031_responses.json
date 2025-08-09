@@ -1,0 +1,116 @@
+{
+  "video_name": "anomaly_video_0031.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0031.mp4",
+    "original_video_id": "3C36H",
+    "original_scene": "Basement (A room below the ground floor)",
+    "original_script": "Person is sitting on chair doing homework, Another person opening bag and starts sneezing.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c059 0.60 34.00;c115 0.00 34.00;c145 0.50 30.70;c020 0.00 34.00;c021 3.10 10.00;c151 0.00 5.10;c154 27.40 32.70",
+    "decoded_actions": "c059 0.60 34.00 (Sitting in a chair);c115 0.00 34.00 (Someone is holding a paper/notebook);c145 0.50 30.70 (Working on paper/notebook);c020 0.00 34.00 (Holding a bag);c021 3.10 10.00 (Opening a bag);c151 0.00 5.10 (Someone is going from standing to sitting);c154 27.40 32.70 (Someone is standing up from somewhere)",
+    "anomalies_applied": "object_insertion;temporal_cut;speed_change;noise_injection;geometric_distortion;color_shift",
+    "anomaly_timestamps": "speed_change 0.00 32.58;temporal_cut 4.04 12.21;noise_injection 0.08 1.08;object_insertion 0.12 1.12;noise_injection 1.62 2.62;object_insertion 1.79 2.79;noise_injection 1.96 2.96;object_insertion 2.00 3.00;object_insertion 2.29 3.29;noise_injection 3.00 4.00;geometric_distortion 3.21 4.21;object_insertion 3.38 4.38;noise_injection 3.38 4.38;geometric_distortion 3.42 4.42;object_insertion 4.25 5.25;noise_injection 4.54 5.54;noise_injection 4.58 5.58;color_shift 4.62 5.62;color_shift 4.79 5.79;object_insertion 5.67 6.67;noise_injection 6.00 7.00;noise_injection 6.21 7.21;noise_injection 6.54 7.54;object_insertion 7.50 8.50;noise_injection 7.58 8.58;object_insertion 7.71 8.71",
+    "anomaly_count": 6
+  },
+  "responses": {
+    "basic_description": "The video appears to be set in a dimly lit indoor space, possibly a garage or workshop, given the visible tools and equipment in the background. There is a person sitting on a stool, holding a clipboard and pen, seemingly taking notes or conducting an interview. This individual is dressed in dark clothing and has long hair.\n\nAnother person, wearing a red sweater and dark pants, stands nearby holding a white plastic bag. This person seems to be engaged in some form of activity that involves the bag, perhaps demonstrating something or preparing to hand over the contents of the bag. The standing person's movements suggest they might be explaining or showing something to the seated individual.\n\nThe environment looks cluttered with various items scattered around, including what appears to be a refrigerator or cabinet on the right side of the frame. The overall atmosphere suggests a casual, informal setting, possibly for a demonstration, tutorial, or a casual discussion.",
+    "anomaly_detection": "In the video, there are several elements that might be considered unusual or out of place:\n\n1. **Blurred Motion**: The person standing appears to be moving quickly, which results in motion blur. This could indicate they are walking or running, but the lack of clear details makes it hard to determine their exact action.\n\n2. **Lighting and Shadows**: The lighting seems uneven, with some areas brightly lit while others are in shadow. This could be due to the environment being an indoor space with artificial lighting, possibly from a single overhead light source.\n\n3. **Background Clutter**: The background is cluttered with various items, including what looks like a refrigerator, shelves, and other household objects. This suggests the setting might be a garage or a similar informal space rather than a professional studio.\n\n4. **Perspective and Focus**: The camera angle is slightly tilted, and the focus is not sharp, making it difficult to discern finer details. This could be due to the camera's movement or the quality of the footage itself.\n\n5. **Purple Square**: There is a purple square in the upper left corner of the frame, which seems out of place as it does not appear to be part of the scene. It might be a digital artifact or an unintended inclusion in the footage.\n\nOverall, the video has a casual, home-video feel, and the anomalies mentioned above could be attributed to the informal nature of the recording setup.",
+    "temporal_analysis": "The video appears to be playing normally without any visible signs of reversed playback or shuffled frames. The actions and movements of the individuals in the video seem consistent with a typical sequence of events, and there is no indication of temporal distortion such as frames appearing out of order or in reverse.",
+    "spatial_analysis": "In the image, it appears to be taken in an indoor setting, possibly a garage or workshop, given the visible tools and equipment in the background. Here's what can be observed:\n\n1. **Objects in the Scene**:\n   - A person sitting on a chair holding a clipboard and pen.\n   - Another person standing and holding a white plastic bag.\n   - Various items in the background, including what looks like a refrigerator, some containers, and possibly tools or equipment.\n\n2. **Color Distortions or Visual Artifacts**:\n   - There is a noticeable color distortion with a purple square in the upper left corner of the image, which seems out of place and does not belong in the scene.\n   - The lighting appears uneven, with some areas being brighter than others, which could be due to the lighting setup in the room.\n\n3. **Overall Scene**:\n   - The scene seems to depict a casual interaction between two individuals, perhaps in a work or home environment.\n   - The presence of the purple square suggests either a digital artifact or an intentional addition for some reason, but it disrupts the natural flow of the scene.\n\nIf you have more specific questions about the scene or need further analysis, feel free to ask!",
+    "semantic_analysis": "The image provided appears to be a still from a video, and it shows two individuals in what looks like a garage or workshop setting. One person is seated on a chair, writing on a clipboard, while the other stands nearby holding a white plastic bag. The environment suggests some form of work or activity might be taking place.\n\n### Logical Sense:\n- The seated individual seems focused on writing, which could indicate they are taking notes or documenting something.\n- The standing individual holding a bag might be involved in an activity related to the bag, such as receiving or delivering items.\n\n### Scene Transitions:\n- There doesn't appear to be any abrupt or unnatural scene transitions in this single frame. It seems to capture a moment in time without any clear indication of a sudden shift in action or location.\n\nIf you have more frames or context from the video, it would help in understanding if there are any logical inconsistencies or abrupt transitions.",
+    "confidence_assessment": "The image depicts an indoor setting, possibly a garage or workshop, with two individuals present. One person is seated on a chair and appears to be writing or taking notes, while the other stands nearby holding a white plastic bag. The environment includes various items such as a refrigerator, shelves, and what seems to be a workbench or table in the background.\n\nThere are no specific details that suggest any uncertainty in the description. The scene is clear enough to identify the actions and positions of the individuals and the general layout of the space. If you have any specific questions or need further clarification, feel free to ask!"
+  },
+  "scores": {
+    "content_accuracy": 2.8,
+    "anomaly_detection": 5.7,
+    "confidence_calibration": 4.2,
+    "hallucination": 2.2,
+    "overall": 3.7249999999999996
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 3,
+      "accuracy_score": 2,
+      "detail_level_score": 4,
+      "overall_assessment": "The model response inaccurately describes the setting and actions, missing key elements from the ground truth.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "another person sneezing",
+        "homework",
+        "basement setting"
+      ],
+      "incorrect_descriptions": [
+        "garage or workshop",
+        "clipboard and pen",
+        "demonstrating something"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 5,
+      "accuracy_score": 6,
+      "false_positive_score": 7,
+      "overall_assessment": "The model identified some anomalies but missed key ones and included some irrelevant observations.",
+      "detected_anomalies": [
+        "Blurred Motion",
+        "Lighting and Shadows",
+        "Background Clutter",
+        "Perspective and Focus",
+        "Purple Square"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "temporal_cut",
+        "speed_change",
+        "noise_injection",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 5,
+      "calibration_score": 3,
+      "overall_assessment": "The model's response shows some recognition of uncertainty but lacks accuracy in the scene description, leading to a low calibration score.",
+      "uncertainty_indicators": [
+        "dimly lit environment",
+        "cluttered background"
+      ],
+      "confidence_indicators": [
+        "specific clothing description",
+        "activity engagement"
+      ],
+      "calibration_issues": [
+        "incorrect scene interpretation",
+        "misalignment with ground truth actions"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 2,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions.",
+      "hallucinated_elements": [
+        "garage",
+        "tools",
+        "clipboard",
+        "interview",
+        "demonstration"
+      ],
+      "factual_errors": [
+        "stool",
+        "clipboard",
+        "long hair",
+        "red sweater",
+        "refrigerator"
+      ],
+      "speculative_content": [
+        "casual setting",
+        "tutorial",
+        "discussion"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T09:07:50.966907"
+}

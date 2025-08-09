@@ -1,0 +1,103 @@
+{
+  "video_name": "anomaly_video_0002.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0002.mp4",
+    "original_video_id": "16CWY",
+    "original_scene": "Laundry room",
+    "original_script": "A person is laughing as the person looks at a picture. Then, smiling, the person sits down to put their shoes on.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c053 8.80 14.20;c056 8.10 12.90;c152 0.00 6.40;c131 0.00 5.80;c055 8.60 33.00;c149 0.00 13.40;c059 0.00 33.00;c132 0.00 33.00;c011 0.00 33.00",
+    "decoded_actions": "c053 8.80 14.20 (Holding a shoe/shoes);c056 8.10 12.90 (Taking shoes from somewhere);c152 0.00 6.40 (Someone is smiling);c131 0.00 5.80 (Laughing at television);c055 8.60 33.00 (Putting on shoe/shoes);c149 0.00 13.40 (Someone is laughing);c059 0.00 33.00 (Sitting in a chair);c132 0.00 33.00 (Watching television);c011 0.00 33.00 (Sitting at a table)",
+    "anomalies_applied": "object_insertion;noise_injection;frame_shuffling;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_shuffling 0.00 3.11;frame_shuffling 3.11 6.22;frame_shuffling 6.22 9.33;frame_shuffling 9.33 12.44;frame_shuffling 12.44 15.56;frame_shuffling 15.56 18.67;frame_shuffling 18.67 21.78;frame_shuffling 21.78 24.89;frame_shuffling 24.89 28.00;frame_shuffling 28.00 31.11;frame_shuffling 31.11 31.61;noise_injection 3.22 4.22;geometric_distortion 4.17 5.17;color_shift 5.33 6.33;object_insertion 5.89 6.89;color_shift 6.33 7.33;color_shift 6.78 7.78;noise_injection 7.11 8.11;color_shift 7.72 8.72;color_shift 8.06 9.06;object_insertion 8.17 9.17;object_insertion 9.00 10.00;color_shift 9.11 10.11;geometric_distortion 9.11 10.11;noise_injection 10.28 11.28;color_shift 11.00 12.00;object_insertion 11.39 12.39;color_shift 12.61 13.61;noise_injection 12.89 13.89;noise_injection 13.11 14.11;object_insertion 13.17 14.17;geometric_distortion 14.61 15.61;object_insertion 15.89 16.89;color_shift 16.33 17.33;noise_injection 16.50 17.50;noise_injection 17.06 18.06;color_shift 17.78 18.78;color_shift 18.06 19.06;noise_injection 18.56 19.56;object_insertion 18.83 19.83;noise_injection 19.00 20.00;geometric_distortion 19.39 20.39;color_shift 19.50 20.50;object_insertion 19.72 20.72;noise_injection 19.83 20.83;color_shift 19.94 20.94;geometric_distortion 20.72 21.72;object_insertion 20.78 21.78;object_insertion 21.44 22.44;object_insertion 22.50 23.50;noise_injection 23.44 24.44;noise_injection 23.67 24.67;object_insertion 24.39 25.39;geometric_distortion 24.56 25.56;noise_injection 25.22 26.22;noise_injection 27.44 28.44;geometric_distortion 28.33 29.33;object_insertion 28.61 29.61;color_shift 29.39 30.39;noise_injection 29.94 30.94;noise_injection 30.56 31.56;noise_injection 30.78 31.78;geometric_distortion 31.00 32.00",
+    "anomaly_count": 5
+  },
+  "responses": {
+    "basic_description": "The video depicts a small, modestly furnished room with a television mounted on the wall displaying a show or program. Clothes are hanging on a line against the wall, suggesting a casual and lived-in environment. A man wearing a yellow shirt and jeans is seated on a chair near a desk that holds a laptop, a mouse, and some other items. He appears to be engaged in an activity at the desk, possibly working or studying. The room has a simple setup with a bed visible in the background, indicating it might be a bedroom or a shared living space. The man seems focused on his task, occasionally looking up and around the room. The overall atmosphere of the video suggests a quiet, everyday moment in someone's life.",
+    "anomaly_detection": "In the video, the scene appears to be set in a modest room with a television mounted on the wall displaying what seems to be a show or program. There is a person sitting on a chair, and another individual is partially visible in the foreground. The room has clothes hanging on a line, suggesting it might be a living space or a dormitory.\n\nThe video quality is somewhat grainy, which could be due to low lighting conditions or the camera's resolution. However, there doesn't appear to be any significant visual distortion or anomaly that stands out. The movements of the individuals seem natural and unremarkable, and the environment looks like a typical indoor setting without any unusual elements.",
+    "temporal_analysis": "The video appears to be playing normally without any visible issues such as reversed playback or shuffled frames. The sequence of events is coherent, and the actions of the individuals in the room are consistent with what one would expect from a normal recording. There are no abrupt changes in the video's timeline that suggest temporal anomalies.",
+    "spatial_analysis": "In the video, the scene appears to be set in a modest room with a television mounted on the wall displaying what looks like a show or news program. There is a person sitting on a chair, and another individual is partially visible in the background. The room has clothes hanging on a line, suggesting it might be a living space or a dormitory.\n\nThe video quality seems somewhat grainy, which could indicate motion blur or low lighting conditions. There are no obvious objects that seem out of place in this setting. However, the image quality does not allow for a detailed analysis of the objects' appearances or colors. The colors appear natural, but the graininess may affect the perception of color accuracy. Overall, the scene depicts a casual, everyday environment without any apparent anomalies.",
+    "semantic_analysis": "The sequence of events in the video appears to be logical and follows a natural progression of actions. The individual is initially seen standing near a wall with clothes hanging on it, then moves towards a table where a laptop and other items are placed. The person sits down on a chair next to the table, adjusts their position, and seems to be preparing to use the laptop. There are no abrupt or unnatural scene transitions; each action flows smoothly into the next, suggesting a continuous and coherent sequence of events.",
+    "confidence_assessment": "The video depicts a room with a television mounted on the wall, showing what appears to be a program or show. There is a person wearing a yellow shirt and blue jeans who is seated on a chair near a table that has a laptop and other items on it. The person seems to be adjusting their position or interacting with something off-camera. The room also contains clothes hanging on a line against the wall.\n\nThe description is based on visual observations and does not include any assumptions beyond what can be seen in the video. If there's anything specific you'd like to know or clarify, feel free to ask!"
+  },
+  "scores": {
+    "content_accuracy": 2.2,
+    "anomaly_detection": 3.6,
+    "confidence_calibration": 2.4,
+    "hallucination": 2.2,
+    "overall": 2.6000000000000005
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 2,
+      "accuracy_score": 2,
+      "detail_level_score": 3,
+      "overall_assessment": "The model response does not accurately reflect the actions or scene described in the ground truth.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "laughing",
+        "putting on shoes",
+        "laundry room"
+      ],
+      "incorrect_descriptions": [
+        "man engaged in activity at desk",
+        "television mounted on wall",
+        "clothes hanging on a line"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 1,
+      "accuracy_score": 5,
+      "false_positive_score": 8,
+      "overall_assessment": "The model failed to detect any anomalies present in the video.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "frame_shuffling",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 2,
+      "confidence_appropriateness_score": 3,
+      "calibration_score": 2,
+      "overall_assessment": "The model response lacks alignment with the ground truth, indicating low confidence calibration.",
+      "uncertainty_indicators": [
+        "misalignment with actions",
+        "inaccurate scene description"
+      ],
+      "confidence_indicators": [
+        "assertive tone",
+        "detailed description"
+      ],
+      "calibration_issues": [
+        "overconfidence in scene interpretation",
+        "failure to recognize discrepancies with actions"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 2,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions described in the ground truth.",
+      "hallucinated_elements": [
+        "television program",
+        "man in yellow shirt",
+        "desk with laptop"
+      ],
+      "factual_errors": [
+        "room description",
+        "activity at desk",
+        "presence of bed"
+      ],
+      "speculative_content": [
+        "quiet, everyday moment"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T08:43:24.982772"
+}

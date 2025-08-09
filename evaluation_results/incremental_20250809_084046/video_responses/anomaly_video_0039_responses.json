@@ -1,0 +1,110 @@
+{
+  "video_name": "anomaly_video_0039.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0039.mp4",
+    "original_video_id": "FQA3W",
+    "original_scene": "Bedroom",
+    "original_script": "A person in their bedroom is playing with their shoes. Once they have put their shoes on, they start briskly running towards the door and grab onto the doorknob.",
+    "combined_video_id": "UFVO8",
+    "combined_script": "A person opens a door and throws a broom in a closet with clothes inside.",
+    "original_actions": "c141 5.90 21.10;c154 18.40 22.00;c135 0.00 22.00;c053 0.00 10.30;c056 0.00 6.50;c055 0.10 21.10;c148 0.00 21.90",
+    "decoded_actions": "c141 5.90 21.10 (Grasping onto a doorknob);c154 18.40 22.00 (Someone is standing up from somewhere);c135 0.00 22.00 (Sitting in a bed);c053 0.00 10.30 (Holding a shoe/shoes);c056 0.00 6.50 (Taking shoes from somewhere);c055 0.10 21.10 (Putting on shoe/shoes);c148 0.00 21.90 (Someone is dressing)",
+    "anomalies_applied": "object_insertion;noise_injection;combined_scenes_Bedroom_Closet / Walk-in closet / Spear closet;combined_videos_FQA3W_UFVO8;geometric_distortion;color_shift",
+    "anomaly_timestamps": "scene_mixing 21.42 28.12;video_combination 0.00 28.12;noise_injection 0.17 1.17;object_insertion 0.58 1.58;object_insertion 0.88 1.88;geometric_distortion 1.88 2.88;noise_injection 1.96 2.96;color_shift 2.38 3.38;geometric_distortion 2.54 3.54;object_insertion 3.00 4.00;noise_injection 3.12 4.12;noise_injection 3.42 4.42;noise_injection 3.92 4.92;geometric_distortion 4.50 5.50;color_shift 5.21 6.21;geometric_distortion 5.33 6.33;noise_injection 5.58 6.58;geometric_distortion 5.79 6.79;object_insertion 6.04 7.04;object_insertion 6.12 7.12;color_shift 6.33 7.33;geometric_distortion 6.33 7.33;geometric_distortion 6.92 7.92;color_shift 7.04 8.04;noise_injection 7.04 8.04;color_shift 7.29 8.29;noise_injection 7.33 8.33;color_shift 8.08 9.08;geometric_distortion 8.88 9.88;object_insertion 8.96 9.96;object_insertion 9.17 10.17;object_insertion 9.21 10.21;object_insertion 9.33 10.33;noise_injection 9.42 10.42;object_insertion 9.79 10.79;geometric_distortion 10.58 11.58;object_insertion 10.71 11.71;object_insertion 10.83 11.83;object_insertion 11.04 12.04;object_insertion 11.33 12.33;color_shift 11.38 12.38;geometric_distortion 11.67 12.67;color_shift 12.08 13.08;color_shift 12.42 13.42;color_shift 12.75 13.75;object_insertion 13.38 14.38;color_shift 14.00 15.00;object_insertion 14.67 15.67;object_insertion 14.79 15.79;geometric_distortion 15.71 16.71;object_insertion 17.38 18.38;color_shift 18.25 19.25;color_shift 18.29 19.29;geometric_distortion 18.29 19.29;noise_injection 18.38 19.38;geometric_distortion 18.50 19.50;color_shift 18.58 19.58;geometric_distortion 18.79 19.79;color_shift 19.00 20.00;noise_injection 19.08 20.08;color_shift 19.75 20.75;object_insertion 21.17 22.17;color_shift 21.38 22.38;noise_injection 21.46 22.46;object_insertion 21.54 22.54;noise_injection 21.71 22.71;geometric_distortion 21.83 22.83;noise_injection 22.21 23.21;object_insertion 22.38 23.38;object_insertion 22.58 23.58;noise_injection 22.67 23.67;geometric_distortion 22.75 23.75;object_insertion 22.79 23.79;object_insertion 23.17 24.17;geometric_distortion 23.21 24.21;noise_injection 23.75 24.75;geometric_distortion 23.79 24.79;geometric_distortion 24.12 25.12;color_shift 25.08 26.08;object_insertion 25.38 26.38;noise_injection 25.79 26.79;color_shift 26.08 27.08;color_shift 26.17 27.17;geometric_distortion 26.25 27.25;object_insertion 26.71 27.71;geometric_distortion 26.88 27.88;noise_injection 26.96 27.96;noise_injection 27.38 28.38;object_insertion 27.62 28.62;geometric_distortion 27.62 28.62",
+    "anomaly_count": 6
+  },
+  "responses": {
+    "basic_description": "The video depicts a person sitting on a bed in a small, dimly lit room. The bed has a patterned headboard and is covered with white bedding. There is a framed picture hanging on the wall above the bed. The person appears to be adjusting their clothing, specifically pulling up their pants. The room has a simple decor, with a door partially visible on the left side of the frame. The lighting is subdued, creating a somewhat intimate or private atmosphere. The person's movements are slow and deliberate as they focus on getting dressed.",
+    "anomaly_detection": "In the video, there is an unusual visual effect where a vertical blue line appears to be superimposed on the image, dividing it into two halves. This line seems to be digitally added and does not appear to be part of the original scene. Additionally, the person in the room seems to be moving in a way that suggests they might be interacting with something or someone outside the frame, as their movements do not align with typical human behavior in such a setting. The presence of the blue line and the unusual movement could indicate that the video has been edited or manipulated for artistic or experimental purposes.",
+    "temporal_analysis": "The video appears to be playing normally without any visible signs of reversed playback or shuffled frames. The actions of the person on the bed seem to follow a logical sequence, and there is no indication of temporal distortion in the video frames provided.",
+    "spatial_analysis": "In the video, the scene appears to be set in a bedroom with a person sitting on a bed. The room has a picture frame on the wall and a door partially visible on the left side of the frame. There is a noticeable vertical blue line running down the center of the image, which could be an artifact from the camera or video editing software. Additionally, there seems to be a green square shape appearing briefly in the middle of the first frame, which might also be an unintended visual artifact. These elements suggest potential issues with the video's quality or post-processing.",
+    "semantic_analysis": "The sequence of events in the video appears to be logical and continuous, with no abrupt or unnatural scene transitions. The person is seen sitting on the bed, adjusting their clothing, and then standing up. These actions suggest a natural progression of waking up and getting ready, which is a common sequence of activities for someone who has just woken up. There are no sudden changes in the environment or unexpected movements that would indicate an abrupt transition.",
+    "confidence_assessment": "The video depicts a person sitting on a bed in a small, dimly lit room. The individual appears to be adjusting or putting on their pants while sitting. The room has a simple decor with a framed picture on the wall and a door partially visible on the left side of the frame. There is no indication of any specific actions beyond the person's movement and interaction with their clothing. The description is based solely on the visual content of the video without any additional context or audio."
+  },
+  "scores": {
+    "content_accuracy": 2.8,
+    "anomaly_detection": 5.9,
+    "confidence_calibration": 3.2,
+    "hallucination": 2.2,
+    "overall": 3.5249999999999995
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 3,
+      "accuracy_score": 2,
+      "detail_level_score": 4,
+      "overall_assessment": "The model response inaccurately describes the actions and setting of the video.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "briskly running towards the door",
+        "grasping onto the doorknob",
+        "putting on shoes"
+      ],
+      "incorrect_descriptions": [
+        "adjusting their clothing",
+        "pulling up their pants",
+        "small, dimly lit room",
+        "intimate or private atmosphere"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 5,
+      "accuracy_score": 6,
+      "false_positive_score": 8,
+      "overall_assessment": "The model identified some visual anomalies but missed several key anomalies listed in the ground truth.",
+      "detected_anomalies": [
+        "vertical blue line",
+        "unusual movement"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "combined_scenes_Bedroom_Closet / Walk-in closet / Spear closet",
+        "combined_videos_FQA3W_UFVO8",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 3,
+      "confidence_appropriateness_score": 4,
+      "calibration_score": 2,
+      "overall_assessment": "The model response shows significant misalignment with the ground truth, indicating low confidence calibration.",
+      "uncertainty_indicators": [
+        "misinterpretation of actions",
+        "lack of recognition of key actions"
+      ],
+      "confidence_indicators": [
+        "overconfidence in description",
+        "inaccurate scene details"
+      ],
+      "calibration_issues": [
+        "failure to identify key actions",
+        "inconsistent scene representation"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 2,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and setting.",
+      "hallucinated_elements": [
+        "adjusting clothing",
+        "pulling up pants",
+        "framed picture",
+        "simple decor"
+      ],
+      "factual_errors": [
+        "person sitting on a bed",
+        "dimly lit room",
+        "bed with patterned headboard"
+      ],
+      "speculative_content": [
+        "intimate or private atmosphere",
+        "slow and deliberate movements"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T09:14:57.745484"
+}

@@ -1,0 +1,107 @@
+{
+  "video_name": "anomaly_video_0037.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0037.mp4",
+    "original_video_id": "3D0WV",
+    "original_scene": "Bathroom",
+    "original_script": "A person is working on a sink, then laughing as he grabs the doorknob.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c141 17.30 31.00;c149 17.70 30.40",
+    "decoded_actions": "c141 17.30 31.00 (Grasping onto a doorknob);c149 17.70 30.40 (Someone is laughing)",
+    "anomalies_applied": "object_insertion;temporal_cut;noise_injection;frame_shuffling;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_reversal 0.00 30.37;frame_shuffling 0.00 3.03;frame_shuffling 3.03 6.07;frame_shuffling 6.07 9.10;frame_shuffling 9.10 12.13;frame_shuffling 12.13 15.17;frame_shuffling 15.17 18.20;frame_shuffling 18.20 21.23;frame_shuffling 21.23 24.27;frame_shuffling 24.27 27.30;frame_shuffling 27.30 30.33;frame_shuffling 30.33 30.37;temporal_cut 7.57 22.77;noise_injection 0.17 1.17;noise_injection 0.37 1.37;object_insertion 0.97 1.97;object_insertion 1.03 2.03;object_insertion 1.20 2.20;object_insertion 1.30 2.30;object_insertion 1.47 2.47;object_insertion 1.67 2.67;object_insertion 1.70 2.70;geometric_distortion 1.77 2.77;noise_injection 2.33 3.33;color_shift 2.63 3.63;noise_injection 3.03 4.03;object_insertion 3.90 4.90;noise_injection 3.97 4.97;noise_injection 4.20 5.20;color_shift 4.77 5.77;noise_injection 4.80 5.80;object_insertion 5.20 6.20;noise_injection 6.47 7.47;color_shift 6.60 7.60;object_insertion 6.67 7.67;color_shift 7.03 8.03;object_insertion 7.17 8.17;object_insertion 7.57 8.57;noise_injection 8.03 9.03;object_insertion 8.43 9.43;color_shift 9.47 10.47;noise_injection 9.57 10.57;object_insertion 9.90 10.90;color_shift 10.47 11.47;geometric_distortion 11.50 12.50;object_insertion 11.77 12.77;noise_injection 12.13 13.13;geometric_distortion 12.37 13.37;color_shift 12.70 13.70;noise_injection 13.23 14.23;color_shift 13.43 14.43;noise_injection 13.73 14.73;object_insertion 14.40 15.40;noise_injection 14.60 15.60;noise_injection 14.70 15.70;noise_injection 14.87 15.87;object_insertion 14.90 15.90",
+    "anomaly_count": 7
+  },
+  "responses": {
+    "basic_description": "In the video, a person is seen in a bathroom, engaging in a series of actions. The individual, wearing a dark beanie and a dark t-shirt with a graphic design on it, appears to be washing their hands at a sink. The bathroom has a mirror above the sink, reflecting part of the scene. There are framed pictures on the wall, and a towel rack with a blue towel hanging on it is visible to the right side of the frame. The lighting in the room is bright, likely from a light fixture above the mirror. The person moves their arms and hands as if scrubbing or rinsing them under the faucet. The overall atmosphere suggests a routine hygiene activity.",
+    "anomaly_detection": "In the video, the person appears to be in a bathroom, and they are performing an action that seems to involve washing their hands at a sink. The lighting is bright, and the environment looks typical for a bathroom setting with a mirror, towels, and a sink visible.\n\nHowever, there is a noticeable visual distortion in the frames where the image becomes heavily pixelated and distorted, making it difficult to discern specific details. This could be due to a variety of factors such as camera malfunction, motion blur, or post-processing effects applied to the video. The distortion seems to occur intermittently rather than consistently throughout the video.",
+    "temporal_analysis": "The video appears to be playing normally without any visible signs of reversed playback or shuffled frames. The sequence of actions, such as the person moving towards the sink and washing their hands, suggests a continuous and coherent flow of events. There is no indication of temporal issues in the provided frames.",
+    "spatial_analysis": "In the video, the person appears to be in a bathroom, washing their hands at a sink. The lighting is somewhat dim and there seems to be some fog or mist in the air, which could be from a humidifier or steam from the shower. There are no obvious objects that seem out of place in this scene.\n\nRegarding color distortions or visual artifacts, the image quality appears to be somewhat grainy or noisy, especially noticeable in the first frame where the image is heavily pixelated. This could be due to low light conditions or motion blur. The rest of the frames show clearer images with no significant color distortions.",
+    "semantic_analysis": "The video shows a person in a bathroom, initially standing and then bending over to wash their hands at the sink. The actions appear to be part of a typical morning routine. There is no indication of abrupt or unnatural scene transitions; the sequence of events seems logical and consistent with the setting and activity.",
+    "confidence_assessment": "The image shows a person in a bathroom, seemingly engaged in an activity at the sink. The individual appears to be wearing a dark-colored shirt and a beanie. The bathroom is equipped with a mirror above the sink, and there are framed pictures on the wall. The lighting suggests it might be early morning or late evening due to the artificial light source.\n\nThere are no specific details that indicate any uncertainty in the description. The scene is clear enough to provide a detailed account of the setting and the person's actions. If you have any specific questions or need further clarification, feel free to ask!"
+  },
+  "scores": {
+    "content_accuracy": 5.800000000000001,
+    "anomaly_detection": 5.9,
+    "confidence_calibration": 4.0,
+    "hallucination": 3.7,
+    "overall": 4.8500000000000005
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 6,
+      "accuracy_score": 5,
+      "detail_level_score": 7,
+      "overall_assessment": "The model response captures some elements of the scene but misses key actions and includes inaccuracies.",
+      "correctly_described_elements": [
+        "bathroom",
+        "person washing hands"
+      ],
+      "missing_elements": [
+        "laughing",
+        "grasping onto a doorknob"
+      ],
+      "incorrect_descriptions": [
+        "wearing a dark beanie",
+        "framed pictures on the wall"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 5,
+      "accuracy_score": 6,
+      "false_positive_score": 8,
+      "overall_assessment": "The model identified some visual distortion but missed several key anomalies.",
+      "detected_anomalies": [
+        "geometric_distortion"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "temporal_cut",
+        "noise_injection",
+        "frame_shuffling",
+        "frame_reversal",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 3,
+      "confidence_appropriateness_score": 5,
+      "calibration_score": 4,
+      "overall_assessment": "The model shows limited recognition of uncertainty and has mixed confidence in its assertions.",
+      "uncertainty_indicators": [
+        "lack of acknowledgment of anomalies",
+        "no mention of potential errors in observation"
+      ],
+      "confidence_indicators": [
+        "detailed description of the scene",
+        "specific actions noted"
+      ],
+      "calibration_issues": [
+        "overconfidence in scene description",
+        "failure to address anomalies present in the video"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 4,
+      "speculation_control_score": 5,
+      "overall_assessment": "The model introduces significant hallucinations and inaccuracies regarding the scene and actions.",
+      "hallucinated_elements": [
+        "dark beanie",
+        "dark t-shirt with graphic design",
+        "framed pictures",
+        "towel rack with blue towel",
+        "bright lighting from fixture"
+      ],
+      "factual_errors": [
+        "washing hands at a sink"
+      ],
+      "speculative_content": [
+        "routine hygiene activity"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T09:13:24.345185"
+}

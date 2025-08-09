@@ -1,0 +1,106 @@
+{
+  "video_name": "anomaly_video_0019.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0019.mp4",
+    "original_video_id": "N4Q0O",
+    "original_scene": "Basement (A room below the ground floor)",
+    "original_script": "A person awakens from under a blanket.  Then starts washing a chair.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c146 1.00 11.90;c154 7.40 12.20;c134 0.00 10.20;c133 4.20 11.90",
+    "decoded_actions": "c146 1.00 11.90 (Someone is awakening somewhere);c154 7.40 12.20 (Someone is standing up from somewhere);c134 0.00 10.20 (Lying on a bed);c133 4.20 11.90 (Someone is awakening in bed)",
+    "anomalies_applied": "object_insertion;speed_change;frame_shuffling;noise_injection;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_shuffling 0.00 3.04;frame_shuffling 3.04 6.07;frame_shuffling 6.07 9.11;frame_shuffling 9.11 12.15;frame_shuffling 12.15 15.18;frame_shuffling 15.18 18.22;frame_shuffling 18.22 21.25;frame_shuffling 21.25 24.29;frame_shuffling 24.29 27.33;frame_shuffling 27.33 30.36;speed_change 0.00 30.36;color_shift 1.30 2.30;object_insertion 1.74 2.74;object_insertion 1.84 2.84;geometric_distortion 2.20 3.20;object_insertion 2.97 3.97;noise_injection 3.34 4.34;geometric_distortion 3.40 4.40;color_shift 3.54 4.54;geometric_distortion 3.74 4.74;object_insertion 3.84 4.84;color_shift 4.00 5.00;noise_injection 4.44 5.44;geometric_distortion 4.94 5.94;geometric_distortion 5.04 6.04;object_insertion 5.14 6.14;color_shift 5.31 6.31;color_shift 5.37 6.37;color_shift 5.74 6.74;object_insertion 6.11 7.11;object_insertion 6.71 7.71;object_insertion 6.94 7.94;color_shift 7.11 8.11;noise_injection 7.17 8.17;color_shift 7.91 8.91;object_insertion 8.71 9.71;color_shift 9.01 10.01;color_shift 9.24 10.24;geometric_distortion 9.41 10.41;geometric_distortion 9.44 10.44;geometric_distortion 10.14 11.14;noise_injection 10.21 11.21;object_insertion 10.51 11.51;color_shift 10.64 11.64;color_shift 11.28 12.28;color_shift 11.78 12.78;geometric_distortion 12.05 13.05;noise_injection 12.38 13.38;color_shift 12.61 13.61;color_shift 12.65 13.65;noise_injection 12.71 13.71;color_shift 12.75 13.75;geometric_distortion 12.88 13.88;geometric_distortion 13.01 14.01;object_insertion 13.51 14.51;color_shift 13.98 14.98;color_shift 14.05 15.05;geometric_distortion 14.28 15.28;geometric_distortion 14.88 15.88",
+    "anomaly_count": 6
+  },
+  "responses": {
+    "basic_description": "The video depicts a person lying on a bed in a small, dimly lit room with white brick walls. The room appears to be a dormitory or a similar setting. There is a poster on the wall behind the person, and another poster is visible on the right side of the frame. A desk with various items, including a computer mouse and some papers, is situated next to the bed.\n\nThe person is initially lying down but then sits up and begins to move around the room. They bend over, possibly to pick something up from the floor or to adjust their clothing. The person's movements suggest they are waking up or getting ready for the day. The overall atmosphere of the video is casual and everyday, capturing a moment of someone transitioning from sleep to wakefulness in a personal space.",
+    "anomaly_detection": "In the video, the person appears to be in a dorm room setting with a bed, a desk, and various posters on the wall. The individual is initially lying down but then quickly gets up and bends over, seemingly reaching for something on the floor or under the desk. There doesn't appear to be anything visually distorted or out of place in the scene. The actions seem normal and consistent with someone waking up and preparing to start their day.",
+    "temporal_analysis": "The video appears to be playing in normal forward motion without any signs of reversed playback or shuffled frames. The sequence of events is clear, with the person waking up, sitting up, and then standing up from the bed. There are no abrupt changes in the frames that would suggest temporal issues.",
+    "spatial_analysis": "In the video, the scene appears to be set in a dorm room with a person lying on a bed and another person moving around the room. The room has posters on the wall, a desk with some items on it, and a chair. There are no obvious objects that seem out of place in this context.\n\nRegarding color distortions or visual artifacts, the video seems to have a consistent lighting and color palette without any noticeable distortions. The colors appear natural, and there are no signs of pixelation or other visual artifacts that would suggest issues with the video quality.",
+    "semantic_analysis": "The sequence of events in the video appears to be logical and natural. The person is initially lying down, suggesting they might have been resting or sleeping. They then sit up, indicating they are waking up or becoming more alert. The person's actions of standing up and moving around suggest they are transitioning from a state of rest to being more active. There are no abrupt or unnatural scene transitions; the movements flow smoothly from one action to the next, maintaining a coherent narrative.",
+    "confidence_assessment": "The video shows a person lying on a bed in a room with white brick walls. The individual is wearing a dark shirt and shorts. They appear to be resting or sleeping. After a brief moment, the person sits up, adjusts their position, and then stands up from the bed. The room has some posters on the wall, including one that seems to feature a band or group. There is also a small table next to the bed with various items on it.\n\nI am confident in describing the actions of the person and the setting of the room based on the visible elements in the video. However, I cannot be certain about the exact nature of the posters or the specific items on the table without more detailed information."
+  },
+  "scores": {
+    "content_accuracy": 4.800000000000001,
+    "anomaly_detection": 3.5,
+    "confidence_calibration": 5.0,
+    "hallucination": 2.7,
+    "overall": 4.0
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 5,
+      "accuracy_score": 4,
+      "detail_level_score": 6,
+      "overall_assessment": "The description captures some elements but misrepresents key actions and setting.",
+      "correctly_described_elements": [
+        "person lying down",
+        "person sitting up"
+      ],
+      "missing_elements": [
+        "washing a chair",
+        "basement setting"
+      ],
+      "incorrect_descriptions": [
+        "dormitory setting",
+        "posters on the wall",
+        "desk with items"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 0,
+      "accuracy_score": 5,
+      "false_positive_score": 10,
+      "overall_assessment": "The model failed to detect any anomalies and provided a partially accurate description.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "speed_change",
+        "frame_shuffling",
+        "noise_injection",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 6,
+      "calibration_score": 5,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks precision in its confidence levels.",
+      "uncertainty_indicators": [
+        "ambiguous setting description",
+        "lack of clear action identification"
+      ],
+      "confidence_indicators": [
+        "detailed scene description",
+        "recognition of waking actions"
+      ],
+      "calibration_issues": [
+        "overconfidence in scene interpretation",
+        "inconsistent action timing"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 3,
+      "speculation_control_score": 4,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions.",
+      "hallucinated_elements": [
+        "dormitory setting",
+        "posters on the wall",
+        "desk with items"
+      ],
+      "factual_errors": [
+        "person lying on a bed",
+        "room description"
+      ],
+      "speculative_content": [
+        "person picking something up",
+        "adjusting clothing"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T08:57:33.707663"
+}

@@ -1,0 +1,114 @@
+{
+  "video_name": "anomaly_video_0028.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0028.mp4",
+    "original_video_id": "JHRI6",
+    "original_scene": "Basement (A room below the ground floor)",
+    "original_script": "A person sits in a chair, holding their homework. The person throws the pages into the air and laughs.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c059 0.00 13.00;c149 5.10 13.00;c152 5.10 13.00;c115 0.00 7.50;c126 3.70 8.20",
+    "decoded_actions": "c059 0.00 13.00 (Sitting in a chair);c149 5.10 13.00 (Someone is laughing);c152 5.10 13.00 (Someone is smiling);c115 0.00 7.50 (Someone is holding a paper/notebook);c126 3.70 8.20 (Throwing something on the floor)",
+    "anomalies_applied": "object_insertion;speed_change;noise_injection;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_reversal 0.00 12.25;speed_change 0.00 12.25;noise_injection 0.10 1.10;noise_injection 0.20 1.20;noise_injection 0.93 1.93;noise_injection 1.37 2.37;color_shift 1.57 2.57;color_shift 2.30 3.30;noise_injection 2.40 3.40;noise_injection 2.64 3.64;object_insertion 3.10 4.10;color_shift 3.10 4.10;color_shift 3.74 4.74;noise_injection 3.80 4.80;object_insertion 4.54 5.54;object_insertion 4.74 5.74;geometric_distortion 5.34 6.34;color_shift 5.37 6.37;object_insertion 5.77 6.77;color_shift 6.64 7.64;color_shift 6.71 7.71;noise_injection 6.87 7.87;object_insertion 7.14 8.14;object_insertion 7.71 8.71;color_shift 8.11 9.11;color_shift 8.51 9.51;geometric_distortion 8.71 9.71;color_shift 8.81 9.81;color_shift 8.84 9.84;noise_injection 9.14 10.14;noise_injection 10.51 11.51;object_insertion 10.91 11.91;object_insertion 11.28 12.28;object_insertion 11.64 12.64;object_insertion 11.78 12.78;color_shift 11.88 12.88;color_shift 12.11 13.11;color_shift 12.61 13.61;geometric_distortion 12.68 13.68;color_shift 12.71 13.71;noise_injection 13.18 14.18;noise_injection 13.81 14.81;object_insertion 13.88 14.88;noise_injection 14.61 15.61;object_insertion 14.65 15.65;object_insertion 14.88 15.88;noise_injection 15.02 16.02;noise_injection 15.25 16.25;object_insertion 15.58 16.58;object_insertion 15.85 16.85;object_insertion 16.62 17.62;color_shift 16.68 17.68;object_insertion 16.98 17.98;noise_injection 17.28 18.28;object_insertion 17.72 18.72;object_insertion 17.78 18.78;noise_injection 17.78 18.78;noise_injection 18.42 19.42;object_insertion 18.55 19.55;color_shift 18.65 19.65;noise_injection 18.89 19.89;geometric_distortion 18.99 19.99;geometric_distortion 19.12 20.12;object_insertion 19.65 20.65;object_insertion 19.92 20.92;geometric_distortion 20.39 21.39;object_insertion 20.42 21.42;color_shift 20.69 21.69;color_shift 20.79 21.79;noise_injection 20.79 21.79;object_insertion 20.95 21.95;object_insertion 21.22 22.22;object_insertion 21.29 22.29;object_insertion 21.65 22.65;object_insertion 21.76 22.76;geometric_distortion 21.89 22.89;noise_injection 22.22 23.22;color_shift 22.36 23.36;color_shift 22.76 23.76;noise_injection 22.89 23.89;geometric_distortion 23.89 24.89;noise_injection 23.92 24.92;object_insertion 23.96 24.96;geometric_distortion 24.22 25.22",
+    "anomaly_count": 6
+  },
+  "responses": {
+    "basic_description": "The video shows a person sitting on a chair in a cluttered room filled with various items such as boxes, electronics, and other miscellaneous objects. The individual is wearing a dark jacket and jeans. They appear to be engaged in an activity that involves reading from a piece of paper or script, as they hold it up and look down at it while speaking. The room has a casual, lived-in feel, with items stacked and placed haphazardly around the space. There is also a fan visible in the background, suggesting the room might be used for storage or a makeshift workspace. The lighting is dim, giving the scene a somewhat informal atmosphere.",
+    "anomaly_detection": "In the video, the person is sitting on a chair in what appears to be a cluttered room filled with various items such as drums, a fan, and other miscellaneous objects. The lighting seems dim, and the overall atmosphere gives off a casual, perhaps home-like setting.\n\nThere are no obvious visual distortions or anomalies in the video. However, the sudden appearance of a pink square in one frame could be considered an anomaly if it was not intentional. It might be a glitch or an unintended overlay that appeared during the recording. Otherwise, the video seems to be a straightforward recording without any significant visual effects or distortions.",
+    "temporal_analysis": "The video appears to be playing normally without any visible temporal issues such as reversed playback or shuffled frames. The sequence of events is consistent, with the person sitting on a chair, reading from a piece of paper, and then standing up. There are no abrupt changes in the video's timeline that suggest it has been altered.",
+    "spatial_analysis": "In the video, the setting appears to be a cluttered room with various items such as a drum set, a fan, and other miscellaneous objects. The person is sitting on a chair and seems to be reading from a piece of paper. There are no obvious objects that seem out of place for the context of the scene.\n\nRegarding color distortions or visual artifacts, the video quality appears somewhat grainy, which could be due to low lighting conditions or the video being recorded with a lower resolution camera. However, there are no significant color distortions visible in the frames provided. The colors appear consistent throughout the video, and there are no noticeable visual artifacts affecting the clarity of the image.",
+    "semantic_analysis": "The sequence of events in the video appears to be logical and straightforward. The person is initially seen sitting on a chair in a cluttered room, engaging with the camera. There is no indication of abrupt or unnatural scene transitions; the actions flow smoothly from one moment to the next. The person's interaction with the camera suggests they might be explaining something or narrating an event, which is consistent with the setting and context provided by the surrounding environment.",
+    "confidence_assessment": "The video shows a person sitting on a chair in what appears to be a cluttered room filled with various items such as boxes, electronics, and other miscellaneous objects. The individual is wearing a dark jacket and jeans. They are holding and reading from a piece of paper while speaking. The room has a fan and some shelves with additional items, suggesting it might be a storage or utility area. There's no indication of the time of day or specific context for the setting. The description is based solely on the visual content of the video without any additional information."
+  },
+  "scores": {
+    "content_accuracy": 3.8000000000000003,
+    "anomaly_detection": 4.1,
+    "confidence_calibration": 4.0,
+    "hallucination": 3.3000000000000003,
+    "overall": 3.8000000000000003
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 4,
+      "accuracy_score": 3,
+      "detail_level_score": 5,
+      "overall_assessment": "The model response contains several inaccuracies and misses key actions and elements from the ground truth.",
+      "correctly_described_elements": [
+        "sitting in a chair"
+      ],
+      "missing_elements": [
+        "throwing pages into the air",
+        "laughing",
+        "smiling",
+        "holding homework"
+      ],
+      "incorrect_descriptions": [
+        "engaged in reading",
+        "cluttered room",
+        "dark jacket and jeans",
+        "dim lighting"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 2,
+      "accuracy_score": 5,
+      "false_positive_score": 8,
+      "overall_assessment": "The model failed to identify the majority of the actual anomalies present in the video.",
+      "detected_anomalies": [
+        "pink square"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "speed_change",
+        "noise_injection",
+        "frame_reversal",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 3,
+      "confidence_appropriateness_score": 5,
+      "calibration_score": 4,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks confidence in key actions and context.",
+      "uncertainty_indicators": [
+        "vague description of actions",
+        "lack of specific details about the scene"
+      ],
+      "confidence_indicators": [
+        "general description of the room",
+        "mention of items in the background"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "inaccurate representation of the main activity"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 4,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions.",
+      "hallucinated_elements": [
+        "cluttered room",
+        "boxes",
+        "electronics",
+        "dark jacket",
+        "jeans",
+        "fan",
+        "dim lighting"
+      ],
+      "factual_errors": [
+        "reading from a piece of paper",
+        "speaking"
+      ],
+      "speculative_content": [
+        "casual, lived-in feel",
+        "makeshift workspace"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T09:05:12.497873"
+}

@@ -1,0 +1,113 @@
+{
+  "video_name": "anomaly_video_0033.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0033.mp4",
+    "original_video_id": "OLH8O",
+    "original_scene": "Hallway",
+    "original_script": "A person is grasping a doorknob while another person is snuggling with a vacuum.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c137 0.00 31.00;c141 16.00 20.90",
+    "decoded_actions": "c137 0.00 31.00 (Holding a vacuum);c141 16.00 20.90 (Grasping onto a doorknob)",
+    "anomalies_applied": "object_insertion;temporal_cut;speed_change;frame_shuffling;noise_injection;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_reversal 0.00 30.16;frame_shuffling 0.00 3.00;frame_shuffling 3.00 6.01;frame_shuffling 6.01 9.01;frame_shuffling 9.01 12.01;frame_shuffling 12.01 15.02;frame_shuffling 15.02 18.02;frame_shuffling 18.02 21.02;frame_shuffling 21.02 24.02;frame_shuffling 24.02 27.03;frame_shuffling 27.03 30.03;frame_shuffling 30.03 30.16;speed_change 0.00 30.16;temporal_cut 15.08 45.25;object_insertion 0.40 1.40;noise_injection 0.73 1.73;object_insertion 0.87 1.87;color_shift 1.03 2.03;noise_injection 2.30 3.30;object_insertion 2.77 3.77;object_insertion 3.30 4.30;noise_injection 3.44 4.44;color_shift 3.64 4.64;color_shift 4.04 5.04;object_insertion 4.10 5.10;object_insertion 4.64 5.64;object_insertion 4.67 5.67;object_insertion 4.74 5.74;object_insertion 5.04 6.04;color_shift 5.04 6.04;object_insertion 5.11 6.11;object_insertion 5.14 6.14;object_insertion 5.17 6.17;noise_injection 5.71 6.71;object_insertion 6.01 7.01;noise_injection 7.21 8.21;object_insertion 7.24 8.24;geometric_distortion 7.87 8.87;color_shift 8.11 9.11;noise_injection 8.41 9.41;geometric_distortion 8.51 9.51;geometric_distortion 9.21 10.21;noise_injection 9.51 10.51;color_shift 9.58 10.58;noise_injection 9.64 10.64;geometric_distortion 9.78 10.78;noise_injection 10.61 11.61;object_insertion 10.81 11.81;noise_injection 10.98 11.98;noise_injection 11.01 12.01;object_insertion 11.81 12.81;object_insertion 11.88 12.88;noise_injection 12.15 13.15;object_insertion 12.41 13.41;object_insertion 12.71 13.71;noise_injection 12.88 13.88;object_insertion 12.91 13.91;noise_injection 12.95 13.95;noise_injection 13.28 14.28;object_insertion 13.95 14.95;color_shift 13.95 14.95;object_insertion 14.01 15.01;color_shift 14.05 15.05;object_insertion 14.58 15.58;noise_injection 14.61 15.61;object_insertion 15.12 16.12;noise_injection 15.12 16.12;geometric_distortion 15.58 16.58;object_insertion 15.65 16.65;color_shift 15.65 16.65;color_shift 15.95 16.95;noise_injection 16.05 17.05;noise_injection 16.28 17.28;object_insertion 16.62 17.62;object_insertion 16.68 17.68;color_shift 16.88 17.88;color_shift 16.92 17.92;object_insertion 16.95 17.95;geometric_distortion 17.08 18.08;object_insertion 17.42 18.42;color_shift 17.65 18.65;object_insertion 17.72 18.72;geometric_distortion 17.78 18.78;noise_injection 17.82 18.82;color_shift 19.19 20.19;geometric_distortion 19.45 20.45;object_insertion 19.75 20.75;object_insertion 19.95 20.95;color_shift 20.22 21.22;geometric_distortion 20.42 21.42;object_insertion 20.49 21.49;noise_injection 20.52 21.52;noise_injection 20.82 21.82;color_shift 21.15 22.15;object_insertion 21.82 22.82;noise_injection 22.46 23.46;noise_injection 22.49 23.49;geometric_distortion 23.56 24.56;object_insertion 23.66 24.66;geometric_distortion 23.89 24.89;color_shift 24.19 25.19;noise_injection 24.22 25.22;object_insertion 24.69 25.69;color_shift 24.76 25.76;geometric_distortion 24.86 25.86;object_insertion 25.39 26.39;noise_injection 25.59 26.59;noise_injection 25.63 26.63;object_insertion 25.86 26.86;noise_injection 26.03 27.03;color_shift 26.99 27.99;color_shift 27.33 28.33;object_insertion 27.56 28.56;geometric_distortion 27.76 28.76;object_insertion 27.96 28.96;noise_injection 28.03 29.03;object_insertion 28.13 29.13;color_shift 28.29 29.29;color_shift 28.36 29.36;object_insertion 28.76 29.76;geometric_distortion 28.83 29.83;color_shift 29.30 30.30;noise_injection 29.63 30.63",
+    "anomaly_count": 8
+  },
+  "responses": {
+    "basic_description": "In the video, two individuals are standing in a doorway of a room. The person on the left is wearing a blue shirt and black pants, while the person on the right is dressed in a gray sweater and dark pants. The individual on the right is holding a vacuum cleaner with a purple body and a transparent dust bag attached to it. The person on the left appears to be gesturing or pointing towards something off-camera, possibly directing attention to an area outside the frame.\n\nThe setting seems to be a domestic environment, likely a kitchen or a similar space, as indicated by the stainless steel refrigerator visible on the left side of the frame. The door behind them has a white frame and a silver doorknob. The walls are painted red, and there is a wooden door frame around the doorway. The lighting suggests that the scene takes place indoors during the daytime. There are no other significant objects or movements in the video besides the interaction between the two individuals and the vacuum cleaner.",
+    "anomaly_detection": "In the video, there is a noticeable visual anomaly where a pink square appears on the left side of the frame for a brief moment. This is an abrupt and unexpected addition to the scene, which seems out of place given the otherwise normal setting of two individuals interacting with a vacuum cleaner in a hallway. The rest of the video does not show any other significant distortions or anomalies.",
+    "temporal_analysis": "The video appears to be playing normally without any visible signs of reversed playback or shuffled frames. The actions of the individuals, such as the boy moving his hands and the man adjusting his grip on the vacuum cleaner, suggest a continuous sequence of events. There is no indication that the video has been manipulated in terms of time or frame order.",
+    "spatial_analysis": "In the video, there is no clear indication of objects that do not belong in the scene. The individuals appear to be engaged in a domestic activity, possibly involving cleaning, as one person is holding a vacuum cleaner. There are no noticeable color distortions or visual artifacts in the frames provided. The lighting and colors seem consistent with an indoor setting.",
+    "semantic_analysis": "The video shows two individuals in a hallway, with one person holding a vacuum cleaner and the other standing nearby. The person holding the vacuum cleaner appears to be demonstrating or explaining something about it, as they gesture towards it while speaking. The individual standing nearby seems to be listening attentively.\n\nThere is no indication of abrupt or unnatural scene transitions in this short clip. The actions and interactions between the two individuals appear to be continuous and logically connected, suggesting a natural flow of conversation and demonstration.",
+    "confidence_assessment": "I am confident in my description of the image. The scene depicts two individuals standing in a doorway, with one holding a vacuum cleaner and the other standing beside them. There are no parts that I'm uncertain about; all details are based on what is visibly present in the image."
+  },
+  "scores": {
+    "content_accuracy": 3.8000000000000003,
+    "anomaly_detection": 3.8000000000000003,
+    "confidence_calibration": 3.2,
+    "hallucination": 2.3,
+    "overall": 3.2750000000000004
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 4,
+      "accuracy_score": 3,
+      "detail_level_score": 5,
+      "overall_assessment": "The model response contains several inaccuracies and misses key elements from the ground truth.",
+      "correctly_described_elements": [
+        "vacuum cleaner"
+      ],
+      "missing_elements": [
+        "grasping a doorknob",
+        "scene setting (hallway)"
+      ],
+      "incorrect_descriptions": [
+        "two individuals standing in a doorway",
+        "kitchen or similar space",
+        "gesturing or pointing towards something off-camera",
+        "stainless steel refrigerator",
+        "walls painted red"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 2,
+      "accuracy_score": 4,
+      "false_positive_score": 8,
+      "overall_assessment": "The model detected a visual anomaly but missed several actual anomalies present in the ground truth.",
+      "detected_anomalies": [
+        "visual anomaly (pink square)"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "temporal_cut",
+        "speed_change",
+        "frame_shuffling",
+        "noise_injection",
+        "frame_reversal",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 3,
+      "confidence_appropriateness_score": 4,
+      "calibration_score": 2,
+      "overall_assessment": "The model shows limited recognition of uncertainty and misaligns confidence with the ground truth.",
+      "uncertainty_indicators": [
+        "misinterpretation of actions",
+        "lack of acknowledgment of anomalies"
+      ],
+      "confidence_indicators": [
+        "detailed description of clothing",
+        "specificity in environment"
+      ],
+      "calibration_issues": [
+        "incorrect action identification",
+        "failure to address anomalies"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 3,
+      "speculation_control_score": 2,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions.",
+      "hallucinated_elements": [
+        "blue shirt",
+        "gray sweater",
+        "purple vacuum cleaner",
+        "stainless steel refrigerator",
+        "red walls"
+      ],
+      "factual_errors": [
+        "kitchen setting",
+        "gesturing towards off-camera"
+      ],
+      "speculative_content": [
+        "domestic environment",
+        "daytime lighting"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T09:09:40.308486"
+}

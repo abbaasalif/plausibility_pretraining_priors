@@ -1,0 +1,119 @@
+{
+  "video_name": "anomaly_video_0005.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0005.mp4",
+    "original_video_id": "5Q0CX",
+    "original_scene": "Living room",
+    "original_script": "A person awakens and turns on a light. They get up and look out a window, smiling, before leaving the room.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c104 14.20 18.70;c092 22.40 30.70;c146 0.50 12.40;c154 8.20 16.10;c122 0.00 4.80",
+    "decoded_actions": "c104 14.20 18.70 (Turning on a light);c092 22.40 30.70 (Watching/Looking outside of a window);c146 0.50 12.40 (Someone is awakening somewhere);c154 8.20 16.10 (Someone is standing up from somewhere);c122 0.00 4.80 (Lying on a sofa/couch)",
+    "anomalies_applied": "object_insertion;noise_injection;frame_shuffling;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_reversal 0.00 35.04;frame_shuffling 0.00 3.50;frame_shuffling 3.50 7.01;frame_shuffling 7.01 10.51;frame_shuffling 10.51 14.01;frame_shuffling 14.01 17.52;frame_shuffling 17.52 21.02;frame_shuffling 21.02 24.52;frame_shuffling 24.52 28.03;frame_shuffling 28.03 31.53;frame_shuffling 31.53 35.04;geometric_distortion 0.10 1.10;object_insertion 0.13 1.13;noise_injection 0.53 1.53;object_insertion 1.00 2.00;geometric_distortion 1.63 2.63;object_insertion 2.04 3.04;color_shift 2.27 3.27;object_insertion 2.60 3.60;geometric_distortion 2.80 3.80;object_insertion 3.17 4.17;object_insertion 3.37 4.37;geometric_distortion 3.47 4.47;color_shift 3.50 4.50;object_insertion 3.60 4.60;noise_injection 3.60 4.60;noise_injection 3.74 4.74;object_insertion 3.87 4.87;noise_injection 4.54 5.54;geometric_distortion 4.67 5.67;object_insertion 5.11 6.11;object_insertion 5.27 6.27;object_insertion 5.44 6.44;object_insertion 5.47 6.47;object_insertion 5.77 6.77;color_shift 5.77 6.77;object_insertion 6.24 7.24;color_shift 6.61 7.61;color_shift 7.01 8.01;color_shift 7.34 8.34;object_insertion 8.11 9.11;noise_injection 8.11 9.11;noise_injection 8.48 9.48;object_insertion 9.01 10.01;noise_injection 9.01 10.01;color_shift 9.21 10.21;object_insertion 9.61 10.61;noise_injection 9.84 10.84;noise_injection 10.01 11.01;object_insertion 10.14 11.14;color_shift 10.54 11.54;object_insertion 11.28 12.28;object_insertion 11.51 12.51;color_shift 11.95 12.95;color_shift 12.21 13.21;noise_injection 12.75 13.75;color_shift 13.05 14.05;color_shift 13.81 14.81;color_shift 14.25 15.25;color_shift 14.58 15.58;noise_injection 14.78 15.78;color_shift 14.91 15.91;color_shift 15.55 16.55;object_insertion 15.62 16.62;object_insertion 16.02 17.02;geometric_distortion 16.08 17.08;noise_injection 16.22 17.22;object_insertion 17.05 18.05;object_insertion 17.32 18.32;color_shift 17.72 18.72;object_insertion 17.75 18.75;object_insertion 18.45 19.45;object_insertion 18.92 19.92;geometric_distortion 19.09 20.09;color_shift 19.32 20.32;object_insertion 19.39 20.39;object_insertion 19.55 20.55;color_shift 19.65 20.65;color_shift 19.69 20.69;object_insertion 19.95 20.95;color_shift 20.09 21.09;noise_injection 20.19 21.19;color_shift 20.75 21.75;object_insertion 21.45 22.45;geometric_distortion 22.32 23.32;noise_injection 22.42 23.42;object_insertion 22.46 23.46;noise_injection 22.56 23.56;object_insertion 22.59 23.59;object_insertion 22.69 23.69;noise_injection 22.92 23.92;object_insertion 22.99 23.99;geometric_distortion 23.09 24.09;object_insertion 23.16 24.16;color_shift 23.32 24.32;color_shift 23.39 24.39;object_insertion 24.32 25.32;noise_injection 24.69 25.69;object_insertion 24.99 25.99;noise_injection 25.16 26.16;color_shift 25.86 26.86;noise_injection 26.33 27.33;noise_injection 27.16 28.16;geometric_distortion 27.39 28.39;color_shift 27.66 28.66;object_insertion 27.69 28.69;object_insertion 27.86 28.86;color_shift 27.93 28.93;geometric_distortion 28.26 29.26;object_insertion 28.53 29.53;geometric_distortion 28.63 29.63;object_insertion 28.90 29.90;noise_injection 29.00 30.00;noise_injection 29.06 30.06;geometric_distortion 29.26 30.26;noise_injection 29.30 30.30;color_shift 29.33 30.33;noise_injection 29.96 30.96;color_shift 30.10 31.10;noise_injection 30.33 31.33;color_shift 30.36 31.36;color_shift 30.40 31.40;noise_injection 30.46 31.46;noise_injection 30.76 31.76;noise_injection 30.96 31.96;geometric_distortion 31.50 32.50;object_insertion 31.90 32.90;noise_injection 32.37 33.37;object_insertion 32.43 33.43;color_shift 32.50 33.50;color_shift 32.63 33.63;object_insertion 32.90 33.90;color_shift 32.93 33.93;color_shift 32.97 33.97;color_shift 33.00 34.00;geometric_distortion 33.60 34.60;object_insertion 33.97 34.97;color_shift 34.13 35.13;geometric_distortion 34.20 35.20;color_shift 34.37 35.37;color_shift 34.73 35.73;geometric_distortion 34.97 35.97",
+    "anomaly_count": 6
+  },
+  "responses": {
+    "basic_description": "The video depicts a person in a cozy living room setting. The room is furnished with a beige armchair, a small wooden table with a lamp and some items on it, a large flat-screen TV on a stand, and a wooden cabinet with glass doors that contains various decorative objects. The walls are painted green, and there are several wall-mounted decorations, including a clock and framed pictures.\n\nThe person, dressed in a dark shirt and light-colored pants, enters the frame from the right side and walks towards the left. They appear to be looking around the room, possibly searching for something or inspecting the area. After a moment, they turn back towards the camera and walk out of the frame.\n\nThe scene then transitions to show the same person sitting down on the armchair. They seem relaxed and are leaning back slightly, appearing to rest or take a break. The room's lighting changes, becoming dimmer, which suggests that the person might have turned off the lights or adjusted the room's ambiance.\n\nThroughout the video, the person's movements are casual and unhurried, indicating a calm and laid-back atmosphere. There are no other individuals present in the room, and the overall mood of the video is quiet and peaceful.",
+    "anomaly_detection": "In the video, there are a few visual elements that might be considered unusual:\n\n1. **Distorted Frames**: At certain points, the video frames appear to have a distorted or glitchy effect, as if the image is being corrupted or the camera is experiencing some form of interference.\n\n2. **Lighting Changes**: The lighting in the room fluctuates unexpectedly. For instance, the lamp on the side table seems to flicker or change intensity rapidly, which could be due to a malfunction or an intentional effect for dramatic purposes.\n\n3. **Person's Actions**: The person in the video appears to move erratically at times, which might suggest a lack of control over their movements or an intentional performance for comedic or artistic effect.\n\n4. **Background Elements**: The background remains consistent throughout most of the video, but the sudden appearance and disappearance of objects like the pink square and the blue square could indicate digital manipulation or a glitch in the recording process.\n\nThese observations suggest that the video may have been edited or recorded under conditions that caused visual artifacts or anomalies.",
+    "temporal_analysis": "The video appears to be playing in normal forward motion, as the sequence of events follows a logical progression: the person walks into the room, interacts with objects (possibly adjusting the lamp), and then sits down on the couch. There is no indication of reversed playback or shuffled frames; each frame shows a consistent and sequential action. The lighting changes and the person's movements are smooth, suggesting that the video is being played at its intended speed.",
+    "spatial_analysis": "In the video, the living room appears to be a typical home setting with furniture like a couch, a lamp, and a television. There is no obvious object that doesn't belong in this scene. However, there are some visual artifacts and color distortions present in the video frames. These include pixelation and changes in brightness and color saturation, which might affect the clarity of the scene. The artifacts seem to occur intermittently rather than consistently throughout the video.",
+    "semantic_analysis": "The sequence of events in the video appears to be logical and follows a natural progression of actions. The person enters the room, walks towards the television, interacts with something off-screen (possibly a remote control), and then sits down on the couch. There are no abrupt or unnatural scene transitions; each action flows smoothly into the next. The lighting changes from bright to dim as the person interacts with the lamp, which is a common and expected change in a domestic setting. Overall, the video captures a typical moment of someone relaxing at home.",
+    "confidence_assessment": "I am confident in the description provided based on the visual information available in the image. The sequence of events and the actions of the person are clearly depicted, and there are no parts that seem uncertain or ambiguous. If you have any specific questions or need further clarification on any aspect of the description, feel free to ask!"
+  },
+  "scores": {
+    "content_accuracy": 3.8000000000000003,
+    "anomaly_detection": 7.8999999999999995,
+    "confidence_calibration": 4.0,
+    "hallucination": 2.3,
+    "overall": 4.5
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 4,
+      "accuracy_score": 3,
+      "detail_level_score": 5,
+      "overall_assessment": "The model response contains some accurate details but fails to capture key actions and elements from the ground truth.",
+      "correctly_described_elements": [
+        "cozy living room",
+        "person dressed in dark shirt and light-colored pants"
+      ],
+      "missing_elements": [
+        "turning on a light",
+        "looking out a window",
+        "smiling",
+        "leaving the room"
+      ],
+      "incorrect_descriptions": [
+        "person walking towards the left",
+        "sitting down on the armchair",
+        "lighting changes"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 8,
+      "accuracy_score": 7,
+      "false_positive_score": 9,
+      "overall_assessment": "The model identified several relevant anomalies but missed some specific ones from the ground truth.",
+      "detected_anomalies": [
+        "Distorted Frames",
+        "Lighting Changes",
+        "Background Elements"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "frame_shuffling",
+        "frame_reversal",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": [
+        "Person's Actions"
+      ]
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 3,
+      "confidence_appropriateness_score": 5,
+      "calibration_score": 4,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks precision in its confidence levels and overall calibration.",
+      "uncertainty_indicators": [
+        "vague descriptions",
+        "lack of specific actions"
+      ],
+      "confidence_indicators": [
+        "detailed scene description",
+        "character appearance"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "overconfidence in scene interpretation"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 3,
+      "speculation_control_score": 2,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and setting described in the ground truth.",
+      "hallucinated_elements": [
+        "beige armchair",
+        "wooden table",
+        "large flat-screen TV",
+        "wooden cabinet",
+        "green walls",
+        "wall-mounted decorations"
+      ],
+      "factual_errors": [
+        "person entering from the right",
+        "person sitting down on the armchair",
+        "lighting changes"
+      ],
+      "speculative_content": [
+        "person searching for something",
+        "person inspecting the area",
+        "person resting or taking a break"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T08:45:51.648564"
+}

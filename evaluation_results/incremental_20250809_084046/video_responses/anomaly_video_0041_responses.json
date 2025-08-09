@@ -1,0 +1,107 @@
+{
+  "video_name": "anomaly_video_0041.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0041.mp4",
+    "original_video_id": "RCD08",
+    "original_scene": "Laundry room",
+    "original_script": "A person smiling at a mirror starts waving a towel around and starts laughing.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c036 24.20 30.20;c094 1.30 8.70;c152 1.30 13.00;c073 6.70 12.70;c001 24.80 30.10;c000 7.20 29.50",
+    "decoded_actions": "c036 24.20 30.20 (Throwing a towel/s somewhere);c094 1.30 8.70 (Smiling in a mirror);c152 1.30 13.00 (Someone is smiling);c073 6.70 12.70 (Taking a blanket from somewhere);c001 24.80 30.10 (Putting clothes somewhere);c000 7.20 29.50 (Holding some clothes)",
+    "anomalies_applied": "object_insertion;noise_injection;color_shift;geometric_distortion",
+    "anomaly_timestamps": "object_insertion 0.93 1.93;color_shift 2.32 3.32;object_insertion 2.92 3.92;object_insertion 3.18 4.18;color_shift 3.18 4.18;object_insertion 4.64 5.64;object_insertion 6.70 7.70;noise_injection 6.90 7.90;object_insertion 7.70 8.70;color_shift 7.83 8.83;object_insertion 8.29 9.29;noise_injection 9.02 10.02;geometric_distortion 9.29 10.29;color_shift 9.42 10.42;noise_injection 9.69 10.69;noise_injection 10.28 11.28;noise_injection 12.34 13.34;color_shift 12.61 13.61;color_shift 12.94 13.94;geometric_distortion 13.40 14.40;color_shift 13.47 14.47;object_insertion 14.53 15.53;noise_injection 15.13 16.13;object_insertion 16.72 17.72;object_insertion 17.12 18.12;geometric_distortion 21.03 22.03;noise_injection 21.43 22.43;object_insertion 21.83 22.83;noise_injection 22.16 23.16;object_insertion 22.23 23.23;noise_injection 23.69 24.69;object_insertion 23.95 24.95;noise_injection 24.02 25.02;noise_injection 24.55 25.55;object_insertion 24.81 25.81;object_insertion 25.28 26.28;color_shift 27.80 28.80;geometric_distortion 27.93 28.93;object_insertion 28.73 29.73;geometric_distortion 29.66 30.66;object_insertion 30.65 31.65",
+    "anomaly_count": 4
+  },
+  "responses": {
+    "basic_description": "The video depicts a person in a laundry room, which contains a washing machine and a dryer. The individual is engaged in the process of doing laundry. Here's a detailed description of the activities:\n\n1. **Initial Positioning**: The person stands near the washing machine, appearing to be preparing to start the laundry process.\n2. **Opening the Washing Machine**: The person opens the lid of the washing machine, likely to either load or unload clothes.\n3. **Handling Clothes**: The individual then picks up a piece of clothing from the floor or another location within the room, possibly from a basket or a pile.\n4. **Placing Clothes in the Washing Machine**: After picking up the clothing item, they place it into the washing machine.\n5. **Closing the Washing Machine Lid**: Once the clothes are inside, the person closes the lid of the washing machine.\n6. **Starting the Machine**: The person appears to interact with the control panel of the washing machine, presumably turning it on.\n\nThroughout these actions, the person moves around the room, focusing on the task at hand. The environment includes typical laundry room items such as a broom, a dustpan, cleaning supplies on shelves, and other household items. The lighting suggests an indoor setting, and the overall atmosphere is one of routine domestic activity.",
+    "anomaly_detection": "In the video, the man appears to be performing a task in what looks like a laundry room with a washing machine and dryer. The sequence shows him moving around the room, interacting with the machines, and handling items. However, there is a noticeable visual distortion affecting the video quality, particularly in the second frame where the image becomes pixelated and grainy. This could be due to a variety of factors such as low lighting conditions, camera settings, or a temporary glitch in the recording equipment. The rest of the frames appear clear, but the second frame stands out as an anomaly. There are no other apparent anomalies or unusual elements in the video beyond this distortion.",
+    "temporal_analysis": "The video appears to be playing normally without any visible signs of reversed playback or shuffled frames. The sequence of actions is coherent, and the man's movements are consistent with what one would expect in a laundry room setting. There are no abrupt changes in the timing or order of events that suggest temporal issues.",
+    "spatial_analysis": "The video depicts a person in a laundry room, performing actions such as moving around the room and interacting with items near the washing machine and dryer. There are no objects that appear to be out of place in this context. The room is equipped with typical laundry-related items like a broom, a trash bin, and shelves holding various supplies.\n\nRegarding color distortions or visual artifacts, the image quality appears somewhat grainy or pixelated, which could be due to low lighting conditions or the video recording quality. However, it does not seem to significantly obscure the main activities taking place in the room.",
+    "semantic_analysis": "The sequence of events in the video appears to be logical and follows a typical laundry routine. The man is seen entering the room, approaching the washing machine, and then moving towards the dryer. He seems to be preparing to load the dryer with clothes, which he does by taking out a piece of clothing from the dryer and placing it into the washing machine. This action suggests he might be sorting laundry or possibly reusing the same load for another cycle.\n\nThere are no abrupt or unnatural scene transitions visible in the video. The actions flow smoothly, indicating a continuous and coherent sequence of events within the laundry room setting.",
+    "confidence_assessment": "I am confident in the description of the video content based on the visual information provided. The sequence shows a person in a laundry room, interacting with a washing machine and dryer. The individual appears to be performing tasks related to laundry, such as handling clothes or possibly operating the machines. There are no parts that seem uncertain; the actions are clear from the video frames. If you have any specific questions or need further clarification, feel free to ask!"
+  },
+  "scores": {
+    "content_accuracy": 3.8000000000000003,
+    "anomaly_detection": 5.9,
+    "confidence_calibration": 4.0,
+    "hallucination": 2.8000000000000003,
+    "overall": 4.125
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 4,
+      "accuracy_score": 3,
+      "detail_level_score": 5,
+      "overall_assessment": "The model's description diverges significantly from the actual content, focusing on laundry tasks that are not present.",
+      "correctly_described_elements": [
+        "laundry room"
+      ],
+      "missing_elements": [
+        "smiling at a mirror",
+        "waving a towel",
+        "laughing"
+      ],
+      "incorrect_descriptions": [
+        "opening the washing machine",
+        "placing clothes in the washing machine",
+        "starting the machine"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 5,
+      "accuracy_score": 6,
+      "false_positive_score": 8,
+      "overall_assessment": "The model identified visual distortion but missed other anomalies.",
+      "detected_anomalies": [
+        "geometric_distortion"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 3,
+      "confidence_appropriateness_score": 5,
+      "calibration_score": 4,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks confidence in specific actions.",
+      "uncertainty_indicators": [
+        "vague descriptions",
+        "lack of specific action identification"
+      ],
+      "confidence_indicators": [
+        "detailed environment description",
+        "general activity outline"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "overconfidence in routine descriptions"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 4,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and context.",
+      "hallucinated_elements": [
+        "opening the washing machine",
+        "placing clothes in the washing machine",
+        "closing the washing machine lid",
+        "starting the machine"
+      ],
+      "factual_errors": [
+        "engaged in the process of doing laundry",
+        "picking up a piece of clothing from the floor"
+      ],
+      "speculative_content": [
+        "the environment includes typical laundry room items",
+        "the lighting suggests an indoor setting",
+        "the overall atmosphere is one of routine domestic activity"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T09:16:32.241604"
+}

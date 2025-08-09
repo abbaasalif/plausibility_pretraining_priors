@@ -1,0 +1,113 @@
+{
+  "video_name": "anomaly_video_0004.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0004.mp4",
+    "original_video_id": "FPU57",
+    "original_scene": "Living room",
+    "original_script": "A person is holding a bottle of medicine and walking through the door in the recreation room / man cave.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c006 6.00 11.50;c008 1.00 9.00;c151 11.40 17.90;c088 16.70 24.40;c144 19.40 25.10;c144 16.20 28.90;c097 3.20 9.20;c141 4.20 9.00;c059 10.90 16.70;c154 24.90 30.30",
+    "decoded_actions": "c006 6.00 11.50 (Closing a door);c008 1.00 9.00 (Opening a door);c151 11.40 17.90 (Someone is going from standing to sitting);c088 16.70 24.40 (Watching/looking at a picture);c144 19.40 25.10 (Fixing their hair);c144 16.20 28.90 (Fixing their hair);c097 3.20 9.20 (Walking through a doorway);c141 4.20 9.00 (Grasping onto a doorknob);c059 10.90 16.70 (Sitting in a chair);c154 24.90 30.30 (Someone is standing up from somewhere)",
+    "anomalies_applied": "object_insertion;speed_change;frame_shuffling;noise_injection;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_shuffling 0.00 3.33;frame_shuffling 3.33 6.67;frame_shuffling 6.67 10.00;frame_shuffling 10.00 13.33;frame_shuffling 13.33 16.67;frame_shuffling 16.67 20.00;frame_shuffling 20.00 23.33;frame_shuffling 23.33 26.67;frame_shuffling 26.67 30.00;frame_shuffling 30.00 33.33;frame_shuffling 33.33 33.43;speed_change 0.00 33.43;noise_injection 0.30 1.30;noise_injection 0.77 1.77;object_insertion 1.07 2.07;noise_injection 1.23 2.23;noise_injection 1.60 2.60;object_insertion 1.90 2.90;color_shift 2.47 3.47;color_shift 2.93 3.93;color_shift 2.97 3.97;object_insertion 3.13 4.13;color_shift 3.37 4.37;geometric_distortion 3.57 4.57;object_insertion 3.77 4.77;object_insertion 3.93 4.93;geometric_distortion 4.17 5.17;color_shift 4.60 5.60;noise_injection 4.63 5.63;geometric_distortion 5.00 6.00;object_insertion 5.67 6.67;color_shift 6.77 7.77;noise_injection 6.77 7.77;color_shift 6.80 7.80;color_shift 6.90 7.90;noise_injection 6.97 7.97;noise_injection 7.10 8.10;object_insertion 8.13 9.13;object_insertion 8.27 9.27;geometric_distortion 8.40 9.40;object_insertion 8.67 9.67;object_insertion 8.73 9.73;color_shift 8.77 9.77;object_insertion 9.00 10.00;geometric_distortion 9.10 10.10;noise_injection 9.17 10.17;object_insertion 10.33 11.33;noise_injection 10.40 11.40;object_insertion 11.23 12.23;noise_injection 11.37 12.37;noise_injection 11.83 12.83;noise_injection 11.87 12.87;noise_injection 12.23 13.23;color_shift 13.37 14.37;color_shift 13.60 14.60;object_insertion 13.73 14.73;geometric_distortion 13.73 14.73;noise_injection 14.10 15.10;noise_injection 14.23 15.23;color_shift 14.50 15.50;color_shift 14.60 15.60;object_insertion 14.63 15.63;color_shift 14.73 15.73;object_insertion 15.27 16.27;object_insertion 15.77 16.77;object_insertion 15.93 16.93;noise_injection 15.97 16.97;geometric_distortion 16.27 17.27;object_insertion 16.43 17.43",
+    "anomaly_count": 6
+  },
+  "responses": {
+    "basic_description": "The video depicts a small, sparsely furnished room with a tiled floor and white walls. A window with blinds is positioned near the center of the room, allowing some natural light to enter. In the background, there is a black machine with a digital display showing various settings, possibly a 3D printer or a similar device. To the right of the machine, there is a blue and white cooler with a frying pan resting on top.\n\nA person wearing a pink shirt and dark pants enters the room from the left side, walks towards the machine, and interacts with it by adjusting something on the device. After a few moments, they turn around and walk back out of the frame, leaving the room empty again. The person's actions suggest they might be setting up or monitoring the machine. The overall atmosphere of the video is quiet and focused, with no other significant activity occurring.",
+    "anomaly_detection": "In the video, the room appears to be a small kitchen or utility area with a bed frame and a 3D printer on a table. A person enters the room, interacts briefly with the environment, and then exits. There doesn't appear to be anything particularly unusual or out of place in the scene.\n\nHowever, there is a noticeable visual distortion at one point where the image becomes heavily pixelated and distorted, obscuring the view of the room and the person. This could be due to a camera malfunction, a glitch in the video recording, or an intentional effect for artistic or technical reasons. The rest of the video returns to normal after this distortion.",
+    "temporal_analysis": "The video appears to be playing normally without any visible issues such as reversed playback or shuffled frames. The sequence of events is clear, with the woman entering the room, interacting with the machine, and then leaving. There are no signs of temporal anomalies in the video frames provided.",
+    "spatial_analysis": "In the video, there is no clear indication of objects that do not belong in the scene. The room appears to be a kitchen or a similar space with typical household items such as a stove, a frying pan, and a cooler. The woman's actions seem normal for someone preparing food.\n\nHowever, there is a noticeable color distortion and visual artifact in the second frame where the image becomes very pixelated and distorted, making it difficult to discern specific details. This could be due to a camera malfunction, a sudden change in lighting, or an intentional effect applied to the video.",
+    "semantic_analysis": "The sequence of events in the video appears to be logical and straightforward. The woman enters the room, approaches the bed, and then exits the frame. There is no indication of abrupt or unnatural scene transitions; each action flows smoothly into the next. The room's setup, with the bed, television, and other items, remains consistent throughout the clip, suggesting a continuous and coherent scene.",
+    "confidence_assessment": "The image shows a room with a bed, a window with blinds, and some items on the floor, including what appears to be a 3D printer and a cooler. A person enters the room from the left side, walks towards the center, and then exits the frame. The person is wearing a pink top and dark pants.\n\nThere are no parts of the description that I am uncertain about. The details provided are clear and consistent with the visible elements in the image."
+  },
+  "scores": {
+    "content_accuracy": 1.8000000000000003,
+    "anomaly_detection": 5.300000000000001,
+    "confidence_calibration": 2.4,
+    "hallucination": 2.2,
+    "overall": 2.9250000000000007
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 2,
+      "accuracy_score": 1,
+      "detail_level_score": 3,
+      "overall_assessment": "The model response does not accurately reflect the content of the video.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "bottle of medicine",
+        "man cave",
+        "closing/opening a door",
+        "sitting",
+        "watching a picture",
+        "fixing hair"
+      ],
+      "incorrect_descriptions": [
+        "small, sparsely furnished room",
+        "black machine",
+        "3D printer",
+        "blue and white cooler",
+        "frying pan"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 5,
+      "accuracy_score": 4,
+      "false_positive_score": 8,
+      "overall_assessment": "The model identified some visual distortion but missed several other anomalies present in the ground truth.",
+      "detected_anomalies": [
+        "visual distortion"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "speed_change",
+        "frame_shuffling",
+        "noise_injection",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 2,
+      "confidence_appropriateness_score": 3,
+      "calibration_score": 2,
+      "overall_assessment": "The model response lacks alignment with the ground truth, indicating low confidence calibration.",
+      "uncertainty_indicators": [
+        "misalignment with actions",
+        "incorrect scene description"
+      ],
+      "confidence_indicators": [
+        "assertive tone",
+        "detailed description"
+      ],
+      "calibration_issues": [
+        "overconfidence in scene details",
+        "failure to recognize anomalies"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 2,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions.",
+      "hallucinated_elements": [
+        "black machine",
+        "3D printer",
+        "blue and white cooler",
+        "frying pan"
+      ],
+      "factual_errors": [
+        "room description",
+        "person's clothing",
+        "actions performed"
+      ],
+      "speculative_content": [
+        "setting up or monitoring the machine",
+        "quiet and focused atmosphere"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T08:44:54.967935"
+}

@@ -1,0 +1,111 @@
+{
+  "video_name": "anomaly_video_0012.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0012.mp4",
+    "original_video_id": "F56YP",
+    "original_scene": "Stairs",
+    "original_script": "A person is closing a box and sneezing, then kissing a picture in a glass frame on the stairs.",
+    "combined_video_id": "4Q3N9",
+    "combined_script": "As the person walks into the closet smiling, they realized the glass mirror is dirty and starts laughing.",
+    "original_actions": "c039 0.00 4.80;c040 0.00 9.00;c084 8.30 17.00;c042 0.00 9.70;c088 7.70 17.00;c083 7.50 13.60;c086 13.50 17.00",
+    "decoded_actions": "c039 0.00 4.80 (Closing a box);c040 0.00 9.00 (Holding a box);c084 8.30 17.00 (Holding a picture);c042 0.00 9.70 (Putting a box somewhere);c088 7.70 17.00 (Watching/looking at a picture);c083 7.50 13.60 (Reaching for and grabbing a picture);c086 13.50 17.00 (Putting a picture somewhere)",
+    "anomalies_applied": "combined_videos_F56YP_4Q3N9;object_insertion;noise_injection;combined_scenes_Stairs_Bedroom;frame_shuffling;geometric_distortion;color_shift",
+    "anomaly_timestamps": "scene_mixing 15.58 35.80;video_combination 0.00 35.80;frame_shuffling 0.00 3.57;frame_shuffling 3.57 7.14;frame_shuffling 7.14 10.71;frame_shuffling 10.71 14.28;frame_shuffling 14.28 17.85;frame_shuffling 17.85 21.42;frame_shuffling 21.42 24.99;frame_shuffling 24.99 28.56;frame_shuffling 28.56 32.13;frame_shuffling 32.13 35.70;frame_shuffling 35.70 35.80;object_insertion 0.00 1.00;color_shift 0.03 1.03;noise_injection 0.03 1.03;geometric_distortion 0.23 1.23;noise_injection 0.33 1.33;geometric_distortion 0.63 1.63;color_shift 1.03 2.03;object_insertion 1.13 2.13;object_insertion 1.17 2.17;object_insertion 1.67 2.67;color_shift 1.97 2.97;noise_injection 2.00 3.00;object_insertion 2.07 3.07;object_insertion 2.77 3.77;color_shift 3.07 4.07;color_shift 3.24 4.24;noise_injection 3.47 4.47;noise_injection 3.57 4.57;noise_injection 3.64 4.64;noise_injection 3.74 4.74;object_insertion 3.97 4.97;object_insertion 4.00 5.00;geometric_distortion 4.74 5.74;object_insertion 5.04 6.04;object_insertion 6.14 7.14;color_shift 6.97 7.97;object_insertion 7.91 8.91;noise_injection 7.94 8.94;color_shift 8.17 9.17;geometric_distortion 8.78 9.78;object_insertion 9.04 10.04;noise_injection 9.78 10.78;color_shift 10.48 11.48;noise_injection 10.64 11.64;noise_injection 10.71 11.71;object_insertion 10.94 11.94;color_shift 11.28 12.28;object_insertion 11.51 12.51;object_insertion 11.58 12.58;object_insertion 12.25 13.25;color_shift 12.61 13.61;geometric_distortion 13.05 14.05;object_insertion 13.61 14.61;geometric_distortion 13.71 14.71;color_shift 13.75 14.75;geometric_distortion 13.85 14.85;noise_injection 13.98 14.98;geometric_distortion 14.21 15.21;noise_injection 15.05 16.05;geometric_distortion 15.78 16.78;color_shift 16.15 17.15;object_insertion 16.18 17.18;geometric_distortion 16.42 17.42;geometric_distortion 16.85 17.85;object_insertion 17.48 18.48;noise_injection 17.52 18.52;object_insertion 17.85 18.85;object_insertion 18.15 19.15;noise_injection 18.28 19.28;object_insertion 18.72 19.72;noise_injection 20.15 21.15;noise_injection 20.25 21.25;object_insertion 20.42 21.42;geometric_distortion 20.45 21.45;object_insertion 20.52 21.52;geometric_distortion 20.55 21.55;color_shift 20.99 21.99;noise_injection 21.09 22.09;color_shift 21.12 22.12;object_insertion 21.15 22.15;color_shift 21.19 22.19;noise_injection 21.69 22.69;geometric_distortion 22.82 23.82;noise_injection 23.69 24.69;color_shift 24.16 25.16;object_insertion 24.39 25.39;object_insertion 24.56 25.56;noise_injection 24.59 25.59;object_insertion 24.69 25.69;noise_injection 24.82 25.82;noise_injection 25.53 26.53;color_shift 25.56 26.56;object_insertion 25.89 26.89;object_insertion 25.99 26.99;object_insertion 26.09 27.09;color_shift 26.56 27.56;geometric_distortion 26.56 27.56;object_insertion 27.09 28.09;color_shift 27.16 28.16;object_insertion 27.56 28.56;color_shift 27.63 28.63;color_shift 27.69 28.69;color_shift 27.89 28.89;noise_injection 27.89 28.89;color_shift 28.80 29.80;noise_injection 28.83 29.83;object_insertion 28.93 29.93;object_insertion 29.30 30.30;object_insertion 29.66 30.66;object_insertion 30.23 31.23;object_insertion 30.60 31.60;color_shift 30.73 31.73;noise_injection 31.43 32.43;object_insertion 31.50 32.50;object_insertion 32.33 33.33;geometric_distortion 32.40 33.40;object_insertion 33.00 34.00;object_insertion 33.10 34.10;noise_injection 33.17 34.17;object_insertion 33.77 34.77;noise_injection 33.97 34.97;noise_injection 34.63 35.63;object_insertion 34.87 35.87;color_shift 34.87 35.87;object_insertion 34.97 35.97;geometric_distortion 34.97 35.97;noise_injection 35.20 36.20;object_insertion 35.24 36.24;geometric_distortion 35.44 36.44;object_insertion 35.74 36.74",
+    "anomaly_count": 7
+  },
+  "responses": {
+    "basic_description": "The video begins with a person sitting on a green armchair in front of a staircase, holding a cardboard box. The individual appears to be examining the box closely, turning it around and looking at different angles. The setting is indoors, with wooden stairs and a railing visible in the background.\n\nThe scene then transitions to a different room where another person is standing in front of a mirror. This person is wearing glasses and a light-colored shirt. They seem to be adjusting their appearance or checking their reflection. The room has warm lighting, and there are framed pictures on the wall behind them. The person then turns away from the mirror and walks towards a door, which is slightly ajar. The camera follows them as they move through the doorway into another part of the house. The room they enter has a lamp on a table and some furniture, indicating it might be a bedroom or living area. The overall atmosphere suggests a casual, everyday moment captured in a home environment.",
+    "anomaly_detection": "In the first part of the video, the person is sitting on a chair and holding a cardboard box with a small house design on it. The setting appears to be indoors, possibly in a home environment, as indicated by the staircase and the casual attire of the individual.\n\nIn the second part of the video, the scene shifts to a different room where a man is standing in front of a mirror. The lighting in this room is significantly warmer and more yellow-toned compared to the previous scene. This change in lighting could be due to artificial lighting or a filter applied to the footage.\n\nThere are no apparent visual distortions or anomalies in the video itself. However, the sudden shift from one scene to another might suggest a transition or a change in the narrative or context of the video. The warm lighting in the second scene could also indicate a different time of day or a different mood being conveyed.",
+    "temporal_analysis": "The video appears to be playing in normal forward motion without any signs of reversed playback or shuffled frames. The transitions between scenes seem smooth, and the actions of the individuals are consistent with typical human behavior. There is no indication that the video has been altered in terms of its playback speed or sequence.",
+    "spatial_analysis": "In the video, the first scene shows a person sitting on a chair holding a cardboard box with a small house-like structure on top. The setting appears to be indoors, possibly in a home environment, as indicated by the staircase and the casual attire of the individual.\n\nThe second scene shifts to a different indoor setting where another person is seen standing in front of a mirror, adjusting their appearance. The lighting in this room is warm and yellowish, which could be due to artificial lighting or a filter applied to the footage. There is also a lamp visible in the background, adding to the warm ambiance.\n\nThere do not appear to be any objects that clearly do not belong in either scene. However, the sudden change in lighting from the first scene to the second scene might be considered a visual artifact if it was not intended, as it creates a stark contrast between the two settings. The warm yellow light in the second scene could be intentional for mood or effect but might seem jarring if not expected.",
+    "semantic_analysis": "The sequence of events in the video appears to be logically connected, with each scene transitioning smoothly into the next. The first scene shows a person sitting on a chair holding a cardboard box, which suggests they might be preparing to open it or discussing its contents. This scene sets up an expectation for some form of unboxing or reveal.\n\nThe transition to the second scene, where a different person is seen in a warmly lit room, seems abrupt at first glance. However, this could be interpreted as a shift in time or location, perhaps indicating a passage of time or a change in setting. The warm lighting and the presence of a mirror and artwork in the background create a cozy, personal atmosphere, which contrasts with the more neutral and functional setting of the first scene.\n\nThere are no significant scene transitions that appear abrupt or unnatural; rather, the changes in setting and lighting provide a natural progression that could be indicative of different moments in the day or different locations within the same day. The transition from one person to another also adds a layer of intrigue, suggesting a possible connection between the two individuals or events.",
+    "confidence_assessment": "The video starts with a person sitting on a chair, holding and examining a cardboard box. The setting appears to be indoors, possibly in a home environment, as indicated by the staircase and the casual attire of the individual.\n\nIn the second scene, the video transitions to a different room where another person is seen standing near a mirror. This room has warm lighting, and there are various objects visible, such as a dresser and a lamp. The person seems to be adjusting something on the mirror or interacting with it in some way.\n\nThere are no explicit details provided about the actions or the context beyond these observations. If there's any uncertainty, it would be about the specific intentions or reasons behind the actions of the individuals, which cannot be determined from the visual information alone."
+  },
+  "scores": {
+    "content_accuracy": 1.8000000000000003,
+    "anomaly_detection": 2.9,
+    "confidence_calibration": 2.4,
+    "hallucination": 1.3,
+    "overall": 2.1
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 2,
+      "accuracy_score": 1,
+      "detail_level_score": 3,
+      "overall_assessment": "The model response does not accurately reflect the video content described in the ground truth.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "closing a box",
+        "sneezing",
+        "kissing a picture",
+        "stairs"
+      ],
+      "incorrect_descriptions": [
+        "sitting on a green armchair",
+        "examining the box",
+        "standing in front of a mirror",
+        "adjusting appearance",
+        "walking towards a door"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 0,
+      "accuracy_score": 3,
+      "false_positive_score": 10,
+      "overall_assessment": "The model failed to detect any anomalies and provided an inaccurate description of the video content.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "combined_videos_F56YP_4Q3N9",
+        "object_insertion",
+        "noise_injection",
+        "combined_scenes_Stairs_Bedroom",
+        "frame_shuffling",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 2,
+      "confidence_appropriateness_score": 3,
+      "calibration_score": 2,
+      "overall_assessment": "The model response shows significant deviation from the ground truth, indicating low confidence calibration.",
+      "uncertainty_indicators": [
+        "misalignment with actions",
+        "incorrect scene description"
+      ],
+      "confidence_indicators": [
+        "assertive tone",
+        "detailed description"
+      ],
+      "calibration_issues": [
+        "failure to recognize anomalies",
+        "inaccurate scene transition"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 9,
+      "factual_accuracy_score": 2,
+      "speculation_control_score": 1,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions described in the ground truth.",
+      "hallucinated_elements": [
+        "green armchair",
+        "person in front of a mirror",
+        "different room",
+        "lamp on a table"
+      ],
+      "factual_errors": [
+        "sitting on a green armchair",
+        "examining the box",
+        "adjusting their appearance",
+        "walking towards a door"
+      ],
+      "speculative_content": [
+        "casual, everyday moment",
+        "home environment"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T08:51:56.088569"
+}

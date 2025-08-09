@@ -1,0 +1,107 @@
+{
+  "video_name": "anomaly_video_0010.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0010.mp4",
+    "original_video_id": "5Q0CX",
+    "original_scene": "Living room",
+    "original_script": "A person awakens and turns on a light. They get up and look out a window, smiling, before leaving the room.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c104 14.20 18.70;c092 22.40 30.70;c146 0.50 12.40;c154 8.20 16.10;c122 0.00 4.80",
+    "decoded_actions": "c104 14.20 18.70 (Turning on a light);c092 22.40 30.70 (Watching/Looking outside of a window);c146 0.50 12.40 (Someone is awakening somewhere);c154 8.20 16.10 (Someone is standing up from somewhere);c122 0.00 4.80 (Lying on a sofa/couch)",
+    "anomalies_applied": "object_insertion;temporal_cut;noise_injection;frame_shuffling;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_reversal 0.00 35.04;frame_shuffling 0.00 3.50;frame_shuffling 3.50 7.01;frame_shuffling 7.01 10.51;frame_shuffling 10.51 14.01;frame_shuffling 14.01 17.52;frame_shuffling 17.52 21.02;frame_shuffling 21.02 24.52;frame_shuffling 24.52 28.03;frame_shuffling 28.03 31.53;frame_shuffling 31.53 35.04;temporal_cut 8.74 26.26;object_insertion 0.67 1.67;geometric_distortion 0.70 1.70;noise_injection 1.74 2.74;color_shift 1.87 2.87;color_shift 1.97 2.97;object_insertion 2.47 3.47;noise_injection 2.77 3.77;noise_injection 2.90 3.90;noise_injection 2.97 3.97;geometric_distortion 3.10 4.10;noise_injection 3.64 4.64;noise_injection 4.27 5.27;color_shift 4.67 5.67;color_shift 5.11 6.11;color_shift 5.57 6.57;object_insertion 5.77 6.77;geometric_distortion 5.97 6.97;object_insertion 6.17 7.17;object_insertion 6.44 7.44;color_shift 6.51 7.51;noise_injection 6.54 7.54;object_insertion 6.81 7.81;noise_injection 7.21 8.21;object_insertion 7.64 8.64;geometric_distortion 7.91 8.91;geometric_distortion 7.97 8.97;noise_injection 8.27 9.27;noise_injection 8.78 9.78;noise_injection 8.88 9.88;object_insertion 9.51 10.51;color_shift 9.71 10.71;geometric_distortion 9.71 10.71;color_shift 9.74 10.74;noise_injection 10.28 11.28;color_shift 10.68 11.68;color_shift 11.01 12.01;object_insertion 11.88 12.88;color_shift 12.01 13.01;color_shift 12.11 13.11;object_insertion 12.25 13.25;geometric_distortion 12.51 13.51;object_insertion 12.68 13.68;object_insertion 13.98 14.98;object_insertion 14.01 15.01;noise_injection 14.18 15.18;object_insertion 14.68 15.68;noise_injection 14.98 15.98;object_insertion 15.22 16.22;object_insertion 15.65 16.65;geometric_distortion 15.88 16.88;object_insertion 15.95 16.95;geometric_distortion 16.12 17.12;geometric_distortion 16.72 17.72;object_insertion 16.75 17.75;noise_injection 16.98 17.98;geometric_distortion 17.38 18.38",
+    "anomaly_count": 7
+  },
+  "responses": {
+    "basic_description": "The video depicts a cozy living room with green walls, a large flat-screen TV on the right side, and various pieces of furniture including a couch, a chair, and a wooden cabinet. The room is dimly lit by a lamp on a small table next to the couch.\n\nA person enters the room from the left side, walks towards the center, and then sits down on the couch. They appear to be adjusting something on their lap, possibly a remote control or a device. After a few moments, they lean back against the couch, resting their head on one arm while the other hand rests on their lap. The person seems relaxed and possibly watching television or taking a break. The overall atmosphere of the video suggests a quiet, casual moment at home.",
+    "anomaly_detection": "In the video, there is an unusual and abrupt transition where the scene suddenly becomes pixelated and distorted, almost as if the video is glitching or experiencing a technical issue. This distortion occurs after the person has moved from standing to sitting on the couch. The rest of the room appears normal, with no other significant changes or anomalies visible. The lighting and objects remain consistent throughout the scene, suggesting that the distortion is likely due to a technical error rather than a deliberate effect.",
+    "temporal_analysis": "The video appears to be playing in reverse at some point, as indicated by the backward movement of the person and the objects in the room. This is evident from the sequence where the person seems to be moving away from the camera and then suddenly appears to be moving towards it again, which is not typical for normal playback. Additionally, the frames seem to be shuffled, as the lighting and shadows change abruptly without a logical progression, suggesting that the video might have been edited or played in an unconventional manner.",
+    "spatial_analysis": "In the video, the scene appears to be set in a living room with typical furniture and decor such as a couch, a lamp, a television, and a cabinet. There doesn't seem to be any object that clearly doesn't belong in this scene. However, the image quality is somewhat grainy, which could be due to low lighting conditions or a high ISO setting on the camera used to capture the footage.\n\nThere are no obvious color distortions; the colors appear consistent with what one would expect from an indoor setting. The graininess might make some details less sharp, but it does not introduce any unnatural colors or patterns. If you're referring to specific elements in the scene, please let me know!",
+    "semantic_analysis": "The sequence of events in the video appears to be somewhat abrupt and lacks clear transition points, which might make it feel disjointed. Here's a breakdown:\n\n1. **Initial Scene**: The video opens with a person entering a room and walking towards the back.\n2. **Action**: The person then sits down on a chair and leans back, appearing to relax or rest.\n3. **Lighting Change**: There is a sudden change in lighting, possibly due to a camera adjustment or a change in the environment's light source.\n\nThe abrupt change in lighting could be seen as unnatural if the intention was to maintain a consistent mood throughout the video. Additionally, the lack of a clear transition between the person entering the room and sitting down might make the sequence feel rushed or disconnected. If the goal was to show a calm moment, the abrupt lighting change could detract from this effect.",
+    "confidence_assessment": "The video depicts a person entering a dimly lit living room, walking towards the right side of the frame, and then sitting down on a couch. The room is furnished with a lamp on a side table, a television, and various decorative items on shelves. The person appears to be resting or relaxing as they sit on the couch. There are no significant changes in the environment or actions that suggest uncertainty in the description. The sequence of events is clear and straightforward."
+  },
+  "scores": {
+    "content_accuracy": 2.2,
+    "anomaly_detection": 4.6,
+    "confidence_calibration": 2.4,
+    "hallucination": 2.2,
+    "overall": 2.8499999999999996
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 2,
+      "accuracy_score": 2,
+      "detail_level_score": 3,
+      "overall_assessment": "The model response does not accurately reflect the actions and scenes described in the ground truth.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "awakening",
+        "turning on a light",
+        "looking out a window"
+      ],
+      "incorrect_descriptions": [
+        "person entering the room",
+        "sitting on the couch",
+        "adjusting something on their lap"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 3,
+      "accuracy_score": 5,
+      "false_positive_score": 8,
+      "overall_assessment": "The model identified some distortion but failed to recognize multiple actual anomalies present in the video.",
+      "detected_anomalies": [
+        "temporal_cut",
+        "geometric_distortion"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "frame_shuffling",
+        "frame_reversal",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 2,
+      "confidence_appropriateness_score": 3,
+      "calibration_score": 2,
+      "overall_assessment": "The model response shows significant deviations from the ground truth, indicating low confidence calibration.",
+      "uncertainty_indicators": [
+        "misinterpretation of actions",
+        "lack of recognition of anomalies"
+      ],
+      "confidence_indicators": [
+        "detailed description of the scene",
+        "specific actions described"
+      ],
+      "calibration_issues": [
+        "inaccurate action identification",
+        "failure to address anomalies"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 2,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and setting described in the ground truth.",
+      "hallucinated_elements": [
+        "large flat-screen TV",
+        "person adjusting something on their lap",
+        "watching television"
+      ],
+      "factual_errors": [
+        "person entering the room",
+        "sitting down on the couch",
+        "leaning back against the couch"
+      ],
+      "speculative_content": [
+        "person appears relaxed",
+        "quiet, casual moment at home"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T08:49:54.442002"
+}

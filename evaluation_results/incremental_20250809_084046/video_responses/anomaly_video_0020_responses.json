@@ -1,0 +1,110 @@
+{
+  "video_name": "anomaly_video_0020.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0020.mp4",
+    "original_video_id": "WLKEF",
+    "original_scene": "Living room",
+    "original_script": "Two people are standing and laughing in front of the television; one is drinking and both hold dishes.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c131 0.00 20.00;c154 0.00 20.00;c061 0.00 20.00;c118 0.00 20.00;c149 0.00 20.00;c132 0.00 20.00",
+    "decoded_actions": "c131 0.00 20.00 (Laughing at television);c154 0.00 20.00 (Someone is standing up from somewhere);c061 0.00 20.00 (Holding some food);c118 0.00 20.00 (Holding a dish);c149 0.00 20.00 (Someone is laughing);c132 0.00 20.00 (Watching television)",
+    "anomalies_applied": "object_insertion;temporal_cut;speed_change;frame_shuffling;noise_injection;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_shuffling 0.00 1.88;frame_shuffling 1.88 3.75;frame_shuffling 3.75 5.62;frame_shuffling 5.62 7.50;frame_shuffling 7.50 9.38;frame_shuffling 9.38 11.25;frame_shuffling 11.25 13.12;frame_shuffling 13.12 15.00;frame_shuffling 15.00 16.88;frame_shuffling 16.88 18.75;speed_change 0.00 18.75;temporal_cut 9.38 28.12;object_insertion 0.04 1.04;noise_injection 0.54 1.54;noise_injection 0.71 1.71;color_shift 1.33 2.33;color_shift 1.58 2.58;color_shift 1.67 2.67;object_insertion 2.46 3.46;color_shift 2.83 3.83;object_insertion 3.12 4.12;noise_injection 3.58 4.58;noise_injection 4.58 5.58;object_insertion 5.25 6.25;noise_injection 5.88 6.88;geometric_distortion 5.92 6.92;object_insertion 6.29 7.29;object_insertion 6.50 7.50;geometric_distortion 8.17 9.17;color_shift 8.21 9.21;color_shift 8.54 9.54;noise_injection 8.62 9.62;object_insertion 8.75 9.75;object_insertion 9.42 10.42;geometric_distortion 9.50 10.50;object_insertion 9.54 10.54;object_insertion 10.21 11.21;noise_injection 10.25 11.25;color_shift 11.17 12.17;color_shift 11.29 12.29;object_insertion 11.46 12.46;geometric_distortion 11.54 12.54;noise_injection 11.88 12.88;object_insertion 12.17 13.17;object_insertion 12.25 13.25;noise_injection 12.42 13.42;noise_injection 13.54 14.54;color_shift 14.04 15.04;object_insertion 14.08 15.08;object_insertion 14.12 15.12;geometric_distortion 14.83 15.83;object_insertion 15.08 16.08;geometric_distortion 15.42 16.42;geometric_distortion 15.58 16.58;object_insertion 15.67 16.67;noise_injection 16.04 17.04;object_insertion 16.29 17.29;geometric_distortion 16.88 17.88;object_insertion 17.21 18.21;noise_injection 17.46 18.46;color_shift 17.58 18.58;noise_injection 18.17 19.17;object_insertion 18.38 19.38",
+    "anomaly_count": 7
+  },
+  "responses": {
+    "basic_description": "In the video, three individuals are standing in a living room, facing a television that is mounted on the wall. The TV screen displays a colorful scene, possibly from a show or movie. The person on the left, wearing a white top and a pink skirt, appears to be holding a plate with food and is gesturing towards the TV, possibly explaining something or pointing out details on the screen. The individual in the middle, dressed in a blue jacket and patterned pants, is also looking at the TV and seems to be engaged in the conversation or activity. The person on the right, wearing a dark outfit, is standing close to the middle person and appears to be listening attentively.\n\nThe room has a light-colored floor and walls, and there is an arched doorway in the background with curtains partially drawn. To the left of the TV, there is a black entertainment unit with various electronic devices and speakers. On top of the unit, there are some decorative items, including a small plant. The overall atmosphere suggests a casual and relaxed setting where the group might be enjoying a meal while watching television together.",
+    "anomaly_detection": "In the video, everything appears to be normal and typical for a domestic setting. The individuals are standing in a living room, watching television, which is a common activity. There are no obvious visual distortions or anomalies that stand out as unusual. The people are dressed casually, and the room is furnished with a television, speakers, and other household items. The interaction between the individuals seems natural and relaxed, suggesting they are engaged in a casual conversation while watching TV.",
+    "temporal_analysis": "The video appears to be playing normally without any visible signs of reversed playback or shuffled frames. The individuals in the video are standing and seem to be engaged with something on the television, which is displaying a colorful scene. There are no abrupt changes in the sequence that would suggest temporal issues.",
+    "spatial_analysis": "In the video, there are no objects that appear to be out of place or visually distorted. The scene depicts three individuals standing in a living room, watching television. The room is well-lit and contains typical household items such as a TV, speakers, a small table, and some decorative elements like a flower arrangement on the wall.\n\nThe colors in the video seem natural, with no noticeable color distortions or visual artifacts. The clothing of the individuals appears normal, and the overall setting looks like a standard living room environment. There's nothing unusual about the objects or their appearance in the scene.",
+    "semantic_analysis": "The video shows three individuals standing in a living room, watching television. The person on the left is holding a plate and appears to be eating while engaging with the TV content. The other two individuals are also watching the TV but do not appear to be eating. There is no indication of abrupt or unnatural scene transitions; the actions and interactions between the individuals seem consistent and natural for a casual viewing session at home.",
+    "confidence_assessment": "I am confident in the description provided. The image shows three individuals standing in a living room, watching television. They appear to be engaged with the content on the screen, which is displaying a colorful scene. The room has a modern setup with a flat-screen TV mounted on the wall, a black entertainment unit below it holding various electronic devices and speakers, and a wooden stool nearby. The floor is tiled, and there's an arched doorway in the background with curtains. The individuals are casually dressed, and one of them seems to be holding a plate or a similar object. There are no elements in the image that suggest any uncertainty in the description."
+  },
+  "scores": {
+    "content_accuracy": 4.800000000000001,
+    "anomaly_detection": 3.5,
+    "confidence_calibration": 4.0,
+    "hallucination": 3.7,
+    "overall": 4.0
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 5,
+      "accuracy_score": 4,
+      "detail_level_score": 6,
+      "overall_assessment": "The description includes some accurate elements but misrepresents the number of individuals and specific actions.",
+      "correctly_described_elements": [
+        "living room",
+        "watching television"
+      ],
+      "missing_elements": [
+        "two people",
+        "laughing",
+        "holding dishes"
+      ],
+      "incorrect_descriptions": [
+        "three individuals",
+        "gesturing towards the TV",
+        "individual in a blue jacket"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 0,
+      "accuracy_score": 5,
+      "false_positive_score": 10,
+      "overall_assessment": "The model failed to detect any anomalies despite their presence in the ground truth.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "temporal_cut",
+        "speed_change",
+        "frame_shuffling",
+        "noise_injection",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 3,
+      "confidence_appropriateness_score": 5,
+      "calibration_score": 4,
+      "overall_assessment": "The model shows some understanding of the scene but misidentifies the number of individuals and lacks clarity on actions.",
+      "uncertainty_indicators": [
+        "misidentification of individuals",
+        "lack of clarity on actions"
+      ],
+      "confidence_indicators": [
+        "detailed description of the environment",
+        "engagement of individuals"
+      ],
+      "calibration_issues": [
+        "incorrect number of people",
+        "inaccurate actions described"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 4,
+      "speculation_control_score": 5,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the number of individuals and their actions.",
+      "hallucinated_elements": [
+        "third individual",
+        "specific clothing descriptions",
+        "gesturing towards the TV",
+        "decorative items"
+      ],
+      "factual_errors": [
+        "three individuals instead of two",
+        "specific clothing descriptions not in ground truth"
+      ],
+      "speculative_content": [
+        "engaged in conversation",
+        "explaining something",
+        "atmosphere suggesting a meal"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T08:58:18.723174"
+}

@@ -1,0 +1,110 @@
+{
+  "video_name": "anomaly_video_0045.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0045.mp4",
+    "original_video_id": "K1M15",
+    "original_scene": "Kitchen",
+    "original_script": "A person puts a pot on the stove. The person pulls out their phone, and smiles when they look at it.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c016 14.40 28.90;c147 10.20 15.00;c152 26.30 30.60;c147 3.90 15.30;c119 5.00 16.80;c015 12.20 30.60;c018 26.40 32.00",
+    "decoded_actions": "c016 14.40 28.90 (Playing with a phone/camera);c147 10.20 15.00 (Someone is cooking something);c152 26.30 30.60 (Someone is smiling);c147 3.90 15.30 (Someone is cooking something);c119 5.00 16.80 (Putting a dish/es somewhere);c015 12.20 30.60 (Holding a phone/camera);c018 26.40 32.00 (Taking a phone/camera from somewhere)",
+    "anomalies_applied": "object_insertion;speed_change;noise_injection;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_reversal 0.00 31.20;speed_change 0.00 31.20;object_insertion 0.00 1.00;noise_injection 0.70 1.70;object_insertion 0.97 1.97;geometric_distortion 1.10 2.10;color_shift 1.23 2.23;noise_injection 1.63 2.63;object_insertion 1.67 2.67;noise_injection 2.07 3.07;geometric_distortion 2.17 3.17;object_insertion 2.47 3.47;color_shift 2.53 3.53;geometric_distortion 2.90 3.90;color_shift 3.17 4.17;noise_injection 4.30 5.30;noise_injection 5.17 6.17;noise_injection 5.57 6.57;object_insertion 6.27 7.27;object_insertion 6.73 7.73;geometric_distortion 6.90 7.90;color_shift 7.23 8.23;object_insertion 7.37 8.37;object_insertion 8.20 9.20;object_insertion 8.80 9.80;noise_injection 8.90 9.90;geometric_distortion 9.33 10.33;geometric_distortion 9.43 10.43;object_insertion 10.40 11.40;geometric_distortion 10.43 11.43;geometric_distortion 10.57 11.57;object_insertion 10.87 11.87;geometric_distortion 10.93 11.93;color_shift 11.30 12.30;object_insertion 11.33 12.33;color_shift 11.40 12.40;object_insertion 11.43 12.43;object_insertion 11.50 12.50;color_shift 11.63 12.63;color_shift 12.30 13.30;object_insertion 13.40 14.40;color_shift 13.57 14.57;color_shift 13.60 14.60;object_insertion 13.73 14.73;geometric_distortion 13.93 14.93;object_insertion 14.00 15.00;object_insertion 14.20 15.20;color_shift 14.53 15.53;geometric_distortion 14.77 15.77;noise_injection 15.17 16.17;object_insertion 15.23 16.23;geometric_distortion 15.47 16.47;color_shift 15.60 16.60;noise_injection 16.93 17.93;color_shift 17.23 18.23;noise_injection 17.60 18.60;color_shift 17.63 18.63;color_shift 17.90 18.90;geometric_distortion 17.97 18.97;noise_injection 18.10 19.10;object_insertion 18.27 19.27;noise_injection 18.33 19.33;geometric_distortion 18.53 19.53;noise_injection 18.53 19.53;color_shift 18.67 19.67;noise_injection 18.87 19.87;object_insertion 19.30 20.30;object_insertion 19.40 20.40;color_shift 19.53 20.53;color_shift 20.03 21.03;object_insertion 20.07 21.07;object_insertion 20.60 21.60;object_insertion 21.30 22.30;geometric_distortion 21.33 22.33;geometric_distortion 21.37 22.37;object_insertion 21.40 22.40;noise_injection 21.47 22.47;color_shift 21.63 22.63;object_insertion 21.77 22.77;noise_injection 22.17 23.17;noise_injection 22.27 23.27;noise_injection 22.97 23.97;noise_injection 23.07 24.07;color_shift 23.17 24.17;object_insertion 23.63 24.63;color_shift 24.23 25.23;color_shift 24.37 25.37;color_shift 24.40 25.40;noise_injection 25.03 26.03;color_shift 25.10 26.10;noise_injection 25.13 26.13;object_insertion 25.57 26.57;color_shift 25.67 26.67;color_shift 25.73 26.73;geometric_distortion 25.97 26.97;geometric_distortion 26.07 27.07;noise_injection 26.07 27.07;object_insertion 26.23 27.23;color_shift 26.30 27.30;color_shift 26.73 27.73;object_insertion 27.30 28.30;object_insertion 27.83 28.83;color_shift 28.03 29.03;geometric_distortion 28.10 29.10;color_shift 28.50 29.50;color_shift 28.73 29.73;color_shift 28.80 29.80;noise_injection 28.83 29.83;noise_injection 29.10 30.10;noise_injection 29.27 30.27;noise_injection 29.33 30.33;color_shift 29.40 30.40;noise_injection 29.57 30.57;object_insertion 29.63 30.63;noise_injection 29.63 30.63;object_insertion 30.00 31.00;noise_injection 30.03 31.03;object_insertion 30.37 31.37;geometric_distortion 30.67 31.67;color_shift 31.27 32.27;object_insertion 31.33 32.33;object_insertion 31.43 32.43;object_insertion 31.63 32.63;color_shift 31.70 32.70;color_shift 32.10 33.10;color_shift 32.50 33.50;object_insertion 32.83 33.83;geometric_distortion 33.17 34.17;geometric_distortion 33.53 34.53;geometric_distortion 33.60 34.60;geometric_distortion 33.80 34.80;color_shift 33.97 34.97;object_insertion 34.33 35.33;color_shift 34.33 35.33;noise_injection 34.57 35.57;object_insertion 35.00 36.00;object_insertion 35.30 36.30;object_insertion 35.57 36.57;geometric_distortion 35.60 36.60;object_insertion 35.83 36.83;color_shift 35.97 36.97;color_shift 36.37 37.37;color_shift 36.90 37.90;noise_injection 36.97 37.97;object_insertion 37.13 38.13;geometric_distortion 37.80 38.80;noise_injection 38.07 39.07;color_shift 38.27 39.27;color_shift 38.50 39.50;geometric_distortion 38.50 39.50;object_insertion 38.73 39.73;object_insertion 39.13 40.13;object_insertion 39.67 40.67;color_shift 39.70 40.70;color_shift 39.80 40.80;color_shift 39.83 40.83;geometric_distortion 40.27 41.27;object_insertion 40.53 41.53;object_insertion 40.97 41.97;noise_injection 41.17 42.17;object_insertion 41.23 42.23;noise_injection 41.33 42.33;noise_injection 41.83 42.83;noise_injection 42.00 43.00;object_insertion 42.07 43.07;geometric_distortion 42.40 43.40;object_insertion 42.43 43.43;geometric_distortion 42.77 43.77;geometric_distortion 42.87 43.87;geometric_distortion 43.27 44.27;color_shift 43.30 44.30;object_insertion 43.40 44.40;noise_injection 43.50 44.50;color_shift 43.53 44.53;geometric_distortion 44.07 45.07;geometric_distortion 44.27 45.27;object_insertion 44.47 45.47;geometric_distortion 44.63 45.63;object_insertion 44.73 45.73;object_insertion 45.03 46.03;color_shift 45.10 46.10;color_shift 45.50 46.50;object_insertion 45.57 46.57;object_insertion 45.67 46.67;noise_injection 45.67 46.67;color_shift 45.77 46.77;color_shift 46.17 47.17;color_shift 46.27 47.27;object_insertion 47.03 48.03;color_shift 47.07 48.07;geometric_distortion 47.17 48.17;object_insertion 47.20 48.20;color_shift 47.30 48.30;color_shift 47.40 48.40;noise_injection 47.47 48.47;color_shift 47.77 48.77;object_insertion 48.07 49.07;noise_injection 48.10 49.10;noise_injection 48.13 49.13;geometric_distortion 48.23 49.23;color_shift 48.30 49.30;color_shift 49.00 50.00;object_insertion 49.17 50.17;noise_injection 49.50 50.50;noise_injection 50.10 51.10;color_shift 50.30 51.30;geometric_distortion 50.43 51.43;noise_injection 51.10 52.10;noise_injection 51.37 52.37;geometric_distortion 51.47 52.47;object_insertion 51.73 52.73;object_insertion 52.03 53.03;noise_injection 52.10 53.10;object_insertion 52.43 53.43;noise_injection 52.47 53.47;color_shift 52.63 53.63;color_shift 52.80 53.80;noise_injection 53.17 54.17;color_shift 53.70 54.70;noise_injection 54.30 55.30;noise_injection 54.63 55.63;noise_injection 54.77 55.77;color_shift 54.83 55.83;object_insertion 55.10 56.10;object_insertion 55.57 56.57;color_shift 55.90 56.90;color_shift 55.97 56.97;geometric_distortion 56.03 57.03;noise_injection 56.37 57.37;noise_injection 56.40 57.40;color_shift 56.77 57.77;noise_injection 57.00 58.00;geometric_distortion 57.27 58.27;noise_injection 57.33 58.33;object_insertion 57.80 58.80;color_shift 57.97 58.97;object_insertion 58.23 59.23;color_shift 58.33 59.33;color_shift 58.53 59.53;noise_injection 58.83 59.83;object_insertion 58.93 59.93;object_insertion 59.30 60.30;noise_injection 59.37 60.37;noise_injection 60.00 61.00;noise_injection 60.03 61.03;noise_injection 61.50 62.50;object_insertion 62.33 63.33;noise_injection 62.33 63.33",
+    "anomaly_count": 6
+  },
+  "responses": {
+    "basic_description": "The video depicts a kitchen scene where a woman is engaged in various activities. The setting includes a gas stove with a pot on one of the burners, and the surrounding area is cluttered with various items such as containers, bottles, and kitchen utensils. The walls are plain and light-colored.\n\n1. **Initial Scene**: The video begins with an empty kitchen setup, showing the stove and the surrounding clutter.\n2. **Woman Enters**: A woman wearing a purple shirt enters the frame from the right side. She appears to be holding a smartphone and is looking at it intently.\n3. **Text Overlay**: Throughout her actions, there are intermittent text overlays that appear briefly on the screen, possibly indicating instructions or commentary related to the activity she is performing.\n4. **Activity**: The woman seems to be following some instructions on her phone, possibly related to cooking or another task. She moves around the kitchen, occasionally glancing at the stove and the items on the counter.\n5. **Action**: At one point, she reaches for something on the counter, likely a container or utensil, and then returns to her phone, continuing to follow the instructions.\n6. **Final Scene**: The video ends with the woman still focused on her phone, and the kitchen remains cluttered but otherwise unchanged.\n\nOverall, the video captures a moment of someone using technology (a smartphone) while performing tasks in a kitchen environment. The presence of text overlays suggests that the video might be part of a tutorial or instructional content.",
+    "anomaly_detection": "In the video, there are some visual distortions and anomalies that stand out:\n\n1. **Color Distortions**: Throughout the video, there are sudden color shifts where parts of the image turn into different colors like pink, yellow, or blue. These distortions appear to be random and do not seem to follow any logical pattern.\n\n2. **Lighting Changes**: The lighting in the room fluctuates unexpectedly. At certain points, the room appears much darker than usual, which could be due to the camera's exposure settings changing or external factors affecting the light.\n\n3. **Movement**: The woman's movements are somewhat erratic at times, suggesting possible motion blur or a change in the camera's focus.\n\nThese anomalies might be due to technical issues with the camera or video recording software, or they could be intentional effects added for artistic purposes. Without further context, it is difficult to determine the exact cause.",
+    "temporal_analysis": "The video appears to be playing normally without any reversed playback or shuffled frames. The sequence of events is consistent, with the woman entering the frame, interacting with her phone, and then moving towards the stove. There are no indications of temporal issues in the provided frames.",
+    "spatial_analysis": "In the video, there is a kitchen setting with a stove and various items on the counter. The woman appears to be interacting with her phone while standing near the stove. There are no objects that seem out of place in this scene.\n\nHowever, there are some visual artifacts and color distortions present in the video. Specifically, there are moments where the image appears to flicker or change color unexpectedly, such as when the woman is looking at her phone. These artifacts do not seem to affect the overall context of the scene but may be noticeable during playback.",
+    "semantic_analysis": "The sequence of events in the video appears to be logical and follows a natural progression of actions. The woman enters the kitchen, checks her phone, and then proceeds to interact with the stove. Her actions suggest she is preparing to cook or check on something cooking. There are no abrupt or unnatural scene transitions; each action flows smoothly into the next, maintaining a coherent narrative.",
+    "confidence_assessment": "I am confident in the description provided based on the video content. The sequence of events and the actions of the woman are clearly observable, and there are no parts that seem uncertain or ambiguous. The woman's actions, such as checking her phone and then moving to the stove, are straightforward and consistent with the visual information available. If you have any specific questions or need further clarification on certain aspects, feel free to ask!"
+  },
+  "scores": {
+    "content_accuracy": 5.800000000000001,
+    "anomaly_detection": 6.9,
+    "confidence_calibration": 5.0,
+    "hallucination": 4.2,
+    "overall": 5.4750000000000005
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 6,
+      "accuracy_score": 5,
+      "detail_level_score": 7,
+      "overall_assessment": "The model response captures some elements of the video but misses key actions and details.",
+      "correctly_described_elements": [
+        "kitchen scene",
+        "woman using a smartphone"
+      ],
+      "missing_elements": [
+        "putting a pot on the stove",
+        "smiling",
+        "cooking actions"
+      ],
+      "incorrect_descriptions": [
+        "initial scene is empty",
+        "text overlays indicating instructions"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 7,
+      "accuracy_score": 6,
+      "false_positive_score": 8,
+      "overall_assessment": "The model identified some relevant anomalies but missed others and included some less relevant observations.",
+      "detected_anomalies": [
+        "color_shift",
+        "geometric_distortion"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "speed_change",
+        "noise_injection",
+        "frame_reversal"
+      ],
+      "false_positives": [
+        "lighting_changes",
+        "movement"
+      ]
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 6,
+      "calibration_score": 5,
+      "overall_assessment": "The model demonstrates moderate recognition of uncertainty but lacks precision in confidence levels regarding the actions and anomalies present.",
+      "uncertainty_indicators": [
+        "vague descriptions of actions",
+        "lack of specific anomaly identification"
+      ],
+      "confidence_indicators": [
+        "detailed scene description",
+        "identification of main character's actions"
+      ],
+      "calibration_issues": [
+        "overconfidence in scene interpretation",
+        "underestimation of anomalies"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 5,
+      "speculation_control_score": 6,
+      "overall_assessment": "The model introduces elements not present in the ground truth, leading to a moderate level of hallucination.",
+      "hallucinated_elements": [
+        "text overlays",
+        "woman wearing a purple shirt",
+        "intermittent text overlays"
+      ],
+      "factual_errors": [
+        "empty kitchen setup",
+        "woman enters from the right side"
+      ],
+      "speculative_content": [
+        "following instructions on her phone",
+        "kitchen remains cluttered but otherwise unchanged"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T09:19:48.045612"
+}

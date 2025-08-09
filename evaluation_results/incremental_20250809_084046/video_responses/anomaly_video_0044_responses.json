@@ -1,0 +1,107 @@
+{
+  "video_name": "anomaly_video_0044.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0044.mp4",
+    "original_video_id": "WTBB2",
+    "original_scene": "Bedroom",
+    "original_script": "A person is using a vacuum to tide up the room. They kneel down with a broom getting the little pieces that couldn't be reached with the vacuum. They stand up and inspect their work.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c136 14.40 32.00;c026 0.00 32.00;c032 22.60 30.30;c137 3.00 32.00;c115 0.00 32.00;c125 1.90 32.00",
+    "decoded_actions": "c136 14.40 32.00 (Fixing a vacuum);c026 0.00 32.00 (Holding a book);c032 22.60 30.30 (Watching/Reading/Looking at a book);c137 3.00 32.00 (Holding a vacuum);c115 0.00 32.00 (Someone is holding a paper/notebook);c125 1.90 32.00 (Sitting on the floor)",
+    "anomalies_applied": "object_insertion;noise_injection;frame_shuffling;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_shuffling 0.00 3.13;frame_shuffling 3.13 6.27;frame_shuffling 6.27 9.40;frame_shuffling 9.40 12.53;frame_shuffling 12.53 15.67;frame_shuffling 15.67 18.80;frame_shuffling 18.80 21.93;frame_shuffling 21.93 25.07;frame_shuffling 25.07 28.20;frame_shuffling 28.20 31.33;frame_shuffling 31.33 31.47;color_shift 0.03 1.03;object_insertion 0.17 1.17;object_insertion 0.30 1.30;object_insertion 0.87 1.87;object_insertion 1.77 2.77;geometric_distortion 1.90 2.90;color_shift 2.37 3.37;noise_injection 2.63 3.63;object_insertion 2.87 3.87;color_shift 2.97 3.97;noise_injection 3.43 4.43;object_insertion 3.47 4.47;noise_injection 3.80 4.80;color_shift 3.97 4.97;geometric_distortion 4.23 5.23;color_shift 4.27 5.27;noise_injection 4.53 5.53;geometric_distortion 5.00 6.00;object_insertion 6.80 7.80;object_insertion 6.87 7.87;geometric_distortion 6.90 7.90;object_insertion 7.63 8.63;geometric_distortion 7.80 8.80;noise_injection 7.80 8.80;object_insertion 8.07 9.07;geometric_distortion 8.70 9.70;geometric_distortion 8.80 9.80;noise_injection 9.03 10.03;color_shift 10.73 11.73;noise_injection 11.53 12.53;color_shift 11.70 12.70;object_insertion 12.67 13.67;geometric_distortion 12.67 13.67;object_insertion 13.63 14.63;color_shift 13.83 14.83;object_insertion 13.97 14.97;object_insertion 14.00 15.00;object_insertion 14.47 15.47;noise_injection 14.57 15.57;object_insertion 14.87 15.87;color_shift 14.97 15.97;geometric_distortion 15.23 16.23;color_shift 15.27 16.27;noise_injection 15.27 16.27;noise_injection 15.63 16.63;object_insertion 17.00 18.00;object_insertion 17.60 18.60;geometric_distortion 17.77 18.77;color_shift 18.13 19.13;geometric_distortion 18.33 19.33;object_insertion 18.60 19.60;geometric_distortion 18.73 19.73;noise_injection 18.87 19.87;object_insertion 19.03 20.03;noise_injection 19.37 20.37;object_insertion 19.90 20.90;noise_injection 20.07 21.07;noise_injection 20.30 21.30;object_insertion 20.80 21.80;noise_injection 20.90 21.90;geometric_distortion 21.07 22.07;object_insertion 21.13 22.13;noise_injection 21.17 22.17;color_shift 21.53 22.53;geometric_distortion 22.17 23.17;noise_injection 22.23 23.23;object_insertion 22.27 23.27;geometric_distortion 22.30 23.30;geometric_distortion 22.60 23.60;object_insertion 22.73 23.73;geometric_distortion 22.97 23.97;object_insertion 23.20 24.20;geometric_distortion 23.27 24.27;object_insertion 23.57 24.57;object_insertion 23.87 24.87;color_shift 24.37 25.37;noise_injection 24.37 25.37;object_insertion 24.50 25.50;color_shift 24.73 25.73;noise_injection 24.73 25.73;color_shift 24.87 25.87;noise_injection 25.00 26.00;color_shift 25.77 26.77;object_insertion 25.93 26.93;noise_injection 25.97 26.97;geometric_distortion 26.10 27.10;color_shift 26.37 27.37;geometric_distortion 27.03 28.03;color_shift 27.70 28.70;color_shift 28.40 29.40;color_shift 28.73 29.73;color_shift 28.97 29.97;geometric_distortion 29.40 30.40;object_insertion 29.60 30.60;color_shift 29.60 30.60;object_insertion 29.67 30.67;object_insertion 30.37 31.37;color_shift 30.40 31.40;color_shift 30.43 31.43;object_insertion 30.63 31.63;object_insertion 30.93 31.93;object_insertion 31.00 32.00;object_insertion 31.13 32.13;geometric_distortion 31.43 32.43",
+    "anomaly_count": 5
+  },
+  "responses": {
+    "basic_description": "The video shows a person in a cluttered room, likely a bedroom or a small living space, engaged in cleaning with a vacuum cleaner. The individual is wearing a green and black striped shirt and dark pants. They are kneeling on the floor, maneuvering the vacuum cleaner around various objects scattered across the room, including clothes hanging on a rack, a bed with a patterned blanket, and other miscellaneous items.\n\nThe room appears to be quite disorganized, with clothes and other belongings strewn about. The person seems focused on cleaning the floor, moving the vacuum cleaner back and forth to pick up debris. The lighting in the room is natural, coming from a window with wooden frames, suggesting it might be daytime. The overall atmosphere of the video conveys a sense of routine cleaning amidst a busy environment.",
+    "anomaly_detection": "The video depicts a person using a vacuum cleaner to clean the floor in what appears to be a cluttered room with clothes hanging and various items scattered around. There is no indication of anything unusual or out of place in the scene. The actions performed by the individual, such as kneeling and maneuvering the vacuum cleaner, are typical for cleaning tasks. The environment looks like a typical household setting without any noticeable visual distortions or anomalies.",
+    "temporal_analysis": "The video appears to be playing in normal forward motion without any signs of reversed playback or shuffled frames. The sequence of actions is consistent with someone using a vacuum cleaner, and the transitions between frames suggest a continuous and logical progression of events.",
+    "spatial_analysis": "The video depicts a person using a vacuum cleaner to clean the floor of a room. The room appears to be cluttered with various items, including clothes hanging on racks and a bed with pillows and blankets. There is no indication of any objects that do not belong in this scene. The colors appear natural, and there are no visible visual artifacts or distortions in the video frames provided.",
+    "semantic_analysis": "The video shows a person in a cluttered room, initially standing and then bending over to pick up a vacuum cleaner. The person proceeds to kneel on the floor and begins using the vacuum cleaner to clean the room. There is no indication of scene transitions; the actions flow logically from one to the next without any abrupt changes. The setting remains consistent throughout the video, maintaining focus on the individual's cleaning activity.",
+    "confidence_assessment": "The video shows a person in a cluttered room, actively engaged with a vacuum cleaner. The individual is seen kneeling and maneuvering the vacuum hose across the floor, suggesting they are cleaning or organizing the space. The room appears to be a bedroom or a similar personal living area, given the presence of a bed and various items scattered around, including clothes hanging on a rack and other miscellaneous objects. The lighting suggests it's daytime, as natural light is coming through a window. There are no other people visible in the scene, and the focus remains on the individual and their interaction with the vacuum cleaner."
+  },
+  "scores": {
+    "content_accuracy": 6.200000000000001,
+    "anomaly_detection": 3.8,
+    "confidence_calibration": 5.0,
+    "hallucination": 3.8,
+    "overall": 4.7
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 7,
+      "accuracy_score": 6,
+      "detail_level_score": 5,
+      "overall_assessment": "The description captures the general cleaning activity but lacks specific details and includes inaccuracies.",
+      "correctly_described_elements": [
+        "cleaning with a vacuum",
+        "kneeling on the floor"
+      ],
+      "missing_elements": [
+        "broom",
+        "inspection of work"
+      ],
+      "incorrect_descriptions": [
+        "cluttered room",
+        "clothes hanging on a rack",
+        "bed with a patterned blanket"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 0,
+      "accuracy_score": 6,
+      "false_positive_score": 10,
+      "overall_assessment": "The model failed to detect any anomalies present in the video despite their existence.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "frame_shuffling",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 6,
+      "calibration_score": 5,
+      "overall_assessment": "The model shows moderate uncertainty in recognizing specific actions and context, with a fair level of confidence in its observations.",
+      "uncertainty_indicators": [
+        "lack of specific action identification",
+        "generalized description of the environment"
+      ],
+      "confidence_indicators": [
+        "detailed description of the scene",
+        "recognition of cleaning activity"
+      ],
+      "calibration_issues": [
+        "overconfidence in scene description",
+        "underestimation of action complexity"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 5,
+      "speculation_control_score": 4,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions.",
+      "hallucinated_elements": [
+        "green and black striped shirt",
+        "clothes hanging on a rack",
+        "bed with a patterned blanket",
+        "natural lighting from a window"
+      ],
+      "factual_errors": [
+        "specific clothing description",
+        "presence of clothes hanging on a rack",
+        "details about the bed"
+      ],
+      "speculative_content": [
+        "suggestion of daytime",
+        "overall atmosphere description"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T09:18:43.911316"
+}

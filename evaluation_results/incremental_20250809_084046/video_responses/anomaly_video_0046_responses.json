@@ -1,0 +1,108 @@
+{
+  "video_name": "anomaly_video_0046.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0046.mp4",
+    "original_video_id": "1N1UT",
+    "original_scene": "Pantry",
+    "original_script": "A person holding a book and eating a sandwich closes a door.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c026 0.00 31.00;c032 0.40 31.00;c065 0.00 31.00;c006 24.30 30.70;c156 0.00 31.00;c061 0.00 26.00;c030 0.00 4.50;c141 24.50 30.60",
+    "decoded_actions": "c026 0.00 31.00 (Holding a book);c032 0.40 31.00 (Watching/Reading/Looking at a book);c065 0.00 31.00 (Eating a sandwich);c006 24.30 30.70 (Closing a door);c156 0.00 31.00 (Someone is eating something);c061 0.00 26.00 (Holding some food);c030 0.00 4.50 (Taking a book from somewhere);c141 24.50 30.60 (Grasping onto a doorknob)",
+    "anomalies_applied": "object_insertion;geometric_distortion;color_shift;noise_injection",
+    "anomaly_timestamps": "object_insertion 0.33 1.33;geometric_distortion 0.43 1.43;color_shift 1.03 2.03;noise_injection 1.17 2.17;noise_injection 1.20 2.20;object_insertion 1.27 2.27;color_shift 1.47 2.47;noise_injection 1.63 2.63;geometric_distortion 1.80 2.80;object_insertion 1.90 2.90;noise_injection 2.64 3.64;object_insertion 2.84 3.84;object_insertion 3.74 4.74;noise_injection 3.90 4.90;noise_injection 3.94 4.94;object_insertion 4.87 5.87;geometric_distortion 5.21 6.21;color_shift 6.01 7.01;object_insertion 6.21 7.21;geometric_distortion 6.61 7.61;object_insertion 6.87 7.87;object_insertion 7.87 8.87;geometric_distortion 8.38 9.38;geometric_distortion 8.74 9.74;noise_injection 8.81 9.81;geometric_distortion 9.11 10.11;object_insertion 9.34 10.34;noise_injection 9.38 10.38;color_shift 9.41 10.41;color_shift 9.68 10.68;geometric_distortion 9.74 10.74;geometric_distortion 9.81 10.81;noise_injection 10.28 11.28;object_insertion 10.78 11.78;object_insertion 11.01 12.01;object_insertion 11.18 12.18;object_insertion 11.24 12.24;color_shift 11.44 12.44;noise_injection 11.81 12.81;geometric_distortion 12.11 13.11;object_insertion 12.28 13.28;noise_injection 12.48 13.48;noise_injection 12.78 13.78;object_insertion 13.28 14.28;object_insertion 13.41 14.41;color_shift 13.58 14.58;object_insertion 13.85 14.85;color_shift 14.25 15.25;object_insertion 14.28 15.28;color_shift 14.38 15.38;geometric_distortion 14.65 15.65;color_shift 14.71 15.71;object_insertion 14.75 15.75;color_shift 15.62 16.62;object_insertion 15.72 16.72;noise_injection 16.42 17.42;color_shift 16.88 17.88;noise_injection 17.28 18.28;geometric_distortion 17.52 18.52;object_insertion 17.95 18.95;object_insertion 17.98 18.98;object_insertion 18.05 19.05;noise_injection 18.52 19.52;object_insertion 19.02 20.02;noise_injection 19.02 20.02;color_shift 19.12 20.12;object_insertion 19.15 20.15;color_shift 19.22 20.22;noise_injection 19.32 20.32;color_shift 19.39 20.39;noise_injection 19.39 20.39;color_shift 19.72 20.72;color_shift 19.75 20.75;color_shift 19.82 20.82;noise_injection 19.82 20.82;object_insertion 20.09 21.09;noise_injection 20.15 21.15;geometric_distortion 20.29 21.29;object_insertion 20.49 21.49;geometric_distortion 20.99 21.99;color_shift 21.02 22.02;color_shift 21.15 22.15;color_shift 21.59 22.59;object_insertion 21.96 22.96;geometric_distortion 22.06 23.06;color_shift 22.09 23.09;noise_injection 22.46 23.46;color_shift 22.86 23.86;geometric_distortion 23.39 24.39;color_shift 23.62 24.62;color_shift 23.66 24.66;color_shift 23.69 24.69;object_insertion 24.09 25.09;object_insertion 24.82 25.82;geometric_distortion 25.29 26.29;object_insertion 25.43 26.43;noise_injection 25.43 26.43;color_shift 25.49 26.49;noise_injection 25.53 26.53;object_insertion 26.26 27.26;noise_injection 26.36 27.36;color_shift 26.43 27.43;color_shift 26.83 27.83;geometric_distortion 27.53 28.53;object_insertion 27.66 28.66;object_insertion 27.69 28.69;color_shift 27.69 28.69;object_insertion 28.56 29.56;object_insertion 28.63 29.63;color_shift 28.83 29.83;noise_injection 29.00 30.00;noise_injection 29.10 30.10;noise_injection 29.33 30.33;object_insertion 29.56 30.56;geometric_distortion 29.56 30.56;object_insertion 29.70 30.70",
+    "anomaly_count": 4
+  },
+  "responses": {
+    "basic_description": "In the video, a person is standing in a small kitchen area, holding a sandwich and a piece of bread. The kitchen has a cozy, lived-in feel with various items on display. There's a shelf filled with canned goods, a yellow bag, and some bananas. A calendar or poster featuring a dog is pinned to the wall next to a clock. The person appears to be preparing or eating a sandwich, as they are seen spreading something on the bread. They then walk towards a doorway, possibly heading to another room or leaving the kitchen. The environment suggests a casual, homey setting.",
+    "anomaly_detection": "In the video, the scene appears to be set in a kitchen or pantry area with various items like canned goods, bananas, and other food supplies on shelves. The person is holding what looks like a piece of bread or a sandwich. There doesn't appear to be anything particularly unusual or out of place in terms of the setting or objects.\n\nHowever, there seems to be a visual anomaly where the person's head appears to be distorted or glitched in one frame, which might be an artifact from the video editing process or a technical issue with the recording. This distortion makes it look as though the person's head is unnaturally deformed or missing parts. It's not a natural occurrence within the scene itself but rather an artifact that affects the visual quality of that specific frame.",
+    "temporal_analysis": "The video appears to be playing normally without any visible temporal issues such as reversed playback or shuffled frames. The actions of the person, including eating and moving around, seem to follow a logical sequence without any interruptions or anomalies that would suggest playback issues.",
+    "spatial_analysis": "In the video, there is no clear indication of objects that do not belong in the scene. The setting appears to be a kitchen or pantry area with typical household items such as canned goods, bananas, and other food items on shelves.\n\nHowever, there seems to be a visual artifact or glitch in the video at around the 7-second mark where the image becomes distorted with a pink and purple hue, obscuring the view of the person and the surroundings. This could be due to a technical issue with the recording or an intentional effect for artistic purposes. After this moment, the video returns to normal, showing the person continuing their activity without any further distortion.",
+    "semantic_analysis": "The sequence of events in the video appears to be logical and natural. The woman is seen in a kitchen setting, holding a sandwich and a knife, which suggests she might be preparing food. She then moves towards the doorway, possibly to leave the room or to get something from another area. There are no abrupt or unnatural scene transitions; the actions flow smoothly from one to the next, indicating a continuous and coherent narrative within the kitchen environment.",
+    "confidence_assessment": "The video shows a person standing in a kitchen-like setting, holding and examining an orange object that appears to be a piece of paper or a small book. The individual seems to be reading or inspecting the object closely. The background includes a shelf with various items such as canned goods, bananas, and other household supplies. There is also a clock on the wall and some hanging decorations. The person then moves towards a doorway, possibly exiting the room.\n\nI am confident in describing the scene based on the visible elements. However, I cannot determine the exact nature of the orange object without more context or visual details."
+  },
+  "scores": {
+    "content_accuracy": 5.800000000000001,
+    "anomaly_detection": 7.1,
+    "confidence_calibration": 4.0,
+    "hallucination": 3.3000000000000003,
+    "overall": 5.05
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 6,
+      "accuracy_score": 5,
+      "detail_level_score": 7,
+      "overall_assessment": "The description captures some elements but misses key actions and specific details.",
+      "correctly_described_elements": [
+        "holding a sandwich",
+        "kitchen area"
+      ],
+      "missing_elements": [
+        "holding a book",
+        "closing a door"
+      ],
+      "incorrect_descriptions": [
+        "piece of bread",
+        "preparing a sandwich"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 7,
+      "accuracy_score": 6,
+      "false_positive_score": 9,
+      "overall_assessment": "The model identified a visual anomaly but missed several other anomalies listed in the ground truth.",
+      "detected_anomalies": [
+        "geometric_distortion"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "color_shift",
+        "noise_injection"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 3,
+      "confidence_appropriateness_score": 5,
+      "calibration_score": 4,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks precision in action identification.",
+      "uncertainty_indicators": [
+        "vague descriptions",
+        "lack of specific actions"
+      ],
+      "confidence_indicators": [
+        "general environment description",
+        "some accurate observations"
+      ],
+      "calibration_issues": [
+        "misidentification of actions",
+        "failure to address anomalies"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 4,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and items present.",
+      "hallucinated_elements": [
+        "piece of bread",
+        "shelf filled with canned goods",
+        "yellow bag",
+        "bananas",
+        "calendar or poster featuring a dog",
+        "clock"
+      ],
+      "factual_errors": [
+        "holding a piece of bread",
+        "spreading something on the bread"
+      ],
+      "speculative_content": [
+        "preparing or eating a sandwich",
+        "heading to another room or leaving the kitchen",
+        "cozy, lived-in feel"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T09:20:36.413991"
+}

@@ -1,0 +1,104 @@
+{
+  "video_name": "anomaly_video_0013.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0013.mp4",
+    "original_video_id": "8NSDT",
+    "original_scene": "Entryway (A hall that is generally located at the entrance of a house)",
+    "original_script": "A person stands in their entryway, holding a camera. The person sets the camera down, then walks to a nearby table where they pick up some food.",
+    "combined_video_id": "WTBB2",
+    "combined_script": "A person is using a vacuum to tide up the room. They kneel down with a broom getting the little pieces that couldn't be reached with the vacuum. They stand up and inspect their work.",
+    "original_actions": "c009 6.40 12.40;c015 0.00 11.90;c017 4.80 12.20;c061 15.50 21.50;c065 15.30 32.00;c097 0.00 3.40",
+    "decoded_actions": "c009 6.40 12.40 (Putting something on a table);c015 0.00 11.90 (Holding a phone/camera);c017 4.80 12.20 (Putting a phone/camera somewhere);c061 15.50 21.50 (Holding some food);c065 15.30 32.00 (Eating a sandwich);c097 0.00 3.40 (Walking through a doorway)",
+    "anomalies_applied": "object_insertion;combined_scenes_Entryway (A hall that is generally located at the entrance of a house)_Bedroom;noise_injection;combined_videos_8NSDT_WTBB2;geometric_distortion;color_shift",
+    "anomaly_timestamps": "scene_mixing 30.93 62.40;video_combination 0.00 62.40;object_insertion 0.07 1.07;color_shift 0.10 1.10;color_shift 0.13 1.13;color_shift 0.53 1.53;noise_injection 0.53 1.53;object_insertion 1.00 2.00;noise_injection 1.33 2.33;geometric_distortion 1.63 2.63;object_insertion 1.87 2.87;object_insertion 2.57 3.57;noise_injection 2.70 3.70;object_insertion 2.83 3.83;color_shift 2.83 3.83;object_insertion 3.23 4.23;color_shift 3.23 4.23;color_shift 3.30 4.30;geometric_distortion 3.30 4.30;color_shift 3.60 4.60;color_shift 3.63 4.63;object_insertion 3.83 4.83;noise_injection 3.87 4.87;color_shift 4.03 5.03;color_shift 4.30 5.30;noise_injection 4.37 5.37;object_insertion 4.77 5.77;noise_injection 5.40 6.40;color_shift 5.93 6.93;object_insertion 6.03 7.03;object_insertion 6.23 7.23;object_insertion 6.27 7.27;object_insertion 6.53 7.53;color_shift 6.97 7.97;object_insertion 7.13 8.13;object_insertion 7.63 8.63;color_shift 7.93 8.93;color_shift 8.23 9.23;geometric_distortion 8.70 9.70;geometric_distortion 8.87 9.87;object_insertion 10.13 11.13;color_shift 10.27 11.27;noise_injection 10.40 11.40;color_shift 10.97 11.97;color_shift 11.07 12.07;noise_injection 11.50 12.50;geometric_distortion 11.63 12.63;color_shift 12.50 13.50;noise_injection 12.87 13.87;object_insertion 13.13 14.13;object_insertion 14.13 15.13;noise_injection 14.13 15.13;object_insertion 14.53 15.53;object_insertion 14.63 15.63;color_shift 14.93 15.93;object_insertion 15.07 16.07;noise_injection 15.07 16.07;noise_injection 15.17 16.17;noise_injection 15.97 16.97;color_shift 16.03 17.03;color_shift 16.20 17.20;object_insertion 16.37 17.37;noise_injection 16.40 17.40;noise_injection 16.53 17.53;geometric_distortion 16.80 17.80;object_insertion 17.53 18.53;geometric_distortion 17.63 18.63;object_insertion 17.67 18.67;color_shift 17.70 18.70;color_shift 18.13 19.13;noise_injection 18.23 19.23;object_insertion 18.40 19.40;object_insertion 18.43 19.43;geometric_distortion 18.77 19.77;object_insertion 19.03 20.03;object_insertion 19.47 20.47;object_insertion 19.53 20.53;noise_injection 19.60 20.60;color_shift 19.80 20.80;color_shift 20.73 21.73;color_shift 20.77 21.77;object_insertion 20.87 21.87;noise_injection 21.07 22.07;color_shift 21.70 22.70;color_shift 21.77 22.77;color_shift 21.83 22.83;noise_injection 23.00 24.00;object_insertion 23.50 24.50;color_shift 23.60 24.60;color_shift 23.83 24.83;noise_injection 23.93 24.93;object_insertion 23.97 24.97;geometric_distortion 24.03 25.03;noise_injection 24.80 25.80;color_shift 24.83 25.83;object_insertion 25.07 26.07;object_insertion 25.30 26.30;object_insertion 25.40 26.40;noise_injection 25.67 26.67;noise_injection 25.73 26.73;noise_injection 26.30 27.30;noise_injection 26.37 27.37;noise_injection 26.67 27.67;noise_injection 27.57 28.57;object_insertion 28.03 29.03;object_insertion 29.03 30.03;object_insertion 29.17 30.17;object_insertion 29.20 30.20;color_shift 29.50 30.50;geometric_distortion 29.73 30.73;color_shift 29.83 30.83;noise_injection 30.47 31.47;object_insertion 30.53 31.53;color_shift 30.73 31.73;color_shift 31.73 32.73;geometric_distortion 32.07 33.07;object_insertion 32.17 33.17;object_insertion 32.20 33.20;geometric_distortion 32.70 33.70;object_insertion 32.80 33.80;object_insertion 33.63 34.63;object_insertion 34.10 35.10;object_insertion 34.73 35.73;noise_injection 35.07 36.07;color_shift 35.83 36.83;noise_injection 35.83 36.83;object_insertion 36.47 37.47;color_shift 36.83 37.83;color_shift 37.03 38.03;object_insertion 38.20 39.20;color_shift 38.37 39.37;color_shift 39.80 40.80;object_insertion 40.83 41.83;geometric_distortion 41.17 42.17;color_shift 41.37 42.37;object_insertion 41.43 42.43;object_insertion 42.07 43.07;color_shift 42.13 43.13;geometric_distortion 42.20 43.20;noise_injection 42.43 43.43;noise_injection 42.47 43.47;object_insertion 42.50 43.50;color_shift 42.73 43.73;color_shift 43.60 44.60;geometric_distortion 43.70 44.70;geometric_distortion 43.73 44.73;color_shift 44.43 45.43;object_insertion 44.60 45.60;object_insertion 44.83 45.83;geometric_distortion 44.90 45.90;noise_injection 44.93 45.93;object_insertion 44.97 45.97;color_shift 45.63 46.63;noise_injection 45.70 46.70;object_insertion 45.80 46.80;noise_injection 46.40 47.40;noise_injection 46.83 47.83;object_insertion 46.93 47.93;color_shift 46.93 47.93;geometric_distortion 47.07 48.07;geometric_distortion 47.13 48.13;object_insertion 47.80 48.80;object_insertion 48.47 49.47;geometric_distortion 48.63 49.63;object_insertion 48.87 49.87;object_insertion 49.30 50.30;object_insertion 50.23 51.23;color_shift 50.70 51.70;color_shift 50.73 51.73;object_insertion 50.83 51.83;noise_injection 51.10 52.10;noise_injection 52.23 53.23;color_shift 52.37 53.37;geometric_distortion 52.73 53.73;object_insertion 52.87 53.87;color_shift 53.33 54.33;color_shift 53.50 54.50;noise_injection 53.57 54.57;object_insertion 53.70 54.70;color_shift 53.70 54.70;object_insertion 54.30 55.30;object_insertion 54.60 55.60;object_insertion 55.03 56.03;object_insertion 55.07 56.07;geometric_distortion 55.20 56.20;object_insertion 55.30 56.30;object_insertion 55.53 56.53;color_shift 55.67 56.67;geometric_distortion 55.73 56.73;noise_injection 55.93 56.93;color_shift 56.63 57.63;object_insertion 57.00 58.00;noise_injection 57.50 58.50;color_shift 57.97 58.97;noise_injection 58.00 59.00;noise_injection 58.90 59.90;color_shift 59.03 60.03;noise_injection 59.03 60.03;color_shift 59.33 60.33;object_insertion 59.37 60.37;noise_injection 59.50 60.50;color_shift 59.63 60.63;color_shift 59.83 60.83;object_insertion 59.97 60.97;object_insertion 60.17 61.17;object_insertion 60.83 61.83;color_shift 61.80 62.80;color_shift 61.97 62.97",
+    "anomaly_count": 6
+  },
+  "responses": {
+    "basic_description": "The video begins with a man walking through a hallway towards the camera. He is wearing a teal polo shirt and dark pants, and he appears to be holding something small in his hands. As he approaches, he bends down slightly, possibly to pick something up or adjust his grip on the object.\n\nThe scene then transitions to another part of the house where the man is seen standing near a desk cluttered with various items such as a laptop, papers, and decorative objects. The room has shelves filled with books, trophies, and other personal belongings, suggesting it might be a study or a home office. The man seems to be engaged in some activity at the desk, possibly working or organizing something.\n\nThroughout the video, the lighting remains consistent, indicating that the scenes are likely taken within the same day. The overall atmosphere suggests a casual, everyday setting, with the man appearing focused on his tasks.",
+    "anomaly_detection": "The video appears to be a sequence of a person moving through a home environment, engaging with objects and possibly preparing for an activity. There are no obvious visual distortions or anomalies in the frames provided. The lighting seems natural, coming from outside the house, and the room is furnished with typical household items such as a desk, chair, and shelves filled with various objects.\n\nIf you have specific questions about the actions or objects within the video, feel free to ask!",
+    "temporal_analysis": "The video appears to be playing in normal forward motion without any signs of reversed playback or shuffled frames. The sequence of events is clear and follows a logical progression as the person moves through different parts of the house, interacting with objects along the way.",
+    "spatial_analysis": "In the video, the man is seen walking through a hallway and entering a room where he interacts with various objects on a desk. The environment appears to be a home setting, with furniture like a chair, shelves filled with items, and a laptop on the desk.\n\n1. **Objects that might not belong**: There doesn't appear to be anything out of place in terms of objects. However, without more context, it's hard to determine if something is misplaced intentionally or accidentally.\n\n2. **Color distortions or visual artifacts**: The video seems to have some visual artifacts, particularly noticeable in the second frame where the image appears slightly distorted, possibly due to motion blur or a sudden change in camera focus. The colors also seem somewhat muted, which could be due to lighting conditions or the quality of the recording device.\n\nIf you have specific questions about the objects or the scene, feel free to ask!",
+    "semantic_analysis": "The sequence of events in the video appears to be logical and follows a natural progression of actions. Here's a breakdown:\n\n1. The person is seen walking through a hallway, holding an object in their hands.\n2. They approach a table and place the object down.\n3. The person then walks towards another area of the house, possibly a living room or another part of the home.\n4. They bend over near a desk, seemingly organizing or interacting with items on it.\n\nThere are no abrupt or unnatural scene transitions; each action flows smoothly into the next, suggesting a continuous and coherent narrative. The setting remains consistent throughout, indicating that all activities are taking place within the same environment.",
+    "confidence_assessment": "I am confident in the description of the video based on the provided frames. Here's a detailed breakdown:\n\n1. **Initial Scene**: The video begins with a person walking through a hallway towards the camera. The environment suggests an indoor setting, possibly a home or office, as indicated by the furniture and decor.\n\n2. **Action**: The individual is holding something in their hands, which appears to be a small object or device. They walk confidently, suggesting they might be familiar with the space or purpose of their movement.\n\n3. **Transition**: As the person approaches the camera, they turn and walk away, indicating a change in direction or purpose. This could imply they are heading to another part of the house or office.\n\n4. **New Environment**: The scene shifts to a different area within the same building. The person is now standing near a desk cluttered with various items such as a laptop, papers, and other miscellaneous objects. The background includes shelves filled with books, decorative items, and personal belongings, suggesting this is a workspace or study area.\n\n5. **Activity**: The person interacts with the items on the desk, possibly organizing or searching for something specific. Their movements are deliberate, indicating a focused task.\n\n6. **Conclusion**: The person continues to move around the room, engaging with the items on the desk. The overall impression is one of someone who is actively working or preparing for a task.\n\nThere are no parts of the description that I find uncertain; all observations are based directly on the visual content provided. If you have any specific questions or need further clarification, feel free to ask!"
+  },
+  "scores": {
+    "content_accuracy": 3.8000000000000003,
+    "anomaly_detection": 3.5,
+    "confidence_calibration": 4.2,
+    "hallucination": 2.3,
+    "overall": 3.45
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 3,
+      "accuracy_score": 4,
+      "detail_level_score": 5,
+      "overall_assessment": "The model response deviates significantly from the ground truth, missing key actions and elements.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "entryway",
+        "putting something on a table",
+        "holding a camera",
+        "eating a sandwich"
+      ],
+      "incorrect_descriptions": [
+        "man walking through a hallway",
+        "desk cluttered with various items",
+        "study or home office"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 0,
+      "accuracy_score": 5,
+      "false_positive_score": 10,
+      "overall_assessment": "The model failed to detect any anomalies despite their presence in the ground truth.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "combined_scenes_Entryway_Bedroom",
+        "noise_injection",
+        "combined_videos_8NSDT_WTBB2",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 5,
+      "calibration_score": 3,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks confidence in its calibration, leading to potential misinterpretations of the scene.",
+      "uncertainty_indicators": [
+        "inconsistent scene description",
+        "lack of specific actions"
+      ],
+      "confidence_indicators": [
+        "general observations",
+        "consistent lighting"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "overgeneralization of scene context"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 3,
+      "speculation_control_score": 2,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions.",
+      "hallucinated_elements": [
+        "desk cluttered with various items",
+        "study or home office"
+      ],
+      "factual_errors": [
+        "man wearing a teal polo shirt",
+        "engaged in some activity at the desk"
+      ],
+      "speculative_content": [
+        "possibly working or organizing something",
+        "overall atmosphere suggests a casual, everyday setting"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T08:52:56.490486"
+}

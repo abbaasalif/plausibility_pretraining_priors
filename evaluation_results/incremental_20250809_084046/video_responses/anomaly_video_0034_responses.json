@@ -1,0 +1,105 @@
+{
+  "video_name": "anomaly_video_0034.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0034.mp4",
+    "original_video_id": "GHJCC",
+    "original_scene": "Bedroom",
+    "original_script": "A person is lying on a sofa watch a television and throws a pillow at the tv.",
+    "combined_video_id": "U45LK",
+    "combined_script": "A person is standing in a closet organizing their wardrobe. As they are leaving, they close the door.",
+    "original_actions": "c122 0.00 24.20;c076 0.00 32.00;c135 0.00 24.20;c078 0.00 24.30;c134 0.00 24.50;c079 21.40 27.30;c154 20.00 27.20;c132 0.00 23.40;c077 19.90 32.00",
+    "decoded_actions": "c122 0.00 24.20 (Lying on a sofa/couch);c076 0.00 32.00 (Holding a pillow);c135 0.00 24.20 (Sitting in a bed);c078 0.00 24.30 (Snuggling with a pillow);c134 0.00 24.50 (Lying on a bed);c079 21.40 27.30 (Taking a pillow from somewhere);c154 20.00 27.20 (Someone is standing up from somewhere);c132 0.00 23.40 (Watching television);c077 19.90 32.00 (Putting a pillow somewhere)",
+    "anomalies_applied": "object_insertion;combined_videos_GHJCC_U45LK;speed_change;noise_injection;combined_scenes_Bedroom_Closet / Walk-in closet / Spear closet;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "scene_mixing 31.45 81.79;video_combination 0.00 81.79;frame_reversal 0.00 81.79;speed_change 0.00 81.79;color_shift 0.18 1.18;color_shift 0.24 1.24;geometric_distortion 0.84 1.84;object_insertion 2.04 3.04;color_shift 2.04 3.04;color_shift 2.10 3.10;color_shift 3.30 4.30;color_shift 4.08 5.08;noise_injection 4.44 5.44;geometric_distortion 4.56 5.56;object_insertion 4.62 5.62;color_shift 5.40 6.40;object_insertion 6.90 7.90;color_shift 6.90 7.90;color_shift 7.14 8.14;geometric_distortion 7.38 8.38;geometric_distortion 8.10 9.10;object_insertion 10.26 11.26;geometric_distortion 10.26 11.26;noise_injection 10.92 11.92;noise_injection 11.64 12.64;geometric_distortion 12.66 13.66;color_shift 13.32 14.32;noise_injection 13.50 14.50;geometric_distortion 14.64 15.64;geometric_distortion 15.00 16.00;object_insertion 15.42 16.42;geometric_distortion 16.32 17.32;noise_injection 16.38 17.38;geometric_distortion 16.86 17.86;noise_injection 16.86 17.86;object_insertion 17.52 18.52;color_shift 18.18 19.18;noise_injection 18.60 19.60;color_shift 18.96 19.96;object_insertion 19.02 20.02;noise_injection 19.44 20.44;object_insertion 19.56 20.56;geometric_distortion 19.68 20.68;noise_injection 19.86 20.86;object_insertion 19.98 20.98;geometric_distortion 20.22 21.22;color_shift 20.70 21.70;noise_injection 21.72 22.72;geometric_distortion 23.46 24.46;color_shift 23.70 24.70;object_insertion 24.06 25.06;geometric_distortion 24.12 25.12;geometric_distortion 25.14 26.14;color_shift 26.04 27.04;color_shift 27.00 28.00;color_shift 27.12 28.12;color_shift 27.60 28.60;object_insertion 28.02 29.02;noise_injection 28.50 29.50;object_insertion 28.74 29.74;noise_injection 29.52 30.52;object_insertion 29.82 30.82;color_shift 29.82 30.82;color_shift 30.06 31.06;object_insertion 30.42 31.42;color_shift 31.57 32.57;geometric_distortion 31.93 32.93;object_insertion 31.99 32.99;noise_injection 32.59 33.59;object_insertion 32.71 33.71;geometric_distortion 33.43 34.43;object_insertion 33.61 34.61;color_shift 33.61 34.61;object_insertion 34.45 35.45;geometric_distortion 34.81 35.81;noise_injection 34.81 35.81;color_shift 35.47 36.47;color_shift 35.65 36.65;geometric_distortion 36.01 37.01;noise_injection 36.01 37.01;geometric_distortion 36.31 37.31;geometric_distortion 36.85 37.85;noise_injection 37.63 38.63;object_insertion 38.11 39.11;noise_injection 39.31 40.31;color_shift 39.37 40.37;noise_injection 40.09 41.09;noise_injection 40.75 41.75",
+    "anomaly_count": 8
+  },
+  "responses": {
+    "basic_description": "The video shows a person in a room, seemingly engaged in an activity involving a white shirt. The individual is initially standing and appears to be adjusting or handling the shirt. They then sit down on a white couch, leaning back against the wall with their legs crossed. The person continues to interact with the shirt, possibly folding or examining it. The room has a simple setup with a television mounted on the wall displaying some content, a mirror hanging on the wall, and a red bucket placed on the floor near the couch. The overall atmosphere suggests a casual, indoor setting where the person is focused on the task at hand.",
+    "anomaly_detection": "In the video, the person is seen lying on a bed with their legs raised and bent at the knees. They appear to be holding a phone in one hand while resting their head on the other arm. The room has a simple setup with a television mounted on the wall, a mirror hanging on the wall, and some items scattered around, including what looks like a green bag or blanket on the bed.\n\nThere doesn't appear to be anything particularly unusual or out of place in the scene. However, the sudden shift from standing to lying down might seem abrupt if not explained by context. The video does not show any visual distortions or anomalies that would suggest something is amiss. It seems to be a casual moment captured in a home setting.",
+    "temporal_analysis": "The video appears to be playing normally without any visible signs of reversed playback or shuffled frames. The sequence of actions is consistent with what one would expect from a normal recording, where the person is first standing and then sitting down on a couch while holding a phone. There are no abrupt changes in the video that suggest it has been manipulated or played in reverse.",
+    "spatial_analysis": "In the video, the person is seen sitting on a couch and appears to be adjusting their clothing. The room has a simple setup with a television mounted on the wall, a mirror, and some items like a red bucket and what seems to be a green bag on the floor.\n\n1. **Objects in the Scene**: \n   - The person is wearing a black jacket and jeans.\n   - There's a white shirt being adjusted by the person.\n   - A television is visible on the wall.\n   - A mirror is hanging on the wall.\n   - A red bucket and a green bag are on the floor.\n   - The couch is white.\n\n2. **Color Distortions or Visual Artifacts**:\n   - The lighting in the room appears to be natural, possibly from a window out of frame, which gives the scene a consistent tone without noticeable color distortions.\n   - There are no apparent visual artifacts such as blurring or pixelation that would suggest issues with the camera or video quality.\n\nThe scene looks normal for a casual setting, and all objects appear to fit within the context of the room.",
+    "semantic_analysis": "The sequence of events in the video appears to be somewhat abrupt and lacks clear context, making it difficult to determine if the actions are logically connected. Here's a breakdown:\n\n1. **Initial Scene**: The person is standing in a room with a television on the wall.\n2. **Action**: The person picks up a white shirt from the floor and begins to put it on.\n3. **Transition**: The person then sits down on a couch while still holding the shirt.\n4. **Action**: The person continues to put on the shirt while sitting.\n\nThe transition from standing to sitting without any apparent reason (such as needing to sit to put on the shirt) seems abrupt. Additionally, the lack of context about why the person is putting on the shirt or what they are doing after sitting down makes the sequence feel unnatural. It would be more logical if the person had a specific reason for sitting down or if the action of putting on the shirt was part of a larger narrative.",
+    "confidence_assessment": "The video shows a person in a room, initially standing and then sitting on a bed or couch. The individual is wearing a dark jacket and jeans. They appear to be adjusting their position and interacting with an object that looks like a phone or remote control. The room has a simple setup with a television mounted on the wall, a mirror, and some items scattered around, including what seems to be a green bag or blanket on the floor.\n\nThere are no specific details in the image that suggest any uncertainty in the description. The actions and setting are clear from the visual content provided."
+  },
+  "scores": {
+    "content_accuracy": 1.8000000000000003,
+    "anomaly_detection": 3.0,
+    "confidence_calibration": 2.4,
+    "hallucination": 1.3,
+    "overall": 2.1250000000000004
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 2,
+      "accuracy_score": 1,
+      "detail_level_score": 3,
+      "overall_assessment": "The model response does not accurately reflect the content of the video.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "lying on a sofa",
+        "throwing a pillow",
+        "watching television"
+      ],
+      "incorrect_descriptions": [
+        "engaged in an activity involving a white shirt",
+        "sitting down on a white couch",
+        "interacting with the shirt"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 0,
+      "accuracy_score": 4,
+      "false_positive_score": 9,
+      "overall_assessment": "The model failed to detect any anomalies present in the video and provided an inaccurate description.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "speed_change",
+        "noise_injection",
+        "frame_reversal",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 2,
+      "confidence_appropriateness_score": 3,
+      "calibration_score": 2,
+      "overall_assessment": "The model response demonstrates significant misalignment with the ground truth, indicating low confidence calibration.",
+      "uncertainty_indicators": [
+        "misinterpretation of actions",
+        "lack of context awareness"
+      ],
+      "confidence_indicators": [
+        "overconfidence in description",
+        "inaccurate scene details"
+      ],
+      "calibration_issues": [
+        "failure to recognize key actions",
+        "inconsistent scene representation"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 9,
+      "factual_accuracy_score": 2,
+      "speculation_control_score": 1,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions.",
+      "hallucinated_elements": [
+        "white shirt",
+        "red bucket",
+        "mirror"
+      ],
+      "factual_errors": [
+        "person standing",
+        "interacting with shirt",
+        "leaning back against the wall"
+      ],
+      "speculative_content": [
+        "casual indoor setting",
+        "focusing on the task at hand"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T09:10:30.790352"
+}

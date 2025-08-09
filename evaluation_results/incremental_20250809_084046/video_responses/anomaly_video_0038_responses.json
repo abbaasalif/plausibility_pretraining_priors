@@ -1,0 +1,105 @@
+{
+  "video_name": "anomaly_video_0038.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0038.mp4",
+    "original_video_id": "6HHCU",
+    "original_scene": "Stairs",
+    "original_script": "One person walks up the stairs and takes a picture from a small table. Another person is smiling on the phone.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c015 0.00 31.00;c087 10.80 17.30;c152 11.90 17.40;c154 12.00 17.90;c016 9.00 31.00;c154 8.80 31.00;c087 10.40 31.00",
+    "decoded_actions": "c015 0.00 31.00 (Holding a phone/camera);c087 10.80 17.30 (Taking a picture of something);c152 11.90 17.40 (Someone is smiling);c154 12.00 17.90 (Someone is standing up from somewhere);c016 9.00 31.00 (Playing with a phone/camera);c154 8.80 31.00 (Someone is standing up from somewhere);c087 10.40 31.00 (Taking a picture of something)",
+    "anomalies_applied": "object_insertion;temporal_cut;noise_injection;geometric_distortion;color_shift",
+    "anomaly_timestamps": "temporal_cut 7.60 22.87;object_insertion 0.17 1.17;noise_injection 0.40 1.40;object_insertion 0.57 1.57;object_insertion 0.60 1.60;geometric_distortion 0.73 1.73;object_insertion 1.27 2.27;color_shift 2.47 3.47;geometric_distortion 2.67 3.67;color_shift 3.10 4.10;geometric_distortion 3.50 4.50;object_insertion 3.90 4.90;color_shift 4.13 5.13;object_insertion 4.67 5.67;color_shift 5.03 6.03;object_insertion 5.53 6.53;color_shift 5.53 6.53;noise_injection 5.90 6.90;noise_injection 5.97 6.97;color_shift 6.13 7.13;color_shift 6.37 7.37;color_shift 6.53 7.53;object_insertion 6.87 7.87;geometric_distortion 7.10 8.10;object_insertion 7.60 8.60;noise_injection 7.83 8.83;geometric_distortion 8.20 9.20;geometric_distortion 8.47 9.47;object_insertion 8.63 9.63;object_insertion 8.70 9.70;color_shift 9.20 10.20;object_insertion 9.67 10.67;object_insertion 9.97 10.97;geometric_distortion 10.10 11.10;color_shift 10.20 11.20;object_insertion 11.40 12.40;color_shift 11.53 12.53;color_shift 11.57 12.57;color_shift 11.60 12.60;color_shift 11.77 12.77;object_insertion 12.33 13.33;noise_injection 13.03 14.03;color_shift 13.27 14.27;noise_injection 13.33 14.33;object_insertion 13.67 14.67;object_insertion 13.90 14.90;noise_injection 14.33 15.33;noise_injection 14.37 15.37;color_shift 14.50 15.50;noise_injection 14.97 15.97",
+    "anomaly_count": 5
+  },
+  "responses": {
+    "basic_description": "The video begins with a person walking up a staircase. The individual is wearing a pink and white checkered shirt paired with beige pants. As they ascend the stairs, the camera follows them from behind, capturing their movement. Upon reaching the top of the stairs, the person turns around and walks into a room.\n\nInside the room, there is another person standing near a window with blue curtains. This second individual is dressed in a purple shirt and gray pants. The first person enters the room and starts gesturing with their hands while speaking, appearing to be engaged in a conversation or explanation. The second person listens attentively, occasionally nodding their head. The room has a simple setup with a table and some items on it, but the focus remains on the interaction between the two individuals.",
+    "anomaly_detection": "In the video, the individual is seen ascending a staircase and then entering a room where another person is already present. The scene appears to be normal and straightforward without any apparent visual distortions or anomalies. Both individuals are dressed casually, and the setting looks like an indoor residential space with curtains and a window visible in the background. There's no indication of any unusual or out-of-place elements within the frames provided.",
+    "temporal_analysis": "The video appears to be playing normally without any visible issues such as reversed playback or shuffled frames. The sequence of events is clear, with one person walking up the stairs and then standing in a room where another person is already present. There are no signs of temporal anomalies that would suggest the video is not playing correctly.",
+    "spatial_analysis": "In the video, the man is walking up a staircase and then entering a room where he interacts with another person. The setting appears to be indoors, possibly within a residential or office building.\n\n1. **Objects in Scene**: \n   - The staircase has black steps.\n   - The room has blue curtains with a beige top border.\n   - There is a window with a metal grill visible through the curtains.\n   - The second individual is standing near the window, wearing a purple shirt and gray pants.\n\n2. **Color Distortions or Visual Artifacts**:\n   - The colors appear natural without any noticeable distortions.\n   - The lighting seems consistent throughout the scenes, suggesting no significant visual artifacts like blurring or flickering.\n\n3. **Observations**:\n   - The man's movement is smooth, indicating no abrupt changes in the video quality.\n   - The interaction between the two individuals seems casual, and there are no objects out of place in the room.\n\nOverall, the video captures a normal indoor scene without any apparent issues related to object placement, color distortion, or visual artifacts.",
+    "semantic_analysis": "The sequence of events in the video appears to be logical and follows a natural progression. The man descends the stairs, which is a common action when entering a room from an upper level. Upon reaching the bottom, he interacts with another person who is already present in the room. This interaction seems to be part of a conversation or some form of communication, as indicated by their gestures and body language.\n\nThere are no abrupt or unnatural scene transitions visible in the provided frames. The transition from the staircase to the room where the second individual is standing is smooth, suggesting a continuous flow of events without any sudden changes in setting or context.",
+    "confidence_assessment": "The video shows a person walking up a staircase, wearing a pink shirt and beige pants. The camera follows the individual as they ascend the stairs. Upon reaching the top, the person turns to face another individual who is standing near a window with blue curtains. The second person appears to be holding something small and rectangular, possibly a phone or a remote. Both individuals seem engaged in a conversation or interaction, though the exact nature of their interaction is not clear from the still frames provided.\n\n**Confidence Level:** High\n\n**Uncertainty:** There is no uncertainty in the description based on the provided frames. However, without additional context or audio, it's impossible to determine the exact purpose of the interaction between the two individuals."
+  },
+  "scores": {
+    "content_accuracy": 2.8,
+    "anomaly_detection": 3.5,
+    "confidence_calibration": 4.0,
+    "hallucination": 2.3,
+    "overall": 3.1500000000000004
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 3,
+      "accuracy_score": 2,
+      "detail_level_score": 4,
+      "overall_assessment": "The model response deviates significantly from the ground truth, missing key actions and elements.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "taking a picture",
+        "smiling on the phone",
+        "stairs"
+      ],
+      "incorrect_descriptions": [
+        "gesturing with their hands",
+        "conversation or explanation",
+        "room setup"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 0,
+      "accuracy_score": 5,
+      "false_positive_score": 10,
+      "overall_assessment": "The model failed to detect any anomalies despite their presence in the ground truth.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "temporal_cut",
+        "noise_injection",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 3,
+      "confidence_appropriateness_score": 5,
+      "calibration_score": 4,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks accuracy in action identification and scene description.",
+      "uncertainty_indicators": [
+        "misidentified actions",
+        "lack of detail on anomalies"
+      ],
+      "confidence_indicators": [
+        "descriptive details",
+        "character appearances"
+      ],
+      "calibration_issues": [
+        "inaccurate action timelines",
+        "missing key actions"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 3,
+      "speculation_control_score": 2,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and scene described in the ground truth.",
+      "hallucinated_elements": [
+        "gesturing with hands",
+        "conversation or explanation",
+        "interaction between the two individuals"
+      ],
+      "factual_errors": [
+        "person wearing a pink and white checkered shirt",
+        "second person standing near a window with blue curtains",
+        "room setup with a table and items"
+      ],
+      "speculative_content": [
+        "camera follows them from behind",
+        "first person turns around and walks into a room",
+        "second person listens attentively, occasionally nodding their head"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T09:14:14.264837"
+}

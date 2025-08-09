@@ -1,0 +1,105 @@
+{
+  "video_name": "anomaly_video_0021.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0021.mp4",
+    "original_video_id": "1N1UT",
+    "original_scene": "Pantry",
+    "original_script": "A person holding a book and eating a sandwich closes a door.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c026 0.00 31.00;c032 0.40 31.00;c065 0.00 31.00;c006 24.30 30.70;c156 0.00 31.00;c061 0.00 26.00;c030 0.00 4.50;c141 24.50 30.60",
+    "decoded_actions": "c026 0.00 31.00 (Holding a book);c032 0.40 31.00 (Watching/Reading/Looking at a book);c065 0.00 31.00 (Eating a sandwich);c006 24.30 30.70 (Closing a door);c156 0.00 31.00 (Someone is eating something);c061 0.00 26.00 (Holding some food);c030 0.00 4.50 (Taking a book from somewhere);c141 24.50 30.60 (Grasping onto a doorknob)",
+    "anomalies_applied": "object_insertion;noise_injection;color_shift;geometric_distortion",
+    "anomaly_timestamps": "noise_injection 0.90 1.90;noise_injection 0.97 1.97;noise_injection 1.20 2.20;object_insertion 1.30 2.30;noise_injection 1.47 2.47;geometric_distortion 1.57 2.57;noise_injection 1.63 2.63;object_insertion 1.70 2.70;geometric_distortion 1.74 2.74;noise_injection 2.04 3.04;noise_injection 2.34 3.34;object_insertion 2.70 3.70;noise_injection 2.84 3.84;object_insertion 3.07 4.07;object_insertion 3.67 4.67;noise_injection 4.07 5.07;object_insertion 5.07 6.07;object_insertion 5.34 6.34;color_shift 5.61 6.61;noise_injection 5.84 6.84;object_insertion 6.01 7.01;object_insertion 6.07 7.07;color_shift 6.21 7.21;noise_injection 6.51 7.51;noise_injection 6.71 7.71;noise_injection 7.14 8.14;color_shift 7.24 8.24;noise_injection 7.31 8.31;object_insertion 7.57 8.57;noise_injection 8.21 9.21;noise_injection 8.34 9.34;noise_injection 8.68 9.68;noise_injection 8.71 9.71;object_insertion 8.98 9.98;noise_injection 9.04 10.04;object_insertion 9.54 10.54;color_shift 9.74 10.74;object_insertion 9.91 10.91;color_shift 10.31 11.31;color_shift 10.88 11.88;object_insertion 11.34 12.34;noise_injection 11.85 12.85;noise_injection 11.98 12.98;noise_injection 12.01 13.01;object_insertion 12.71 13.71;object_insertion 13.18 14.18;noise_injection 13.51 14.51;object_insertion 13.78 14.78;color_shift 13.88 14.88;color_shift 14.21 15.21;object_insertion 14.35 15.35;noise_injection 14.48 15.48;color_shift 14.81 15.81;noise_injection 15.32 16.32;geometric_distortion 15.45 16.45;geometric_distortion 16.15 17.15;noise_injection 16.32 17.32;color_shift 16.65 17.65;color_shift 17.42 18.42;noise_injection 17.45 18.45;object_insertion 17.52 18.52;color_shift 17.75 18.75;geometric_distortion 17.75 18.75;color_shift 18.32 19.32;noise_injection 18.49 19.49;noise_injection 18.95 19.95;noise_injection 19.09 20.09;object_insertion 19.49 20.49;object_insertion 19.55 20.55;object_insertion 20.72 21.72;object_insertion 21.12 22.12;noise_injection 21.45 22.45;geometric_distortion 21.59 22.59;color_shift 21.69 22.69;object_insertion 22.29 23.29;geometric_distortion 22.39 23.39;geometric_distortion 22.72 23.72;color_shift 22.99 23.99;object_insertion 23.02 24.02;color_shift 23.02 24.02;object_insertion 23.09 24.09;color_shift 23.26 24.26;noise_injection 23.79 24.79;geometric_distortion 24.09 25.09;geometric_distortion 24.56 25.56;color_shift 24.76 25.76;object_insertion 24.79 25.79;color_shift 25.19 26.19;object_insertion 25.73 26.73;object_insertion 25.89 26.89;color_shift 25.96 26.96;noise_injection 26.06 27.06;object_insertion 26.33 27.33;geometric_distortion 26.36 27.36;object_insertion 26.43 27.43;noise_injection 26.46 27.46;object_insertion 26.66 27.66;color_shift 27.16 28.16;geometric_distortion 27.49 28.49;geometric_distortion 27.63 28.63;color_shift 27.69 28.69;geometric_distortion 27.73 28.73;object_insertion 27.96 28.96;color_shift 28.43 29.43;object_insertion 28.60 29.60;color_shift 28.63 29.63;noise_injection 28.70 29.70;object_insertion 28.90 29.90;object_insertion 29.06 30.06;noise_injection 29.40 30.40;object_insertion 29.66 30.66",
+    "anomaly_count": 4
+  },
+  "responses": {
+    "basic_description": "In the video, a person is standing in a small kitchen area, which appears to be part of a home. The individual is wearing a blue shirt and is engaged in an activity involving food. They are holding a sandwich or a similar item in one hand and a knife in the other, suggesting they might be preparing or eating something. The kitchen has various items on shelves, including canned goods, a yellow bag, and some bananas. There is also a poster on the wall with text and images, though the details are not clear.\n\nThe person seems to be moving around slightly while handling the food, possibly spreading something on the bread or assembling the sandwich. At one point, they turn and walk towards a doorway, exiting the frame, indicating that they may have finished their task or are moving to another location within the house. The overall setting suggests a casual, everyday moment in a domestic environment.",
+    "anomaly_detection": "In the video, there is a noticeable visual distortion affecting the image quality. The frames appear pixelated and have a grainy texture, which makes it difficult to discern fine details. This distortion could be due to various factors such as low lighting conditions, camera settings, or post-processing effects applied to the video.\n\nDespite the visual distortion, the actions of the person in the video remain clear: they are standing in what appears to be a kitchen, holding a sandwich, and interacting with it by taking bites. The background includes typical kitchen items like a clock, a calendar, and shelves stocked with food items. There doesn't seem to be anything particularly unusual or out of place in the scene itself, aside from the visual anomaly.",
+    "temporal_analysis": "The video appears to be playing normally without any visible temporal issues such as reversed playback or shuffled frames. The sequence of events is consistent, and the actions of the person are clear and logical. There are no abrupt changes in the timing or order of events that would suggest playback issues.",
+    "spatial_analysis": "In the video, there is a noticeable visual artifact in the form of a pink square that appears on the right side of the frame during the sequence where the person is eating and walking away. This could be an unintended overlay or glitch in the video.\n\nRegarding objects that might not belong in this scene, it's important to note that the setting appears to be a kitchen or pantry area with typical household items such as canned goods, bananas, and other groceries. The presence of these items seems appropriate for the context of the scene. There are no obvious objects out of place unless they were intentionally placed there for artistic or narrative purposes, which isn't clear from the provided frames.",
+    "semantic_analysis": "The sequence of events in the video appears to be logical and natural. The person is seen standing in a kitchen, holding a sandwich and a knife, which suggests they might be preparing food. They then proceed to eat the sandwich while still holding the knife, indicating a casual and relaxed environment. After eating, the person walks out of the frame, which could imply they are leaving the kitchen or moving to another part of the house.\n\nThere are no abrupt or unnatural scene transitions visible in the provided frames. The actions flow smoothly from one to the next, maintaining a coherent narrative within the context of a domestic setting.",
+    "confidence_assessment": "I am confident in the description provided based on the image analysis. The details such as the person's actions, the setting, and the objects present are clear and consistent across the frames. There are no parts that seem uncertain or ambiguous from the image content."
+  },
+  "scores": {
+    "content_accuracy": 5.2,
+    "anomaly_detection": 6.3999999999999995,
+    "confidence_calibration": 4.2,
+    "hallucination": 3.8,
+    "overall": 4.9
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 6,
+      "accuracy_score": 5,
+      "detail_level_score": 4,
+      "overall_assessment": "The description captures some actions but misses key elements and contains inaccuracies.",
+      "correctly_described_elements": [
+        "holding a sandwich"
+      ],
+      "missing_elements": [
+        "holding a book",
+        "closing a door"
+      ],
+      "incorrect_descriptions": [
+        "using a knife",
+        "preparing food",
+        "moving around slightly"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 5,
+      "accuracy_score": 7,
+      "false_positive_score": 9,
+      "overall_assessment": "The model identified some visual distortion but missed specific anomalies listed in the ground truth.",
+      "detected_anomalies": [
+        "visual distortion"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "color_shift",
+        "geometric_distortion"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 5,
+      "calibration_score": 3,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks confidence in specific actions and their timing.",
+      "uncertainty_indicators": [
+        "vague descriptions",
+        "lack of specific action timing"
+      ],
+      "confidence_indicators": [
+        "general observations",
+        "contextual details"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "overconfidence in scene description"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 5,
+      "speculation_control_score": 4,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and items present.",
+      "hallucinated_elements": [
+        "knife",
+        "yellow bag",
+        "poster with text and images"
+      ],
+      "factual_errors": [
+        "person is not holding a knife",
+        "no mention of a yellow bag in ground truth"
+      ],
+      "speculative_content": [
+        "suggesting they might be preparing or eating something",
+        "indicating that they may have finished their task"
+      ]
+    }
+  },
+  "timestamp": "2025-08-09T08:59:07.392744"
+}
