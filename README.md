@@ -101,7 +101,7 @@ pip install -r requirements.txt
 1. **Clone the repository**:
 ```bash
 git clone <repository-url>
-cd charades_pretraining_priors
+cd plausibility_pretraining_priors
 ```
 
 2. **Set up environment variables** (optional):
