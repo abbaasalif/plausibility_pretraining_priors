@@ -9,7 +9,7 @@ This guide explains how to use the enhanced anomaly video evaluation system to t
 ### 1. Install Dependencies
 
 ```bash
-pip install -r requirements_enhanced.txt
+pip install -r requirements.txt
 ```
 
 ### 2. Run Simple Evaluation (Recommended for Testing)

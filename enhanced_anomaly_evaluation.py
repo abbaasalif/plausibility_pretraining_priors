@@ -833,7 +833,7 @@ def test_single_video():
 
 def main():
     parser = argparse.ArgumentParser(description="Enhanced Anomaly Video Evaluation (ChatGPT judge only)")
-    parser.add_argument("--max-videos", type=int, default=3, help="Maximum number of videos to evaluate")
+    parser.add_argument("--max-videos", type=int, default=50, help="Maximum number of videos to evaluate")
     parser.add_argument("--csv-path", default="anomaly_videos/anomaly_summary.csv", help="Path to anomaly summary CSV")
     parser.add_argument("--video-dir", default="anomaly_videos", help="Directory containing anomaly videos")
     parser.add_argument("--verbose", action="store_true", help="Print detailed judge assessments")

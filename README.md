@@ -92,11 +92,8 @@ Enhanced CSV columns include:
 ### Install Dependencies
 
 ```bash
-# Basic requirements
+# Install all dependencies (includes both basic and enhanced features)
 pip install -r requirements.txt
-
-# Enhanced evaluation requirements
-pip install -r requirements_enhanced.txt
 ```
 
 ### Environment Setup
@@ -227,8 +224,7 @@ charades_pretraining_priors/
 ├── simple_anomaly_evaluation.py        # Simple evaluation
 ├── enhanced_anomaly_evaluation.py      # Enhanced evaluation
 ├── check_progress.py                   # Progress monitoring
-├── requirements.txt                    # Basic dependencies
-├── requirements_enhanced.txt           # Enhanced dependencies
+├── requirements.txt                    # All dependencies (basic + enhanced)
 ├── README.md                          # This file
 ├── ENHANCED_FEATURES.md               # Enhanced features documentation
 ├── EVALUATION_GUIDE.md                # Evaluation guide
