@@ -1,0 +1,111 @@
+{
+  "video_name": "anomaly_video_0031.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0031.mp4",
+    "original_video_id": "3C36H",
+    "original_scene": "Basement (A room below the ground floor)",
+    "original_script": "Person is sitting on chair doing homework, Another person opening bag and starts sneezing.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c059 0.60 34.00;c115 0.00 34.00;c145 0.50 30.70;c020 0.00 34.00;c021 3.10 10.00;c151 0.00 5.10;c154 27.40 32.70",
+    "decoded_actions": "c059 0.60 34.00 (Sitting in a chair);c115 0.00 34.00 (Someone is holding a paper/notebook);c145 0.50 30.70 (Working on paper/notebook);c020 0.00 34.00 (Holding a bag);c021 3.10 10.00 (Opening a bag);c151 0.00 5.10 (Someone is going from standing to sitting);c154 27.40 32.70 (Someone is standing up from somewhere)",
+    "anomalies_applied": "object_insertion;temporal_cut;speed_change;noise_injection;geometric_distortion;color_shift",
+    "anomaly_timestamps": "speed_change 0.00 32.58;temporal_cut 4.04 12.21;noise_injection 0.08 1.08;object_insertion 0.12 1.12;noise_injection 1.62 2.62;object_insertion 1.79 2.79;noise_injection 1.96 2.96;object_insertion 2.00 3.00;object_insertion 2.29 3.29;noise_injection 3.00 4.00;geometric_distortion 3.21 4.21;object_insertion 3.38 4.38;noise_injection 3.38 4.38;geometric_distortion 3.42 4.42;object_insertion 4.25 5.25;noise_injection 4.54 5.54;noise_injection 4.58 5.58;color_shift 4.62 5.62;color_shift 4.79 5.79;object_insertion 5.67 6.67;noise_injection 6.00 7.00;noise_injection 6.21 7.21;noise_injection 6.54 7.54;object_insertion 7.50 8.50;noise_injection 7.58 8.58;object_insertion 7.71 8.71",
+    "anomaly_count": 6
+  },
+  "responses": {
+    "basic_description": "Here's a detailed analysis of the video:\n\n**Setting:** The video appears to be filmed in a basement. Evidence includes the visible ceiling beams, exposed pipes, and general utilitarian decor. There's a white refrigerator or freezer visible, along with what seems to be a cluttered shelf in the background.\n\n**People:** There are two people visible in the video.\n\n**Activities:**\n\n*   **Inventory/Inspection:** One person, wearing a red hoodie and glasses, is holding a white plastic bag. They appear to be pulling items out of the bag. They are holding the objects up for display, perhaps for documentation.\n*   **Documentation:** The second person is sitting in a chair with a clipboard and a pen. They are writing down notes. This person seems to be acting as a recorder or documenter of the items being shown.\n\n**Interpretation:**\n\nIt seems like the people are documenting the contents of the bag. This could be for various reasons:\n\n*   **Insurance Claim:** They might be making a list of damaged goods for an insurance claim if there was some event that caused the items to be inventoried.\n*   **Inventory for Sale:** They might be taking inventory of the items in the bag, with the intent to sell them later on.\n*   **Documentation of Possessions:** They could simply be taking a record of their possessions, perhaps for personal organization or archival purposes.",
+    "anomaly_detection": "Here's a detailed analysis of the video, noting anything unusual or potentially out of place:\n\n**Overall Impression:**\n\nThe video appears to be shot in a basement. There are two people in the frame. One person is sitting and writing on a clipboard, while the other is standing, holding a plastic bag, and manipulating an object inside the bag.\n\n**Potential Anomalies/Unusual Aspects:**\n\n*   **The Bag's Contents:** The person in the red hoodie is holding a white plastic bag and seems to be showcasing what's inside. It's difficult to tell exactly what the object is.\n*   **Lighting:** The overhead lighting seems very bright.\n*   **The Scene in General:**  It's difficult to deduce the purpose of the video from just what's being shown. Is it an assessment? A presentation?\n*   **Grainy Texture:** The video has a grainy texture, it may be a side-effect of how the video was recorded.\n\n**Possible Explanations:**\n\n*   **Low Quality Recording:** The overall quality of the video is not great, which could explain some of the visual issues.\n*   **The object in the bag** Given the context of assessment or presentation, it could be a prop, a sample, or some kind of demonstration piece.\n*   **Experiment or Study:**  The person taking notes and the person demonstrating an object could be part of a test, experiment, or school project.\n\nLet me know if you have another video you would like me to analyze.",
+    "temporal_analysis": "Based on the video provided, the playback appears to be normal. The actions of the people within the scene and the overall progression of the frames suggest that there are no noticeable temporal anomalies like reversed playback or shuffled frames. Everything seems to be occurring in a forward and continuous manner.",
+    "spatial_analysis": "Here's an analysis of the video:\n\n**Objects that Don't Belong:**\n\nIt is difficult to determine what specifically might not \"belong\" without knowing the intended context of the scene. The setting appears to be a basement. Some general observations about the objects:\n\n*   **Plastic Bag:** A plastic bag is visible, and unless the contents of the bag are specifically relevant to the scene, it could be considered an everyday item that may or may not be a key element.\n*   **Clip board and pen:** A woman is shown sitting on a chair and is writing on a clipboard.\n\n**Color Distortions and Visual Artifacts:**\n\n*   **Overexposure:** The top right of the frame appears to be overexposed, likely due to a bright light source in that area. This causes a loss of detail in that region.\n*   **Graininess:** The video appears to have a noticeable level of graininess, indicating a low-quality camera or poor lighting conditions.\n*   **Color Cast:** There may be a slight overall color cast (potentially towards blue/green), though it's not severe. It may depend on the device.\n*   **Blur:** There is motion blur when objects move quickly within the frame.\n\n**Overall:**\n\nThe video quality is not very good. This makes it difficult to provide a very precise analysis.",
+    "semantic_analysis": "The video shows a series of events that appear to be related and make logical sense. Here's a breakdown:\n\n*   **0:00:** One person (wearing a red hoodie) is standing. A second person carrying a chair steps in front of the first person and into the frame.\n*   **0:01 - 0:02:** The person with the chair places the chair down and sits. They retrieve a clipboard and pen.\n*   **0:03 - 0:06:** The standing person is now seen holding up items, presumably for the seated person to observe and record.\n\n**Does the sequence of events make logical sense?**\n\nYes, the sequence of events is logical. One person is presenting items while another is recording them.\n\n**Are there any scene transitions that seem abrupt or unnatural?**\n\nThe only slightly unnatural transition is from 0:00 to 0:01. It would make more sense to see the first person walk across the scene to set the chair down, rather than seeing someone walk in front of the other person to do so.",
+    "confidence_assessment": "Here's an analysis of the video:\n\n**General Description:**\n\nThe video appears to be shot in a basement. The lighting is poor, primarily from an overhead fluorescent light fixture. There are two women in the video.\n\n**Detailed Breakdown:**\n\n*   **0:00-0:01:** The video starts with an obstructed view of the basement. A woman wearing a red hooded sweatshirt stands in the background, holding a white plastic bag. A second woman enters the frame from the left, holding a red notebook-style object.\n*   **0:01-0:07:** The second woman sits on a chair. The first woman in the red hoodie stands behind her. The second woman appears to be taking notes or writing something on a clipboard. The first woman holds up the bag, possibly showing its contents.\n\n**Uncertainties:**\n\n*   The exact contents of the white plastic bag are unclear.\n*   The reason for the filming and the purpose of the activity are not evident.\n\n**Confidence Level:**\n\nI am reasonably confident in my description of the visuals. The uncertainties stem from the lack of context and the ambiguous nature of the items involved."
+  },
+  "scores": {
+    "content_accuracy": 5.800000000000001,
+    "anomaly_detection": 4.1,
+    "confidence_calibration": 6.200000000000001,
+    "hallucination": 2.8000000000000003,
+    "overall": 4.7250000000000005
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 6,
+      "accuracy_score": 5,
+      "detail_level_score": 7,
+      "overall_assessment": "The model response captures some elements of the scene but misinterprets the actions and context.",
+      "correctly_described_elements": [
+        "basement",
+        "two people"
+      ],
+      "missing_elements": [
+        "sneezing",
+        "doing homework",
+        "opening bag"
+      ],
+      "incorrect_descriptions": [
+        "documenting items",
+        "insurance claim",
+        "inventory for sale"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 2,
+      "accuracy_score": 5,
+      "false_positive_score": 8,
+      "overall_assessment": "The model failed to identify the actual anomalies present in the video and provided a vague analysis.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "temporal_cut",
+        "speed_change",
+        "noise_injection",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 6,
+      "confidence_appropriateness_score": 7,
+      "calibration_score": 5,
+      "overall_assessment": "The model demonstrates a moderate level of uncertainty recognition and appropriate confidence, but calibration issues are present.",
+      "uncertainty_indicators": [
+        "speculative reasons for documentation",
+        "lack of definitive actions"
+      ],
+      "confidence_indicators": [
+        "detailed description of activities",
+        "identification of people"
+      ],
+      "calibration_issues": [
+        "overconfidence in interpretations",
+        "inconsistent confidence levels"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 4,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and speculative interpretations not supported by the ground truth.",
+      "hallucinated_elements": [
+        "documenting items",
+        "insurance claim",
+        "inventory for sale",
+        "clipboard"
+      ],
+      "factual_errors": [
+        "red hoodie",
+        "glasses",
+        "white plastic bag",
+        "cluttered shelf"
+      ],
+      "speculative_content": [
+        "documentation of possessions",
+        "personal organization",
+        "archival purposes"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:18:07.394463"
+}

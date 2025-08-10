@@ -1,0 +1,89 @@
+{
+  "timestamp": "2025-08-10T02:30:20.005729",
+  "progress": "50/50",
+  "completed_videos": 50,
+  "latest_video": "anomaly_video_0049.mp4",
+  "latest_scores": {
+    "content_accuracy": 5.800000000000001,
+    "anomaly_detection": 6.199999999999999,
+    "confidence_calibration": 6.200000000000001,
+    "hallucination": 3.2,
+    "overall": 5.3500000000000005
+  },
+  "average_overall_score": 4.519,
+  "latest_judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 6,
+      "accuracy_score": 5,
+      "detail_level_score": 7,
+      "overall_assessment": "The description captures some elements of the scene but misses key actions and includes inaccuracies.",
+      "correctly_described_elements": [
+        "dining area",
+        "man entering the frame",
+        "placing a mug on the table"
+      ],
+      "missing_elements": [
+        "taking off shoes",
+        "sitting down",
+        "putting shoes back on the floor"
+      ],
+      "incorrect_descriptions": [
+        "putting feet up on the table",
+        "fiddling with objects"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 5,
+      "accuracy_score": 7,
+      "false_positive_score": 8,
+      "overall_assessment": "The model identified some anomalies but missed several key ones.",
+      "detected_anomalies": [
+        "color_shift"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "geometric_distortion"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 6,
+      "confidence_appropriateness_score": 7,
+      "calibration_score": 5,
+      "overall_assessment": "The model shows a moderate level of uncertainty recognition but lacks precision in action identification.",
+      "uncertainty_indicators": [
+        "incomplete action descriptions",
+        "lack of context for video purpose"
+      ],
+      "confidence_indicators": [
+        "detailed description of the setting",
+        "identification of objects"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "overconfidence in scene interpretation"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 4,
+      "speculation_control_score": 5,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and objects present in the video.",
+      "hallucinated_elements": [
+        "vase of white roses",
+        "boxes of cereal",
+        "blue plastic cup",
+        "red tablecloth",
+        "computer tower"
+      ],
+      "factual_errors": [
+        "man sitting with shoes in hands",
+        "man putting feet up on table"
+      ],
+      "speculative_content": [
+        "purpose of the video"
+      ]
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "video_name": "anomaly_video_0035.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0035.mp4",
+    "original_video_id": "7EYIL",
+    "original_scene": "Stairs",
+    "original_script": "A person runs down the stairs. They open the refrigerator and grasp a bag.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c143 12.80 19.10;c150 3.40 16.60;c097 3.80 8.60;c097 5.90 10.80;c097 7.80 12.50;c023 17.30 22.90;c020 15.90 27.00;c063 16.00 27.00;c061 16.10 27.00",
+    "decoded_actions": "c143 12.80 19.10 (Opening a refrigerator);c150 3.40 16.60 (Someone is running somewhere);c097 3.80 8.60 (Walking through a doorway);c097 5.90 10.80 (Walking through a doorway);c097 7.80 12.50 (Walking through a doorway);c023 17.30 22.90 (Taking a bag from somewhere);c020 15.90 27.00 (Holding a bag);c063 16.00 27.00 (Taking food from somewhere);c061 16.10 27.00 (Holding some food)",
+    "anomalies_applied": "object_insertion;noise_injection;color_shift;geometric_distortion",
+    "anomaly_timestamps": "object_insertion 0.23 1.23;color_shift 0.27 1.27;object_insertion 0.47 1.47;color_shift 0.80 1.80;noise_injection 1.23 2.23;noise_injection 1.37 2.37;color_shift 1.53 2.53;noise_injection 1.53 2.53;noise_injection 2.17 3.17;color_shift 2.20 3.20;noise_injection 3.30 4.30;object_insertion 3.57 4.57;noise_injection 3.60 4.60;noise_injection 3.64 4.64;geometric_distortion 4.17 5.17;color_shift 5.07 6.07;color_shift 5.34 6.34;color_shift 5.41 6.41;noise_injection 5.44 6.44;geometric_distortion 5.64 6.64;noise_injection 5.64 6.64;geometric_distortion 5.81 6.81;object_insertion 5.97 6.97;noise_injection 6.17 7.17;object_insertion 6.27 7.27;noise_injection 6.31 7.31;color_shift 6.34 7.34;color_shift 6.84 7.84;color_shift 7.01 8.01;color_shift 7.87 8.87;noise_injection 8.11 9.11;color_shift 9.08 10.08;color_shift 9.78 10.78;noise_injection 10.11 11.11;object_insertion 10.78 11.78;geometric_distortion 11.11 12.11;noise_injection 12.31 13.31;geometric_distortion 12.45 13.45;object_insertion 12.91 13.91;noise_injection 13.11 14.11;geometric_distortion 14.05 15.05;object_insertion 14.88 15.88;color_shift 15.28 16.28;object_insertion 15.45 16.45;object_insertion 15.62 16.62;color_shift 15.62 16.62;object_insertion 16.12 17.12;color_shift 16.28 17.28;noise_injection 16.28 17.28;noise_injection 16.45 17.45;object_insertion 16.58 17.58;geometric_distortion 16.58 17.58;object_insertion 16.68 17.68;object_insertion 16.85 17.85;geometric_distortion 16.88 17.88;noise_injection 16.95 17.95;color_shift 17.28 18.28;color_shift 17.38 18.38;object_insertion 17.42 18.42;object_insertion 17.75 18.75;geometric_distortion 18.49 19.49;object_insertion 18.69 19.69;object_insertion 19.42 20.42;noise_injection 19.92 20.92;object_insertion 20.02 21.02;object_insertion 20.45 21.45;noise_injection 20.59 21.59;noise_injection 20.79 21.79;color_shift 20.92 21.92;noise_injection 21.19 22.19;object_insertion 21.32 22.32;object_insertion 21.42 22.42;geometric_distortion 21.62 22.62;color_shift 22.12 23.12;object_insertion 22.46 23.46;noise_injection 22.56 23.56;noise_injection 22.79 23.79;geometric_distortion 23.22 24.22;object_insertion 23.72 24.72;color_shift 24.02 25.02;geometric_distortion 24.12 25.12;geometric_distortion 25.03 26.03;noise_injection 25.19 26.19;noise_injection 25.26 26.26;color_shift 25.36 26.36;color_shift 25.39 26.39;color_shift 25.43 26.43;object_insertion 25.66 26.66",
+    "anomaly_count": 4
+  },
+  "responses": {
+    "basic_description": "Here is a detailed description of what I see in the video:\n\n**Setting and Overview:**\n\nThe video appears to be shot indoors in what looks like an apartment or house. The space seems relatively modest and functional.  The architecture suggests the video may be in a location with warmer climate, possibly India or South Asia.\n\n**Scene Description and Activities:**\n\n*   **Initial Scene:** The video starts focused on a set of concrete stairs leading up to a level. The surrounding area is white-washed with a window on the right side and some greenery, specifically a vine.\n*   **Person Descending Stairs:** A young man wearing a light yellow shirt and green loose pants comes down the stairs. He is walking slowly.\n*   **Walking through the House:** He walks through an arched doorway into a hallway, then proceeds to what looks like the kitchen area.\n*   **Refrigerator:**  He walks to a reddish/burgundy-colored refrigerator.\n*   **Opening the Fridge:** He opens the refrigerator. The fridge is well-stocked.\n*   **Retrieving something from the Fridge:** He reaches into the fridge and pulls out a small clear container.\n*   **Holding the container:** He's shown holding the container, looking around the kitchen.\n\n**General Observations:**\n\n*   The house is simply furnished and decorated.\n*   The person in the video seems to be moving at a relaxed pace.\n\n**Possible Interpretations:**\n\nThe video seems to be capturing a mundane activity - getting something from the refrigerator. It doesn't appear to be staged for any specific purpose, possibly a candid recording of a person in their home.",
+    "anomaly_detection": "After analyzing the video, here are my observations:\n\n*   **Unusual Elements**:\n\n    *   At [00:00:01], there's a purple rectangle overlaid on the lower steps. This seems like an intentional edit, possibly to obscure something.\n\n*   **Visual Distortions/Anomalies**:\n\n    *   There's nothing else immediately noticeable regarding visual distortions or anomalies beyond what could be attributed to camera shake or quality issues in the video.\n\nIn summary, the most notable unusual element is the purple rectangle that obscures part of the steps.",
+    "temporal_analysis": "The video appears to be playing normally. There are no obvious issues such as reversed playback, shuffled frames, or any other temporal anomalies. The actions within the video, such as walking down the stairs and opening the refrigerator, seem to occur in a natural and expected order.",
+    "spatial_analysis": "Here's an analysis of the video:\n\n*   **Objects that Don't Belong:** Initially, there's a pink rectangle covering a part of the stairs. This is likely an intentional obscuration.\n*   **Color Distortions/Visual Artifacts:** The video quality is a bit low, resulting in a slightly noisy image, but no major distortions or artifacts are readily apparent.\n*   **Overall:** The video appears to be a home recording of a person walking around a house. They go down the stairs, into the kitchen area, open the refrigerator, and take something out. The lighting is somewhat inconsistent.",
+    "semantic_analysis": "The sequence of events in the video appears logical. The video starts with an exterior view of some steps leading to a building. A person then walks down the steps, through a hallway, and into a kitchen. In the kitchen, the person opens the refrigerator and takes something out. The transitions between scenes are generally smooth and natural, reflecting the continuous movement of the person through the building. There are no abrupt cuts or unnatural jumps in the video.",
+    "confidence_assessment": "Okay, here is a detailed description of the video, along with an assessment of my confidence level:\n\n**Video Description:**\n\nThe video begins with a shot of a concrete stairway leading up to a white-walled building.  There's a window to the right of the stairs and a small green vine growing next to the wall. A black metal railing runs along the top of the stairway.\n\nA person wearing a light yellow shirt and green pants is seen walking down the stairs, and then walks toward the camera through the building, which has a tiled floor and painted walls.\n\nThe person continues into what appears to be the kitchen. The camera focuses on a dark-colored refrigerator. The person opens the refrigerator door and grabs a clear plastic container from one of the shelves. The person then walks away from the refrigerator.\n\n**Confidence Level:**\n\nI'm highly confident in most of the descriptive details provided above. Things like the presence of the stairs, the colors of the clothes, the presence of the refrigerator and tiles are easily identifiable. \n\n**Uncertainties:**\n\n*   **Building Type/Location:** I am assuming this is a home, but I can't definitively rule out a commercial setting (office, etc.) with the given visual information. Additionally, the exact location is not clear.\n*   **Refrigerator Contents:** I can identify some packaged food items, but I cannot tell what exactly those food items are.\n*   **Purpose:** The purpose of the person, is not clear from the video.\n\nI have tried to stay factual in my description, and avoid speculative interpretations."
+  },
+  "scores": {
+    "content_accuracy": 6.800000000000001,
+    "anomaly_detection": 4.6,
+    "confidence_calibration": 5.0,
+    "hallucination": 3.3,
+    "overall": 4.925
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 7,
+      "accuracy_score": 6,
+      "detail_level_score": 8,
+      "overall_assessment": "The description captures many elements of the video but includes inaccuracies and lacks some specific actions.",
+      "correctly_described_elements": [
+        "person running down the stairs",
+        "opening the refrigerator",
+        "holding a bag"
+      ],
+      "missing_elements": [
+        "taking a bag from somewhere",
+        "taking food from somewhere"
+      ],
+      "incorrect_descriptions": [
+        "person walking slowly",
+        "specific location details"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 3,
+      "accuracy_score": 5,
+      "false_positive_score": 8,
+      "overall_assessment": "The model identified one anomaly but missed several others.",
+      "detected_anomalies": [
+        "purple rectangle"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "color_shift",
+        "geometric_distortion"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 6,
+      "calibration_score": 5,
+      "overall_assessment": "The model shows moderate recognition of uncertainty but lacks precision in confidence levels.",
+      "uncertainty_indicators": [
+        "general observations are vague",
+        "interpretations are subjective"
+      ],
+      "confidence_indicators": [
+        "detailed scene description",
+        "specific actions identified"
+      ],
+      "calibration_issues": [
+        "overconfidence in scene interpretation",
+        "lack of acknowledgment of anomalies"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 5,
+      "speculation_control_score": 4,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and details in the video.",
+      "hallucinated_elements": [
+        "young man wearing a light yellow shirt",
+        "green loose pants",
+        "small clear container",
+        "reddish/burgundy-colored refrigerator"
+      ],
+      "factual_errors": [
+        "person walking slowly",
+        "well-stocked refrigerator"
+      ],
+      "speculative_content": [
+        "location with warmer climate",
+        "candid recording of a person in their home"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:20:42.831047"
+}

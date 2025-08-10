@@ -1,0 +1,112 @@
+{
+  "video_name": "anomaly_video_0005.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0005.mp4",
+    "original_video_id": "5Q0CX",
+    "original_scene": "Living room",
+    "original_script": "A person awakens and turns on a light. They get up and look out a window, smiling, before leaving the room.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c104 14.20 18.70;c092 22.40 30.70;c146 0.50 12.40;c154 8.20 16.10;c122 0.00 4.80",
+    "decoded_actions": "c104 14.20 18.70 (Turning on a light);c092 22.40 30.70 (Watching/Looking outside of a window);c146 0.50 12.40 (Someone is awakening somewhere);c154 8.20 16.10 (Someone is standing up from somewhere);c122 0.00 4.80 (Lying on a sofa/couch)",
+    "anomalies_applied": "object_insertion;noise_injection;frame_shuffling;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_reversal 0.00 35.04;frame_shuffling 0.00 3.50;frame_shuffling 3.50 7.01;frame_shuffling 7.01 10.51;frame_shuffling 10.51 14.01;frame_shuffling 14.01 17.52;frame_shuffling 17.52 21.02;frame_shuffling 21.02 24.52;frame_shuffling 24.52 28.03;frame_shuffling 28.03 31.53;frame_shuffling 31.53 35.04;geometric_distortion 0.10 1.10;object_insertion 0.13 1.13;noise_injection 0.53 1.53;object_insertion 1.00 2.00;geometric_distortion 1.63 2.63;object_insertion 2.04 3.04;color_shift 2.27 3.27;object_insertion 2.60 3.60;geometric_distortion 2.80 3.80;object_insertion 3.17 4.17;object_insertion 3.37 4.37;geometric_distortion 3.47 4.47;color_shift 3.50 4.50;object_insertion 3.60 4.60;noise_injection 3.60 4.60;noise_injection 3.74 4.74;object_insertion 3.87 4.87;noise_injection 4.54 5.54;geometric_distortion 4.67 5.67;object_insertion 5.11 6.11;object_insertion 5.27 6.27;object_insertion 5.44 6.44;object_insertion 5.47 6.47;object_insertion 5.77 6.77;color_shift 5.77 6.77;object_insertion 6.24 7.24;color_shift 6.61 7.61;color_shift 7.01 8.01;color_shift 7.34 8.34;object_insertion 8.11 9.11;noise_injection 8.11 9.11;noise_injection 8.48 9.48;object_insertion 9.01 10.01;noise_injection 9.01 10.01;color_shift 9.21 10.21;object_insertion 9.61 10.61;noise_injection 9.84 10.84;noise_injection 10.01 11.01;object_insertion 10.14 11.14;color_shift 10.54 11.54;object_insertion 11.28 12.28;object_insertion 11.51 12.51;color_shift 11.95 12.95;color_shift 12.21 13.21;noise_injection 12.75 13.75;color_shift 13.05 14.05;color_shift 13.81 14.81;color_shift 14.25 15.25;color_shift 14.58 15.58;noise_injection 14.78 15.78;color_shift 14.91 15.91;color_shift 15.55 16.55;object_insertion 15.62 16.62;object_insertion 16.02 17.02;geometric_distortion 16.08 17.08;noise_injection 16.22 17.22;object_insertion 17.05 18.05;object_insertion 17.32 18.32;color_shift 17.72 18.72;object_insertion 17.75 18.75;object_insertion 18.45 19.45;object_insertion 18.92 19.92;geometric_distortion 19.09 20.09;color_shift 19.32 20.32;object_insertion 19.39 20.39;object_insertion 19.55 20.55;color_shift 19.65 20.65;color_shift 19.69 20.69;object_insertion 19.95 20.95;color_shift 20.09 21.09;noise_injection 20.19 21.19;color_shift 20.75 21.75;object_insertion 21.45 22.45;geometric_distortion 22.32 23.32;noise_injection 22.42 23.42;object_insertion 22.46 23.46;noise_injection 22.56 23.56;object_insertion 22.59 23.59;object_insertion 22.69 23.69;noise_injection 22.92 23.92;object_insertion 22.99 23.99;geometric_distortion 23.09 24.09;object_insertion 23.16 24.16;color_shift 23.32 24.32;color_shift 23.39 24.39;object_insertion 24.32 25.32;noise_injection 24.69 25.69;object_insertion 24.99 25.99;noise_injection 25.16 26.16;color_shift 25.86 26.86;noise_injection 26.33 27.33;noise_injection 27.16 28.16;geometric_distortion 27.39 28.39;color_shift 27.66 28.66;object_insertion 27.69 28.69;object_insertion 27.86 28.86;color_shift 27.93 28.93;geometric_distortion 28.26 29.26;object_insertion 28.53 29.53;geometric_distortion 28.63 29.63;object_insertion 28.90 29.90;noise_injection 29.00 30.00;noise_injection 29.06 30.06;geometric_distortion 29.26 30.26;noise_injection 29.30 30.30;color_shift 29.33 30.33;noise_injection 29.96 30.96;color_shift 30.10 31.10;noise_injection 30.33 31.33;color_shift 30.36 31.36;color_shift 30.40 31.40;noise_injection 30.46 31.46;noise_injection 30.76 31.76;noise_injection 30.96 31.96;geometric_distortion 31.50 32.50;object_insertion 31.90 32.90;noise_injection 32.37 33.37;object_insertion 32.43 33.43;color_shift 32.50 33.50;color_shift 32.63 33.63;object_insertion 32.90 33.90;color_shift 32.93 33.93;color_shift 32.97 33.97;color_shift 33.00 34.00;geometric_distortion 33.60 34.60;object_insertion 33.97 34.97;color_shift 34.13 35.13;geometric_distortion 34.20 35.20;color_shift 34.37 35.37;color_shift 34.73 35.73;geometric_distortion 34.97 35.97",
+    "anomaly_count": 6
+  },
+  "responses": {
+    "basic_description": "Here is a detailed description of what is happening in the video:\n\nThe video shows a living room with green walls, a beige carpet, and a variety of furniture and decorations. There's a large sofa on the left, a wooden side table with a lamp, and a large TV on the right. Decorations include wall sconces, a clock, and a corner shelf unit filled with various items.\n\nAt the beginning, a man enters the room and walks toward the lamp on the side table. He appears to check something behind the curtains next to the lamp. He then turns and walks towards the couch, stopping briefly to look around. He sits down on the couch and reclines. After a few seconds, the light from the lamp dims, suggesting it has been turned off or is set on a timer. The room gradually becomes darker.",
+    "anomaly_detection": "After carefully reviewing the video, here's what I've noticed:\n\n**Unusual/Out of Place Elements:**\n\n*   **Man looks into wall:** From approximately 0:03-0:16 and 0:18-0:20 the man looks into the wall. This behavior seems odd and out of place.\n\n**Visual Anomalies/Distortions:**\n\n*   **Visual Artifacts:** From approximately 0:04-0:05 there is a superimposed block of colors near the center of the video.\n*   **Distorted Visuals:** At 0:08 the video seems to be distorted with superimposed noise and colors over the video.\n\nIf there's anything else specific you'd like me to look for, let me know!",
+    "temporal_analysis": "The video appears to be playing normally. There are no obvious signs of reversed playback or shuffled frames. The motion of the person in the video is continuous and consistent with normal speed. There is a moment of static at 0:07 but this appears to be a momentary video artifact rather than an intentional change in temporal sequence.",
+    "spatial_analysis": "Here's an analysis of the video:\n\n**General Description:**\n\nThe video shows a living room with a man who eventually sits down on a couch. The room is furnished with a couch, a TV, a corner cabinet, a side table with a lamp, and a bookshelf. The wall color is a muted green.\n\n**Objects That Don't Belong (Subjective):**\n\n*   This is subjective and depends on what the room is \"meant\" to be.\n*   The clutter around the TV stand on the right side of the frame seems a bit excessive (stacks of DVDs/cases, electronics).\n*   The black bag on the floor might be out of place if this were a staged scene for display.\n\n**Color Distortions and Visual Artifacts:**\n\n*   **White Balance:** The video seems to have a warm white balance. This can be seen in the yellowish cast of the lighting. The color shifts as the person in the video changes the lamp setting.\n*   **Lighting:** The lighting is uneven and somewhat dim. There is a strong light source coming from the lamp on the side table, which causes some harsh shadows.\n*   **Noise:** There's some visible video noise/grain, especially in darker areas. This is common in videos shot in low light conditions.\n\n**Summary:**\n\nThe video shows a fairly typical, lived-in living room. The biggest issues are the dim and somewhat uneven lighting, which contributes to video noise. Also, the room could potentially be seen as cluttered.",
+    "semantic_analysis": "Here's a breakdown of the sequence of events in the video, addressing logical flow and potential abruptness:\n\n**Sequence of Events:**\n\n1.  **(0:00-0:03):** Initial scene, showing the room. A man walks into the shot.\n2.  **(0:03-0:17):** The man walks over to the window and is seemingly adjusting/looking at the curtains.\n3.  **(0:18-0:23):** The man walks away from the window, and starts walking toward the couch. He sits down on the couch.\n4.  **(0:23-0:34):** The man starts to lay down on the couch, getting into a more comfortable position. The lights dim.\n\n**Logical Sense & Abruptness:**\n\nThe sequence of events is largely logical and flows naturally. A person enters the room, interacts with an element (curtains), and then relaxes.\n\n*   **Smooth Transitions:** Overall, the transitions between actions are generally smooth and understandable. There aren't any sudden jumps in location or activity that would confuse the viewer.\n*   **(0:07-0:09):** There is a brief static visual effect, but it goes back to normal pretty quickly.\n*   **(0:32-0:34):** At the end, the lights dim. It might be nice to have a short scene that indicates that the lights were manually turned off. It could be that the automatic-dimming setting on the camera was triggered, but the scene could use a clear indication for the cause of this effect.\n\n**Overall Assessment:**\n\nThe sequence of events in the video makes sense. The overall flow is good. Minor adjustments could create a smoother effect, but they are not necessary.",
+    "confidence_assessment": "Here is an analysis of the video:\n\n**Overall Description**\n\nThe video depicts a man in a living room. He initially walks around near a lamp, then sits down on a couch.  The room is furnished with a couch, a large television, a corner cabinet, and a side table with a lamp. The walls are painted a muted green.\n\n**Detailed Breakdown**\n\n*   **0:00-0:02:** The camera shows a room.  A sofa is on the left.  There is a side table, floor lamp and then a curtain on the left side of the frame. On the right is a wooden corner shelf, a large screen TV, and a shelf with a variety of items on it. The walls are a muted green.\n*   **0:02-0:07:** A man with dark hair walks from the right, past the sofa to the lamp. He appears to interact with the lamp and curtain.\n*   **0:07-0:09:** The video is pixelated.\n*   **0:09-0:16:** The man continues to interact with the lamp and curtain.\n*   **0:16-0:23:** The man walks over to the sofa and sits down.\n*   **0:23-0:34:** The man sits on the sofa and the scene fades to dark.\n\n**Certainty Level**\n\nI am reasonably confident in this description. The video quality is generally good, and the sequence of actions is relatively straightforward to follow."
+  },
+  "scores": {
+    "content_accuracy": 2.8,
+    "anomaly_detection": 5.9,
+    "confidence_calibration": 3.2,
+    "hallucination": 2.2,
+    "overall": 3.5249999999999995
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 3,
+      "accuracy_score": 2,
+      "detail_level_score": 4,
+      "overall_assessment": "The model's description diverges significantly from the ground truth.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "turning on a light",
+        "looking outside of a window",
+        "awakening",
+        "standing up"
+      ],
+      "incorrect_descriptions": [
+        "man entering the room",
+        "checking something behind the curtains",
+        "sitting down on the couch",
+        "light dimming"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 5,
+      "accuracy_score": 6,
+      "false_positive_score": 8,
+      "overall_assessment": "The model identified some visual anomalies but misinterpreted normal actions as unusual.",
+      "detected_anomalies": [
+        "Visual Artifacts",
+        "Distorted Visuals"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "frame_shuffling",
+        "frame_reversal",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": [
+        "Man looks into wall"
+      ]
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 3,
+      "confidence_appropriateness_score": 4,
+      "calibration_score": 2,
+      "overall_assessment": "The model shows low recognition of uncertainty and inappropriate confidence in its description.",
+      "uncertainty_indicators": [
+        "misinterpretation of actions",
+        "lack of acknowledgment of anomalies"
+      ],
+      "confidence_indicators": [
+        "assertive description of the scene",
+        "detailed furniture description"
+      ],
+      "calibration_issues": [
+        "inaccurate action timeline",
+        "failure to recognize key actions"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 2,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and events in the video.",
+      "hallucinated_elements": [
+        "man entering the room",
+        "checking something behind the curtains",
+        "light dimming"
+      ],
+      "factual_errors": [
+        "man entering the room",
+        "sitting down on the couch",
+        "light dimming"
+      ],
+      "speculative_content": [
+        "checking something behind the curtains",
+        "light set on a timer"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:00:30.109545"
+}

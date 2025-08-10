@@ -17,6 +17,12 @@ Models trained on large video datasets develop strong priors about what constitu
 - **Spatial anomalies**: Objects or scenes that violate physical laws
 - **Semantic anomalies**: Activities that don't make sense in context
 
+### Model Support
+This project supports evaluation of multiple video language models:
+- **Qwen2.5-VL**: Local model with comprehensive video understanding
+- **Gemini 2.5**: Cloud-based model with alternative video processing capabilities
+- **ChatGPT Judge**: Consistent scoring across all models using OpenAI's GPT models
+
 ### Failure Modes Tested
 
 1. **Temporal Anomalies**:
@@ -104,10 +110,11 @@ git clone <repository-url>
 cd plausibility_pretraining_priors
 ```
 
-2. **Set up environment variables** (optional):
+2. **Set up environment variables** (for enhanced evaluation):
 ```bash
-# Create .env file for OpenAI API (for enhanced evaluation)
-echo "OPENAI_API_KEY=your_api_key_here" > .env
+# Create .env file for OpenAI API and Google Gemini API
+echo "OPENAI_API_KEY=your_openai_api_key_here" > .env
+echo "GOOGLE_API_KEY=your_google_api_key_here" >> .env
 echo "OPENAI_JUDGE_MODEL=gpt-4o-mini" >> .env
 ```
 
@@ -204,7 +211,30 @@ python enhanced_anomaly_evaluation.py
 - **Resume Capability**: Automatically resumes from where it left off if interrupted
 - **Individual Response Files**: Each video's responses saved separately for detailed inspection
 
-#### Option C: Progress Monitoring
+#### Option C: Gemini 2.5 Evaluation (Alternative Model)
+```bash
+# Test mode (single video for debugging)
+python enhanced_anomaly_evaluation_gemini.py --test
+
+# Normal mode with verbose output
+python enhanced_anomaly_evaluation_gemini.py --verbose --max-videos 10
+
+# Full evaluation
+python enhanced_anomaly_evaluation_gemini.py
+
+# Use different Gemini model
+python enhanced_anomaly_evaluation_gemini.py --model gemini-1.5-pro
+```
+
+**Features**:
+- **Gemini 2.5 Video Processing**: Uses Google's Gemini 2.5 model for video analysis
+- **Same ChatGPT Judge**: OpenAI's ChatGPT provides all scoring (no manual/keyword scoring)
+- **Same Evaluation Framework**: Identical metrics and analysis as Qwen2.5-VL version
+- **Model Flexibility**: Can use different Gemini models (gemini-2.0-flash-exp, gemini-1.5-pro, etc.)
+- **Easy Comparison**: Same output format for direct comparison with Qwen2.5-VL results
+- **All Enhanced Features**: Incremental saving, resume capability, detailed analysis, visualization
+
+#### Option D: Progress Monitoring
 ```bash
 python check_progress.py
 ```
@@ -222,7 +252,8 @@ charades_pretraining_priors/
 ├── random_sample.py                    # Video sampling script
 ├── generate_dataset.py                 # Anomaly generation script
 ├── simple_anomaly_evaluation.py        # Simple evaluation
-├── enhanced_anomaly_evaluation.py      # Enhanced evaluation
+├── enhanced_anomaly_evaluation.py      # Enhanced evaluation (Qwen2.5-VL)
+├── enhanced_anomaly_evaluation_gemini.py  # Enhanced evaluation (Gemini 2.5)
 ├── check_progress.py                   # Progress monitoring
 ├── requirements.txt                    # All dependencies (basic + enhanced)
 ├── README.md                          # This file
@@ -431,6 +462,243 @@ The simple evaluation script also includes robust debugging features:
    - Review error logs for specific issues
    - Use test mode for debugging
 
+## 🚨 Rate Limit Troubleshooting
+
+This section helps you resolve rate limit issues when using the enhanced anomaly evaluation scripts.
+
+### Common Rate Limit Issues
+
+#### OpenAI API (ChatGPT Judge)
+- **Rate Limit**: Too many requests per minute
+- **Quota Exceeded**: Monthly usage limit reached
+- **429 Error**: HTTP status code for rate limiting
+
+#### Google Gemini API
+- **Rate Limit**: Too many requests per minute
+- **Quota Exceeded**: Daily/monthly usage limit reached
+- **429 Error**: HTTP status code for rate limiting
+
+### Solutions
+
+#### 1. **Immediate Fixes (Built into Scripts)**
+
+The scripts now include automatic rate limit handling:
+
+```bash
+# Use longer delays between videos
+python enhanced_anomaly_evaluation_gemini.py --delay 5.0
+
+# Increase retry attempts
+python enhanced_anomaly_evaluation_gemini.py --max-retries 5
+
+# Combine both for maximum safety
+python enhanced_anomaly_evaluation_gemini.py --delay 10.0 --max-retries 5
+```
+
+#### 2. **Reduce Evaluation Load**
+
+```bash
+# Evaluate fewer videos at once
+python enhanced_anomaly_evaluation_gemini.py --max-videos 10
+
+# Use test mode for single video
+python enhanced_anomaly_evaluation_gemini.py --test
+```
+
+#### 3. **API Key Management**
+
+##### OpenAI API
+1. **Check your quota**: Visit [OpenAI Usage Dashboard](https://platform.openai.com/usage)
+2. **Upgrade plan**: If you're on free tier, consider upgrading
+3. **Use different models**: Try `gpt-3.5-turbo` instead of `gpt-4o-mini`
+
+```bash
+# Set environment variable for different model
+export OPENAI_JUDGE_MODEL=gpt-3.5-turbo
+python enhanced_anomaly_evaluation_gemini.py
+```
+
+##### Google Gemini API
+1. **Check your quota**: Visit [Google AI Studio](https://aistudio.google.com/)
+2. **Enable billing**: Required for higher quotas
+3. **Use different models**: Try `gemini-1.5-pro` instead of `gemini-2.0-flash-exp`
+
+```bash
+# Use different Gemini model
+python enhanced_anomaly_evaluation_gemini.py --model gemini-1.5-pro
+```
+
+#### 4. **Manual Rate Limiting**
+
+If you're still hitting limits, add manual delays:
+
+```python
+# Add this to your script or run with longer delays
+import time
+
+# Wait between batches
+time.sleep(60)  # Wait 1 minute between every 10 videos
+```
+
+#### 5. **Resume from Interruption**
+
+The scripts automatically save progress and can resume:
+
+```bash
+# If interrupted, just run again - it will resume automatically
+python enhanced_anomaly_evaluation_gemini.py
+
+# To start fresh, delete the incremental directory
+rm -rf evaluation_results/incremental_*
+python enhanced_anomaly_evaluation_gemini.py
+```
+
+### Rate Limit Strategies
+
+#### Conservative Settings (Recommended for Free Tiers)
+```bash
+python enhanced_anomaly_evaluation_gemini.py \
+    --max-videos 5 \
+    --delay 10.0 \
+    --max-retries 5 \
+    --model gemini-1.5-pro
+```
+
+#### Moderate Settings (Paid Plans)
+```bash
+python enhanced_anomaly_evaluation_gemini.py \
+    --max-videos 20 \
+    --delay 5.0 \
+    --max-retries 3 \
+    --model gemini-2.0-flash-exp
+```
+
+#### Aggressive Settings (High-tier Plans)
+```bash
+python enhanced_anomaly_evaluation_gemini.py \
+    --max-videos 50 \
+    --delay 2.0 \
+    --max-retries 3 \
+    --model gemini-2.0-flash-exp
+```
+
+### Monitoring and Debugging
+
+#### Check Current Progress
+```bash
+python check_progress.py
+```
+
+#### Monitor API Usage
+- **OpenAI**: Check [Usage Dashboard](https://platform.openai.com/usage)
+- **Google**: Check [AI Studio Quotas](https://aistudio.google.com/)
+
+#### Debug Rate Limit Errors
+```bash
+# Run with verbose output to see detailed error messages
+python enhanced_anomaly_evaluation_gemini.py --verbose --test
+```
+
+### Advanced Solutions
+
+#### 1. **Multiple API Keys**
+If you have multiple API keys, you can rotate them:
+
+```bash
+# Set different API keys
+export OPENAI_API_KEY=your_second_key_here
+export GOOGLE_API_KEY=your_second_gemini_key_here
+```
+
+#### 2. **Batch Processing**
+Process videos in smaller batches:
+
+```bash
+# Process 5 videos at a time
+for i in {0..95..5}; do
+    python enhanced_anomaly_evaluation_gemini.py --max-videos 5
+    echo "Batch complete. Waiting 5 minutes..."
+    sleep 300
+done
+```
+
+#### 3. **Off-Peak Hours**
+Run evaluations during off-peak hours when API usage is lower.
+
+#### 4. **Alternative Models**
+If one model is rate-limited, try alternatives:
+
+```bash
+# Try different model combinations
+python enhanced_anomaly_evaluation_gemini.py --model gemini-1.5-pro
+python enhanced_anomaly_evaluation_gemini.py --model gemini-1.5-flash
+```
+
+### Expected Wait Times
+
+#### OpenAI API Limits
+- **Free Tier**: 3 requests per minute
+- **Paid Tier**: 3,500 requests per minute (GPT-4)
+- **GPT-3.5**: 3,500 requests per minute
+
+#### Google Gemini Limits
+- **Free Tier**: 15 requests per minute
+- **Paid Tier**: 1,500 requests per minute
+
+#### Recommended Delays
+- **Free Tiers**: 20-30 seconds between videos
+- **Paid Tiers**: 2-5 seconds between videos
+- **High Usage**: 1-2 seconds between videos
+
+### Emergency Procedures
+
+#### If You Hit Rate Limits Mid-Evaluation
+
+1. **Don't panic** - Progress is automatically saved
+2. **Wait for reset** - Most limits reset every minute
+3. **Resume automatically** - Just run the script again
+4. **Check quotas** - Verify your API usage limits
+
+#### Quick Recovery Commands
+
+```bash
+# Check if you can resume
+python check_progress.py
+
+# Resume with conservative settings
+python enhanced_anomaly_evaluation_gemini.py --delay 15.0 --max-videos 5
+
+# If still having issues, wait and try again
+sleep 300  # Wait 5 minutes
+python enhanced_anomaly_evaluation_gemini.py --delay 30.0
+```
+
+### Getting Help
+
+#### Check Your API Status
+- **OpenAI**: [Status Page](https://status.openai.com/)
+- **Google**: [Cloud Status](https://status.cloud.google.com/)
+
+#### Common Error Messages and Solutions
+
+| Error | Solution |
+|-------|----------|
+| `Rate limit exceeded` | Increase `--delay` parameter |
+| `Quota exceeded` | Check API usage dashboard |
+| `429 Too Many Requests` | Wait and retry with longer delays |
+| `API key invalid` | Check your `.env` file |
+| `Model not found` | Check model name spelling |
+
+#### Still Having Issues?
+
+1. **Check your internet connection**
+2. **Verify API keys are correct**
+3. **Try running with `--test` mode first**
+4. **Use conservative settings initially**
+5. **Monitor your API usage regularly**
+
+**Remember**: The scripts are designed to handle interruptions gracefully. If you hit rate limits, just wait and resume - your progress is automatically saved!
+
 ## 📈 Research Applications
 
 ### 1. Temporal Anomaly Analysis
@@ -622,6 +890,8 @@ python simple_anomaly_evaluation.py
 ```
 
 ### Running Enhanced Evaluation
+
+#### Qwen2.5-VL Version
 ```bash
 # Test mode (single video for debugging)
 python enhanced_anomaly_evaluation.py --test
@@ -634,6 +904,24 @@ python enhanced_anomaly_evaluation.py
 
 # Resume after interruption
 python enhanced_anomaly_evaluation.py
+```
+
+#### Gemini 2.5 Version
+```bash
+# Test mode (single video for debugging)
+python enhanced_anomaly_evaluation_gemini.py --test
+
+# Normal mode with verbose output
+python enhanced_anomaly_evaluation_gemini.py --verbose --max-videos 10
+
+# Full evaluation
+python enhanced_anomaly_evaluation_gemini.py
+
+# Use different Gemini model
+python enhanced_anomaly_evaluation_gemini.py --model gemini-1.5-pro
+
+# Resume after interruption
+python enhanced_anomaly_evaluation_gemini.py
 ```
 
 ### Analyzing Combined Videos
@@ -721,8 +1009,8 @@ If you use this dataset in your research, please cite:
 ```bibtex
 @misc{plausibility_priors_video_llms,
   title={Plausibility Priors Testing for Video Language Models},
-  author={Your Name},
-  year={2024},
+  author={Abbaas Alif Mohamed Nishar},
+  year={2025},
   note={Dataset for testing video LLM robustness to temporal and spatial anomalies}
 }
 ```
@@ -769,6 +1057,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Resume**: Automatic resume from interruptions
 - **Progress**: Real-time progress monitoring
 - **Directory**: `evaluation_results/`
+
+#### Supported Models
+- **Qwen2.5-VL**: `enhanced_anomaly_evaluation.py` - Local model with comprehensive video understanding
+- **Gemini 2.5**: `enhanced_anomaly_evaluation_gemini.py` - Cloud-based model with alternative video processing
+- **Both models**: Use identical evaluation framework and ChatGPT judge for fair comparison
 
 ### Key Metrics
 1. **Content Accuracy (0-10)**: How well the model describes the original content

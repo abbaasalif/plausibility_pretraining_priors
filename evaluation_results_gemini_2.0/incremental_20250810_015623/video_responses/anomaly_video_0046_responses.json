@@ -1,0 +1,103 @@
+{
+  "video_name": "anomaly_video_0046.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0046.mp4",
+    "original_video_id": "1N1UT",
+    "original_scene": "Pantry",
+    "original_script": "A person holding a book and eating a sandwich closes a door.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c026 0.00 31.00;c032 0.40 31.00;c065 0.00 31.00;c006 24.30 30.70;c156 0.00 31.00;c061 0.00 26.00;c030 0.00 4.50;c141 24.50 30.60",
+    "decoded_actions": "c026 0.00 31.00 (Holding a book);c032 0.40 31.00 (Watching/Reading/Looking at a book);c065 0.00 31.00 (Eating a sandwich);c006 24.30 30.70 (Closing a door);c156 0.00 31.00 (Someone is eating something);c061 0.00 26.00 (Holding some food);c030 0.00 4.50 (Taking a book from somewhere);c141 24.50 30.60 (Grasping onto a doorknob)",
+    "anomalies_applied": "object_insertion;geometric_distortion;color_shift;noise_injection",
+    "anomaly_timestamps": "object_insertion 0.33 1.33;geometric_distortion 0.43 1.43;color_shift 1.03 2.03;noise_injection 1.17 2.17;noise_injection 1.20 2.20;object_insertion 1.27 2.27;color_shift 1.47 2.47;noise_injection 1.63 2.63;geometric_distortion 1.80 2.80;object_insertion 1.90 2.90;noise_injection 2.64 3.64;object_insertion 2.84 3.84;object_insertion 3.74 4.74;noise_injection 3.90 4.90;noise_injection 3.94 4.94;object_insertion 4.87 5.87;geometric_distortion 5.21 6.21;color_shift 6.01 7.01;object_insertion 6.21 7.21;geometric_distortion 6.61 7.61;object_insertion 6.87 7.87;object_insertion 7.87 8.87;geometric_distortion 8.38 9.38;geometric_distortion 8.74 9.74;noise_injection 8.81 9.81;geometric_distortion 9.11 10.11;object_insertion 9.34 10.34;noise_injection 9.38 10.38;color_shift 9.41 10.41;color_shift 9.68 10.68;geometric_distortion 9.74 10.74;geometric_distortion 9.81 10.81;noise_injection 10.28 11.28;object_insertion 10.78 11.78;object_insertion 11.01 12.01;object_insertion 11.18 12.18;object_insertion 11.24 12.24;color_shift 11.44 12.44;noise_injection 11.81 12.81;geometric_distortion 12.11 13.11;object_insertion 12.28 13.28;noise_injection 12.48 13.48;noise_injection 12.78 13.78;object_insertion 13.28 14.28;object_insertion 13.41 14.41;color_shift 13.58 14.58;object_insertion 13.85 14.85;color_shift 14.25 15.25;object_insertion 14.28 15.28;color_shift 14.38 15.38;geometric_distortion 14.65 15.65;color_shift 14.71 15.71;object_insertion 14.75 15.75;color_shift 15.62 16.62;object_insertion 15.72 16.72;noise_injection 16.42 17.42;color_shift 16.88 17.88;noise_injection 17.28 18.28;geometric_distortion 17.52 18.52;object_insertion 17.95 18.95;object_insertion 17.98 18.98;object_insertion 18.05 19.05;noise_injection 18.52 19.52;object_insertion 19.02 20.02;noise_injection 19.02 20.02;color_shift 19.12 20.12;object_insertion 19.15 20.15;color_shift 19.22 20.22;noise_injection 19.32 20.32;color_shift 19.39 20.39;noise_injection 19.39 20.39;color_shift 19.72 20.72;color_shift 19.75 20.75;color_shift 19.82 20.82;noise_injection 19.82 20.82;object_insertion 20.09 21.09;noise_injection 20.15 21.15;geometric_distortion 20.29 21.29;object_insertion 20.49 21.49;geometric_distortion 20.99 21.99;color_shift 21.02 22.02;color_shift 21.15 22.15;color_shift 21.59 22.59;object_insertion 21.96 22.96;geometric_distortion 22.06 23.06;color_shift 22.09 23.09;noise_injection 22.46 23.46;color_shift 22.86 23.86;geometric_distortion 23.39 24.39;color_shift 23.62 24.62;color_shift 23.66 24.66;color_shift 23.69 24.69;object_insertion 24.09 25.09;object_insertion 24.82 25.82;geometric_distortion 25.29 26.29;object_insertion 25.43 26.43;noise_injection 25.43 26.43;color_shift 25.49 26.49;noise_injection 25.53 26.53;object_insertion 26.26 27.26;noise_injection 26.36 27.36;color_shift 26.43 27.43;color_shift 26.83 27.83;geometric_distortion 27.53 28.53;object_insertion 27.66 28.66;object_insertion 27.69 28.69;color_shift 27.69 28.69;object_insertion 28.56 29.56;object_insertion 28.63 29.63;color_shift 28.83 29.83;noise_injection 29.00 30.00;noise_injection 29.10 30.10;noise_injection 29.33 30.33;object_insertion 29.56 30.56;geometric_distortion 29.56 30.56;object_insertion 29.70 30.70",
+    "anomaly_count": 4
+  },
+  "responses": {
+    "basic_description": "Here's a detailed description of the video:\n\n**Setting:**\n\n*   The video is shot in what appears to be a kitchen.\n*   The kitchen has light blue walls.\n*   There's a window with white curtains that have a green pattern. A hanging planter is over the sink and window.\n*   On the wall, there's a clock, a picture, headphones hanging, and a calendar with a photo of a dog.\n*   A rolling storage rack sits against the wall filled with canned goods, jars, and other food items. There are bananas on top of the rack, and a green trash bag.\n*   A doorway leads to a darker room that appears to have a brown/beige color scheme.\n\n**Person and Activities:**\n\n*   A man with brown hair, wearing a blue button-up shirt, is in the kitchen. He has a slight beard or stubble.\n*   Initially, he appears to be tasting something.\n*   He then picks up a small, orange rectangular object (possibly a snack bar or packaged food). He examines it, looking at it closely.\n*   He takes a bite of the rectangular object, chews, then finishes it.\n*   He walks towards the doorway, entering the other room.\n\n**Overall Impression:**\n\nThe video has a casual, informal feel. It seems like a glimpse into a person's everyday life, possibly early in the morning given his attire. The kitchen setting appears somewhat cluttered but lived-in. He then walks to another room to eat what appears to be a snack bar.",
+    "anomaly_detection": "After carefully analyzing the video, here's a breakdown of what seems unusual or out of place:\n\n**Possible Anomalies and Oddities:**\n\n1.  **At timestamp \\[00:00:12], there is a moment of very high pixelation. These artifacts can be a sign of post production alterations made to obscure an element.**\n\nOtherwise, the video appears to be a fairly ordinary, low-budget recording of a man in a kitchen. No other distortions or anomalies seem immediately apparent.",
+    "temporal_analysis": "After analyzing the video, the playback appears to be normal. There are no signs of reversed playback or shuffled frames. The actions of the person in the video progress in a natural, forward-moving manner.",
+    "spatial_analysis": "Here's an analysis of the video:\n\n**Objects that Might Not Belong or Seem Out of Place:**\n\n*   **Headphones on the Wall:** Headphones hanging on the wall are not inherently out of place, but they can seem a little odd in a kitchen.\n\n**Color Distortions/Visual Artifacts:**\n\n*   **Color Shift:** There is a color shift that causes a change in hue that makes the scene appear pinkish and redder than it should be.\n*   **Brief Static:** There is a brief period of static displayed at [00:00:12]\n\n**Overall Impression:**\n\nThe scene looks like a fairly typical older kitchen setup, with standard appliances, decor, and a cluttered pantry rack. There are no obvious visual problems or strange objects that would strongly suggest tampering or an artificial setup, aside from the color shift and static.",
+    "semantic_analysis": "After reviewing the video, the sequence of events does make logical sense. The man appears to have just woken up and is looking for a snack from the pantry before heading back to bed. There are no abrupt or unnatural scene transitions.",
+    "confidence_assessment": "Here's a breakdown of the video:\n\n**Visual Description:**\n\nThe video shows a man in a kitchen. He has medium-length brown hair and is wearing a blue button-down shirt (possibly pajamas or a robe).  He is standing near a black metal shelving unit filled with canned goods, jars, and other food items.  On the wall behind him is a clock, a framed picture, a pair of headphones, and a calendar with a picture of a wolf.  There is a doorway to his left that leads to another room. The room is dimly lit.  The kitchen has a window with white curtains with green trim.\n\nThe man picks up a packaged snack from the shelf. He looks at the package, eats a piece, and then walks away through the doorway to the left.\n\n**Things I'm Relatively Confident About:**\n\n*   The basic objects and clothing are easily identifiable.\n*   The sequence of events is clear.\n\n**Possible Uncertainties:**\n\n*   The lighting in the doorway is poor. I cannot say for sure what's in the other room besides a door with what may be a star decoration.\n*   The specific contents of some of the jars and cans on the shelves are difficult to discern without a closer, clearer view.\n*   The exact nature of the packaged snack he picks up is hard to determine."
+  },
+  "scores": {
+    "content_accuracy": 3.8000000000000003,
+    "anomaly_detection": 4.6,
+    "confidence_calibration": 3.0000000000000004,
+    "hallucination": 2.8000000000000003,
+    "overall": 3.5500000000000003
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 4,
+      "accuracy_score": 3,
+      "detail_level_score": 5,
+      "overall_assessment": "The model's description diverges significantly from the ground truth, particularly in the actions and objects involved.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "holding a book",
+        "eating a sandwich",
+        "closing a door"
+      ],
+      "incorrect_descriptions": [
+        "man tasting something",
+        "orange rectangular object",
+        "walking towards the doorway"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 3,
+      "accuracy_score": 5,
+      "false_positive_score": 8,
+      "overall_assessment": "The model detected some anomalies but missed several key ones and included a false positive.",
+      "detected_anomalies": [
+        "high pixelation"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "geometric_distortion",
+        "color_shift",
+        "noise_injection"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 2,
+      "confidence_appropriateness_score": 4,
+      "calibration_score": 3,
+      "overall_assessment": "The model shows limited recognition of uncertainty and misaligns confidence with the ground truth actions.",
+      "uncertainty_indicators": [
+        "misidentification of actions",
+        "lack of acknowledgment of anomalies"
+      ],
+      "confidence_indicators": [
+        "detailed description of setting",
+        "specificity in character description"
+      ],
+      "calibration_issues": [
+        "inaccurate action recognition",
+        "failure to address anomalies"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 4,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the setting and actions.",
+      "hallucinated_elements": [
+        "kitchen setting",
+        "orange rectangular object"
+      ],
+      "factual_errors": [
+        "man tasting something",
+        "walking towards the doorway"
+      ],
+      "speculative_content": [
+        "early morning attire",
+        "casual feel of the video"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:28:10.584115"
+}

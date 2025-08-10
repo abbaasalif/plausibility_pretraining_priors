@@ -1,0 +1,102 @@
+{
+  "video_name": "anomaly_video_0007.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0007.mp4",
+    "original_video_id": "8NSDT",
+    "original_scene": "Entryway (A hall that is generally located at the entrance of a house)",
+    "original_script": "A person stands in their entryway, holding a camera. The person sets the camera down, then walks to a nearby table where they pick up some food.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c009 6.40 12.40;c015 0.00 11.90;c017 4.80 12.20;c061 15.50 21.50;c065 15.30 32.00;c097 0.00 3.40",
+    "decoded_actions": "c009 6.40 12.40 (Putting something on a table);c015 0.00 11.90 (Holding a phone/camera);c017 4.80 12.20 (Putting a phone/camera somewhere);c061 15.50 21.50 (Holding some food);c065 15.30 32.00 (Eating a sandwich);c097 0.00 3.40 (Walking through a doorway)",
+    "anomalies_applied": "object_insertion;speed_change;noise_injection;geometric_distortion;color_shift",
+    "anomaly_timestamps": "speed_change 0.00 30.93;color_shift 0.17 1.17;object_insertion 0.53 1.53;color_shift 0.57 1.57;noise_injection 0.67 1.67;object_insertion 1.20 2.20;color_shift 1.40 2.40;noise_injection 1.40 2.40;geometric_distortion 1.53 2.53;object_insertion 1.73 2.73;noise_injection 2.03 3.03;noise_injection 2.23 3.23;color_shift 2.50 3.50;object_insertion 2.67 3.67;object_insertion 2.77 3.77;color_shift 3.17 4.17;noise_injection 3.20 4.20;geometric_distortion 3.27 4.27;object_insertion 3.37 4.37;noise_injection 3.57 4.57;color_shift 3.83 4.83;noise_injection 4.23 5.23;object_insertion 4.50 5.50;noise_injection 4.67 5.67;color_shift 5.10 6.10;object_insertion 5.30 6.30;noise_injection 5.30 6.30;color_shift 5.83 6.83;noise_injection 6.10 7.10;object_insertion 6.43 7.43;noise_injection 6.63 7.63;object_insertion 7.23 8.23;geometric_distortion 7.23 8.23;color_shift 7.63 8.63;object_insertion 7.90 8.90;color_shift 7.97 8.97;color_shift 8.10 9.10;color_shift 8.33 9.33;color_shift 8.77 9.77;color_shift 9.00 10.00;color_shift 9.17 10.17;noise_injection 9.97 10.97;noise_injection 10.03 11.03;color_shift 10.07 11.07;color_shift 10.73 11.73;noise_injection 10.77 11.77;color_shift 11.03 12.03;color_shift 11.07 12.07;object_insertion 11.33 12.33;object_insertion 11.50 12.50;geometric_distortion 11.90 12.90;geometric_distortion 12.27 13.27;geometric_distortion 12.40 13.40;noise_injection 12.73 13.73;color_shift 13.20 14.20;noise_injection 13.73 14.73;geometric_distortion 14.00 15.00;color_shift 14.13 15.13;object_insertion 14.80 15.80;noise_injection 14.80 15.80;noise_injection 15.00 16.00;color_shift 15.30 16.30;object_insertion 15.40 16.40",
+    "anomaly_count": 5
+  },
+  "responses": {
+    "basic_description": "Here's a breakdown of what's happening in the video:\n\n*   **Setting:** The video appears to be shot inside a home, specifically in a hallway that leads to an open doorway with a bright outdoor view. The hallway is decorated with furniture.\n*   **Person:** A man is the main subject of the video. He is wearing a green/blue polo shirt and grey/blue pants.\n*   **Activity:**\n\n    *   Initially, the man is seen walking into the hallway from outdoors through the doorway. He appears to be looking at or using a handheld device (possibly a phone).\n    *   He continues walking further into the hallway.\n    *   He then moves to an area with a desk and a laptop.\n    *   The man seems to be setting up or adjusting something near the desk and laptop.\n*   **Overall impression:** It appears as though the man is coming into the house, checking his phone, and then getting ready to work at his desk.",
+    "anomaly_detection": "After analyzing the video, here's what I've observed:\n\n*   **Lighting:** The most prominent visual feature is the strong backlighting coming from the doorway. This creates a significant contrast, making the hallway appear darker and obscuring details in the foreground, especially in the earlier parts of the video. As the camera moves further into the room, the lighting becomes more balanced.\n*   **Camera Movement:** The camera movement is a bit shaky, which is common in handheld videos. This can create slight blurring or distortion, particularly when the camera is in motion.\n*   **Objects**: There are several objects that can be seen around the video. These include a sewing machine, shelves, cardboard, and a laptop.\n*   **No Obvious Visual Anomalies:** I don't detect any deliberate or unusual visual distortions, glitches, or effects that would suggest the video has been manipulated.\n*   **Normal Activity:** The person in the video appears to be engaged in everyday activities, initially entering from outside and later working with a laptop.\n\n**Summary:**\n\nThe video appears to be a straightforward, unedited recording of a person in an indoor environment. The high contrast due to the doorway lighting and slight camera shake are the main visual characteristics. There are no obvious signs of manipulation or unusual visual elements.",
+    "temporal_analysis": "The video appears to be playing normally, with no reversed playback or shuffled frames. The events unfold in a natural sequence.",
+    "spatial_analysis": "Here's an analysis of the video, focusing on objects that might not belong and potential visual issues:\n\n**Objects That Might Seem Out of Place (Context-Dependent):**\n\n*   **Sewing machine on a small table (0:05):** While not inherently \"out of place\" in a home, it depends on the specific context. Is it in a designated sewing area, or is it placed oddly in a hallway?\n*   **Open Boxes (0:09):** There's a large open box leaning against the wall. The presence and size makes this look like an obstruction to the hallway.\n\n**Potential Color Distortions/Visual Artifacts:**\n\n*   **Exposure/Lighting Issues:** The most prominent issue is the inconsistent lighting. The video starts with a very bright doorway and a dark hallway. This makes details in the hallway difficult to see.\n*   **Lens Flare:** The bright light coming through the doorway causes lens flare, especially in the early part of the video. This can appear as streaks of light or reduced contrast.\n\nIn summary, the main visual issue is the lighting, which affects visibility and introduces lens flare. A few items might be considered a little out of place.",
+    "semantic_analysis": "The video appears to be a single, continuous shot, following a man as he walks into a hallway, then into a room to work on a laptop.\n\n*   **Logical Sequence of Events:** The sequence of events is logical. A person enters a hallway, walks down it, then enters a room and goes to a desk. This is a natural sequence.\n*   **Abrupt or Unnatural Transitions:** There are no apparent cuts or scene transitions. Therefore, there are no abrupt or unnatural transitions. The video is filmed in one take.\n\nIn summary, the video presents a logical and natural sequence of events with no abrupt transitions.",
+    "confidence_assessment": "Here is a detailed analysis of the video:\n\n**Description:**\n\nThe video begins in what appears to be a hallway, characterized by a narrow passage and a doorway at the end. A man wearing a green polo shirt and dark pants walks into the hallway from the doorway. He briefly looks at something in his hands (likely a phone), then walks further into the hallway. The hallway is sparsely furnished, but contains an old wooden bench, a table with a vintage sewing machine, and a clock on the wall. As the man moves further into the hall, more of the room becomes visible. The wall is painted a light color. There is a bookshelf filled with various objects. He approaches a table on which a laptop is placed, then bends over to look at the laptop. He continues looking down.\n\n**Confidence Level:**\n\nI am relatively confident in this description. The features in the video are quite clear.\n\n**Uncertainties:**\n\n*   **Hallway Purpose:** I am assuming this is a hallway, but it could also be a narrow room that functions as a corridor.\n*   **Exact Item in Hands:** I've presumed the man is holding a phone, but it's small and not perfectly clear.\n*   **Motivation for Looking at Laptop:** It's unclear what the man is doing as he is looking at the laptop. He may be working on something, or just reading.\n*   **Room Location:** The location of the room inside the house is not available."
+  },
+  "scores": {
+    "content_accuracy": 4.800000000000001,
+    "anomaly_detection": 3.5,
+    "confidence_calibration": 5.0,
+    "hallucination": 2.3,
+    "overall": 3.9000000000000004
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 5,
+      "accuracy_score": 4,
+      "detail_level_score": 6,
+      "overall_assessment": "The model response captures some elements but misses key actions and details.",
+      "correctly_described_elements": [
+        "setting",
+        "person"
+      ],
+      "missing_elements": [
+        "putting something on a table",
+        "eating a sandwich"
+      ],
+      "incorrect_descriptions": [
+        "man is adjusting something near the desk and laptop"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 0,
+      "accuracy_score": 5,
+      "false_positive_score": 10,
+      "overall_assessment": "The model failed to detect any of the specified anomalies and provided a mostly accurate description of the video content.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "speed_change",
+        "noise_injection",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 6,
+      "calibration_score": 5,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks precision in identifying actions and anomalies.",
+      "uncertainty_indicators": [
+        "vague descriptions",
+        "lack of specific action identification"
+      ],
+      "confidence_indicators": [
+        "detailed setting description",
+        "identification of main subject"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "incomplete anomaly recognition"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 3,
+      "speculation_control_score": 2,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and setting.",
+      "hallucinated_elements": [
+        "man wearing a green/blue polo shirt",
+        "desk and laptop"
+      ],
+      "factual_errors": [
+        "man walking into the hallway from outdoors",
+        "setting up or adjusting something near the desk"
+      ],
+      "speculative_content": [
+        "checking his phone",
+        "getting ready to work at his desk"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:01:42.956112"
+}

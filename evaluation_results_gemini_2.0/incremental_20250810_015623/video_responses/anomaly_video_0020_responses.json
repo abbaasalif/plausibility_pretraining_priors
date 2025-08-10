@@ -1,0 +1,109 @@
+{
+  "video_name": "anomaly_video_0020.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0020.mp4",
+    "original_video_id": "WLKEF",
+    "original_scene": "Living room",
+    "original_script": "Two people are standing and laughing in front of the television; one is drinking and both hold dishes.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c131 0.00 20.00;c154 0.00 20.00;c061 0.00 20.00;c118 0.00 20.00;c149 0.00 20.00;c132 0.00 20.00",
+    "decoded_actions": "c131 0.00 20.00 (Laughing at television);c154 0.00 20.00 (Someone is standing up from somewhere);c061 0.00 20.00 (Holding some food);c118 0.00 20.00 (Holding a dish);c149 0.00 20.00 (Someone is laughing);c132 0.00 20.00 (Watching television)",
+    "anomalies_applied": "object_insertion;temporal_cut;speed_change;frame_shuffling;noise_injection;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_shuffling 0.00 1.88;frame_shuffling 1.88 3.75;frame_shuffling 3.75 5.62;frame_shuffling 5.62 7.50;frame_shuffling 7.50 9.38;frame_shuffling 9.38 11.25;frame_shuffling 11.25 13.12;frame_shuffling 13.12 15.00;frame_shuffling 15.00 16.88;frame_shuffling 16.88 18.75;speed_change 0.00 18.75;temporal_cut 9.38 28.12;object_insertion 0.04 1.04;noise_injection 0.54 1.54;noise_injection 0.71 1.71;color_shift 1.33 2.33;color_shift 1.58 2.58;color_shift 1.67 2.67;object_insertion 2.46 3.46;color_shift 2.83 3.83;object_insertion 3.12 4.12;noise_injection 3.58 4.58;noise_injection 4.58 5.58;object_insertion 5.25 6.25;noise_injection 5.88 6.88;geometric_distortion 5.92 6.92;object_insertion 6.29 7.29;object_insertion 6.50 7.50;geometric_distortion 8.17 9.17;color_shift 8.21 9.21;color_shift 8.54 9.54;noise_injection 8.62 9.62;object_insertion 8.75 9.75;object_insertion 9.42 10.42;geometric_distortion 9.50 10.50;object_insertion 9.54 10.54;object_insertion 10.21 11.21;noise_injection 10.25 11.25;color_shift 11.17 12.17;color_shift 11.29 12.29;object_insertion 11.46 12.46;geometric_distortion 11.54 12.54;noise_injection 11.88 12.88;object_insertion 12.17 13.17;object_insertion 12.25 13.25;noise_injection 12.42 13.42;noise_injection 13.54 14.54;color_shift 14.04 15.04;object_insertion 14.08 15.08;object_insertion 14.12 15.12;geometric_distortion 14.83 15.83;object_insertion 15.08 16.08;geometric_distortion 15.42 16.42;geometric_distortion 15.58 16.58;object_insertion 15.67 16.67;noise_injection 16.04 17.04;object_insertion 16.29 17.29;geometric_distortion 16.88 17.88;object_insertion 17.21 18.21;noise_injection 17.46 18.46;color_shift 17.58 18.58;noise_injection 18.17 19.17;object_insertion 18.38 19.38",
+    "anomaly_count": 7
+  },
+  "responses": {
+    "basic_description": "Here is a detailed description of the video:\n\n**Visual Description:**\n\nThe video shows a living room setting. The walls are white, and the flooring is marble with light grey veining. A large flat-screen television is mounted on the wall. Below the TV, there is a black media console with various electronic devices, including speakers and what appears to be a DVD player. To the side of the console is a small, dark wooden table or stool. There's an arched doorway leading to another room with curtains. A flower arrangement is displayed above the archway.\n\nIn the foreground of the video, two women are standing and facing the television. One is taller and appears to be an adult, while the other is shorter and likely a child or teenager. The adult is wearing a white cardigan, a fuchsia top, and striped pants. She is holding a white plate with what looks like food on it. The younger individual is wearing a blue hooded jacket and colorful patterned pants. \n\n**Activities:**\n\nThe primary activity is watching television. The women are watching a program that appears to be Indian. They are standing fairly still, focused on the screen. The taller woman seems to be gesturing or explaining something about what is being shown on TV to the younger person. They both are holding food, implying they might be eating or snacking while watching.\n\n**Overall Impression:**\n\nThe video portrays a casual, domestic scene. The setting appears to be a home, and the individuals are engaged in a common activity of watching television together. The presence of food suggests they are enjoying a relaxed moment together.",
+    "anomaly_detection": "Here's an analysis of the video, focusing on potential anomalies:\n\n**Overall Impression:**\n\nThe video shows two people standing in a living room, watching a television. It appears to be an everyday, unedited recording.\n\n**Potential Anomalies and Visual Oddities:**\n\n1.  **TV Screen Content:** The content displayed on the TV screen changes rapidly and is somewhat abstract. It doesn't seem to match the real world setting very well.\n\n2.  **Lighting:** The lighting appears to be generally consistent.\n\n3.  **Object Movement:** There is not a lot of movement. The primary action is the figures standing and watching television, and the change in content on the television screen itself.\n\n**Summary:**\n\nOverall, the video doesn't show any major visual distortions. However, the content shown on the television does change quite a bit, and it seems a little at odds with the otherwise rather mundane setting.",
+    "temporal_analysis": "The video appears to be playing normally. There are no obvious signs of reversed playback or shuffled frames. The movement of the people in the video and the images on the television seem natural and consistent with normal speed.",
+    "spatial_analysis": "Here's an analysis of the video:\n\n**Objects That Might Be Considered Out of Place:**\n\n*   **The stool** next to the TV stand. It is not directly serving a functional purpose in the scene and its placement might seem somewhat random. However, this is subjective; it could be used temporarily.\n*   **Decorative items** on the shelf. These are common, but personal preference dictates their belonging.\n\n**Color Distortions and Visual Artifacts:**\n\n*   The image appears somewhat **overexposed**, particularly on the walls, leading to a loss of detail.\n*   The overall **color temperature seems a bit cool**, possibly due to the lighting conditions.\n*   The video is slightly **blurry**, indicating low resolution or imperfect focus.\n*   Some **graininess** is visible, especially in darker areas, possibly resulting from the camera's sensor or post-processing.\n* The last two seconds of the video contain what appears to be a **static-like visual artifact.**\n\nIn general, the video appears to be taken in a casual home setting. The identified issues aren't major but affect the overall image quality.",
+    "semantic_analysis": "After reviewing the video, the sequence of events appears logical. Two people are standing in a room, seemingly watching television and enjoying a snack. The video doesn't show any abrupt or unnatural scene transitions, as it is a single continuous shot. The changes on the television screen don't affect the flow or coherence of the scene.",
+    "confidence_assessment": "Here is a description of the video, with an analysis of my confidence in different aspects:\n\n**Description:**\n\nThe video shows two women standing in a living room, watching a television. One appears to be an adult female and the other a younger girl, potentially a child or young teenager. They are both casually dressed, with the younger girl in pajamas.\n\nThe woman has a plate of food in her hand. They appear to be engaged in watching and commenting on the TV. The television screen shows a brightly colored program which is playing on a loop.\n\nThe living room is simple, with light-colored walls and marble floors. There is a TV stand with electronics, and an arched doorway visible in the background.\n\n**Confidence Levels:**\n\n*   **High Confidence:** I am very confident in the descriptions of the people, clothing, general layout of the room, and the presence of the television and furniture.\n*   **Moderate Confidence:** I am reasonably confident that one person is an adult and the other is a child.\n*   **Low Confidence:** I am not certain about the specific relationship between the people. I am uncertain about the specifics of the contents on the plate. The content on television is also difficult to determine.\n\nIf you have another video you'd like me to analyze, please feel free to share!"
+  },
+  "scores": {
+    "content_accuracy": 5.800000000000001,
+    "anomaly_detection": 4.1,
+    "confidence_calibration": 4.4,
+    "hallucination": 3.8,
+    "overall": 4.525
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 6,
+      "accuracy_score": 5,
+      "detail_level_score": 7,
+      "overall_assessment": "The description captures some elements of the scene but includes inaccuracies and missing details.",
+      "correctly_described_elements": [
+        "living room",
+        "two people standing",
+        "holding food"
+      ],
+      "missing_elements": [
+        "laughing",
+        "television program",
+        "specific actions like standing up"
+      ],
+      "incorrect_descriptions": [
+        "one person is a child or teenager",
+        "specific clothing details"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 2,
+      "accuracy_score": 5,
+      "false_positive_score": 8,
+      "overall_assessment": "The model failed to identify significant anomalies present in the video.",
+      "detected_anomalies": [
+        "TV Screen Content Change"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "temporal_cut",
+        "speed_change",
+        "frame_shuffling",
+        "noise_injection",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 3,
+      "confidence_appropriateness_score": 6,
+      "calibration_score": 4,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks precision in identifying specific actions and anomalies.",
+      "uncertainty_indicators": [
+        "lack of specific action identification",
+        "generalized descriptions"
+      ],
+      "confidence_indicators": [
+        "detailed visual description",
+        "contextual understanding of the scene"
+      ],
+      "calibration_issues": [
+        "failure to mention anomalies",
+        "incomplete action recognition"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 5,
+      "speculation_control_score": 4,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the individuals and their actions.",
+      "hallucinated_elements": [
+        "description of the individuals' clothing",
+        "specific details about the television program"
+      ],
+      "factual_errors": [
+        "number of individuals (two women instead of one adult and one child)",
+        "details about the setting (specific furniture and decor)"
+      ],
+      "speculative_content": [
+        "gesturing or explaining something about the TV",
+        "implying they might be eating or snacking"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:10:43.884564"
+}

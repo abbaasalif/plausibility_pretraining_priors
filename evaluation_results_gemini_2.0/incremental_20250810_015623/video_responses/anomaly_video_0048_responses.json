@@ -1,0 +1,105 @@
+{
+  "video_name": "anomaly_video_0048.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0048.mp4",
+    "original_video_id": "8M1TG",
+    "original_scene": "Living room",
+    "original_script": "a person smiles while putting a broom away. another person closes a cabinet and walks away.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c102 0.00 17.20;c152 17.90 22.40;c006 18.10 23.50;c127 23.80 32.00;c098 0.00 20.40;c141 24.20 32.00;c099 14.40 20.60",
+    "decoded_actions": "c102 0.00 17.20 (Tidying up with a broom);c152 17.90 22.40 (Someone is smiling);c006 18.10 23.50 (Closing a door);c127 23.80 32.00 (Tidying something on the floor);c098 0.00 20.40 (Holding a broom);c141 24.20 32.00 (Grasping onto a doorknob);c099 14.40 20.60 (Putting a broom somewhere)",
+    "anomalies_applied": "object_insertion;speed_change;noise_injection;geometric_distortion;color_shift",
+    "anomaly_timestamps": "speed_change 0.00 30.66;color_shift 0.08 1.08;noise_injection 0.21 1.21;geometric_distortion 1.67 2.67;geometric_distortion 1.71 2.71;color_shift 2.13 3.13;object_insertion 2.21 3.21;geometric_distortion 2.54 3.54;color_shift 2.59 3.59;noise_injection 2.84 3.84;noise_injection 2.88 3.88;geometric_distortion 3.13 4.13;noise_injection 3.55 4.55;object_insertion 3.75 4.75;object_insertion 3.84 4.84;object_insertion 4.21 5.21;object_insertion 4.38 5.38;color_shift 4.38 5.38;object_insertion 4.46 5.46;color_shift 4.50 5.50;noise_injection 4.92 5.92;geometric_distortion 4.96 5.96;object_insertion 5.05 6.05;geometric_distortion 5.09 6.09;noise_injection 5.13 6.13;noise_injection 5.46 6.46;color_shift 5.63 6.63;geometric_distortion 5.71 6.71;noise_injection 6.26 7.26;object_insertion 6.67 7.67;object_insertion 7.09 8.09;color_shift 7.26 8.26;object_insertion 7.59 8.59;object_insertion 7.72 8.72;color_shift 7.84 8.84;color_shift 8.47 9.47;geometric_distortion 8.76 9.76;object_insertion 8.93 9.93;noise_injection 9.26 10.26;object_insertion 9.43 10.43;noise_injection 9.93 10.93;noise_injection 10.55 11.55;color_shift 10.72 11.72;color_shift 10.80 11.80;color_shift 11.59 12.59;object_insertion 11.80 12.80;geometric_distortion 11.93 12.93;color_shift 15.43 16.43;geometric_distortion 15.52 16.52;color_shift 15.72 16.72;object_insertion 16.60 17.60;noise_injection 17.35 18.35;object_insertion 17.48 18.48;color_shift 18.31 19.31;noise_injection 18.39 19.39;noise_injection 18.64 19.64;object_insertion 19.35 20.35;geometric_distortion 19.98 20.98;color_shift 20.10 21.10;color_shift 20.85 21.85;geometric_distortion 20.90 21.90;object_insertion 21.06 22.06;noise_injection 21.06 22.06;geometric_distortion 21.15 22.15;object_insertion 21.19 22.19;noise_injection 21.86 22.86;color_shift 21.94 22.94;object_insertion 22.27 23.27;object_insertion 23.19 24.19;object_insertion 23.65 24.65;color_shift 23.86 24.86;object_insertion 24.52 25.52;color_shift 24.94 25.94;noise_injection 25.15 26.15;color_shift 25.65 26.65;color_shift 26.11 27.11;object_insertion 26.23 27.23;object_insertion 26.53 27.53;geometric_distortion 26.74 27.74;noise_injection 27.74 28.74;object_insertion 27.82 28.82;color_shift 27.99 28.99;noise_injection 28.65 29.65;noise_injection 29.11 30.11;object_insertion 29.57 30.57;object_insertion 29.65 30.65;object_insertion 29.74 30.74;color_shift 30.07 31.07;color_shift 30.36 31.36;object_insertion 30.53 31.53;color_shift 31.91 32.91;object_insertion 32.45 33.45;object_insertion 32.74 33.74;color_shift 32.91 33.91;noise_injection 33.12 34.12;color_shift 33.41 34.41;noise_injection 33.66 34.66;color_shift 33.70 34.70;noise_injection 34.08 35.08;noise_injection 34.12 35.12;noise_injection 34.24 35.24;object_insertion 34.37 35.37;noise_injection 34.41 35.41;noise_injection 34.58 35.58;color_shift 34.91 35.91;color_shift 35.20 36.20;object_insertion 35.37 36.37;color_shift 35.70 36.70;object_insertion 35.74 36.74;noise_injection 36.08 37.08;color_shift 36.95 37.95;color_shift 37.87 38.87;object_insertion 37.91 38.91;geometric_distortion 38.08 39.08;color_shift 38.16 39.16;object_insertion 38.20 39.20;object_insertion 38.54 39.54;color_shift 38.91 39.91;geometric_distortion 39.04 40.04;geometric_distortion 39.16 40.16;color_shift 39.58 40.58;color_shift 39.91 40.91;geometric_distortion 39.91 40.91;geometric_distortion 40.17 41.17;object_insertion 40.67 41.67;color_shift 40.87 41.87;geometric_distortion 41.29 42.29;noise_injection 41.29 42.29;object_insertion 41.75 42.75;object_insertion 41.96 42.96;color_shift 43.50 44.50;object_insertion 44.00 45.00;color_shift 44.46 45.46;color_shift 44.59 45.59;color_shift 44.63 45.63;noise_injection 45.84 46.84;color_shift 45.96 46.96;object_insertion 46.50 47.50;geometric_distortion 46.50 47.50;noise_injection 46.55 47.55;object_insertion 46.71 47.71;object_insertion 47.13 48.13;object_insertion 47.30 48.30;color_shift 47.30 48.30;noise_injection 47.88 48.88;geometric_distortion 48.30 49.30;color_shift 48.80 49.80;geometric_distortion 48.84 49.84;object_insertion 49.17 50.17;noise_injection 49.47 50.47;object_insertion 49.80 50.80;geometric_distortion 49.97 50.97;noise_injection 50.38 51.38;noise_injection 51.22 52.22;color_shift 51.38 52.38;color_shift 52.39 53.39;noise_injection 53.34 54.34;object_insertion 53.55 54.55;object_insertion 53.64 54.64;color_shift 53.93 54.93;object_insertion 54.43 55.43;object_insertion 54.51 55.51;object_insertion 54.80 55.80;object_insertion 55.10 56.10;noise_injection 55.35 56.35;noise_injection 56.10 57.10;geometric_distortion 56.51 57.51;geometric_distortion 57.52 58.52;geometric_distortion 57.64 58.64;object_insertion 58.64 59.64;color_shift 58.85 59.85;geometric_distortion 59.10 60.10;color_shift 59.18 60.18",
+    "anomaly_count": 5
+  },
+  "responses": {
+    "basic_description": "Here is a detailed description of the video:\n\n**Visual Description:**\n\nThe video shows a woman wearing a long, purple floral nightgown sweeping the floor of a room. She is barefoot and has her hair pulled back in a braid. The floor is white tile. A black and white patterned sofa sits against the wall behind her. The room also has a glass-topped dining table and chairs, and shelves in the background.  Toward the end of the video, a man wearing a red, white, and blue striped polo shirt and khaki pants enters the room and stands near a door.\n\n**Activities:**\n\n*   **Cleaning:** The primary activity is the woman sweeping the floor with a traditional straw broom. She moves around the room, cleaning near the sofa and the dining area.\n*   **Movement:** The woman moves around the room to sweep, while the man walks into the frame, looking outside.\n\nThe video focuses mainly on the woman performing a common household task.",
+    "anomaly_detection": "After analyzing the video, here's what I found:\n\n*   **Overall Impression:** The video appears to be a casual, home-shot clip. The first part shows a woman sweeping the floor in what seems like a living room or a common area of a house. Then the camera follows another person in the house.\n\n* **Visual Anomalies and Distortions:** There were some random distortions that looked like pixelization. These occur throughout the video on people and objects, but not the whole background.\n\nPlease let me know if you want me to focus on any specific aspects of the video.",
+    "temporal_analysis": "The video appears to be playing normally. There are no evident issues with reversed playback, shuffled frames, or other temporal distortions. The action of the person sweeping and general movement in the video seem natural and consistent.",
+    "spatial_analysis": "Here's an analysis of the video:\n\n*   **Overall Scene:** The video shows a woman sweeping the floor of a home. The room contains furniture like a couch, table, and chairs.\n*   **Objects That Seem Consistent:** The items present seem typical for a home environment. The broom, couch, pillows, table, chairs, and other household objects appear to belong in the scene.\n*   **Potential Visual Artifacts:** There are instances where pixelation or graininess increase significantly, particularly during abrupt camera movements. These artifacts suggest the video was shot in low light or compressed. Some faces are blurred, and there are rectangles placed to hide the faces.\n\nIn short, I don't see any objects that are clearly \"out of place\" given the setting. The visual artifacts are likely due to the quality and recording conditions.",
+    "semantic_analysis": "Here's an analysis of the sequence of events in the video and whether the transitions are logical:\n\n**Sequence of Events:**\n\n1.  **0:00-0:34**: A woman is sweeping the floor in a living room area. She sweeps around the couch and some objects on the floor.\n2.  **0:35-0:46**: She shifts towards a dining table area that's covered with items.\n3.  **0:47-1:00**: The video abruptly cuts to a man walking into a brightly colored room. He stands by a door and looks at something through a curtain.\n\n**Logical Sense & Scene Transitions:**\n\n*   **Initial Sequence (Sweeping):** The initial sequence of the woman sweeping makes sense. It's a continuous action within a specific area.\n*   **Shift to Dining Area:** The shift from sweeping near the couch to the dining area is generally logical. People typically clean an entire room.\n*   **Abrupt Transition:** The sudden cut to the man in a different room is very abrupt. There's no transition, no indication of how or why the scene changed. It disrupts the flow of the video and feels unnatural. There's no context or connection established between the woman sweeping and the man looking out through the curtains.\n\n**Overall Assessment:**\n\nThe transitions within the sweeping scene are generally smooth, as they show continuous action within a single room. However, the final transition to the man in the other room is jarring and lacks context, making the video feel incomplete or like two separate, unconnected snippets.",
+    "confidence_assessment": "Here's a breakdown of the video:\n\n**Visual Description:**\n\nThe video shows a woman sweeping the floor of a room. She is wearing a long, purple, patterned nightgown and gold bracelets. She uses a traditional broom made of thin wooden/bamboo rods to sweep a white marble-like floor. In the background, there's a black couch with patterned cushions. Later in the video, the camera pans to the right, revealing a dining table with several chairs and a person walking near a window wearing a red, white, and blue shirt, and khaki pants. The person may be taking a phone call. The room appears to be in a home, with basic furniture and decor.\n\n**Confidence Level:**\n\nI am very confident in this description. The visuals are quite clear, and I am able to identify the objects, clothing, and actions being performed.\n\n**Areas of Uncertainty:**\n\n*   **The Person on The Phone** The camera moves somewhat quickly, so it is not possible to ascertain whether the individual near the window is a man or a woman, nor what their are doing, whether they are indeed on a phone call or talking to someone in the room.\n\nIf you have any other questions, please ask."
+  },
+  "scores": {
+    "content_accuracy": 4.800000000000001,
+    "anomaly_detection": 5.9,
+    "confidence_calibration": 4.0,
+    "hallucination": 2.8000000000000003,
+    "overall": 4.375
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 5,
+      "accuracy_score": 4,
+      "detail_level_score": 6,
+      "overall_assessment": "The description contains some accurate elements but misses key actions and includes inaccuracies.",
+      "correctly_described_elements": [
+        "sweeping the floor",
+        "woman cleaning"
+      ],
+      "missing_elements": [
+        "smiling",
+        "putting a broom away",
+        "closing a cabinet"
+      ],
+      "incorrect_descriptions": [
+        "woman wearing a long, purple floral nightgown",
+        "man wearing a red, white, and blue striped polo shirt"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 5,
+      "accuracy_score": 6,
+      "false_positive_score": 8,
+      "overall_assessment": "The model identified some visual anomalies but missed several key anomalies listed in the ground truth.",
+      "detected_anomalies": [
+        "geometric_distortion"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "speed_change",
+        "noise_injection",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 3,
+      "confidence_appropriateness_score": 5,
+      "calibration_score": 4,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks accuracy in action identification.",
+      "uncertainty_indicators": [
+        "misidentification of actions",
+        "lack of detail on anomalies"
+      ],
+      "confidence_indicators": [
+        "detailed visual description",
+        "identification of primary activity"
+      ],
+      "calibration_issues": [
+        "inconsistent action timing",
+        "failure to address anomalies"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 4,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and characters in the video.",
+      "hallucinated_elements": [
+        "woman in a purple floral nightgown",
+        "man in a red, white, and blue striped polo shirt"
+      ],
+      "factual_errors": [
+        "woman sweeping the floor",
+        "man entering the room"
+      ],
+      "speculative_content": [
+        "woman's attire",
+        "details about the room's decor"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:29:38.272502"
+}

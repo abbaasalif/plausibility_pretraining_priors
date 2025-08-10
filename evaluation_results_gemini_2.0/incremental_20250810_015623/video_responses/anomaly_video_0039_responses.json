@@ -1,0 +1,108 @@
+{
+  "video_name": "anomaly_video_0039.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0039.mp4",
+    "original_video_id": "FQA3W",
+    "original_scene": "Bedroom",
+    "original_script": "A person in their bedroom is playing with their shoes. Once they have put their shoes on, they start briskly running towards the door and grab onto the doorknob.",
+    "combined_video_id": "UFVO8",
+    "combined_script": "A person opens a door and throws a broom in a closet with clothes inside.",
+    "original_actions": "c141 5.90 21.10;c154 18.40 22.00;c135 0.00 22.00;c053 0.00 10.30;c056 0.00 6.50;c055 0.10 21.10;c148 0.00 21.90",
+    "decoded_actions": "c141 5.90 21.10 (Grasping onto a doorknob);c154 18.40 22.00 (Someone is standing up from somewhere);c135 0.00 22.00 (Sitting in a bed);c053 0.00 10.30 (Holding a shoe/shoes);c056 0.00 6.50 (Taking shoes from somewhere);c055 0.10 21.10 (Putting on shoe/shoes);c148 0.00 21.90 (Someone is dressing)",
+    "anomalies_applied": "object_insertion;noise_injection;combined_scenes_Bedroom_Closet / Walk-in closet / Spear closet;combined_videos_FQA3W_UFVO8;geometric_distortion;color_shift",
+    "anomaly_timestamps": "scene_mixing 21.42 28.12;video_combination 0.00 28.12;noise_injection 0.17 1.17;object_insertion 0.58 1.58;object_insertion 0.88 1.88;geometric_distortion 1.88 2.88;noise_injection 1.96 2.96;color_shift 2.38 3.38;geometric_distortion 2.54 3.54;object_insertion 3.00 4.00;noise_injection 3.12 4.12;noise_injection 3.42 4.42;noise_injection 3.92 4.92;geometric_distortion 4.50 5.50;color_shift 5.21 6.21;geometric_distortion 5.33 6.33;noise_injection 5.58 6.58;geometric_distortion 5.79 6.79;object_insertion 6.04 7.04;object_insertion 6.12 7.12;color_shift 6.33 7.33;geometric_distortion 6.33 7.33;geometric_distortion 6.92 7.92;color_shift 7.04 8.04;noise_injection 7.04 8.04;color_shift 7.29 8.29;noise_injection 7.33 8.33;color_shift 8.08 9.08;geometric_distortion 8.88 9.88;object_insertion 8.96 9.96;object_insertion 9.17 10.17;object_insertion 9.21 10.21;object_insertion 9.33 10.33;noise_injection 9.42 10.42;object_insertion 9.79 10.79;geometric_distortion 10.58 11.58;object_insertion 10.71 11.71;object_insertion 10.83 11.83;object_insertion 11.04 12.04;object_insertion 11.33 12.33;color_shift 11.38 12.38;geometric_distortion 11.67 12.67;color_shift 12.08 13.08;color_shift 12.42 13.42;color_shift 12.75 13.75;object_insertion 13.38 14.38;color_shift 14.00 15.00;object_insertion 14.67 15.67;object_insertion 14.79 15.79;geometric_distortion 15.71 16.71;object_insertion 17.38 18.38;color_shift 18.25 19.25;color_shift 18.29 19.29;geometric_distortion 18.29 19.29;noise_injection 18.38 19.38;geometric_distortion 18.50 19.50;color_shift 18.58 19.58;geometric_distortion 18.79 19.79;color_shift 19.00 20.00;noise_injection 19.08 20.08;color_shift 19.75 20.75;object_insertion 21.17 22.17;color_shift 21.38 22.38;noise_injection 21.46 22.46;object_insertion 21.54 22.54;noise_injection 21.71 22.71;geometric_distortion 21.83 22.83;noise_injection 22.21 23.21;object_insertion 22.38 23.38;object_insertion 22.58 23.58;noise_injection 22.67 23.67;geometric_distortion 22.75 23.75;object_insertion 22.79 23.79;object_insertion 23.17 24.17;geometric_distortion 23.21 24.21;noise_injection 23.75 24.75;geometric_distortion 23.79 24.79;geometric_distortion 24.12 25.12;color_shift 25.08 26.08;object_insertion 25.38 26.38;noise_injection 25.79 26.79;color_shift 26.08 27.08;color_shift 26.17 27.17;geometric_distortion 26.25 27.25;object_insertion 26.71 27.71;geometric_distortion 26.88 27.88;noise_injection 26.96 27.96;noise_injection 27.38 28.38;object_insertion 27.62 28.62;geometric_distortion 27.62 28.62",
+    "anomaly_count": 6
+  },
+  "responses": {
+    "basic_description": "Here's a detailed description of the video:\n\n**Setting:**\nThe video appears to be filmed in a bedroom. The room has a bed with white bedding, a red patterned headboard, and several pillows. There's a picture hanging on the wall above the bed. The door to the room is partially open on the left side of the frame.\n\n**Activity:**\n*   A man with curly hair, wearing a dark hoodie and gray pants, enters the frame around 0:01. He sits on the edge of the bed.\n*   From 0:02 to 0:19, he is shown putting on shoes and tying the laces.\n*   Around 0:20, he stands up.\n\n**Camera Perspective:**\nThe camera is positioned outside the bedroom, likely in a hallway, capturing a partial view of the room through the open doorway.",
+    "anomaly_detection": "After analyzing the video, here's what I noticed:\n\n**Anomalies and Unusual Elements:**\n\n*   **Vertical Blue Line:** A prominent, bright blue vertical line is present throughout the entire video. This is definitely an anomaly and appears to be a visual artifact or distortion in the video capture or processing. It's not a natural part of the scene.\n\n**General Observations:**\n\n*   The video is shot from a fixed position, likely through a slightly open doorway.\n*   The room appears to be a bedroom.\n*   A person with curly hair sits on the bed.\n*   The lighting is somewhat dim and the quality of the video is a bit grainy.\n*   The room is somewhat cluttered, particularly the bed.\n\nIn summary, the most significant observation is the presence of the unnatural and persistent blue vertical line, which indicates a defect or issue with the video itself.",
+    "temporal_analysis": "The video appears to be playing normally. There are no obvious signs of reversed playback or shuffled frames. The actions of the person in the video seem natural and continuous.",
+    "spatial_analysis": "Here's an analysis of the video, focusing on objects, anomalies, and general visual quality:\n\n**Scene Description:**\n\nThe video appears to be shot from the perspective of someone standing in a doorway, looking into a bedroom. The room is fairly basic. Key elements include:\n\n*   **Bed:** A bed with a headboard, multiple pillows, and a duvet/comforter.\n*   **Person:** A person (likely a male with long hair) is sitting on the bed, putting on shoes.\n*   **Wall Decorations:** A framed picture on the wall, and some other wall hangings.\n*   **Door:** The doorway the camera is positioned in, shows a closed door.\n*   **Other Objects:** A laptop, clothing, and other personal items are scattered around the bed and room.\n\n**Objects That Don't Belong/Are Questionable:**\n\n*   **The purple vertical line:** There is a distinct, bright purple line that stretches vertically in the video frame. It is likely a camera artifact or a glitch rather than an object that genuinely belongs in the scene.\n\n**Color Distortions and Visual Artifacts:**\n\n*   **Purple vertical line:** is a clear artifact of some kind.\n\n**Overall Visual Quality**\n\n*   **Grainy/Noisy:** The video quality seems to be a little grainy or noisy, especially in the darker areas of the room. This might be due to low lighting conditions when the video was recorded.\n*   **Slightly Washed Out Colors:** The colors in the video seem a little washed out, lacking vibrancy. This could be related to the lighting or the camera's color settings.\n\nIn summary, the scene itself is a fairly normal bedroom environment. The most significant anomaly is the purple line that suggests some kind of video processing or camera issue. The overall quality is adequate but could be better in terms of clarity and color reproduction.",
+    "semantic_analysis": "The video depicts a man sitting on a bed putting on his shoes. The sequence of events is as follows:\n\n1.  The man is seen rising from what seems to be a sleeping position or after just waking up.\n2.  He sits on the edge of the bed.\n3.  He picks up his shoe.\n4.  He attempts to put on the shoe.\n5.  He succeeds in putting on the shoe, tieing the shoe, and repeats the same process for the other shoe.\n6.  He gets up from the bed.\n\nThe sequence of events makes logical sense. There are no abrupt or unnatural scene transitions. The video is a continuous shot of a person getting out of bed and putting on their shoes.",
+    "confidence_assessment": "Here is a detailed description of the video:\n\n**Overall Impression:**\n\nThe video is shot from a fixed perspective, looking into a cluttered bedroom from the doorway. The lighting is dim. A young man is the primary subject of the video.\n\n**Visual Details:**\n\n*   **Setting:** The room is a bedroom with a bed that has a floral headboard. The bed is unmade, with covers askew. A framed picture hangs on the wall above the bed. There are also what appear to be personal items scattered around.\n*   **Subject:** A young man enters the frame. He has curly, shoulder length hair and a beard. He wears a dark colored hoodie and gray pants. He sits on the edge of the bed. He spends the duration of the video putting on his shoes and tying the laces.\n*   **Camera:** The camera position is static throughout the video. It is positioned at a doorway, providing a partial view of the room.\n\n**Actions/Events:**\n\n1.  **(0:00-0:01):** The video starts with a view of the bedroom. The door is only partially opened, limiting the view.\n2.  **(0:01-0:20):** A young man approaches the bed and sits down. He picks up a shoe, examines it, and proceeds to put it on and tie the laces. He repeats this with his other shoe. Once his shoes are on he stands up and exits the frame.\n\n**Confidence Level:**\n\nI'm quite confident in my description of the visual elements and actions depicted in the video. There are no parts I'm particularly uncertain about."
+  },
+  "scores": {
+    "content_accuracy": 5.800000000000001,
+    "anomaly_detection": 5.9,
+    "confidence_calibration": 6.400000000000001,
+    "hallucination": 3.8,
+    "overall": 5.4750000000000005
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 6,
+      "accuracy_score": 5,
+      "detail_level_score": 7,
+      "overall_assessment": "The description captures some key elements but misses important actions and details.",
+      "correctly_described_elements": [
+        "bedroom",
+        "putting on shoes",
+        "standing up"
+      ],
+      "missing_elements": [
+        "grasping onto the doorknob",
+        "taking shoes from somewhere",
+        "someone is dressing"
+      ],
+      "incorrect_descriptions": [
+        "camera perspective from outside the bedroom"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 5,
+      "accuracy_score": 6,
+      "false_positive_score": 8,
+      "overall_assessment": "The model identified a significant visual anomaly but missed several listed anomalies.",
+      "detected_anomalies": [
+        "Vertical Blue Line"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "combined_scenes_Bedroom_Closet / Walk-in closet / Spear closet",
+        "combined_videos_FQA3W_UFVO8",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 6,
+      "confidence_appropriateness_score": 7,
+      "calibration_score": 6,
+      "overall_assessment": "The model demonstrates a moderate level of uncertainty recognition and confidence appropriateness, but calibration could be improved.",
+      "uncertainty_indicators": [
+        "incomplete action descriptions",
+        "lack of detail on anomalies"
+      ],
+      "confidence_indicators": [
+        "detailed setting description",
+        "clear activity timeline"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "overconfidence in scene interpretation"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 5,
+      "speculation_control_score": 4,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and setting.",
+      "hallucinated_elements": [
+        "man with curly hair",
+        "dark hoodie",
+        "gray pants",
+        "camera positioned outside"
+      ],
+      "factual_errors": [
+        "standing up at 0:20",
+        "tying the laces"
+      ],
+      "speculative_content": [
+        "partial view of the room through the open doorway"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:23:18.665699"
+}

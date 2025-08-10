@@ -1,0 +1,104 @@
+{
+  "video_name": "anomaly_video_0029.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0029.mp4",
+    "original_video_id": "9632M",
+    "original_scene": "Entryway (A hall that is generally located at the entrance of a house)",
+    "original_script": "A person walks through the entryway, laughing and eating from a bag of snacks. The person wipes their mouth with a paper towel.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c156 5.50 30.90;c097 2.30 14.00;c061 4.90 33.00;c152 14.00 33.00;c033 27.40 33.00;c035 26.60 32.00",
+    "decoded_actions": "c156 5.50 30.90 (Someone is eating something);c097 2.30 14.00 (Walking through a doorway);c061 4.90 33.00 (Holding some food);c152 14.00 33.00 (Someone is smiling);c033 27.40 33.00 (Holding a towel/s);c035 26.60 32.00 (Taking a towel/s from somewhere)",
+    "anomalies_applied": "object_insertion;temporal_cut;noise_injection;geometric_distortion;color_shift",
+    "anomaly_timestamps": "temporal_cut 7.97 23.95;noise_injection 0.17 1.17;geometric_distortion 0.51 1.51;geometric_distortion 0.65 1.65;object_insertion 1.43 2.43;object_insertion 1.74 2.74;geometric_distortion 1.87 2.87;object_insertion 2.08 3.08;noise_injection 2.32 3.32;object_insertion 2.45 3.45;geometric_distortion 2.72 3.72;color_shift 2.79 3.79;geometric_distortion 3.41 4.41;object_insertion 5.01 6.01;object_insertion 5.55 6.55;object_insertion 6.10 7.10;color_shift 6.40 7.40;noise_injection 6.54 7.54;noise_injection 6.71 7.71;color_shift 6.85 7.85;object_insertion 6.98 7.98;geometric_distortion 7.53 8.53;noise_injection 7.70 8.70;noise_injection 8.00 9.00;noise_injection 8.07 9.07;object_insertion 8.69 9.69;object_insertion 9.67 10.67;geometric_distortion 9.78 10.78;object_insertion 9.98 10.98;object_insertion 10.39 11.39;noise_injection 10.46 11.46;object_insertion 10.76 11.76;noise_injection 11.07 12.07;noise_injection 11.24 12.24;noise_injection 11.41 12.41;object_insertion 11.44 12.44;noise_injection 11.55 12.55;object_insertion 12.53 13.53;geometric_distortion 13.05 14.05;object_insertion 13.32 14.32;color_shift 13.42 14.42;noise_injection 13.66 14.66;object_insertion 13.90 14.90;geometric_distortion 13.90 14.90;geometric_distortion 14.00 15.00;color_shift 14.03 15.03;object_insertion 14.54 15.54;color_shift 15.09 16.09;noise_injection 15.09 16.09;color_shift 15.16 16.16;geometric_distortion 15.80 16.80",
+    "anomaly_count": 5
+  },
+  "responses": {
+    "basic_description": "Here is a detailed description of the video:\n\nThe video begins showing an open doorway with a wooden screen door ajar within it. The screen door is a light brown color, and has a typical mesh screen. The main doorframe is also light brown wood. The room on the other side of the doorway is brightly lit, with white walls and what appears to be a dark gray or dark blue floor.\n\nThe camera remains stationary for the first few seconds. Then, a man enters the frame from the doorway and into the room in which the camera is situated. He is wearing an orange polo shirt and blue jeans. He appears to be opening a snack bar, and eats part of it. He then wipes his mouth with a yellow cloth.\n\nThe video appears to be casually recorded, capturing a moment in an indoor domestic setting.",
+    "anomaly_detection": "After carefully analyzing the video, I don't see any visual distortions, anomalies, or elements that seem particularly unusual or out of place within the context of a casual, home-shot video. The video appears to be a simple recording of a person walking through a doorway, holding a snack (Monaco biscuit), and a yellow cloth. The lighting is normal, and there are no obvious signs of video editing or tampering.",
+    "temporal_analysis": "The video appears to be playing normally. There are no obvious temporal issues such as reversed playback or shuffled frames. The actions and movements in the video seem natural and consistent with real-time recording.",
+    "spatial_analysis": "Here's an analysis of the video:\n\n*   **Objects that might not belong:** The video shows a regular interior space of a home. There is a table with a cloth on it in the front part of the frame. The door in the frame is a normal door that seems to have a mesh screen that is slightly askew. An individual is seen entering the frame and consuming a Monoco biscuit. These items all appear to be normal in the setting provided.\n*   **Color distortions:** The video seems to be shot in natural lighting, and I do not see any color distortions.\n*   **Visual artifacts:** The video shows no apparent visual artifacts.",
+    "semantic_analysis": "The video shows a man entering a room through a door with a screen door. He's holding a candy bar and a yellow cloth. He eats the candy, then uses the cloth to wipe his mouth.\n\nThe sequence of events is logical. The scene transitions are smooth because there's no change in camera angle or location. The events flow naturally.",
+    "confidence_assessment": "Okay, here's an analysis of the video, broken down into key observations and a confidence assessment:\n\n**Video Description:**\n\nThe video shows a man standing in a doorway. The doorway has two doors. One door is open and one is partially open and has a screen. The man enters the room. He's wearing a reddish orange polo shirt and blue jeans. He is holding a yellow packaged snack. It appears to be a Monde brand product. He opens the snack and eats a bite. Then he pulls out a yellow cloth and cleans his face with it. The walls inside the house are painted white with purple in places. The door is made of dark brown wood.\n\n**Confidence Assessment:**\n\n*   **Very Confident:**\n    *   The presence of the man, the doorway and two doors, color of clothes, snack item.\n    *   The walls are painted white.\n\n*   **Moderately Confident:**\n    *   The snack is Monde brand.\n    *   The man is cleaning his face.\n\nIf you want a more specific analysis (like focusing on the furniture, the type of food, etc.), please provide more detailed instructions."
+  },
+  "scores": {
+    "content_accuracy": 5.800000000000001,
+    "anomaly_detection": 3.8,
+    "confidence_calibration": 5.0,
+    "hallucination": 3.8,
+    "overall": 4.6000000000000005
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 6,
+      "accuracy_score": 5,
+      "detail_level_score": 7,
+      "overall_assessment": "The description captures some elements but misses key actions and contains inaccuracies.",
+      "correctly_described_elements": [
+        "man entering the frame",
+        "wiping mouth"
+      ],
+      "missing_elements": [
+        "laughing",
+        "eating from a bag of snacks",
+        "entryway description"
+      ],
+      "incorrect_descriptions": [
+        "yellow cloth instead of paper towel",
+        "snack bar instead of bag of snacks"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 0,
+      "accuracy_score": 6,
+      "false_positive_score": 10,
+      "overall_assessment": "The model failed to detect any anomalies despite their presence in the ground truth.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "temporal_cut",
+        "noise_injection",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 6,
+      "calibration_score": 5,
+      "overall_assessment": "The model shows moderate recognition of uncertainty but lacks full confidence in its descriptions.",
+      "uncertainty_indicators": [
+        "incomplete action recognition",
+        "lack of detail on anomalies"
+      ],
+      "confidence_indicators": [
+        "descriptive details of the scene",
+        "identification of the person"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "inaccurate description of the towel"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 5,
+      "speculation_control_score": 4,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions.",
+      "hallucinated_elements": [
+        "wooden screen door",
+        "yellow cloth"
+      ],
+      "factual_errors": [
+        "man wearing an orange polo shirt",
+        "dark gray or dark blue floor"
+      ],
+      "speculative_content": [
+        "casually recorded",
+        "indoor domestic setting"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:16:50.113170"
+}

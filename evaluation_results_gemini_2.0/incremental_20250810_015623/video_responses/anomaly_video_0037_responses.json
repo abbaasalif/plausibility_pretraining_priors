@@ -1,0 +1,105 @@
+{
+  "video_name": "anomaly_video_0037.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0037.mp4",
+    "original_video_id": "3D0WV",
+    "original_scene": "Bathroom",
+    "original_script": "A person is working on a sink, then laughing as he grabs the doorknob.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c141 17.30 31.00;c149 17.70 30.40",
+    "decoded_actions": "c141 17.30 31.00 (Grasping onto a doorknob);c149 17.70 30.40 (Someone is laughing)",
+    "anomalies_applied": "object_insertion;temporal_cut;noise_injection;frame_shuffling;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_reversal 0.00 30.37;frame_shuffling 0.00 3.03;frame_shuffling 3.03 6.07;frame_shuffling 6.07 9.10;frame_shuffling 9.10 12.13;frame_shuffling 12.13 15.17;frame_shuffling 15.17 18.20;frame_shuffling 18.20 21.23;frame_shuffling 21.23 24.27;frame_shuffling 24.27 27.30;frame_shuffling 27.30 30.33;frame_shuffling 30.33 30.37;temporal_cut 7.57 22.77;noise_injection 0.17 1.17;noise_injection 0.37 1.37;object_insertion 0.97 1.97;object_insertion 1.03 2.03;object_insertion 1.20 2.20;object_insertion 1.30 2.30;object_insertion 1.47 2.47;object_insertion 1.67 2.67;object_insertion 1.70 2.70;geometric_distortion 1.77 2.77;noise_injection 2.33 3.33;color_shift 2.63 3.63;noise_injection 3.03 4.03;object_insertion 3.90 4.90;noise_injection 3.97 4.97;noise_injection 4.20 5.20;color_shift 4.77 5.77;noise_injection 4.80 5.80;object_insertion 5.20 6.20;noise_injection 6.47 7.47;color_shift 6.60 7.60;object_insertion 6.67 7.67;color_shift 7.03 8.03;object_insertion 7.17 8.17;object_insertion 7.57 8.57;noise_injection 8.03 9.03;object_insertion 8.43 9.43;color_shift 9.47 10.47;noise_injection 9.57 10.57;object_insertion 9.90 10.90;color_shift 10.47 11.47;geometric_distortion 11.50 12.50;object_insertion 11.77 12.77;noise_injection 12.13 13.13;geometric_distortion 12.37 13.37;color_shift 12.70 13.70;noise_injection 13.23 14.23;color_shift 13.43 14.43;noise_injection 13.73 14.73;object_insertion 14.40 15.40;noise_injection 14.60 15.60;noise_injection 14.70 15.70;noise_injection 14.87 15.87;object_insertion 14.90 15.90",
+    "anomaly_count": 7
+  },
+  "responses": {
+    "basic_description": "Here's a description and analysis of the video:\n\n**Visual Description**\n\nThe video is filmed in a bathroom. The camera is static, positioned facing the bathroom sink and a mirror. On the wall behind the sink and mirror, there are two framed pictures and an electrical outlet. To the right of the sink, there is a shower with a curtain. A towel rack with towels is to the right of the shower. A man is the main subject of the video. He is wearing a dark t-shirt and a knit cap. He has a full beard.\n\n**Activity Analysis**\n\nThe video shows the following activities:\n\n1.  **Brief Gesture:** The man briefly clenches his fist and raises it, moving it up and down a couple of times.\n2.  **Washing Hands:** He then proceeds to lean over the sink and wash his hands.\n\n**Overall Impressions**\n\nThe video appears to be a simple recording of a man washing his hands in a bathroom. The purpose of the recording is not immediately clear from the visuals alone. The brief gesture is somewhat unusual but without additional context or sound, it's difficult to determine its significance. The quality of the video varies due to fluctuations in lighting and a moment of static.",
+    "anomaly_detection": "Here's a detailed analysis of the video, focusing on any unusual aspects or anomalies:\n\n**Overall Impression:**\n\nThe video shows a man in a bathroom. He appears to be washing his hands at the sink. The scene seems relatively ordinary for a bathroom setting.\n\n**Potential Issues and Observations:**\n\n*   **Brief Static Interference (around 0:06):** There's a short burst of heavy static or visual noise that flashes across the screen.\n\n*   **Lighting:** The lighting is a bit bright, casting glare.\n\n**Summary of Unusual Elements:**\n\nThe most notable anomaly in the video is the static or visual noise flash, which is often an indication of digital tampering.",
+    "temporal_analysis": "The video appears to be playing normally. There are no obvious signs of reversed playback or shuffled frames. The movements of the person in the video seem natural and consistent with normal video playback speed. There's a brief instance of extreme noise/artifacting from 0:05 to 0:07, but other than that, the video plays without apparent temporal manipulation.",
+    "spatial_analysis": "Here's an analysis of the video:\n\n*   **Objects:** The scene appears to be a bathroom. The objects present seem appropriate for this setting: sink, mirror, lights, pictures on the wall, towel rack, towels, shower curtain. There's no immediately obvious object that appears out of place.\n\n*   **Color distortions/Visual artifacts:** At [00:00:01], a green square appears, which is most likely a visual artifact. At [00:00:06] there appears to be excessive static or digital noise, severely distorting the image. Overall, the video has a slightly washed-out look, and the lighting seems uneven. It's difficult to assess color accuracy perfectly without knowing the true colors of the scene.",
+    "semantic_analysis": "The video shows a person in a bathroom. They are standing by the sink, and the overall sequence of actions appears logical and natural:\n\n*   **0:00-0:05:** The person is seen gesturing.\n*   **0:05-0:07:** The video has a flash of noise.\n*   **0:08-0:14:** The person leans towards the sink and is presumably washing their hands.\n\nTherefore, the sequence of events in the video makes sense. The flash of noise in the middle may be considered abrupt, but it does not affect the understanding of the video.",
+    "confidence_assessment": "Here's a description of the video and my confidence level:\n\n**Description:**\n\nThe video appears to be shot in a bathroom. A person with a beard and wearing a dark t-shirt and a beanie is visible. Initially, they are standing near the doorway, then they approach the sink. The person then proceeds to wash their hands in the sink. There is a brief moment of static noise in the middle of the clip.\n\n**Confidence Level:**\n\nI am quite confident in this description because the main actions are clear. However, the video quality is not the best, so some details are less certain.\n\n**Uncertainties:**\n\n*   **T-shirt design:** It's difficult to make out the design on the person's shirt. I described it as a \"design,\" but I am unable to say what that is.\n*   **Objects on the wall:** There are framed pictures on the wall, but the quality is not good enough for me to make out what is in the frames.\n*   **Bathroom details:** The details of the shower and items within are obscured and unclear.\n*   **Purpose of the hand gesture at the beginning of the clip:** I am uncertain why he is making this gesture.\n\nIf you need a more precise description, a higher-quality video would be necessary."
+  },
+  "scores": {
+    "content_accuracy": 3.8000000000000003,
+    "anomaly_detection": 4.6,
+    "confidence_calibration": 4.2,
+    "hallucination": 2.7,
+    "overall": 3.825
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 3,
+      "accuracy_score": 4,
+      "detail_level_score": 5,
+      "overall_assessment": "The model's description lacks key actions and context from the ground truth.",
+      "correctly_described_elements": [
+        "bathroom",
+        "man"
+      ],
+      "missing_elements": [
+        "grasping onto a doorknob",
+        "laughing"
+      ],
+      "incorrect_descriptions": [
+        "brief gesture",
+        "washing hands"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 3,
+      "accuracy_score": 5,
+      "false_positive_score": 8,
+      "overall_assessment": "The model identified some noise but missed several key anomalies.",
+      "detected_anomalies": [
+        "noise_injection"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "temporal_cut",
+        "frame_shuffling",
+        "frame_reversal",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 5,
+      "calibration_score": 3,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks confidence in its analysis, leading to calibration issues.",
+      "uncertainty_indicators": [
+        "lack of context",
+        "difficulty determining significance"
+      ],
+      "confidence_indicators": [
+        "description of visual elements",
+        "identification of main subject"
+      ],
+      "calibration_issues": [
+        "inconsistent activity recognition",
+        "poor quality assessment"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 3,
+      "speculation_control_score": 4,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and context of the video.",
+      "hallucinated_elements": [
+        "brief gesture",
+        "washing hands"
+      ],
+      "factual_errors": [
+        "no mention of doorknob",
+        "no laughter described"
+      ],
+      "speculative_content": [
+        "purpose of the recording"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:22:04.541105"
+}

@@ -1,0 +1,111 @@
+{
+  "video_name": "anomaly_video_0010.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0010.mp4",
+    "original_video_id": "5Q0CX",
+    "original_scene": "Living room",
+    "original_script": "A person awakens and turns on a light. They get up and look out a window, smiling, before leaving the room.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c104 14.20 18.70;c092 22.40 30.70;c146 0.50 12.40;c154 8.20 16.10;c122 0.00 4.80",
+    "decoded_actions": "c104 14.20 18.70 (Turning on a light);c092 22.40 30.70 (Watching/Looking outside of a window);c146 0.50 12.40 (Someone is awakening somewhere);c154 8.20 16.10 (Someone is standing up from somewhere);c122 0.00 4.80 (Lying on a sofa/couch)",
+    "anomalies_applied": "object_insertion;temporal_cut;noise_injection;frame_shuffling;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_reversal 0.00 35.04;frame_shuffling 0.00 3.50;frame_shuffling 3.50 7.01;frame_shuffling 7.01 10.51;frame_shuffling 10.51 14.01;frame_shuffling 14.01 17.52;frame_shuffling 17.52 21.02;frame_shuffling 21.02 24.52;frame_shuffling 24.52 28.03;frame_shuffling 28.03 31.53;frame_shuffling 31.53 35.04;temporal_cut 8.74 26.26;object_insertion 0.67 1.67;geometric_distortion 0.70 1.70;noise_injection 1.74 2.74;color_shift 1.87 2.87;color_shift 1.97 2.97;object_insertion 2.47 3.47;noise_injection 2.77 3.77;noise_injection 2.90 3.90;noise_injection 2.97 3.97;geometric_distortion 3.10 4.10;noise_injection 3.64 4.64;noise_injection 4.27 5.27;color_shift 4.67 5.67;color_shift 5.11 6.11;color_shift 5.57 6.57;object_insertion 5.77 6.77;geometric_distortion 5.97 6.97;object_insertion 6.17 7.17;object_insertion 6.44 7.44;color_shift 6.51 7.51;noise_injection 6.54 7.54;object_insertion 6.81 7.81;noise_injection 7.21 8.21;object_insertion 7.64 8.64;geometric_distortion 7.91 8.91;geometric_distortion 7.97 8.97;noise_injection 8.27 9.27;noise_injection 8.78 9.78;noise_injection 8.88 9.88;object_insertion 9.51 10.51;color_shift 9.71 10.71;geometric_distortion 9.71 10.71;color_shift 9.74 10.74;noise_injection 10.28 11.28;color_shift 10.68 11.68;color_shift 11.01 12.01;object_insertion 11.88 12.88;color_shift 12.01 13.01;color_shift 12.11 13.11;object_insertion 12.25 13.25;geometric_distortion 12.51 13.51;object_insertion 12.68 13.68;object_insertion 13.98 14.98;object_insertion 14.01 15.01;noise_injection 14.18 15.18;object_insertion 14.68 15.68;noise_injection 14.98 15.98;object_insertion 15.22 16.22;object_insertion 15.65 16.65;geometric_distortion 15.88 16.88;object_insertion 15.95 16.95;geometric_distortion 16.12 17.12;geometric_distortion 16.72 17.72;object_insertion 16.75 17.75;noise_injection 16.98 17.98;geometric_distortion 17.38 18.38",
+    "anomaly_count": 7
+  },
+  "responses": {
+    "basic_description": "Here is a detailed description of what is happening in the video:\n\n**Visual Description:**\n\nThe video shows a room that appears to be a living room. The walls are painted a light shade of green. A beige couch is on the left side of the room. There is a small side table next to the couch with a lamp on it. The light from the lamp casts a warm glow in that corner.  A patterned curtain is behind the lamp. A wooden curio cabinet is against the wall behind the table, near the center of the room. On the right side of the room is a large television set. The room appears to be furnished with multiple decorative items like candle sconces.\n\n**Activities:**\n\n*   **0:00 - 0:03:** A man walks into the frame from the right. He is wearing a long-sleeved shirt, khaki pants, and appears to have short hair.\n*   **0:05 - 0:07:** He walks toward the window, stops at the side table, and leans over to look closely outside, peering through the curtain.\n*   **0:09 - 0:16:** He moves to the couch, sits down, and lies back to relax. He is resting comfortably on the couch by the end of the video.",
+    "anomaly_detection": "After analyzing the video, here's what I observed:\n\n*   **General Observations:** The video is of an interior living room setting. There is a man in the room walking around, peeking behind a curtain and sitting on a couch.\n\n*   **Unusual Occurrences/Potential Anomalies:**\n\n    *   At the beginning of the video, as the man walks across the room, a small section of his midsection is briefly censored with a grey, pixelated square. This appears to be artificial and likely done in post-production. It is impossible to know why that section was censored as that would require additional context about the video.\n\n*   **Overall Impression:** The video appears to be staged or edited for some reason because of the brief censoring effect.",
+    "temporal_analysis": "The video appears to be playing normally. The person walks from the right side of the frame, checks something behind the curtains, and then sits/lies down on the couch. There are no obvious signs of reversed playback or shuffled frames. The movement seems natural and consistent.",
+    "spatial_analysis": "Here's an analysis of the video clip:\n\n**Objects that might seem out of place (subjective):**\n\n*   **The arrangement of the furniture:** The room appears somewhat cluttered with items like the corner cabinet, the oversized TV, and the shelf unit, giving a sense of disorganized space.\n*   **The decor:** The wall decorations (candlesticks, clock, artwork) and the style of the furniture (couch, lamp) give the room a somewhat dated or eclectic vibe. Whether these are \"out of place\" is purely subjective based on current trends.\n\n**Visual Artifacts and Color Distortions:**\n\n*   **Color Cast:** The room has a noticeable green/yellow color cast, likely due to the lighting and the color of the walls. This isn't necessarily an artifact, but it does affect the overall look of the scene.\n*   **Shadows:** Due to the single light source, there are strong shadows in parts of the room.\n\nIn general, the scene looks like an ordinary living room.",
+    "semantic_analysis": "Here's an analysis of the video provided:\n\n**Sequence of Events:**\n\n1.  **0:00-0:03:** A man walks into the room from the right side of the frame.\n2.  **0:03-0:09:** The man walks toward the lamp, leans against the table next to it, and looks out the window to the left.\n3.  **0:09-0:17:** The man sits down on the couch, relaxes, and appears to fall asleep.\n\n**Logical Sense:**\n\nThe sequence of events generally makes logical sense. It shows a person entering a room, looking outside, sitting down on the couch, and falling asleep. It is a simple and straightforward sequence.\n\n**Abrupt or Unnatural Scene Transitions:**\n\nThere are no abrupt or unnatural scene transitions. The video captures continuous events within a single scene. The man's actions flow from one to another without any jarring cuts or shifts in perspective.\n\n**Additional Notes:**\n\n*   The video seems to be shot from a fixed camera position.\n*   The lighting is mostly dim, creating a relaxed atmosphere.\n*   The focus is mainly on the man and his actions.\n\nIn summary, the video is a simple, single-shot recording of a person's actions in a room. The sequence of events is logical, and there are no abrupt or unnatural scene transitions.",
+    "confidence_assessment": "Here is a detailed description of the video provided:\n\n**Setting:** The video is shot indoors, in what appears to be a living room. The walls are painted a dark olive-green color. The room is furnished with a tan-colored sofa, an end table with a lamp, a large flat-screen television (possibly an older model based on its size), a wooden corner cabinet, and a dark-colored shelving unit filled with various items. There are decorative sconces and a wall clock on the wall. A patterned curtain hangs by the side of the window.\n\n**Action:**\n\n*   **0:00-0:03:** A man is walking into the frame, toward the camera, in the middle of the room.\n*   **0:04-0:08:** He stops, turns, walks to the window, and appears to be peeking through a gap in the curtains.\n*   **0:09-0:17:** The man walks over to the sofa and lies down, apparently falling asleep.\n\n**Overall Impression:** The video appears to be a casual recording of a person's mundane activity. The lighting in the room is somewhat dim, giving it a cozy and lived-in feel. The video's content is unremarkable, depicting someone looking out the window and then relaxing on the couch.\n\n**Confidence Level:** I am fairly confident in this description. The scene is relatively straightforward, and the actions are clear. However, details like the precise model of the television or the contents of the shelving unit are difficult to discern due to the video quality and lighting."
+  },
+  "scores": {
+    "content_accuracy": 3.8000000000000003,
+    "anomaly_detection": 4.1,
+    "confidence_calibration": 4.0,
+    "hallucination": 3.7,
+    "overall": 3.9000000000000004
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 4,
+      "accuracy_score": 3,
+      "detail_level_score": 5,
+      "overall_assessment": "The model's description contains inaccuracies and misses key actions.",
+      "correctly_described_elements": [
+        "living room",
+        "couch"
+      ],
+      "missing_elements": [
+        "turning on a light",
+        "looking outside the window",
+        "awakening",
+        "standing up"
+      ],
+      "incorrect_descriptions": [
+        "man walking into the frame",
+        "sitting on the couch",
+        "lying back to relax"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 2,
+      "accuracy_score": 5,
+      "false_positive_score": 8,
+      "overall_assessment": "The model failed to identify the actual anomalies present in the video and focused on a non-existent issue.",
+      "detected_anomalies": [
+        "censored midsection"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "temporal_cut",
+        "noise_injection",
+        "frame_shuffling",
+        "frame_reversal",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 3,
+      "confidence_appropriateness_score": 5,
+      "calibration_score": 4,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks confidence in key actions.",
+      "uncertainty_indicators": [
+        "incomplete action recognition",
+        "lack of detail in anomalies"
+      ],
+      "confidence_indicators": [
+        "detailed visual description",
+        "specific time stamps for actions"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "overconfidence in visual details"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 4,
+      "speculation_control_score": 5,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and sequence of events.",
+      "hallucinated_elements": [
+        "man walking into the frame",
+        "sitting on the couch",
+        "resting comfortably"
+      ],
+      "factual_errors": [
+        "no mention of turning on the light",
+        "incorrect actions sequence"
+      ],
+      "speculative_content": [
+        "description of the room's decor",
+        "details about the man's clothing"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:03:40.579196"
+}

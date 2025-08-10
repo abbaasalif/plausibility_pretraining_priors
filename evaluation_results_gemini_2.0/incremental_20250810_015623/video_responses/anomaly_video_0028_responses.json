@@ -1,0 +1,119 @@
+{
+  "video_name": "anomaly_video_0028.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0028.mp4",
+    "original_video_id": "JHRI6",
+    "original_scene": "Basement (A room below the ground floor)",
+    "original_script": "A person sits in a chair, holding their homework. The person throws the pages into the air and laughs.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c059 0.00 13.00;c149 5.10 13.00;c152 5.10 13.00;c115 0.00 7.50;c126 3.70 8.20",
+    "decoded_actions": "c059 0.00 13.00 (Sitting in a chair);c149 5.10 13.00 (Someone is laughing);c152 5.10 13.00 (Someone is smiling);c115 0.00 7.50 (Someone is holding a paper/notebook);c126 3.70 8.20 (Throwing something on the floor)",
+    "anomalies_applied": "object_insertion;speed_change;noise_injection;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_reversal 0.00 12.25;speed_change 0.00 12.25;noise_injection 0.10 1.10;noise_injection 0.20 1.20;noise_injection 0.93 1.93;noise_injection 1.37 2.37;color_shift 1.57 2.57;color_shift 2.30 3.30;noise_injection 2.40 3.40;noise_injection 2.64 3.64;object_insertion 3.10 4.10;color_shift 3.10 4.10;color_shift 3.74 4.74;noise_injection 3.80 4.80;object_insertion 4.54 5.54;object_insertion 4.74 5.74;geometric_distortion 5.34 6.34;color_shift 5.37 6.37;object_insertion 5.77 6.77;color_shift 6.64 7.64;color_shift 6.71 7.71;noise_injection 6.87 7.87;object_insertion 7.14 8.14;object_insertion 7.71 8.71;color_shift 8.11 9.11;color_shift 8.51 9.51;geometric_distortion 8.71 9.71;color_shift 8.81 9.81;color_shift 8.84 9.84;noise_injection 9.14 10.14;noise_injection 10.51 11.51;object_insertion 10.91 11.91;object_insertion 11.28 12.28;object_insertion 11.64 12.64;object_insertion 11.78 12.78;color_shift 11.88 12.88;color_shift 12.11 13.11;color_shift 12.61 13.61;geometric_distortion 12.68 13.68;color_shift 12.71 13.71;noise_injection 13.18 14.18;noise_injection 13.81 14.81;object_insertion 13.88 14.88;noise_injection 14.61 15.61;object_insertion 14.65 15.65;object_insertion 14.88 15.88;noise_injection 15.02 16.02;noise_injection 15.25 16.25;object_insertion 15.58 16.58;object_insertion 15.85 16.85;object_insertion 16.62 17.62;color_shift 16.68 17.68;object_insertion 16.98 17.98;noise_injection 17.28 18.28;object_insertion 17.72 18.72;object_insertion 17.78 18.78;noise_injection 17.78 18.78;noise_injection 18.42 19.42;object_insertion 18.55 19.55;color_shift 18.65 19.65;noise_injection 18.89 19.89;geometric_distortion 18.99 19.99;geometric_distortion 19.12 20.12;object_insertion 19.65 20.65;object_insertion 19.92 20.92;geometric_distortion 20.39 21.39;object_insertion 20.42 21.42;color_shift 20.69 21.69;color_shift 20.79 21.79;noise_injection 20.79 21.79;object_insertion 20.95 21.95;object_insertion 21.22 22.22;object_insertion 21.29 22.29;object_insertion 21.65 22.65;object_insertion 21.76 22.76;geometric_distortion 21.89 22.89;noise_injection 22.22 23.22;color_shift 22.36 23.36;color_shift 22.76 23.76;noise_injection 22.89 23.89;geometric_distortion 23.89 24.89;noise_injection 23.92 24.92;object_insertion 23.96 24.96;geometric_distortion 24.22 25.22",
+    "anomaly_count": 6
+  },
+  "responses": {
+    "basic_description": "Here's a detailed description of the video:\n\n**Visual Description:**\n\nThe video shows a young man with curly hair sitting on a small chair. He is wearing a dark jacket, a dark T-shirt, and jeans with holes at the knees. The setting appears to be a cluttered basement or storage room. Behind him are shelves and boxes filled with various items, including drums, a sewing machine, musical instruments, an old-fashioned radio, and fans.\n\n**Activities:**\n\n1.  **Initial State:** The young man is initially smiling and looking directly at the camera.\n2.  **Paper Handling:** At around [00:00:10], he picks up a piece of paper, shakes it a bit, and then begins to read from it.\n3.  **Reading:** From [00:00:11] onwards, the main activity is the young man reading the content of the paper he is holding. He keeps his eyes on the paper as he speaks.\n\n**Analysis:**\n\n*   **Informal Setting:** The cluttered environment indicates an informal setting, possibly a personal or creative space.\n*   **Possible Video Context:** Given the visual elements like drums and musical equipment, the video might be related to music, a performance, or a personal vlog.\n*   **Purpose of Reading:** The activity suggests that the young man is delivering a message, reading a script, or presenting something to the audience. The specific purpose would be further clarified by the audio content, which is unavailable to me.",
+    "anomaly_detection": "Here's an analysis of the video:\n\n**Overall Impression:**\n\nThe video appears to be a recording of a young man sitting in what looks like a cluttered garage or storage space. The setting is quite chaotic, filled with boxes, musical equipment (like drums), fans, and other miscellaneous items. The lighting is a bit poor, contributing to the somewhat dimly lit and slightly claustrophobic feel.\n\n**Unusual Elements & Anomalies:**\n\n1.  **Cluttered Environment:** The sheer volume of items packed into the background is striking. It gives the impression of a storage space bursting at the seams. While not necessarily an anomaly in itself, the extent of the clutter is notable.\n2.  **Odd Placement:** The items in the garage or storage space look randomly placed, which makes the scene disorganized.\n3.  **Low-Quality Video:** The video has a slightly washed-out color palette and lacks crisp detail, suggesting it was either shot with a low-quality camera or the video quality was compromised during processing.\n\n**Visual Distortions:**\n\n*   **No Obvious Distortions:**  I don't see any clear, intentional visual distortions or evidence of manipulation in terms of warping, blurring, or shifting of objects within the frame. The video appears fairly authentic in its presentation of the scene.\n\n**Conclusion:**\n\nThe most prominent unusual element is the extremely cluttered background. Otherwise, the video seems fairly straightforward, although the low quality contributes to a sense of being somewhat raw and unrefined. There doesn't appear to be any evidence of overt manipulation or obvious visual anomalies in the traditional sense.",
+    "temporal_analysis": "Based on the video provided, the video appears to be playing normally. There are no obvious signs of reversed playback or shuffled frames. The person in the video is moving and speaking in a manner that appears natural and consistent with a typical video recording.",
+    "spatial_analysis": "Here's a breakdown of the scene:\n\n**Scene Description:**\n\nThe scene takes place in what appears to be a cluttered garage or storage space. A young man with curly hair is sitting on a small stool in the center of the frame. He is surrounded by a variety of items, including boxes, musical instruments (drums), a fan, electronics, and other miscellaneous objects. At [00:00:10] the man is holding and reading from a piece of paper.\n\n**Objects That May Seem Out of Place:**\n\nGiven that the setting is a garage or storage area, it's difficult to definitively say that any objects \"don't belong.\" The items generally fit the context of stored belongings or items related to hobbies (music). Here are some potential observations:\n\n*   **Musical Instruments:** While not necessarily \"out of place,\" the drums stand out due to their size.\n*   **Electronic Devices:** The vintage radios, recorders, and other electronic components suggest that these are older or unused items being stored.\n*   **Miscellaneous Items:** Random boxes, bags, and containers.\n\n**Color Distortions and Visual Artifacts:**\n\n*   The lighting in the scene is not ideal, with the overall color temperature being slightly cool.\n*   The video quality has some compression artifacts.\n\n**Overall Assessment:**\n\nThe scene seems to be an unedited, casual shot in a cluttered environment. There are no color distortions, and any visible artifacts appear to be due to camera quality.",
+    "semantic_analysis": "The video is simply a static shot of a young man sitting in what appears to be a cluttered garage or storage room. He's smiling and then picks up some papers to read.\n\n*   **Sequence of events:** The sequence of events is very basic:\n    1.  The man is smiling and looking at the camera.\n    2.  He picks up and shuffles some papers.\n    3.  He reads the papers.\n*   **Logical Sense:** Yes, the sequence is logical. He's likely recording a video where he introduces himself and then reads something he prepared.\n*   **Scene Transitions:** There are no scene transitions.\n\nOverall, the \"video\" is more of a single shot. There's nothing inherently illogical or abrupt, but there's also no dynamism or creative editing.",
+    "confidence_assessment": "Here's an analysis of the video:\n\n**Visual Description:**\n\nThe video shows a young man with curly hair sitting on a chair in what appears to be a cluttered garage or storage room. He is wearing a dark jacket over a light-colored shirt and gray jeans with rips at the knees.\n\nBehind him, there is a shelf with various items including boxes, a radio, a fan, and other miscellaneous objects. To his left, there is a drum set and other musical equipment. In the bottom right corner, there's a box fan.\n\nThe lighting is somewhat dim, and the overall visual quality suggests this was recorded with a basic webcam or phone camera. He starts out smiling at the camera, then takes out a piece of paper and begins to read.\n\n**Confidence Level:**\n\nI am quite confident in the accuracy of this description based on the clear visual elements presented in the video. However, some details remain subjective. The clutter behind the person makes it difficult to identify everything in the background with absolute certainty."
+  },
+  "scores": {
+    "content_accuracy": 2.2,
+    "anomaly_detection": 4.1,
+    "confidence_calibration": 4.0,
+    "hallucination": 2.2,
+    "overall": 3.125
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 2,
+      "accuracy_score": 2,
+      "detail_level_score": 3,
+      "overall_assessment": "The model response does not accurately reflect the video content described in the ground truth.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "throwing pages",
+        "laughing",
+        "holding homework"
+      ],
+      "incorrect_descriptions": [
+        "young man reading from paper",
+        "cluttered basement setting"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 2,
+      "accuracy_score": 5,
+      "false_positive_score": 8,
+      "overall_assessment": "The model failed to identify the actual anomalies present in the video.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "speed_change",
+        "noise_injection",
+        "frame_reversal",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 3,
+      "confidence_appropriateness_score": 5,
+      "calibration_score": 4,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks confidence in its analysis, leading to calibration issues.",
+      "uncertainty_indicators": [
+        "lack of audio context",
+        "generalization of setting"
+      ],
+      "confidence_indicators": [
+        "detailed visual description",
+        "identification of activities"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "incomplete analysis of anomalies"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 2,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the video's content.",
+      "hallucinated_elements": [
+        "young man with curly hair",
+        "dark jacket",
+        "dark T-shirt",
+        "jeans with holes",
+        "cluttered basement",
+        "shelves and boxes",
+        "drums",
+        "sewing machine",
+        "musical instruments",
+        "old-fashioned radio",
+        "fans"
+      ],
+      "factual_errors": [
+        "initially smiling",
+        "picks up a piece of paper",
+        "shakes it",
+        "reading from it",
+        "speaking"
+      ],
+      "speculative_content": [
+        "informal setting",
+        "personal or creative space",
+        "related to music",
+        "performance",
+        "personal vlog",
+        "delivering a message",
+        "reading a script"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:16:21.069267"
+}

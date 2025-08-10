@@ -1,0 +1,105 @@
+{
+  "video_name": "anomaly_video_0019.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0019.mp4",
+    "original_video_id": "N4Q0O",
+    "original_scene": "Basement (A room below the ground floor)",
+    "original_script": "A person awakens from under a blanket.  Then starts washing a chair.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c146 1.00 11.90;c154 7.40 12.20;c134 0.00 10.20;c133 4.20 11.90",
+    "decoded_actions": "c146 1.00 11.90 (Someone is awakening somewhere);c154 7.40 12.20 (Someone is standing up from somewhere);c134 0.00 10.20 (Lying on a bed);c133 4.20 11.90 (Someone is awakening in bed)",
+    "anomalies_applied": "object_insertion;speed_change;frame_shuffling;noise_injection;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_shuffling 0.00 3.04;frame_shuffling 3.04 6.07;frame_shuffling 6.07 9.11;frame_shuffling 9.11 12.15;frame_shuffling 12.15 15.18;frame_shuffling 15.18 18.22;frame_shuffling 18.22 21.25;frame_shuffling 21.25 24.29;frame_shuffling 24.29 27.33;frame_shuffling 27.33 30.36;speed_change 0.00 30.36;color_shift 1.30 2.30;object_insertion 1.74 2.74;object_insertion 1.84 2.84;geometric_distortion 2.20 3.20;object_insertion 2.97 3.97;noise_injection 3.34 4.34;geometric_distortion 3.40 4.40;color_shift 3.54 4.54;geometric_distortion 3.74 4.74;object_insertion 3.84 4.84;color_shift 4.00 5.00;noise_injection 4.44 5.44;geometric_distortion 4.94 5.94;geometric_distortion 5.04 6.04;object_insertion 5.14 6.14;color_shift 5.31 6.31;color_shift 5.37 6.37;color_shift 5.74 6.74;object_insertion 6.11 7.11;object_insertion 6.71 7.71;object_insertion 6.94 7.94;color_shift 7.11 8.11;noise_injection 7.17 8.17;color_shift 7.91 8.91;object_insertion 8.71 9.71;color_shift 9.01 10.01;color_shift 9.24 10.24;geometric_distortion 9.41 10.41;geometric_distortion 9.44 10.44;geometric_distortion 10.14 11.14;noise_injection 10.21 11.21;object_insertion 10.51 11.51;color_shift 10.64 11.64;color_shift 11.28 12.28;color_shift 11.78 12.78;geometric_distortion 12.05 13.05;noise_injection 12.38 13.38;color_shift 12.61 13.61;color_shift 12.65 13.65;noise_injection 12.71 13.71;color_shift 12.75 13.75;geometric_distortion 12.88 13.88;geometric_distortion 13.01 14.01;object_insertion 13.51 14.51;color_shift 13.98 14.98;color_shift 14.05 15.05;geometric_distortion 14.28 15.28;geometric_distortion 14.88 15.88",
+    "anomaly_count": 6
+  },
+  "responses": {
+    "basic_description": "Here's a detailed description of the video:\n\n**Setting:**\nThe video appears to be filmed in a basement bedroom. The walls are made of painted cinder blocks. There's a small window near the ceiling. The room contains a bed, a small table over the bed, and a large office chair. There are posters or framed pictures on the walls.\n\n**Action:**\n*   **0:00-0:02:** A man is lying on his bed on his stomach. There appears to be a laptop and some other items on a small table resting on the bed in front of him.\n*   **0:02-0:05:** The man wakes up, rubs his eyes, and rolls onto his back. He then sits up.\n*   **0:05-0:14:** The man stands up from the bed. He leans against the office chair. He appears to be talking on the phone and seems somewhat distraught.\n\n**Other Details:**\n\n*   The lighting in the room is somewhat dim.\n*   The quality of the video is a little grainy.\n*   The man is wearing a dark-colored shirt and dark-colored shorts or pants with a white stripe.\n*   He has a beard.",
+    "anomaly_detection": "Here's an analysis of the video, looking for anything unusual:\n\n**Overall Impression:** The video appears to be a recording of a person waking up in what seems to be a basement bedroom. The environment looks a little cramped and the lighting is a bit dim, but there isn't an immediate sense that something is clearly \"off\".\n\n**Possible points:**\n\n*   **Basement Setting:** While basements are common, they can sometimes feel a bit isolated or claustrophobic. The cinder block walls add to this feeling.\n*   **Clutter:** The room could be described as cluttered, which is not necessarily \"unusual\" but is worth noting in terms of the overall atmosphere.\n*   **Lighting:** The single overhead light creates a stark contrast, leaving some areas in shadow. This can contribute to a slightly unsettling feeling.\n*   **Poster/Wall D\u00e9cor:** The black and white posters on the wall are not overtly strange, but their somber tone adds to the serious overall impression of the scene.\n* The person doesn't immediately feel normal after waking up. He seems a bit irritated, or maybe a little hungover.\n\n**Visual Distortions/Anomalies:**\n\n*   **None immediately obvious:** Without detailed analysis software, there are no blatant visual distortions, glitches, or anomalies like impossible shadows, perspective errors, or objects that appear out of place. The video seems to be a straightforward recording of the scene.\n\n**Overall Conclusion:**\n\nThe video itself doesn't present any glaring visual anomalies that point to something being clearly artificial. It presents a somewhat ordinary scene of a person waking up in a simple, slightly cluttered basement bedroom.\n\nHowever, if there is an intent to create a specific feeling (e.g., unease or isolation), the choice of setting, lighting, and d\u00e9cor contribute to that atmosphere.",
+    "temporal_analysis": "The video appears to be playing normally. The actions of the person in the video seem fluid and coherent, without any indications of reversed playback or shuffled frames. There is no unnatural movement or disjointedness in the footage.",
+    "spatial_analysis": "Here's an analysis of the video you provided, focusing on objects, visual fidelity, and any potential anomalies:\n\n**Overall Impression:**\nThe video is shot in what appears to be a basement or small room with concrete block walls. The lighting is predominantly artificial and potentially uneven. The image quality suggests a lower resolution camera is in use.\n\n**Objects and Belonging:**\n\n*   **Bed:** Appears to be a standard bed, likely a normal object in a bedroom setting.\n*   **Posters/Pictures on Wall:** A poster or picture on the wall is present. This object is common for personalizing a living space and seems to fit.\n*   **Chair:** An office-style chair is present.\n*   **Controller, Phone, and Table on Bed:** These objects are modern items and do not appear to be incongruous with the setting.\n*   **Miscellaneous Items Above Wall:** There are miscellaneous items in the space above the wall, however they don't strike me as objects that don't belong.\n\n**Color Distortion and Visual Artifacts:**\n\n*   **Lighting and Color Cast:** The lighting appears to be uneven with a possible yellow/warm color cast, typical of artificial lighting (like incandescent bulbs). This is a color cast rather than a true color distortion.\n*   **Low Resolution/Compression:** The image quality suggests either a low-resolution camera or heavy compression of the video file.\n*   **Noise:** The video has some visual noise, especially visible in darker areas, due to the low light conditions and potential low-quality sensor in the camera.\n\n**Summary:**\n\nOverall, I don't see any objects that definitively \"don't belong\" in the scene. It looks like a typical room setting. The main issue is the lower image quality, possibly from an older camera or video compression, which causes some visual noise and a slightly washed-out color look.",
+    "semantic_analysis": "The sequence of events in the video makes perfect logical sense.\n\n*   **0:00-0:02:** The video starts with a man lying in bed.\n*   **0:02-0:05:** He wakes up.\n*   **0:05-0:14:** He gets out of bed and stands up, looking around and looking down at something next to the chair.\n\nThere are no abrupt or unnatural scene transitions. The video is a single, continuous shot. The action flows logically from one moment to the next, depicting the man waking up and getting out of bed.",
+    "confidence_assessment": "Here's a breakdown of the video:\n\n**Overall Description:**\n\nThe video shows a man lying in a bed in what appears to be a basement bedroom. He wakes up, gets out of bed, and seems to be experiencing some kind of discomfort, possibly a headache. He stands and leans on a chair, rubbing his temples.\n\n**Detailed Breakdown:**\n\n*   **0:00-0:02:** A man is lying face down on a bed in a room with cinder block walls. A small tray table is in front of him on the bed.\n*   **0:02-0:04:** He wakes up, rubs his eyes, and rolls onto his back.\n*   **0:04-0:07:** He sits up and then stands.\n*   **0:07-0:14:** He leans over and puts his hands on a chair while rubbing his head. He seems unwell or uncomfortable.\n\n**Setting:**\n\n*   The room has cinder block walls, typical of a basement.\n*   A small window is present.\n*   There's a bed, chair, and small tray table in the room.\n*   Posters or artwork hang on the wall.\n*   The lighting is somewhat dim.\n\n**Person:**\n\n*   The man appears to be young to middle-aged.\n*   He has a beard and is wearing casual clothing (t-shirt and shorts/pants).\n\n**Confidence Level:**\n\nI'm fairly confident in the descriptive details. However, I'm making some assumptions about the man's discomfort based on his actions. I can't definitively know what he's experiencing without additional information. Additionally, the exact age of the man, and if he is wearing shorts or pants are the parts that I am least confident on."
+  },
+  "scores": {
+    "content_accuracy": 5.800000000000001,
+    "anomaly_detection": 3.8,
+    "confidence_calibration": 6.200000000000001,
+    "hallucination": 3.8,
+    "overall": 4.9
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 6,
+      "accuracy_score": 5,
+      "detail_level_score": 7,
+      "overall_assessment": "The description captures some actions and setting but includes inaccuracies and missing elements.",
+      "correctly_described_elements": [
+        "basement",
+        "man waking up",
+        "standing up from bed"
+      ],
+      "missing_elements": [
+        "washing a chair",
+        "specific actions related to the chair"
+      ],
+      "incorrect_descriptions": [
+        "man talking on the phone",
+        "items on the bed"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 0,
+      "accuracy_score": 6,
+      "false_positive_score": 10,
+      "overall_assessment": "The model failed to detect any of the actual anomalies present in the video.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "speed_change",
+        "frame_shuffling",
+        "noise_injection",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 6,
+      "confidence_appropriateness_score": 7,
+      "calibration_score": 5,
+      "overall_assessment": "The model shows moderate recognition of uncertainty but lacks precision in confidence calibration.",
+      "uncertainty_indicators": [
+        "grainy video quality",
+        "dim lighting"
+      ],
+      "confidence_indicators": [
+        "detailed description of actions",
+        "specific time stamps"
+      ],
+      "calibration_issues": [
+        "inconsistent action descriptions",
+        "missing anomalies in analysis"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 5,
+      "speculation_control_score": 4,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and setting.",
+      "hallucinated_elements": [
+        "man talking on the phone",
+        "items on the small table"
+      ],
+      "factual_errors": [
+        "man is lying on his stomach",
+        "man appears distraught"
+      ],
+      "speculative_content": [
+        "lighting is dim",
+        "video quality is grainy"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:10:11.968794"
+}

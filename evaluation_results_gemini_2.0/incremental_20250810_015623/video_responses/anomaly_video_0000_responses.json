@@ -1,0 +1,105 @@
+{
+  "video_name": "anomaly_video_0000.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0000.mp4",
+    "original_video_id": "9632M",
+    "original_scene": "Entryway (A hall that is generally located at the entrance of a house)",
+    "original_script": "A person walks through the entryway, laughing and eating from a bag of snacks. The person wipes their mouth with a paper towel.",
+    "combined_video_id": "FX1T5",
+    "combined_script": "A person sitting in a chair in a kitchen puts a picture in a book.",
+    "original_actions": "c156 5.50 30.90;c097 2.30 14.00;c061 4.90 33.00;c152 14.00 33.00;c033 27.40 33.00;c035 26.60 32.00",
+    "decoded_actions": "c156 5.50 30.90 (Someone is eating something);c097 2.30 14.00 (Walking through a doorway);c061 4.90 33.00 (Holding some food);c152 14.00 33.00 (Someone is smiling);c033 27.40 33.00 (Holding a towel/s);c035 26.60 32.00 (Taking a towel/s from somewhere)",
+    "anomalies_applied": "object_insertion;combined_scenes_Entryway (A hall that is generally located at the entrance of a house)_Kitchen;combined_videos_9632M_FX1T5;noise_injection;geometric_distortion;color_shift",
+    "anomaly_timestamps": "scene_mixing 31.95 56.99;video_combination 0.00 56.99;noise_injection 0.65 1.65;color_shift 0.85 1.85;geometric_distortion 0.85 1.85;noise_injection 0.85 1.85;object_insertion 1.16 2.16;color_shift 1.87 2.87;color_shift 1.94 2.94;geometric_distortion 2.04 3.04;geometric_distortion 2.38 3.38;noise_injection 2.52 3.52;object_insertion 2.69 3.69;object_insertion 3.17 4.17;object_insertion 3.51 4.51;noise_injection 3.51 4.51;color_shift 3.58 4.58;geometric_distortion 3.71 4.71;geometric_distortion 4.53 5.53;color_shift 4.67 5.67;object_insertion 5.59 6.59;color_shift 5.59 6.59;color_shift 5.79 6.79;object_insertion 6.13 7.13;object_insertion 6.40 7.40;object_insertion 7.19 8.19;color_shift 7.29 8.29;color_shift 7.56 8.56;geometric_distortion 7.63 8.63;object_insertion 7.97 8.97;geometric_distortion 8.24 9.24;color_shift 8.35 9.35;object_insertion 8.89 9.89;object_insertion 8.96 9.96;noise_injection 9.50 10.50;geometric_distortion 9.54 10.54;color_shift 9.71 10.71;object_insertion 9.81 10.81;noise_injection 9.91 10.91;object_insertion 10.42 11.42;object_insertion 10.46 11.46;noise_injection 10.90 11.90;geometric_distortion 10.97 11.97;geometric_distortion 11.17 12.17;object_insertion 11.79 12.79;geometric_distortion 11.89 12.89;color_shift 11.99 12.99;color_shift 12.09 13.09;object_insertion 12.23 13.23;color_shift 12.71 13.71;color_shift 12.77 13.77;noise_injection 13.01 14.01;object_insertion 13.11 14.11;noise_injection 13.11 14.11;color_shift 13.52 14.52;color_shift 13.80 14.80;noise_injection 14.00 15.00;object_insertion 14.54 15.54;object_insertion 14.89 15.89;color_shift 14.89 15.89;object_insertion 14.92 15.92;color_shift 15.70 16.70;noise_injection 15.70 16.70;noise_injection 15.74 16.74;object_insertion 15.94 16.94;noise_injection 16.11 17.11;noise_injection 16.21 17.21;color_shift 16.59 17.59;noise_injection 16.62 17.62;noise_injection 16.86 17.86;object_insertion 17.03 18.03;geometric_distortion 17.10 18.10;noise_injection 17.20 18.20;color_shift 17.30 18.30;object_insertion 17.34 18.34;noise_injection 17.44 18.44;object_insertion 17.58 18.58;color_shift 17.71 18.71;noise_injection 17.71 18.71;object_insertion 18.29 19.29;object_insertion 18.33 19.33;object_insertion 18.43 19.43;color_shift 18.53 19.53;geometric_distortion 18.84 19.84;object_insertion 19.59 20.59;color_shift 19.82 20.82;color_shift 20.10 21.10;noise_injection 20.10 21.10;geometric_distortion 20.13 21.13;geometric_distortion 20.27 21.27;geometric_distortion 20.44 21.44;noise_injection 20.57 21.57;noise_injection 20.88 21.88;color_shift 20.95 21.95;noise_injection 21.05 22.05;geometric_distortion 21.53 22.53;object_insertion 21.63 22.63;object_insertion 21.70 22.70;color_shift 21.80 22.80;noise_injection 21.80 22.80;object_insertion 21.94 22.94;object_insertion 21.97 22.97;noise_injection 22.14 23.14;geometric_distortion 22.21 23.21;noise_injection 22.24 23.24;color_shift 22.62 23.62;object_insertion 22.89 23.89;object_insertion 23.30 24.30;object_insertion 23.40 24.40;object_insertion 23.54 24.54;noise_injection 23.57 24.57;object_insertion 23.84 24.84;noise_injection 24.08 25.08;color_shift 24.59 25.59;noise_injection 24.73 25.73;object_insertion 25.79 26.79;noise_injection 25.99 26.99;noise_injection 26.13 27.13;object_insertion 26.40 27.40;noise_injection 26.57 27.57;color_shift 26.64 27.64;noise_injection 27.62 28.62;geometric_distortion 27.66 28.66;color_shift 28.17 29.17;color_shift 28.37 29.37;object_insertion 29.02 30.02;noise_injection 29.09 30.09;object_insertion 29.16 30.16;object_insertion 29.23 30.23;geometric_distortion 29.77 30.77;color_shift 30.25 31.25;color_shift 30.35 31.35;noise_injection 30.59 31.59;object_insertion 31.20 32.20;object_insertion 31.68 32.68;object_insertion 31.75 32.75;object_insertion 31.85 32.85;geometric_distortion 31.92 32.92;object_insertion 32.15 33.15;color_shift 32.39 33.39;object_insertion 32.60 33.60;object_insertion 32.73 33.73;color_shift 32.94 33.94;object_insertion 33.28 34.28;geometric_distortion 33.28 34.28;geometric_distortion 33.65 34.65;object_insertion 33.96 34.96;noise_injection 34.03 35.03;color_shift 34.71 35.71;geometric_distortion 34.81 35.81;object_insertion 35.02 36.02;noise_injection 35.02 36.02;object_insertion 35.05 36.05;object_insertion 35.12 36.12;noise_injection 35.15 36.15;noise_injection 35.19 36.19;object_insertion 36.41 37.41;object_insertion 36.75 37.75;object_insertion 37.06 38.06;object_insertion 37.23 38.23;object_insertion 37.71 38.71;noise_injection 37.88 38.88;object_insertion 38.35 39.35;geometric_distortion 38.46 39.46;noise_injection 38.52 39.52;geometric_distortion 38.59 39.59;object_insertion 38.83 39.83;geometric_distortion 39.44 40.44;object_insertion 39.89 40.89;object_insertion 40.53 41.53;object_insertion 41.05 42.05;object_insertion 41.96 42.96;geometric_distortion 41.96 42.96;geometric_distortion 42.07 43.07;geometric_distortion 42.17 43.17;color_shift 43.26 44.26;noise_injection 43.26 44.26;object_insertion 43.33 44.33;noise_injection 43.63 44.63;color_shift 44.32 45.32;color_shift 44.52 45.52;noise_injection 44.52 45.52;object_insertion 45.13 46.13;object_insertion 45.27 46.27;noise_injection 45.41 46.41;color_shift 45.54 46.54;object_insertion 45.58 46.58;geometric_distortion 45.64 46.64;color_shift 45.78 46.78;object_insertion 46.46 47.46;color_shift 46.60 47.60;object_insertion 46.87 47.87;object_insertion 47.24 48.24;color_shift 47.28 48.28;object_insertion 47.76 48.76;noise_injection 48.40 49.40;object_insertion 48.64 49.64;color_shift 49.42 50.42;geometric_distortion 49.63 50.63;object_insertion 50.00 51.00;object_insertion 50.79 51.79;object_insertion 51.03 52.03;object_insertion 51.40 52.40;color_shift 51.50 52.50;color_shift 51.91 52.91;object_insertion 52.80 53.80;object_insertion 52.90 53.90;noise_injection 53.85 54.85;noise_injection 53.99 54.99;color_shift 54.23 55.23;noise_injection 54.47 55.47;object_insertion 54.57 55.57;color_shift 54.91 55.91;object_insertion 55.42 56.42;object_insertion 55.73 56.73;color_shift 55.96 56.96;noise_injection 56.95 57.95",
+    "anomaly_count": 6
+  },
+  "responses": {
+    "basic_description": "Here is a detailed description of what I see in the video:\n\n**Setting:**\n\nThe video appears to be shot inside a home. The focus is on a doorway with a wooden door and a screen door ajar.  We can see the inside of another room through the doorway, which has a white wall and a tiled floor. To the left of the doorway is a partially visible table with what appears to be a yellow cloth on it. The walls are painted in light tones.\n\n**Activities:**\n\n1.  **Initial View:** The video begins with a static shot of the doorway and the partially opened screen door.\n2.  **Person Enters:**  A man walks through the doorway, stepping over the sill of the screen door. He is wearing a bright orange polo shirt, dark blue jeans, and appears to be barefoot.\n3.  **Eating and Talking:** He is holding a snack food item, possibly chips, in his hand. He takes a chip out of the packet and eats it. He then appears to be talking, possibly explaining something or simply conversing with someone off-camera.\n4.  **Cleaning hands:** the man can be seen taking a yellow cloth on top of the table, and wiping his mouth with it.\n\n**Overall:**\n\nThe video seems to be a casual home video capturing a moment of someone walking into a room, snacking, and possibly having a conversation. The camera work is simple, and the focus is on the person and his actions within the domestic environment.",
+    "anomaly_detection": "After analyzing the video, here's what I observed:\n\n*   **Overall Quality:** The video appears to be of standard quality, with no apparent distortions or anomalies.\n*   **Content:** A man enters through a wooden doorway, then proceeds to open and eat potato chips.\n*   **Environment:** There is no visual indication of whether the interior of the home is messy, though there is a yellow rag sitting on a table near the doorway.\n*   **Lighting:** The lighting appears to be consistent and natural.\n\nTherefore, nothing seems particularly unusual or out of place within the context of a standard home video.",
+    "temporal_analysis": "Based on the video, the playback appears normal. I don't see any evidence of reversed playback, shuffled frames, or other temporal anomalies. The actions in the video, such as the man walking and eating, proceed in a natural and expected manner. Therefore, it's safe to conclude that the video is playing in a standard, forward direction without temporal issues.",
+    "spatial_analysis": "Here's an analysis of the video:\n\n**Objects that Might Not Belong:**\n\n*   It's difficult to say definitively what might \"not belong\" without context, but the paint-splattered table in the foreground suggests the room might be undergoing some form of renovation or cleaning.\n*   The food package the man is eating may seem out of place if the scene is not of someone casually relaxing in the room.\n\n**Color Distortions and Visual Artifacts:**\n\n*   **Color Cast:** There appears to be a slightly cool color cast in the lighting. The walls look a bit more pale blue/green than they might in natural lighting. This could be due to the type of lighting used in the room or the camera's white balance setting.\n*   **Low Light Noise:** The video appears to have been shot in relatively low light conditions. As a result, you might notice some slight noise or graininess, especially in the darker areas of the image.\n*   **Motion Blur:** There may be some motion blur during camera movements due to the lower light conditions and the camera needing a longer shutter speed.\n\nOverall, the video looks like a casual recording in a home setting. There are no significant distortions or artifacts to suggest any deliberate alterations.",
+    "semantic_analysis": "The video shows a man walking through a doorway from another room and then eating something from a yellow packet.\n\n**Sequence of Events and Logical Sense:**\n\nThe sequence of events is:\n\n1.  **0:00-0:06:** The camera is focused on the doorway.\n2.  **0:07-0:10:** A man walks through the doorway into the room with the camera. He has a packet of snacks.\n3.  **0:11-0:31:** The man eats the snack and is speaking to someone in the room.\n\nThe sequence is logical. A person enters a room and eats a snack. This is a common, everyday activity.\n\n**Scene Transitions (or Lack Thereof) and Abruptness:**\n\n*   There is no editing in this video. It's one continuous shot. Therefore, there are no scene transitions. The entire video is one \"scene\" in the sense that it is a single, uninterrupted take.\n\n*   Because there are no transitions, there's nothing that feels abrupt. The camera stays stationary, and the action unfolds within its view. The only slight awkwardness may be that the camera doesn't follow the man entirely into the room until a few seconds after he has entered.\n\nIn summary, the sequence makes sense. As there are no cuts or transitions, the video shows a simple and continuous action.",
+    "confidence_assessment": "Okay, here's a detailed description of the video, followed by my confidence level:\n\n**Video Description:**\n\nThe video begins showing an interior shot of a room. A wooden doorway is the primary focus. It has a main wooden door that is open and next to it is a lighter wooden frame covered with a mesh screen. The screen is partially open at an angle. The room visible through the doorway has tile flooring and a light-colored wall. There are a few indistinct objects further inside the room.\n\nAt approximately [00:00:07], a man enters the frame from the open doorway. He is wearing an orange polo shirt and blue jeans. He appears to be eating something and opening a yellow bag of chips. He continues to eat chips throughout the video.  He then stands in front of the screen and begins to eat potato chips from a yellow bag labeled \"Monaco\". The man is smiling and seems to be enjoying the chips. He is relatively close to the camera for most of the remainder of the video. At the end he cleans his hands with a yellow cloth.\n\n**Confidence Level and Uncertainties:**\n\nI am reasonably confident (around 90-95%) in the description above. Here's why and what I'm less sure about:\n\n*   **Confident about:**\n    *   The presence of the doorway and the open wooden door and screen\n    *   The man's clothing and general appearance.\n    *   The action of the man eating potato chips.\n    *   The yellow color of the snack packaging.\n\n*   **Less confident about:**\n    *   The brand name of the chips: I am making an assumption based on the image from the yellow package but cannot be certain of the brand.\n    *   Specific details inside the room beyond the doorway: It's harder to make out distinct objects due to the angle and focus.\n    *   The details of what is being said. I have described the actions, but cannot understand the speech content.\n    * The material and function of yellow cloth the man uses at the end of the video.\n\nIf you provide more videos, I can adjust my description."
+  },
+  "scores": {
+    "content_accuracy": 6.800000000000001,
+    "anomaly_detection": 3.5,
+    "confidence_calibration": 7.2,
+    "hallucination": 3.8,
+    "overall": 5.325
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 7,
+      "accuracy_score": 6,
+      "detail_level_score": 8,
+      "overall_assessment": "The model's description captures many elements of the video but misses some specific actions and includes inaccuracies.",
+      "correctly_described_elements": [
+        "person walking through doorway",
+        "eating snack",
+        "wiping mouth with cloth"
+      ],
+      "missing_elements": [
+        "laughing",
+        "smiling"
+      ],
+      "incorrect_descriptions": [
+        "yellow cloth on table instead of paper towel",
+        "talking not mentioned"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 0,
+      "accuracy_score": 5,
+      "false_positive_score": 10,
+      "overall_assessment": "The model failed to detect any anomalies present in the video.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "combined_scenes_Entryway (A hall that is generally located at the entrance of a house)_Kitchen",
+        "combined_videos_9632M_FX1T5",
+        "noise_injection",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 7,
+      "confidence_appropriateness_score": 8,
+      "calibration_score": 6,
+      "overall_assessment": "The model demonstrates a good understanding of the scene and actions, but some details are misinterpreted.",
+      "uncertainty_indicators": [
+        "misinterpretation of actions",
+        "lack of clarity in scene description"
+      ],
+      "confidence_indicators": [
+        "detailed description of setting",
+        "accurate identification of main actions"
+      ],
+      "calibration_issues": [
+        "overconfidence in specific details",
+        "inconsistency with ground truth actions"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 5,
+      "speculation_control_score": 4,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions.",
+      "hallucinated_elements": [
+        "yellow cloth",
+        "talking off-camera"
+      ],
+      "factual_errors": [
+        "man wearing a bright orange polo shirt",
+        "man appears to be barefoot"
+      ],
+      "speculative_content": [
+        "possibly chips",
+        "explaining something"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T01:57:03.036954"
+}

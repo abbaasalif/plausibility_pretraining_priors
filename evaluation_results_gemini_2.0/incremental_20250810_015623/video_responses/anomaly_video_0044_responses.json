@@ -1,0 +1,105 @@
+{
+  "video_name": "anomaly_video_0044.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0044.mp4",
+    "original_video_id": "WTBB2",
+    "original_scene": "Bedroom",
+    "original_script": "A person is using a vacuum to tide up the room. They kneel down with a broom getting the little pieces that couldn't be reached with the vacuum. They stand up and inspect their work.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c136 14.40 32.00;c026 0.00 32.00;c032 22.60 30.30;c137 3.00 32.00;c115 0.00 32.00;c125 1.90 32.00",
+    "decoded_actions": "c136 14.40 32.00 (Fixing a vacuum);c026 0.00 32.00 (Holding a book);c032 22.60 30.30 (Watching/Reading/Looking at a book);c137 3.00 32.00 (Holding a vacuum);c115 0.00 32.00 (Someone is holding a paper/notebook);c125 1.90 32.00 (Sitting on the floor)",
+    "anomalies_applied": "object_insertion;noise_injection;frame_shuffling;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_shuffling 0.00 3.13;frame_shuffling 3.13 6.27;frame_shuffling 6.27 9.40;frame_shuffling 9.40 12.53;frame_shuffling 12.53 15.67;frame_shuffling 15.67 18.80;frame_shuffling 18.80 21.93;frame_shuffling 21.93 25.07;frame_shuffling 25.07 28.20;frame_shuffling 28.20 31.33;frame_shuffling 31.33 31.47;color_shift 0.03 1.03;object_insertion 0.17 1.17;object_insertion 0.30 1.30;object_insertion 0.87 1.87;object_insertion 1.77 2.77;geometric_distortion 1.90 2.90;color_shift 2.37 3.37;noise_injection 2.63 3.63;object_insertion 2.87 3.87;color_shift 2.97 3.97;noise_injection 3.43 4.43;object_insertion 3.47 4.47;noise_injection 3.80 4.80;color_shift 3.97 4.97;geometric_distortion 4.23 5.23;color_shift 4.27 5.27;noise_injection 4.53 5.53;geometric_distortion 5.00 6.00;object_insertion 6.80 7.80;object_insertion 6.87 7.87;geometric_distortion 6.90 7.90;object_insertion 7.63 8.63;geometric_distortion 7.80 8.80;noise_injection 7.80 8.80;object_insertion 8.07 9.07;geometric_distortion 8.70 9.70;geometric_distortion 8.80 9.80;noise_injection 9.03 10.03;color_shift 10.73 11.73;noise_injection 11.53 12.53;color_shift 11.70 12.70;object_insertion 12.67 13.67;geometric_distortion 12.67 13.67;object_insertion 13.63 14.63;color_shift 13.83 14.83;object_insertion 13.97 14.97;object_insertion 14.00 15.00;object_insertion 14.47 15.47;noise_injection 14.57 15.57;object_insertion 14.87 15.87;color_shift 14.97 15.97;geometric_distortion 15.23 16.23;color_shift 15.27 16.27;noise_injection 15.27 16.27;noise_injection 15.63 16.63;object_insertion 17.00 18.00;object_insertion 17.60 18.60;geometric_distortion 17.77 18.77;color_shift 18.13 19.13;geometric_distortion 18.33 19.33;object_insertion 18.60 19.60;geometric_distortion 18.73 19.73;noise_injection 18.87 19.87;object_insertion 19.03 20.03;noise_injection 19.37 20.37;object_insertion 19.90 20.90;noise_injection 20.07 21.07;noise_injection 20.30 21.30;object_insertion 20.80 21.80;noise_injection 20.90 21.90;geometric_distortion 21.07 22.07;object_insertion 21.13 22.13;noise_injection 21.17 22.17;color_shift 21.53 22.53;geometric_distortion 22.17 23.17;noise_injection 22.23 23.23;object_insertion 22.27 23.27;geometric_distortion 22.30 23.30;geometric_distortion 22.60 23.60;object_insertion 22.73 23.73;geometric_distortion 22.97 23.97;object_insertion 23.20 24.20;geometric_distortion 23.27 24.27;object_insertion 23.57 24.57;object_insertion 23.87 24.87;color_shift 24.37 25.37;noise_injection 24.37 25.37;object_insertion 24.50 25.50;color_shift 24.73 25.73;noise_injection 24.73 25.73;color_shift 24.87 25.87;noise_injection 25.00 26.00;color_shift 25.77 26.77;object_insertion 25.93 26.93;noise_injection 25.97 26.97;geometric_distortion 26.10 27.10;color_shift 26.37 27.37;geometric_distortion 27.03 28.03;color_shift 27.70 28.70;color_shift 28.40 29.40;color_shift 28.73 29.73;color_shift 28.97 29.97;geometric_distortion 29.40 30.40;object_insertion 29.60 30.60;color_shift 29.60 30.60;object_insertion 29.67 30.67;object_insertion 30.37 31.37;color_shift 30.40 31.40;color_shift 30.43 31.43;object_insertion 30.63 31.63;object_insertion 30.93 31.93;object_insertion 31.00 32.00;object_insertion 31.13 32.13;geometric_distortion 31.43 32.43",
+    "anomaly_count": 5
+  },
+  "responses": {
+    "basic_description": "Here is a detailed analysis of the video:\n\n**Visual Description:**\n\n*   **Setting:** The video appears to be filmed in a messy bedroom. Clothes are hanging up on a rack in front of the window, and items are cluttered on the bed and floor. The floor is tiled with a green and white pattern.\n*   **Main Subject:** A man wearing a green and blue striped shirt and dark jeans is the main focus of the video. He is initially shown bending over some items, then gets on his knees to assemble a vacuum cleaner.\n*   **Objects:** The room contains a bed covered in clutter, a window with clothes hanging in front of it, a door, a calendar on the wall, and various items scattered around, including boxes, pillows, and what appears to be part of a plastic chair. The most prominent object is a vacuum cleaner that the man is assembling.\n\n**Activities:**\n\n1.  **Assembly:** The primary activity is the man assembling a vacuum cleaner. He is kneeling on the floor and carefully reading instructions from a manual or document. He is connecting different parts of the vacuum cleaner.\n2.  **Reading Instructions:** The man spends a significant portion of the video reading and consulting the instructions. This suggests that the vacuum cleaner is new or that he is unfamiliar with its assembly.\n\n**Analysis:**\n\n*   **Purpose:** The video seems to be capturing the process of assembling a new vacuum cleaner. The man is following instructions to put it together.\n*   **Ambience:** The cluttered room suggests a busy or perhaps disorganized environment. The task of assembling the vacuum cleaner seems to be a practical one, focused on cleaning and improving the room's tidiness.\n*   **Focus:** The video remains focused on the man and his task of assembling the vacuum cleaner. The camera angles shift slightly to provide a better view of the process.",
+    "anomaly_detection": "Here's an analysis of the video focusing on unusual elements and visual oddities:\n\n**General Observations:**\n\n*   **Cluttered Room:** The most immediately apparent aspect is the extreme clutter within the room. Clothes hang from makeshift lines, and various items are scattered across the floor and furniture. This could be a normal situation for the person in the video, but it stands out visually.\n*   **Lighting:** The lighting in the room seems uneven. Natural light streams in through the window, creating bright spots. This could simply be due to the camera's exposure settings.\n*   **Camera Quality:** The video quality is not particularly sharp. This can make it harder to identify subtle visual anomalies.\n\n**Potentially Unusual Elements:**\n\n*   **Person Reading Instructions:** The man in the video seems to be assembling a vacuum cleaner while consulting the instructions. This activity itself is not unusual, but the way he is intensely focused on the instructions.\n*   **The Assembly Process:** The way the individual assembles the vacuum cleaner seems a bit labored. He spends a significant amount of time reading the instructions and connecting different parts.\n*   **Framing/Composition:** The video is shot from a static, slightly obscured viewpoint. The camera appears to be positioned in a doorway or hallway, creating a \"viewing the scene from a distance\" effect.\n\n**Anomalies and Distortions:**\nThere's a pixelated purple square at 0:14\n\nOverall, the video does not show any strong evidence of intentional alteration or manipulation. The most noticeable aspect is the clutter within the room. The rest of the observations indicate that the person is just having difficulties assembling the vacuum cleaner.",
+    "temporal_analysis": "The video appears to be playing normally. The actions of the person in the video are consistent with real-time assembly of a vacuum cleaner based on the instructions in the manual. There are no obvious signs of reversed playback, shuffled frames, or other temporal anomalies. The movement of the person and objects in the frame appears natural and consistent with real-world physics. Therefore, I conclude that the video is playing in the correct order and at the correct speed.",
+    "spatial_analysis": "Here's an analysis of the video:\n\n**Scene Description:**\nThe video shows a somewhat cluttered room. There's a bed piled with clothes and bedding. A clothesline is strung near the window, with garments hanging to dry. A man is kneeling on the floor assembling or working on a vacuum cleaner. There are various boxes, pieces of the vacuum cleaner, and other miscellaneous items scattered around.\n\n**Objects That Don't Belong:**\n*   Given the general clutter, it's hard to definitively say what *doesn't* belong. However, a pristine white toilet seat or potty chair sitting near the bed appears somewhat out of place, especially given the other clutter.\n\n**Color Distortions and Visual Artifacts:**\n*   **Slight Overexposure:** The area near the window is slightly overexposed due to the bright light coming through it.\n*   **Image Quality:** The overall image quality is not very high, likely due to the camera used or possible compression. This may make identifying subtle artifacts difficult.\n*   **Color Cast:** There appears to be a slight yellow color cast throughout the image, which could be due to the lighting in the room or the camera's white balance.\n\nIn summary, the scene is a typical, albeit somewhat messy, room. There are no major visual artifacts or color distortions beyond what is typical in this kind of video, but the toilet seat near the bed is likely the most unusual element.",
+    "semantic_analysis": "Here's an analysis of the video in terms of logical sequence and transitions:\n\n**Overall Impression:**\n\nThe video appears to show a man trying to assemble a vacuum cleaner in a cluttered room. The sequence of events is logical; he's reading the instructions and trying to put the pieces together.\n\n**Detailed Breakdown:**\n\n*   **0:00-0:02**: The man is seen looking through instructions or documents and examining the vacuum cleaner parts. This makes sense as the initial step in assembling something new.\n*   **0:03-0:12**: The man kneels and works on connecting parts, referencing the instructions again. This is a natural progression in the assembly process.\n*   **0:13-0:18**: The man is shown trying to assemble two long parts of the vacuum cleaner.\n*   **0:19-0:30**: The man continues to study the instructions and attach different parts to the vacuum cleaner.\n\n**Logical Sense and Transitions:**\n\n*   **Logical Progression:** The events follow a logical order. The man examines the components, consults instructions, and attempts to connect the parts.\n*   **Smooth Transitions:** Since it's all one continuous action within the same scene, there are no abrupt or unnatural scene transitions.\n\nIn summary, the video is a straightforward, single-scene clip showing a man trying to assemble a vacuum cleaner, and the sequence of events makes perfect logical sense. There are no scene transitions to analyze as it's a single, continuous shot.",
+    "confidence_assessment": "Okay, here's a detailed analysis of the video:\n\n**General Description:**\n\nThe video shows a man indoors, likely in a bedroom, attempting to assemble or repair a vacuum cleaner. The room is quite cluttered with clothes and other items. The lighting appears to be natural daylight coming in through a window.\n\n**Detailed Breakdown:**\n\n*   **Setting:** The scene appears to be a cluttered bedroom. A bed is visible in the background, piled with items. Clothes are hanging on a line, possibly stretched across the window frame. Other items like pillows, boxes, and what might be part of a toilet are scattered around. The floor is dark-colored tile.\n\n*   **Subject:** The main subject is a man wearing a green and blue striped shirt and dark jeans. He is kneeling on the floor, focusing his attention on a vacuum cleaner.\n\n*   **Action:**\n\n    *   Initially, the man is shown looking at instructions or a manual.\n    *   He seems to be assembling or trying to fix the vacuum cleaner. He handles different parts of the vacuum, including the hose.\n\n*   **Camera Work:** The camera seems to be handheld, and there's some shakiness in the footage. The camera angle is from a doorway, providing a view into the room.\n\n**Points of Uncertainty:**\n\n*   The exact make/model of the vacuum cleaner is hard to determine.\n*   It's difficult to pinpoint the man's precise intention (assembling, repairing, or simply examining).\n*   It's unclear what the white plastic thing is in the corner of the room.\n*   The cultural context of the video is also not clear, although the calendar with a triangular flag suggests it could be in India.\n    .\n\n**Overall Confidence:**\n\nI am reasonably confident in my description of the video's visual elements. The details about the man, the room, and the actions he's performing seem pretty straightforward. The uncertainties are mainly around the smaller details, such as the exact purpose of the man or the objects surrounding him."
+  },
+  "scores": {
+    "content_accuracy": 3.8000000000000003,
+    "anomaly_detection": 4.4,
+    "confidence_calibration": 4.4,
+    "hallucination": 2.7,
+    "overall": 3.825
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 4,
+      "accuracy_score": 3,
+      "detail_level_score": 5,
+      "overall_assessment": "The model response inaccurately describes the main activity and setting of the video.",
+      "correctly_described_elements": [
+        "vacuum cleaner",
+        "cluttered room"
+      ],
+      "missing_elements": [
+        "kneeling with a broom",
+        "inspecting work"
+      ],
+      "incorrect_descriptions": [
+        "man assembling a vacuum cleaner",
+        "reading instructions"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 3,
+      "accuracy_score": 5,
+      "false_positive_score": 7,
+      "overall_assessment": "The model identified some anomalies but missed key ones and included irrelevant observations.",
+      "detected_anomalies": [
+        "pixelated purple square"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "frame_shuffling",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 3,
+      "confidence_appropriateness_score": 6,
+      "calibration_score": 4,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks confidence in key areas, leading to a miscalibration in its overall assessment.",
+      "uncertainty_indicators": [
+        "ambiguous actions",
+        "lack of clear context"
+      ],
+      "confidence_indicators": [
+        "detailed visual description",
+        "specific activities outlined"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "overconfidence in scene description"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 3,
+      "speculation_control_score": 4,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and objects present in the video.",
+      "hallucinated_elements": [
+        "assembling a vacuum cleaner",
+        "reading instructions"
+      ],
+      "factual_errors": [
+        "man assembling a vacuum cleaner",
+        "cluttered room description"
+      ],
+      "speculative_content": [
+        "man is unfamiliar with its assembly",
+        "task of assembling a vacuum cleaner"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:26:43.309095"
+}

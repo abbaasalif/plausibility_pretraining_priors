@@ -1,0 +1,106 @@
+{
+  "video_name": "anomaly_video_0043.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0043.mp4",
+    "original_video_id": "QM7Q3",
+    "original_scene": "Kitchen",
+    "original_script": "A person in the kitchen is laughing because they just took a picture of themselves through the mirror. They look funny. They are holding a phone in their left hand.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c094 8.80 16.20;c149 8.80 32.00;c152 8.80 16.20;c087 1.60 8.20;c015 0.00 32.00;c016 0.00 32.00;c093 0.00 32.00;c096 0.00 10.50",
+    "decoded_actions": "c094 8.80 16.20 (Smiling in a mirror);c149 8.80 32.00 (Someone is laughing);c152 8.80 16.20 (Someone is smiling);c087 1.60 8.20 (Taking a picture of something);c015 0.00 32.00 (Holding a phone/camera);c016 0.00 32.00 (Playing with a phone/camera);c093 0.00 32.00 (Holding a mirror);c096 0.00 10.50 (Watching something/someone/themselves in a mirror)",
+    "anomalies_applied": "object_insertion;temporal_cut;noise_injection;geometric_distortion;color_shift",
+    "anomaly_timestamps": "temporal_cut 7.70 23.17;color_shift 0.90 1.90;color_shift 0.93 1.93;object_insertion 1.13 2.13;noise_injection 1.53 2.53;color_shift 2.03 3.03;object_insertion 2.17 3.17;geometric_distortion 2.27 3.27;object_insertion 2.57 3.57;noise_injection 2.73 3.73;noise_injection 3.17 4.17;color_shift 3.30 4.30;object_insertion 3.57 4.57;noise_injection 3.80 4.80;noise_injection 3.90 4.90;geometric_distortion 4.03 5.03;noise_injection 5.07 6.07;color_shift 5.10 6.10;noise_injection 5.57 6.57;noise_injection 5.87 6.87;object_insertion 6.07 7.07;color_shift 6.47 7.47;geometric_distortion 6.83 7.83;color_shift 6.97 7.97;object_insertion 7.07 8.07;color_shift 7.13 8.13;color_shift 7.23 8.23;object_insertion 7.27 8.27;object_insertion 8.07 9.07;noise_injection 8.07 9.07;object_insertion 8.83 9.83;geometric_distortion 9.50 10.50;object_insertion 9.57 10.57;object_insertion 9.77 10.77;object_insertion 10.23 11.23;object_insertion 10.40 11.40;color_shift 10.73 11.73;object_insertion 11.30 12.30;object_insertion 11.87 12.87;object_insertion 12.10 13.10;geometric_distortion 12.13 13.13;object_insertion 12.53 13.53;object_insertion 13.33 14.33;noise_injection 13.37 14.37;object_insertion 13.50 14.50;color_shift 13.77 14.77;noise_injection 13.90 14.90;geometric_distortion 13.93 14.93;color_shift 14.53 15.53;color_shift 14.77 15.77;geometric_distortion 15.17 16.17;object_insertion 15.23 16.23",
+    "anomaly_count": 5
+  },
+  "responses": {
+    "basic_description": "Here is a detailed analysis of the video:\n\n**Visual Description:**\n\nThe video is shot indoors, likely in a kitchen. The kitchen has yellow and brown wall colors, brown upper cabinets, and white tiled backsplash. There is an exhaust fan mounted on the wall. A stove and some cookware are visible on the counter.\n\nThe primary subject is a man with dark hair and skin. He is initially wearing a white collared shirt with the sleeves rolled up. Later in the video, he wears a white short-sleeved polo shirt with some text on the left side.\n\n**Activities:**\n\n1.  **Filming/Recording with a Phone:** The man is holding a smartphone and appears to be filming himself or someone else. He briefly flashes the camera light on.\n2.  **Looking at a Phone:** He looks at a smartphone and seems to be reviewing content on it.\n3.  **Smiling:** In the latter half of the video, he smiles while holding the phone and a clipboard. He looks happy or amused.\n\n**Overall Impression:**\n\nThe video appears to capture a casual moment in someone's kitchen. The focus is on the man and his interaction with his smartphone. It seems like he is either watching a video or engaging in some activity on his phone that makes him happy.",
+    "anomaly_detection": "Here's a detailed analysis of the video:\n\n**Observations:**\n\n*   **Setting:** The video appears to be shot in a kitchen. There's a stove, exhaust fan, cabinets, and tiled walls.\n*   **Subject:** A man is holding and looking at his phone. Initially, he's turned away from the camera.\n*   **Light Anomaly:** At approximately 0:04-0:06, a very bright white light flares from the phone's screen. This is the most significant visual anomaly.\n\n**Possible Explanations for the Bright Light:**\n\n1.  **Phone Functionality:**\n    *   The phone might have a feature that allows the screen to turn completely white and very bright.\n    *   The man could be opening a webpage or application that displays a bright white screen.\n    *   It could be the camera flash turned on.\n\n2.  **Video Editing/Special Effects:**\n    *   The light could be added in post-production to create a certain effect.\n\n**Conclusion:**\n\nThe sudden and intense burst of white light from the phone screen is the most notable unusual element. Without additional context, it's difficult to say definitively what the source of the light is, but it's likely the camera flash turned on.",
+    "temporal_analysis": "The video appears to be playing normally. I observed no reversed playback or shuffled frames. The actions and movements in the video seem natural and coherent.",
+    "spatial_analysis": "Here's an analysis of the video, focusing on your specific requests:\n\n**Objects that Don't Belong:**\n\n*   It's difficult to say definitively if anything \"doesn't belong\" without context. Everything shown appears to be typical for a kitchen environment in a home. This includes the fan, wall-mounted cabinets, countertops with common items like stove, pots, dishes, food, bottles, a switch, and the tiled backsplash.\n*   The items the man holds in his hands (a smartphone and a tablet) are typical for use in a modern kitchen setting.\n\n**Color Distortions/Visual Artifacts:**\n\n*   **Overexposure/Bright Flash:** There is a significant overexposure artifact around frames \\[00:00:04-00:00:06] when the man activates the flash from his camera on his phone.\n*   The video has overall poor lighting and the color balance seems slightly skewed, giving it a \"washed out\" appearance in some areas.\n*   There is some general blurriness likely due to the video recording quality and possibly slight camera shake.\n\n**Overall:**\n\nThe scene appears to be a typical kitchen. The biggest issue is the brief but intense overexposure caused by the phone's flash. The rest is likely due to the video's recording quality.",
+    "semantic_analysis": "The video shows a man holding two phones and looking at one of them, presumably watching a video. At one point in the video, it appears that the flash from the phone turns on. After that, the man is still watching the phone and smiling.\n\nThe sequence of events is logical. The transition is smooth; there are no abrupt changes in the video.",
+    "confidence_assessment": "Here's a detailed analysis of the video:\n\n**General Description**\nThe video shows a man in a kitchen. He's holding a smartphone in one hand and what appears to be a tablet or clipboard in the other. He seems to be watching or recording something on his phone, and at one point, the flash on his phone goes off. He's wearing a white polo shirt and is standing near a stove. He eventually smiles while looking at his phone.\n\n**Detailed Breakdown:**\n\n*   **Setting:** The video is set in a kitchen. The walls are painted a yellow/orange color near the top and have white tiled walls below. There are dark brown kitchen cabinets.\n*   **Subject:** The main subject is a man with dark hair and skin. He's wearing a white polo shirt with some writing on it.\n*   **Action:**\n    *   Initially, the man holds up his phone, seemingly filming or watching something. You can see a reflection of what is on the phone in a metallic surface behind it.\n    *   At one point (around frame 00:04-00:06), the flash on his phone illuminates brightly.\n    *   Toward the end of the video, he is smiling at what he is looking at on his phone.\n\n**Uncertainties**\n\n*  It's hard to tell definitively what he is holding in his left hand. Based on size it's likely a tablet or possibly just a clipboard.\n*   The purpose of the video or the specific content he is watching/filming is unknown.\n*  The writing on the shirt is difficult to make out.\n\n**Confidence Level:**\n\nI am relatively confident in the basic description of the scene, the person, and the actions he is performing. The uncertainties mentioned above are the only areas where I am less sure."
+  },
+  "scores": {
+    "content_accuracy": 5.800000000000001,
+    "anomaly_detection": 4.6,
+    "confidence_calibration": 6.200000000000001,
+    "hallucination": 3.8,
+    "overall": 5.1000000000000005
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 6,
+      "accuracy_score": 5,
+      "detail_level_score": 7,
+      "overall_assessment": "The description captures some elements of the video but misses key actions and context.",
+      "correctly_described_elements": [
+        "kitchen",
+        "holding a phone",
+        "smiling"
+      ],
+      "missing_elements": [
+        "laughing",
+        "taking a picture",
+        "looking in the mirror"
+      ],
+      "incorrect_descriptions": [
+        "man wearing a white collared shirt",
+        "holding a clipboard"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 3,
+      "accuracy_score": 5,
+      "false_positive_score": 8,
+      "overall_assessment": "The model identified a light anomaly but missed several other significant anomalies.",
+      "detected_anomalies": [
+        "light_anomaly"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "temporal_cut",
+        "noise_injection",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 6,
+      "confidence_appropriateness_score": 7,
+      "calibration_score": 5,
+      "overall_assessment": "The model demonstrates a moderate level of uncertainty recognition and appropriate confidence, but calibration issues are present.",
+      "uncertainty_indicators": [
+        "incomplete action recognition",
+        "ambiguous emotional state"
+      ],
+      "confidence_indicators": [
+        "detailed visual description",
+        "clear identification of activities"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "overconfidence in scene description"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 5,
+      "speculation_control_score": 4,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the subject's actions and appearance.",
+      "hallucinated_elements": [
+        "clipboard",
+        "camera light"
+      ],
+      "factual_errors": [
+        "man with dark hair and skin",
+        "white short-sleeved polo shirt"
+      ],
+      "speculative_content": [
+        "engaging in some activity on his phone"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:25:50.922715"
+}

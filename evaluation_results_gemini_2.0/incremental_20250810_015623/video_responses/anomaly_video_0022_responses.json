@@ -1,0 +1,104 @@
+{
+  "video_name": "anomaly_video_0022.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0022.mp4",
+    "original_video_id": "KAU5T",
+    "original_scene": "Hallway",
+    "original_script": "A person drinks water from a glass and puts it down on a shelf, then runs out of the room.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c106 0.00 14.40;c150 21.50 33.00;c154 14.50 22.70;c135 0.00 18.10",
+    "decoded_actions": "c106 0.00 14.40 (Drinking from a cup/glass/bottle);c150 21.50 33.00 (Someone is running somewhere);c154 14.50 22.70 (Someone is standing up from somewhere);c135 0.00 18.10 (Sitting in a bed)",
+    "anomalies_applied": "object_insertion;noise_injection;color_shift;geometric_distortion",
+    "anomaly_timestamps": "noise_injection 0.00 1.00;geometric_distortion 0.19 1.19;object_insertion 1.48 2.48;color_shift 1.53 2.53;color_shift 3.62 4.62;geometric_distortion 4.05 5.05;object_insertion 4.15 5.15;geometric_distortion 4.53 5.53;color_shift 5.58 6.58;noise_injection 5.77 6.77;object_insertion 5.82 6.82;color_shift 6.05 7.05;color_shift 6.34 7.34;color_shift 6.63 7.63;object_insertion 7.05 8.05;geometric_distortion 8.34 9.34;noise_injection 8.39 9.39;color_shift 9.10 10.10;object_insertion 9.25 10.25;object_insertion 9.49 10.49;noise_injection 10.53 11.53;object_insertion 10.82 11.82;geometric_distortion 10.92 11.92;color_shift 11.15 12.15;color_shift 11.39 12.39;color_shift 11.68 12.68;object_insertion 13.25 14.25;object_insertion 13.30 14.30;object_insertion 13.87 14.87;geometric_distortion 14.30 15.30;object_insertion 15.59 16.59;color_shift 15.92 16.92;object_insertion 16.45 17.45;noise_injection 16.73 17.73;noise_injection 16.92 17.92;object_insertion 17.54 18.54;color_shift 18.78 19.78;color_shift 18.92 19.92;geometric_distortion 19.02 20.02;object_insertion 19.26 20.26;color_shift 19.83 20.83;noise_injection 19.97 20.97;object_insertion 20.40 21.40;noise_injection 20.73 21.73;object_insertion 20.78 21.78;object_insertion 21.55 22.55;object_insertion 22.36 23.36;object_insertion 22.50 23.50;object_insertion 22.83 23.83;object_insertion 22.93 23.93;color_shift 22.93 23.93;color_shift 23.02 24.02;object_insertion 24.17 25.17;color_shift 24.36 25.36;object_insertion 24.98 25.98;color_shift 25.07 26.07;noise_injection 25.12 26.12;geometric_distortion 25.17 26.17;object_insertion 25.26 26.26;noise_injection 25.79 26.79;color_shift 26.22 27.22;object_insertion 26.69 27.69;object_insertion 26.79 27.79;color_shift 26.84 27.84;color_shift 26.98 27.98;geometric_distortion 27.60 28.60;geometric_distortion 28.41 29.41;geometric_distortion 29.74 30.74;noise_injection 30.51 31.51;color_shift 31.03 32.03;color_shift 31.56 32.56",
+    "anomaly_count": 4
+  },
+  "responses": {
+    "basic_description": "Here is a detailed description of the video:\n\n**Setting:** The video begins inside a simple room with a bed, light pink walls, and some clothes hanging on a rack. Later, the setting shifts to a bright, open-air corridor or walkway.\n\n**People:** The video primarily features a man wearing a light yellow polo shirt with a dark collar and dark-colored jeans.\n\n**Activities:**\n\n*   **In the Room (0:00-0:22):** The man is initially standing in the room, holding a plastic bottle of water. He sits down on the bed, opens the bottle, and drinks a large amount of water. After finishing, he closes the bottle and sits for a moment, then bends down as if to pick something up from under the bed.\n*   **Leaving the Room (0:18-0:31):** The man stands up and walks out of the room. He is barefoot. He then walks down a corridor that has a sink on one side and greenery on the other.\n\n**Camera:** The camera seems to be hand-held or stationary. There is some movement and changes in the angle of the view.\n\n**Overall Impression:** The video seems to be a candid, possibly unscripted, recording of a man drinking water and then walking out of a room into a brighter outdoor corridor. The purpose of the recording is unclear without additional context.",
+    "anomaly_detection": "After analyzing the video, here's what I observed:\n\n**General Observations:**\n\n*   **Setting:** The video appears to be taken in a modest room, possibly in a hotel or hostel. It's sparsely furnished with a bed, a chair, and some clothes hanging on a rack.\n*   **Subject:** The primary subject is a man drinking water from a plastic bottle.\n*   **Camera Work:** The camera work seems to be handheld, resulting in some shakiness. The person filming follows the man as he leaves the room.\n\n**Potential Anomalies or Unusual Aspects:**\n\n*   **Pixelated Overlay:** There is a rectangular pixelated overlay that intermittently obscures the subject's body at times throughout the video, possibly done for privacy.\n*   **Clothing on Rack:** The clothing hanging in the background adds to the cluttered feeling. It is not unusual, but it is visually unappealing.\n\n**Overall Impression:**\n\nThe video seems like a candid recording of an ordinary activity. The intermittent pixelated overlay is the only anomaly I have detected.",
+    "temporal_analysis": "The video appears to be playing normally. I don't observe any signs of reversed playback or shuffled frames. The person in the video is performing actions in a logical, forward progression, and there are no visual cues to indicate temporal anomalies.",
+    "spatial_analysis": "Here's an analysis of the video you provided:\n\n**Objects That Don't Belong**\n*   There isn't anything obviously out of place or that seems entirely unexpected within a standard hotel/motel room, but the clothes hanging on what appears to be a wire rack could be considered a bit untidy. It could also be a sign that the room is used for longer stays.\n* There is a colorful courtyard area outside with potted plants.\n\n**Color Distortions and Visual Artifacts:**\n\n*   **Overall Quality:** The video is of low quality, with some blurriness and possible compression artifacts. This makes it difficult to discern fine details.\n* **Blurring:** The video looks low-resolution.\n\n**Summary:**\n\nThe video shows a man inside a room that seems to be a simple hotel/motel room. The man drinks from a water bottle and then exits the room, walking onto a corridor with sinks and an open courtyard. There aren't any objects present that appear entirely incongruous. The main visual issues are the low video quality and the blurriness that comes with it.",
+    "semantic_analysis": "The sequence of events in the video appears to follow a logical order:\n\n1.  A man is shown in a room, holding a bottle of water.\n2.  He sits on the bed and proceeds to drink from the bottle.\n3.  After drinking, he takes a moment to look around, then gets up from the bed.\n4.  He seems to be picking up something on the floor, potentially an item he dropped.\n5.  He then walks out of the room and into a hallway.\n6.  He walks down the hallway.\n\nThe scene transitions in the video seem somewhat abrupt due to the camera work and lack of editing. The transition from him picking up something on the floor to him walking out of the room feels a bit sudden. Some might find the transition from sitting on the bed to standing up a bit quick, but given the nature of the video, this is not necessarily unnatural. Overall, the transitions are functional but could be smoother with better camera work and editing.",
+    "confidence_assessment": "Here is an analysis of the video you provided:\n\n**Overall Description:**\n\nThe video shows a man in a room, drinking from a plastic water bottle, and then walking out of the room into a hallway. The video quality is somewhat grainy and the lighting is not ideal.\n\n**Detailed Breakdown:**\n\n*   **0:00-0:01:** A man stands in what appears to be a small room. He is wearing a light yellow polo shirt and dark jeans. He is holding a bottle of water. There's a bed behind him and clothes hanging on what looks like a makeshift rack on the wall.\n*   **0:01-0:06:** The man sits down on the bed and drinks a significant amount of water from the bottle.\n*   **0:06-0:17:** He puts the cap back on the water bottle and fidgets with it.\n*   **0:17-0:22:** The man bends down near the bed.\n*   **0:22-0:31:** The man leaves the room and walks down a hallway. It appears to be an open-air hallway, potentially a corridor in a hotel or apartment complex, with plants and sinks lining the walls.\n\n**Confidence Level:**\n\nI am fairly confident in this description. The actions of the man (drinking water, walking) are clear. The surrounding environment (room, hallway) is also relatively straightforward to identify.\n\n**Uncertainties:**\n\n*   **The specifics of the room:** While I can describe the objects in the room, it's difficult to determine its purpose definitively without additional information.\n*   **The reason for the man's actions:** I can only describe what the man does, not *why* he does it. For example, I don't know why he's drinking the water.\n* **The exact location:** While I can describe the hallway and suggest it might be in a hotel or apartment, pinpointing the specific location is impossible.\n\nLet me know if you have any specific questions about certain parts of the video or if you would like a more focused analysis."
+  },
+  "scores": {
+    "content_accuracy": 5.800000000000001,
+    "anomaly_detection": 4.1,
+    "confidence_calibration": 5.0,
+    "hallucination": 3.8,
+    "overall": 4.675
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 6,
+      "accuracy_score": 5,
+      "detail_level_score": 7,
+      "overall_assessment": "The model response captures some actions and settings but includes inaccuracies and missing elements.",
+      "correctly_described_elements": [
+        "drinking water",
+        "running out of the room"
+      ],
+      "missing_elements": [
+        "shelf",
+        "specific actions like putting down the glass"
+      ],
+      "incorrect_descriptions": [
+        "setting description of a simple room",
+        "man wearing a light yellow polo shirt"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 2,
+      "accuracy_score": 5,
+      "false_positive_score": 8,
+      "overall_assessment": "The model missed several actual anomalies and inaccurately described the scene.",
+      "detected_anomalies": [
+        "pixelated overlay"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "color_shift",
+        "geometric_distortion"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 6,
+      "calibration_score": 5,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks precision in action identification.",
+      "uncertainty_indicators": [
+        "vague description of setting",
+        "lack of clarity on actions"
+      ],
+      "confidence_indicators": [
+        "detailed description of activities",
+        "identification of people"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "incomplete action timeline"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 5,
+      "speculation_control_score": 4,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the setting and actions.",
+      "hallucinated_elements": [
+        "open-air corridor",
+        "greenery"
+      ],
+      "factual_errors": [
+        "man wearing a light yellow polo shirt",
+        "sitting on the bed"
+      ],
+      "speculative_content": [
+        "purpose of the recording",
+        "candid recording"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:12:01.098216"
+}

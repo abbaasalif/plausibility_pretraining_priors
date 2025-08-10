@@ -1,0 +1,105 @@
+{
+  "video_name": "anomaly_video_0015.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0015.mp4",
+    "original_video_id": "AOBWQ",
+    "original_scene": "Bedroom",
+    "original_script": "A person is vacuuming their room when they begin sneezing. They look on a table and begin throwing clothes on it.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c000 0.70 32.00;c003 22.70 30.30;c002 0.50 19.80;c004 1.00 32.00",
+    "decoded_actions": "c000 0.70 32.00 (Holding some clothes);c003 22.70 30.30 (Throwing clothes somewhere);c002 0.50 19.80 (Taking some clothes from somewhere);c004 1.00 32.00 (Tidying some clothes)",
+    "anomalies_applied": "object_insertion;temporal_cut;noise_injection;geometric_distortion;color_shift",
+    "anomaly_timestamps": "temporal_cut 7.81 23.42;object_insertion 0.60 1.60;object_insertion 0.95 1.95;object_insertion 2.35 3.35;geometric_distortion 2.40 3.40;object_insertion 2.45 3.45;object_insertion 2.55 3.55;noise_injection 3.55 4.55;noise_injection 4.10 5.10;noise_injection 4.70 5.70;color_shift 4.90 5.90;noise_injection 5.35 6.35;noise_injection 5.40 6.40;color_shift 5.75 6.75;geometric_distortion 6.15 7.15;object_insertion 6.45 7.45;object_insertion 6.60 7.60;object_insertion 6.65 7.65;color_shift 6.70 7.70;object_insertion 7.40 8.40;color_shift 7.56 8.56;noise_injection 8.01 9.01;noise_injection 8.21 9.21;object_insertion 9.91 10.91;geometric_distortion 9.91 10.91;object_insertion 10.16 11.16;noise_injection 10.31 11.31;color_shift 11.81 12.81;object_insertion 11.86 12.86;noise_injection 12.16 13.16;geometric_distortion 12.31 13.31;geometric_distortion 12.71 13.71;object_insertion 12.86 13.86;object_insertion 13.21 14.21;noise_injection 13.71 14.71;color_shift 13.76 14.76;geometric_distortion 14.86 15.86",
+    "anomaly_count": 5
+  },
+  "responses": {
+    "basic_description": "Here is a description of the video:\n\n**Visual Description:**\n\nThe video shows a bedroom. The walls are painted a light pink color, and there's a window with white curtains. The bed is covered with a blue floral-patterned bedspread and has items scattered across it.  A suitcase is stacked on top of another suitcase behind the bed. There's a nightstand or small table cluttered with various items, possibly toiletries. The floor has a marble-like pattern. A partially open closet with a door to the left of the frame.\n\n**Activities:**\n\nA man is the main subject of the video. Initially, he is standing near the closet, holding a dark-colored bag. He reaches over to the bed, picking up items of clothing and other objects, holding them in his arms. It looks like he is gathering items from the bed. He seems to be organizing or clearing the bed. After collecting several items, he takes a moment, pausing as if reflecting or considering something. He continues to hold the items he has gathered.",
+    "anomaly_detection": "After analyzing the video, here's what I observed:\n\n**Things that seem unusual:**\n\n*   **Cluttered Room:** The room is quite cluttered with clothes and items scattered on the bed and a nearby table. This is a common scenario, but it does contribute to a somewhat disorganized visual environment.\n*   **Packing Items Oddly:** The person in the video appears to be taking clothes from the bed and casually examining them, not necessarily packing them in an efficient or organized way.\n*   **Distorted Rectangular Shapes:** There are several rectangular boxes blurred or pixelated at points in the video.\n\n**Possible Distortions/Anomalies:**\n\n*   **Video editing:** There are several instances where pixelation and blurring occur in rectangular regions of the video. There may be sensitive information covered in these locations.\n\nIn summary, the video appears to show a person in a cluttered room casually sorting through clothes. The addition of rectangular blur effects suggests that there may be something in the video that the person who uploaded the video wishes to have covered.",
+    "temporal_analysis": "The video appears to be playing normally. There are no obvious indications of reversed playback or shuffled frames. The movements of the person and the objects in the video seem natural and consistent.",
+    "spatial_analysis": "Here's an analysis of the video:\n\n**General Scene Description:**\n\nThe video shows a bedroom. The room is somewhat cluttered with clothes and various items scattered around the bed and a small table. A man is taking items out of luggage and placing them on the bed.\n\n**Objects That Might Not Belong:**\n\n*   It's hard to say if any object *doesn't belong* as it depends on the context of who owns the room and what's typically kept there. However, the overall disarray of clothing and miscellaneous items on the bed and table could be considered out of place for a regularly organized room.\n\n**Color Distortions and Visual Artifacts:**\n\n*   The video has generally good lighting, but there are slight color distortions with the entire scene having a slightly warm (yellowish/pinkish) hue. This isn't extreme, but it's noticeable. There are no obvious visual artifacts such as excessive grain, blocking, or compression issues.\n\n**In summary:** The scene is a typical bedroom, though rather cluttered. The only visual issues are minor color distortions, giving the video a slightly warm tint.",
+    "semantic_analysis": "The video shows a man in a bedroom clearing clothes off a bed. Here's an analysis of the logical flow and transitions:\n\n*   **0:00-0:02:** The man enters the frame with a bag.\n*   **0:02-0:05:** He begins to pick up and remove items of clothing from the bed.\n*   **0:05-0:15:** The man continues to remove clothes from the bed, accumulating a pile of clothes in his arms, and inspecting one particular shirt.\n\nOverall, the sequence of events is logical. The man is clearly cleaning or decluttering the bed by removing the clothes. There are no abrupt or unnatural scene transitions; the video is a single, continuous shot.",
+    "confidence_assessment": "Here's an analysis of the video:\n\n**Overall Description:**\n\nThe video shows a man in a bedroom.  He is gathering items from a bed that has clothing and other personal items scattered on it. He appears to be collecting these items, possibly sorting through them.\n\n**Detailed Breakdown:**\n\n*   **Setting:** The video appears to be filmed inside a bedroom. The room is fairly cluttered. There's a bed with a blue patterned bedspread that has various items of clothing and other objects scattered on it. There is also a dresser with open drawers.\n*   **Person:** A man wearing a white t-shirt and dark pants/shorts is the primary subject.\n*   **Action:**\n    *   The man enters the frame carrying a dark bag, possibly a backpack or small suitcase.\n    *   He proceeds to pick up items of clothing and other objects from the bed.\n    *   He holds the collected items. He takes a moment to observe what he has, and then begins looking through them.\n\n**Confidence Level:**\n\nI am quite confident in the above description.\n\n**Uncertainties:**\n\n*   I am not certain of his motivations for gathering and sorting through the items.\n*   I cannot determine the exact relationship between the man and the contents of the room.\n*   I cannot determine the man's emotions.\n*   I am not sure of the specific location shown."
+  },
+  "scores": {
+    "content_accuracy": 4.800000000000001,
+    "anomaly_detection": 5.9,
+    "confidence_calibration": 4.2,
+    "hallucination": 3.2,
+    "overall": 4.525
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 5,
+      "accuracy_score": 4,
+      "detail_level_score": 6,
+      "overall_assessment": "The description captures some elements of the scene but misses key actions and details.",
+      "correctly_described_elements": [
+        "bedroom",
+        "clothes"
+      ],
+      "missing_elements": [
+        "vacuuming",
+        "sneezing",
+        "throwing clothes"
+      ],
+      "incorrect_descriptions": [
+        "man holding a dark-colored bag",
+        "items scattered across the bed"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 5,
+      "accuracy_score": 6,
+      "false_positive_score": 8,
+      "overall_assessment": "The model identified some anomalies but missed key ones and included some irrelevant observations.",
+      "detected_anomalies": [
+        "noise_injection",
+        "geometric_distortion"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "temporal_cut",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 5,
+      "calibration_score": 3,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks confidence in its descriptions, leading to calibration issues.",
+      "uncertainty_indicators": [
+        "incomplete action descriptions",
+        "lack of clarity in activities"
+      ],
+      "confidence_indicators": [
+        "detailed visual description",
+        "identification of main subject"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "overconfidence in visual details"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 4,
+      "speculation_control_score": 5,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and details of the scene.",
+      "hallucinated_elements": [
+        "man",
+        "dark-colored bag",
+        "suitcase stacked on another suitcase"
+      ],
+      "factual_errors": [
+        "man",
+        "dark-colored bag"
+      ],
+      "speculative_content": [
+        "reflecting or considering something"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:07:15.748814"
+}

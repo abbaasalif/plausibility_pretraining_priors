@@ -1,0 +1,109 @@
+{
+  "video_name": "anomaly_video_0032.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0032.mp4",
+    "original_video_id": "KAU5T",
+    "original_scene": "Hallway",
+    "original_script": "A person drinks water from a glass and puts it down on a shelf, then runs out of the room.",
+    "combined_video_id": "N4Q0O",
+    "combined_script": "A person awakens from under a blanket.  Then starts washing a chair.",
+    "original_actions": "c106 0.00 14.40;c150 21.50 33.00;c154 14.50 22.70;c135 0.00 18.10",
+    "decoded_actions": "c106 0.00 14.40 (Drinking from a cup/glass/bottle);c150 21.50 33.00 (Someone is running somewhere);c154 14.50 22.70 (Someone is standing up from somewhere);c135 0.00 18.10 (Sitting in a bed)",
+    "anomalies_applied": "object_insertion;combined_scenes_Hallway_Basement (A room below the ground floor);speed_change;noise_injection;frame_reversal;geometric_distortion;color_shift;combined_videos_KAU5T_N4Q0O",
+    "anomaly_timestamps": "scene_mixing 31.79 75.17;video_combination 0.00 75.17;frame_reversal 0.00 75.17;speed_change 0.00 75.17;geometric_distortion 0.00 1.00;color_shift 0.95 1.95;object_insertion 1.24 2.24;noise_injection 1.29 2.29;color_shift 2.00 3.00;noise_injection 2.05 3.05;color_shift 2.19 3.19;noise_injection 2.38 3.38;noise_injection 4.81 5.81;color_shift 5.24 6.24;object_insertion 5.58 6.58;noise_injection 5.96 6.96;noise_injection 6.10 7.10;noise_injection 6.29 7.29;geometric_distortion 6.63 7.63;color_shift 6.96 7.96;object_insertion 7.15 8.15;noise_injection 7.29 8.29;noise_injection 7.67 8.67;color_shift 7.86 8.86;color_shift 8.10 9.10;color_shift 8.39 9.39;color_shift 9.10 10.10;geometric_distortion 9.10 10.10;object_insertion 9.77 10.77;color_shift 10.01 11.01;object_insertion 10.11 11.11;color_shift 10.53 11.53;color_shift 10.82 11.82;object_insertion 10.92 11.92;color_shift 10.96 11.96;noise_injection 11.06 12.06;geometric_distortion 11.54 12.54;noise_injection 11.82 12.82;color_shift 12.01 13.01;color_shift 12.30 13.30;geometric_distortion 13.25 14.25;object_insertion 13.97 14.97;color_shift 15.49 16.49;color_shift 16.02 17.02;color_shift 16.54 17.54;object_insertion 17.02 18.02;object_insertion 17.97 18.97;color_shift 18.92 19.92;noise_injection 19.02 20.02;noise_injection 19.45 20.45;color_shift 19.64 20.64;color_shift 19.88 20.88;object_insertion 20.50 21.50;geometric_distortion 20.73 21.73;color_shift 20.97 21.97;geometric_distortion 21.12 22.12;color_shift 21.21 22.21;object_insertion 21.69 22.69;geometric_distortion 22.02 23.02;noise_injection 22.40 23.40;color_shift 22.59 23.59;geometric_distortion 23.02 24.02;geometric_distortion 23.17 24.17;noise_injection 24.45 25.45;object_insertion 24.93 25.93;noise_injection 25.22 26.22;color_shift 25.84 26.84;object_insertion 26.22 27.22;color_shift 26.45 27.45;object_insertion 26.65 27.65;color_shift 26.69 27.69;noise_injection 26.84 27.84;color_shift 27.03 28.03;color_shift 27.27 28.27;color_shift 30.55 31.55;noise_injection 30.60 31.60;noise_injection 31.13 32.13;color_shift 31.27 32.27;noise_injection 31.46 32.46;color_shift 31.56 32.56;noise_injection 31.94 32.94;geometric_distortion 32.08 33.08;color_shift 32.17 33.17;geometric_distortion 32.56 33.56;noise_injection 32.56 33.56;noise_injection 32.60 33.60;noise_injection 33.03 34.03;geometric_distortion 33.65 34.65;object_insertion 34.22 35.22;object_insertion 34.70 35.70;noise_injection 35.13 36.13;geometric_distortion 35.56 36.56;object_insertion 35.80 36.80;geometric_distortion 36.18 37.18;object_insertion 36.23 37.23;object_insertion 36.75 37.75;object_insertion 36.99 37.99",
+    "anomaly_count": 8
+  },
+  "responses": {
+    "basic_description": "Here's a detailed analysis of the video:\n\n**Part 1 (0:00-0:21):**\n\n*   **Setting:** The scene is a room with cinder block walls, indicating a basement or similar setting. There's a bed with rumpled bedding, a small table next to the bed, and an office chair. Posters are on the wall.\n*   **Activity:** A man wearing a dark shirt and shorts is shown. He rubs his head and leans heavily on an office chair, appearing distressed. He then lies down on the bed and covers his face with his hands. He appears to be unwell.\n\n**Part 2 (0:22-0:37):**\n\n*   **Setting:** The scene changes to a hallway with an open area filled with plants. Someone walks down the hall and enters a room.\n*   **Activity:** A man in a yellow shirt and jeans enters a room and sits on a bed. He opens and drinks a large bottle of water. He drinks a lot of water.\n\n**Overall Analysis:**\n\nThe video consists of two separate scenes with different people and locations. The first scene appears to depict someone feeling unwell or stressed in a basement-like room. The second scene shows someone quenching his thirst in a presumably different location. There is no obvious connection between the two scenes.",
+    "anomaly_detection": "Okay, I've analyzed the video and here are my observations:\n\n**Part 1 (0:00-0:21):**\n\n*   **Basement Setting:** The first part of the video appears to be filmed in what seems to be a basement. This is evident from the cinder block walls.\n*   **Lighting:** The lighting is subdued and somewhat dim, which can make it difficult to discern details clearly.\n*   **Room Decor:** The room is sparsely decorated. There's a bed, a desk, an office chair, and a few posters on the wall.\n*   **Person's Behavior:** A man is initially standing and appears to be looking at or near the office chair, possibly adjusting something. He then goes to the bed, lays down, and covers his eyes.\n*   **Anomalies/Distortions:** At [00:00:14] there's an unusual and abrupt color shift/distortion, causing the image to briefly turn purple. At [00:00:20] there is a yellow rectangle that seems to be covering the picture. This could potentially indicate editing or alteration of the footage.\n\n**Part 2 (0:22-0:37):**\n\n*   **Hallway:** The video cuts to a hallway with plants and what appears to be a sink.\n*   **Room:** The man walks down the hallway and into a new room with a bed and pinkish walls.\n*   **Drinking water:** The man is drinking water\n*   **Lighting:** Very bright and a bit washed out.\n*   **Anomalies/Distortions:** At [00:00:31] the image gets distorted as though there is noise interfering with the signal.\n\n**Overall Observations and Possible Interpretations:**\n\n1.  **Multiple Locations:** The video contains footage from at least two different locations.\n2.  **Abrupt Transition:** The transition between the basement and hallway/room scene is sudden and without any obvious connection between the events or locations. This suggests that the video may have been edited, or that the different segments were filmed at different times.\n3.  **Editing/Manipulation:** The color shift and yellow rectangular block at [00:00:14] and [00:00:20] are clear indicators that the video has been altered or edited.\n4.  **Content Purpose:** Without additional context, it is difficult to ascertain the purpose of the video or the meaning behind the actions depicted. The different settings and transitions make it appear somewhat disjointed.\n\nIn summary, the abrupt scene changes and visual anomalies/distortions suggest that the video has been altered or edited in some way. The different scenes appear unconnected.",
+    "temporal_analysis": "The video appears to be playing normally. The actions within the video show a person moving naturally, without any indications of reversed playback or temporal anomalies like shuffled frames.",
+    "spatial_analysis": "Okay, let's analyze the video.\n\n**Scene 1 (0:00-0:21):**\n\n*   **Objects that don't belong:** It's hard to say what definitively \"doesn't belong\" without knowing the context of the scene. However, the posters might be considered a matter of taste. The room generally looks like a casual living space, possibly a dorm or a bachelor pad.\n*   **Color distortions/Visual artifacts:**\n    *   The initial scene is somewhat dark, likely due to low lighting.\n    *   There's a point around [00:00:15] when the scene briefly turns purple/pink, indicating a potential color balance issue or a deliberate effect.\n    *   At [00:00:20], there is a randomly yellow colored rectangle in the video.\n*    Overall, the visual quality suggests the video was taken with a lower-quality camera (possibly a phone) or under less-than-ideal conditions, which is reflected by the noise and lack of detail in the image.\n\n**Scene 2 (0:22-0:37):**\n\n*   **Objects that don't belong:** It is unclear what does not belong in the scene.\n*   **Color distortions/Visual artifacts:**\n    *   At [00:00:31] there is substantial pixelation and poor image quality.\n\nIn general, there don't appear to be any glaringly out-of-place objects in either scene, but the video quality isn't the best, leading to some visual issues. The color shift in scene 1 and the pixelation in scene 2 are notable.",
+    "semantic_analysis": "The sequence of events in the video is as follows:\n\n1.  A person in a basement-like room with cinderblock walls touches their head and then reaches for a chair.\n2.  They sit on the bed, turn to the side, and then lie down covering their face with their hands.\n3.  The scene cuts to a view from inside a doorway looking down a hallway with plants and a sink on the side. A person walks towards the viewer down the hallway.\n4.  The person enters a room and sits on the bed, opens a bottle of water, and drinks a lot of it.\n\nAnalysis:\n\n*   The sequence of events is somewhat disjointed. The connection between the person in the basement room and the person in the hallway/different room is not clearly established.\n*   The scene transition from the basement-like room to the hallway is abrupt. There is no clear indication of what's happening or why the scene is changing.\n*   The events within each scene make sense individually. A person looking tired lies down, and a person goes to their room and drinks water.\n*   Overall, the video lacks context, and the transitions between scenes are jarring and lack narrative flow.\n\nIn summary, the video has abrupt transitions and lacks context, making it difficult to understand the overall narrative or purpose.",
+    "confidence_assessment": "Here's a description of the video, along with my confidence level:\n\n**Description:**\n\nThe video appears to be a compilation of two distinct segments.\n\n**Segment 1 (0:00 - 0:21):** This part takes place in a room that looks like a basement bedroom. The walls are painted white cinder block. A heavyset individual wearing a dark t-shirt and dark pants is the main focus. The person initially stands near an office chair, appearing to bend down and potentially adjust something. They then move toward the bed, lie down, and cover their face with their arm. A small table next to the bed holds items like a game controller. Wall decor includes what looks like a movie poster and another poster of men.\n\n**Segment 2 (0:22 - 0:37):** The scene shifts to what looks like a hotel or motel corridor, featuring an open courtyard with plants. A man walks down the hallway and enters a room. The room is simple, with a bed and clothing hanging on a rack. The man sits on the bed, opens a bottle of water, drinks a significant amount, and then appears to test his ability to burp/manipulate the air in his stomach.\n\n**Confidence Level:**\n\nI'm fairly confident in this description, but there are some nuances where I'm less certain:\n\n*   **Purpose of Segment 1:** While I can describe the actions, the \"why\" remains unclear. What exactly is the individual adjusting near the chair? Is there an emotional state associated with covering the face? These are inferred elements.\n*   **Specific Poster Details:** Identifying the exact movie or the identity of the people in the poster is challenging due to the resolution and angles.\n*   **Intentions in Segment 2**: The final actions that the person is making with a bottle of water are unclear and may be interpreted differently depending on the viewer."
+  },
+  "scores": {
+    "content_accuracy": 3.8000000000000003,
+    "anomaly_detection": 7.8999999999999995,
+    "confidence_calibration": 4.2,
+    "hallucination": 2.3,
+    "overall": 4.55
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 4,
+      "accuracy_score": 3,
+      "detail_level_score": 5,
+      "overall_assessment": "The model response inaccurately describes the scenes and actions, missing key elements from the ground truth.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "Drinking from a glass",
+        "Running out of the room",
+        "Standing up",
+        "Sitting in a bed"
+      ],
+      "incorrect_descriptions": [
+        "Basement setting",
+        "Man feeling unwell",
+        "Drinking from a large bottle"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 8,
+      "accuracy_score": 7,
+      "false_positive_score": 9,
+      "overall_assessment": "The model effectively identified several anomalies and provided a reasonable analysis of the video content, though some details were misinterpreted.",
+      "detected_anomalies": [
+        "color_shift",
+        "noise_injection"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "speed_change",
+        "frame_reversal",
+        "geometric_distortion",
+        "combined_scenes_Hallway_Basement",
+        "combined_videos_KAU5T_N4Q0O"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 5,
+      "calibration_score": 3,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks appropriate confidence in its analysis, leading to calibration issues.",
+      "uncertainty_indicators": [
+        "inconsistent scene descriptions",
+        "lack of clear connections between actions"
+      ],
+      "confidence_indicators": [
+        "detailed scene analysis",
+        "identification of activities"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "incorrect scene identification"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 3,
+      "speculation_control_score": 2,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions described in the ground truth.",
+      "hallucinated_elements": [
+        "man in a dark shirt and shorts",
+        "man in a yellow shirt and jeans",
+        "basement-like room",
+        "open area filled with plants"
+      ],
+      "factual_errors": [
+        "distressed man lying on the bed",
+        "man drinking from a large bottle of water"
+      ],
+      "speculative_content": [
+        "connection between the two scenes",
+        "interpretation of the man's emotional state"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:18:50.824689"
+}

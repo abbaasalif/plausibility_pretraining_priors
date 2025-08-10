@@ -1,0 +1,109 @@
+{
+  "video_name": "anomaly_video_0011.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0011.mp4",
+    "original_video_id": "RCD08",
+    "original_scene": "Laundry room",
+    "original_script": "A person smiling at a mirror starts waving a towel around and starts laughing.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c036 24.20 30.20;c094 1.30 8.70;c152 1.30 13.00;c073 6.70 12.70;c001 24.80 30.10;c000 7.20 29.50",
+    "decoded_actions": "c036 24.20 30.20 (Throwing a towel/s somewhere);c094 1.30 8.70 (Smiling in a mirror);c152 1.30 13.00 (Someone is smiling);c073 6.70 12.70 (Taking a blanket from somewhere);c001 24.80 30.10 (Putting clothes somewhere);c000 7.20 29.50 (Holding some clothes)",
+    "anomalies_applied": "object_insertion;speed_change;frame_shuffling;noise_injection;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_reversal 0.00 31.05;frame_shuffling 0.00 3.05;frame_shuffling 3.05 6.10;frame_shuffling 6.10 9.16;frame_shuffling 9.16 12.21;frame_shuffling 12.21 15.26;frame_shuffling 15.26 18.31;frame_shuffling 18.31 21.36;frame_shuffling 21.36 24.42;frame_shuffling 24.42 27.47;frame_shuffling 27.47 30.52;frame_shuffling 30.52 31.05;speed_change 0.00 31.05;color_shift 0.73 1.73;color_shift 1.33 2.33;object_insertion 2.52 3.52;color_shift 2.99 3.99;object_insertion 3.05 4.05;noise_injection 3.25 4.25;object_insertion 3.45 4.45;color_shift 4.18 5.18;color_shift 5.18 6.18;geometric_distortion 5.51 6.51;object_insertion 5.71 6.71;color_shift 6.10 7.10;noise_injection 6.10 7.10;color_shift 6.44 7.44;color_shift 6.83 7.83;noise_injection 8.09 9.09;object_insertion 10.02 11.02;color_shift 10.02 11.02;color_shift 10.68 11.68;noise_injection 11.21 12.21;color_shift 12.08 13.08;noise_injection 13.40 14.40;object_insertion 13.87 14.87;geometric_distortion 14.20 15.20;geometric_distortion 14.60 15.60;noise_injection 14.93 15.93;noise_injection 15.53 16.53;noise_injection 15.86 16.86;object_insertion 15.99 16.99;object_insertion 16.06 17.06;noise_injection 17.71 18.71;object_insertion 17.91 18.91;geometric_distortion 17.98 18.98;object_insertion 18.38 19.38;color_shift 18.98 19.98;geometric_distortion 19.17 20.17;color_shift 19.57 20.57;noise_injection 19.77 20.77;noise_injection 20.24 21.24;color_shift 20.44 21.44;object_insertion 20.57 21.57;color_shift 21.10 22.10;noise_injection 21.56 22.56;object_insertion 21.63 22.63;noise_injection 21.76 22.76;object_insertion 21.96 22.96;noise_injection 23.02 24.02;color_shift 24.28 25.28;color_shift 25.35 26.35;noise_injection 26.21 27.21;object_insertion 28.53 29.53;noise_injection 29.52 30.52;object_insertion 30.72 31.72;noise_injection 30.92 31.92;geometric_distortion 31.05 32.05;color_shift 31.45 32.45;geometric_distortion 31.65 32.65;color_shift 31.78 32.78;noise_injection 31.91 32.91;color_shift 32.11 33.11;object_insertion 33.77 34.77;object_insertion 33.90 34.90;object_insertion 34.30 35.30;color_shift 34.30 35.30;noise_injection 34.30 35.30;noise_injection 34.90 35.90;object_insertion 35.23 36.23;object_insertion 35.76 36.76;color_shift 37.02 38.02;object_insertion 37.09 38.09;object_insertion 37.29 38.29;object_insertion 37.95 38.95;object_insertion 38.02 39.02;noise_injection 38.02 39.02;noise_injection 38.68 39.68;color_shift 39.34 40.34;noise_injection 40.54 41.54;object_insertion 40.74 41.74;noise_injection 41.07 42.07;color_shift 41.27 42.27;color_shift 41.73 42.73;color_shift 41.93 42.93;object_insertion 43.46 44.46;noise_injection 43.72 44.72;noise_injection 44.06 45.06;noise_injection 44.12 45.12;geometric_distortion 44.79 45.79;noise_injection 45.51 46.51;color_shift 46.18 47.18;noise_injection 46.71 47.71;color_shift 47.31 48.31;color_shift 47.51 48.51;object_insertion 48.24 49.24;object_insertion 48.96 49.96;color_shift 50.42 51.42;geometric_distortion 50.82 51.82;color_shift 51.49 52.49;object_insertion 54.01 55.01;color_shift 54.34 55.34;noise_injection 54.80 55.80;geometric_distortion 55.14 56.14;object_insertion 55.53 56.53;noise_injection 57.39 58.39;object_insertion 58.52 59.52;color_shift 58.78 59.78;geometric_distortion 59.71 60.71;noise_injection 61.17 62.17;object_insertion 61.44 62.44;noise_injection 61.57 62.57",
+    "anomaly_count": 7
+  },
+  "responses": {
+    "basic_description": "Okay, here's a detailed description of the video:\n\n**Visual Description:**\n\nThe video is shot in a laundry room. The walls are painted white. On the left is a white door. Against the back wall, there is a shelf containing various items like bottles, jars, and other household objects. Below the shelf, there's a side-by-side washer and dryer. To the right of the dryer, there is a broom leaning against the wall and a small, clear plastic bin on the floor. There is an electrical panel on the right side wall.  In the lower right corner, there appears to be some type of furniture obscured by darkness.\n\n**Activities:**\n\n1.  **0:00-0:02:** A man wearing a dark long-sleeve shirt and camouflage pants is standing and smiling. He moves away, and the camera focuses on the washing machine and dryer.\n2.  **0:06-0:53:** The man returns with a dark-colored garment and proceeds to repeatedly toss, flip, twirl, and otherwise manipulate the garment in the air. The motion seems playful. After a few repetitions, he puts the garment inside the washing machine.\n3.  **0:54-0:57:** The man checks the settings on the top of the washing machine.\n4.  **0:58-1:01:** The man moves away from the washing machine.\n\n**Analysis:**\n\nThe video seems to capture a light-hearted moment. The man's initial smile suggests he may be enjoying himself. The way he handles the clothing before putting it in the washer indicates some playfulness. The rest of the scene shows he is now taking care of laundry.",
+    "anomaly_detection": "Here is an analysis of the provided video:\n\n**Overall Observations:**\n\n*   **Environment:** The video appears to be taken in a laundry room or utility room. There's a washing machine, dryer, a shelf with various items, a door, an electrical panel, a broom, and some clutter on the floor.\n*   **Subject:** A man is present in the video and seems to be interacting with a pile of clothes, possibly preparing to do laundry.\n*   **Camera Angle/Quality:** The video appears to be taken from a slightly elevated, static camera angle. The quality is decent, but there is a noticeable greenish tint to the image.\n\n**Potential Anomalies/Unusual Aspects:**\n\n1.  **Man's Behavior:** The man's behavior appears somewhat erratic. He throws and waves the clothes around for an extended period. This could be due to a number of reasons, but it definitely stands out.\n\n**Visual Distortions:**\n\n*   **Greenish Tint:** As mentioned earlier, there's a significant greenish tint to the entire video. This could be due to the camera's white balance being off or the lighting in the room.\n\n**Conclusion:**\n\nThe man's odd behavior is the most notable thing in the video. While the greenish tint and blurriness are distractions, they are likely due to camera settings and lighting, not necessarily evidence of anything malicious or unusual happening.",
+    "temporal_analysis": "The video appears to be playing normally. The actions of the person and the movement of the clothes being handled seem consistent with real-time playback. There are no obvious signs of reversed playback or shuffled frames.",
+    "spatial_analysis": "Here's a detailed analysis of the video:\n\n**Scene Description:**\n\nThe scene appears to be a utility room or laundry area. Key objects include:\n\n*   A man wearing a long-sleeved black shirt and camouflage pants.\n*   A washing machine and dryer, side by side.\n*   A shelf above the washer and dryer, holding various items (bottles, containers, etc.).\n*   A broom and dustpan standing near the dryer.\n*   A small trash can near the dryer.\n*   An electrical panel on the wall.\n*   A door to the left.\n*   Some indistinct objects in the right side of the frame.\n\n**Objects That Might Seem Out of Place:**\n\n*   The objects on the shelf above the washer and dryer are a mix of cleaning supplies and other items which might seem cluttered but are probably logical for this type of space.\n*   The broom and dustpan being in the laundry room might not be unusual but could stand out if this space is intended solely for laundry.\n\n**Color Distortions/Visual Artifacts:**\n\n*   There's a noticeable yellowish/greenish color cast throughout the video. This could be due to the lighting conditions in the room or a camera's white balance setting being incorrect.\n*   The video quality is not high, and there's some blurriness, especially during movement.\n\n**Analysis of the Action:**\n\nThe man appears to be playfully trying to put the black clothing on and taking it off. He puts the clothing in the washing machine and then puts more clothing on the dryer before turning to the washing machine.\n\n**Conclusion:**\n\nOverall, the scene depicts a fairly typical utility/laundry room environment. Nothing screams \"out of place\" in a bizarre or unexpected way, although the clutter on the shelf could be seen as somewhat disorganized. The main visual issues are the noticeable color distortion and lower video quality.",
+    "semantic_analysis": "Here's a breakdown of the video and an analysis of the logical flow and potential abruptness of transitions:\n\n**Description:**\n\nThe video shows a man in a laundry room. He appears to be doing laundry.\n\n**Sequence of Events and Logical Flow:**\n\n1.  **0:00-0:03:** The man enters the frame, seemingly in a good mood (smiling). He walks toward the camera, then turns away. The focus is lost and shifts to the laundry area\n2.  **0:03-0:06:** The camera focuses on the laundry machines and surrounding storage.\n3.  **0:06-0:11:** The man enters the frame again, carrying a garment and stops.\n4.  **0:11-0:43:** The man begins tossing the garment around, seeming to play with it. He tosses it up and over his head.\n5.  **0:43-0:55:** The man stops playing with the garment. He touches the front of the dryer.\n6.  **0:55-1:01:** The man does nothing, and turns his back on the camera.\n\n**Analysis:**\n\n*   **Overall Logical Sense:** The overall sequence of actions is somewhat logical. A person might be doing laundry. However, the extended period of just playing with the garment and pausing is not realistic.\n*   **Abruptness and Unnaturalness:**\n\n    *   **Starting:** The man seemingly smiling and going away from the camera is abrupt.\n    *   **Focus:** The change in focus and composition is somewhat unnatural.\n\n**In conclusion:**\n\nWhile the basic actions align with the general idea of someone doing laundry, the abrupt cuts in focus and composition, lack of context, and extended periods of inactivity make this video feel unnatural.",
+    "confidence_assessment": "Here's a breakdown of the video:\n\n**Overall Impression:**  The video appears to be a recording of a person doing laundry in a laundry room or utility room.  There's a sense of humor in the actions.\n\n**Detailed Description:**\n\n*   **Setting:** The scene is a laundry room or utility room. Key features include a washing machine and dryer lined up next to each other. There's a shelf above the machines holding various items (detergent, bottles, etc.). A door is visible to the left, and an electrical panel or access door is on the wall to the right. There is a broom in the corner.\n\n*   **Subject:** A man enters the frame. He has a light complexion and appears to have a shaved head or very short hair. He is wearing a black long-sleeved shirt and camouflage-patterned pants.\n\n*   **Action:**\n    *   Initially, the man walks into the room.\n    *   He picks up some clothing (appears to be black) and starts playfully tossing the laundry in the air.\n    *   He then starts putting the clothing into the washing machine.\n\n**Confidence Level:**  I am very confident in the description of the objects and actions. The visual information is fairly clear.\n\nLet me know if you would like me to elaborate on any aspect of the description!"
+  },
+  "scores": {
+    "content_accuracy": 4.800000000000001,
+    "anomaly_detection": 4.4,
+    "confidence_calibration": 5.0,
+    "hallucination": 3.7,
+    "overall": 4.4750000000000005
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 5,
+      "accuracy_score": 4,
+      "detail_level_score": 6,
+      "overall_assessment": "The model's description captures some elements but misses key actions and includes inaccuracies.",
+      "correctly_described_elements": [
+        "laundry room",
+        "smiling"
+      ],
+      "missing_elements": [
+        "waving a towel",
+        "laughing",
+        "throwing a towel"
+      ],
+      "incorrect_descriptions": [
+        "man wearing a dark long-sleeve shirt and camouflage pants",
+        "putting a garment inside the washing machine"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 3,
+      "accuracy_score": 5,
+      "false_positive_score": 7,
+      "overall_assessment": "The model identified some unusual behavior but missed several key anomalies.",
+      "detected_anomalies": [
+        "greenish tint"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "speed_change",
+        "frame_shuffling",
+        "noise_injection",
+        "frame_reversal",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 6,
+      "calibration_score": 5,
+      "overall_assessment": "The model shows moderate recognition of uncertainty but lacks precision in confidence levels.",
+      "uncertainty_indicators": [
+        "incomplete action recognition",
+        "lack of anomaly consideration"
+      ],
+      "confidence_indicators": [
+        "detailed visual description",
+        "identification of playful behavior"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "failure to address anomalies"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 4,
+      "speculation_control_score": 5,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and objects present in the video.",
+      "hallucinated_elements": [
+        "man wearing camouflage pants",
+        "dark long-sleeve shirt",
+        "broom leaning against the wall"
+      ],
+      "factual_errors": [
+        "man manipulating a garment",
+        "putting garment inside the washing machine"
+      ],
+      "speculative_content": [
+        "man enjoying himself",
+        "light-hearted moment"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:04:31.104946"
+}

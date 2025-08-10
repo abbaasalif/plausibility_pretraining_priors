@@ -1,0 +1,117 @@
+{
+  "video_name": "anomaly_video_0018.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0018.mp4",
+    "original_video_id": "E7Q3R",
+    "original_scene": "Dining room",
+    "original_script": "A person runs into their dining room, puts their coffee on the table, and takes off their shoes.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c057 9.70 18.70;c151 3.80 9.80;c009 5.20 12.40;c154 18.60 23.40;c109 5.20 12.40;c107 3.00 12.10;c150 19.20 23.90;c118 2.90 12.10;c107 0.00 2.80;c059 0.00 23.00;c150 0.00 2.60;c011 4.00 23.10;c118 0.00 2.80",
+    "decoded_actions": "c057 9.70 18.70 (Taking off some shoes);c151 3.80 9.80 (Someone is going from standing to sitting);c009 5.20 12.40 (Putting something on a table);c154 18.60 23.40 (Someone is standing up from somewhere);c109 5.20 12.40 (Putting a cup/glass/bottle somewhere);c107 3.00 12.10 (Holding a cup/glass/bottle of something);c150 19.20 23.90 (Someone is running somewhere);c118 2.90 12.10 (Holding a dish);c107 0.00 2.80 (Holding a cup/glass/bottle of something);c059 0.00 23.00 (Sitting in a chair);c150 0.00 2.60 (Someone is running somewhere);c011 4.00 23.10 (Sitting at a table);c118 0.00 2.80 (Holding a dish)",
+    "anomalies_applied": "object_insertion;noise_injection;frame_shuffling;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_reversal 0.00 27.76;frame_shuffling 0.00 2.77;frame_shuffling 2.77 5.54;frame_shuffling 5.54 8.31;frame_shuffling 8.31 11.08;frame_shuffling 11.08 13.85;frame_shuffling 13.85 16.62;frame_shuffling 16.62 19.39;frame_shuffling 19.39 22.16;frame_shuffling 22.16 24.92;frame_shuffling 24.92 27.69;frame_shuffling 27.69 27.76;object_insertion 0.40 1.40;noise_injection 0.53 1.53;object_insertion 1.13 2.13;object_insertion 1.20 2.20;noise_injection 1.53 2.53;color_shift 1.60 2.60;noise_injection 2.07 3.07;object_insertion 2.57 3.57;object_insertion 3.00 4.00;color_shift 3.37 4.37;geometric_distortion 3.37 4.37;color_shift 3.40 4.40;color_shift 3.44 4.44;noise_injection 3.80 4.80;color_shift 5.81 6.81;object_insertion 6.54 7.54;object_insertion 6.74 7.74;object_insertion 7.01 8.01;object_insertion 7.07 8.07;object_insertion 7.77 8.77;color_shift 7.94 8.94;noise_injection 7.97 8.97;color_shift 8.04 9.04;color_shift 8.24 9.24;object_insertion 8.74 9.74;object_insertion 9.11 10.11;color_shift 10.34 11.34;color_shift 10.41 11.41;object_insertion 10.68 11.68;object_insertion 10.78 11.78;color_shift 10.88 11.88;object_insertion 10.94 11.94;object_insertion 11.01 12.01;object_insertion 11.18 12.18;object_insertion 11.58 12.58;color_shift 11.71 12.71;geometric_distortion 12.05 13.05;color_shift 12.41 13.41;geometric_distortion 12.45 13.45;noise_injection 12.45 13.45;noise_injection 12.48 13.48;object_insertion 12.88 13.88;noise_injection 12.88 13.88;object_insertion 13.05 14.05;color_shift 13.35 14.35;color_shift 13.45 14.45;object_insertion 13.48 14.48;noise_injection 13.55 14.55;color_shift 13.61 14.61;object_insertion 13.91 14.91;object_insertion 14.15 15.15;color_shift 14.45 15.45;geometric_distortion 14.65 15.65;object_insertion 14.71 15.71;color_shift 14.98 15.98;noise_injection 14.98 15.98;noise_injection 15.02 16.02;color_shift 15.18 16.18;object_insertion 15.38 16.38;color_shift 15.38 16.38;noise_injection 15.38 16.38;geometric_distortion 15.78 16.78;object_insertion 16.18 17.18;object_insertion 16.55 17.55;noise_injection 16.62 17.62;color_shift 16.78 17.78;object_insertion 16.95 17.95;geometric_distortion 17.48 18.48;noise_injection 18.65 19.65;noise_injection 19.29 20.29;noise_injection 20.32 21.32;object_insertion 20.59 21.59;noise_injection 22.29 23.29;color_shift 22.32 23.32;noise_injection 22.42 23.42;noise_injection 22.59 23.59;color_shift 22.92 23.92;geometric_distortion 22.92 23.92;object_insertion 23.06 24.06;object_insertion 23.36 24.36;object_insertion 23.39 24.39;object_insertion 23.42 24.42;object_insertion 23.96 24.96;object_insertion 24.12 25.12;noise_injection 24.16 25.16;color_shift 24.36 25.36;object_insertion 24.62 25.62;color_shift 24.62 25.62;color_shift 25.49 26.49;noise_injection 25.56 26.56;color_shift 25.73 26.73;object_insertion 25.76 26.76;color_shift 25.89 26.89;color_shift 26.16 27.16;geometric_distortion 26.16 27.16;geometric_distortion 26.23 27.23;color_shift 26.26 27.26;object_insertion 26.43 27.43;object_insertion 26.89 27.89;object_insertion 27.36 28.36;object_insertion 27.56 28.56",
+    "anomaly_count": 6
+  },
+  "responses": {
+    "basic_description": "Here is a detailed description of the video:\n\n**Visual Description:**\n\nThe video is shot in what appears to be a dining area within a home. The room is simply decorated with neutral-colored walls. A round wooden table is centrally positioned, cluttered with various items: a vase of white flowers in a light blue vase, a box of Reese's Puffs cereal, a canister, a blue cup, bowls, and some papers. A red cloth drapes part of the table.\n\nA desk is visible to the left, also cluttered with items including a computer and other various objects. There are two chairs placed around the table. A wall clock hangs on the wall above the table to the left. A white door is straight ahead of the table and a picture is on the wall to the right.\n\nFrom [00:00:06-00:00:22] a man walks into the shot and sits at the chair. After sitting he picks up a cup that is on the table and examines it. He then proceeds to stand up, puts the cup back on the table and walks out of the shot.\n\n**Activities:**\n\nThe main activity is the man sitting at the table, briefly examining an item from the table, and then leaving. No other clear activities are taking place.",
+    "anomaly_detection": "Here's a detailed analysis of the video:\n\n**Observations and Unusual Aspects:**\n\n*   **Abrupt Transition at [00:00:12-00:00:12]:** There is a sudden and obvious transition to a frame that appears to be entirely digital noise. This is highly unusual and would require a technical explanation.\n*   **\"Teleporting\" Man:** At [00:00:05], a man appears in the scene seemingly out of nowhere and occupies the chair.\n\n**Possible Explanations and Speculations:**\n\n*   **Video Editing/Manipulation:** The sudden appearances and digital noise suggest that the video has been edited or manipulated. Elements may have been added or removed using video editing software.\n*   **Glitch/Corruption:** The digital noise could be caused by corruption during the video recording or storage process.\n*   **Staged/Intentional Anomaly:** The \"teleporting\" man and the digital noise could be part of a planned scenario for artistic or entertainment purposes.\n\n**Conclusion:**\n\nThe video contains a clear anomaly in the form of digital noise and unusual appearances that suggest manipulation or some form of technical issue. These observations warrant further investigation to understand the true nature of the video and the reasons behind the anomalies.",
+    "temporal_analysis": "The video appears to be playing normally, with no signs of reversed playback or shuffled frames. The actions within the video proceed in a forward, natural sequence. At one point there is heavy distortion but it is short and does not affect the overall sequence.",
+    "spatial_analysis": "Here's a detailed analysis of the video:\n\n**Objects That Don't Belong/Seem Odd:**\n\n*   **The overall setup:** The way the table is crowded with cereal, flowers, papers, and other miscellaneous items appears somewhat cluttered and could be considered out of place, depending on the viewer's expectation of a dining or breakfast area.\n*   **Flowers in a vase:** Could be placed elsewhere as they are a bit clustered.\n\n**Color Distortions/Visual Artifacts:**\n\n*   **Low Lighting:** The overall lighting seems a bit dim, which can result in a muted color palette and a lack of vibrancy. This can also impact the details visible in darker areas of the scene.\n*   **Camera Quality:** The camera used for the video appears to have a limited dynamic range. This means it might struggle to accurately capture details in both very bright and very dark areas simultaneously.\n*   **Digital Artifacts:** There's evidence of digital artifacts. These appear as blocky or pixelated areas. This is likely due to video compression, particularly if the video was compressed significantly for storage or uploading.\n\n**General Observations:**\n\n*   **Setting:** The scene appears to be a dining area in a home or apartment.\n*   **Contents:** The table seems to be the central focus, with a box of Reeses puffs and cereal and other objects cluttered around it.\n*   **Subject:** A person appears and takes a seat.\n\nLet me know if you'd like me to focus on any specific object or area of the scene!",
+    "semantic_analysis": "Here's an analysis of the video clip:\n\n**Sequence of Events and Logical Flow:**\n\n1.  **0:00-0:05:** The camera is static, showing a room with a table and chairs, along with various items on the table like cereal, drinks, and flowers. The scene is established.\n2.  **0:06-0:11:** A person walks into the frame, sits down, and seems to put on what looks like an orthopedic boot/brace on their leg.\n3.  **0:12:** This is a strange burst of static, likely a technical glitch. It doesn't fit the flow.\n4.  **0:13-0:21:** The scene resumes after the static as the person adjusting the boot/brace. Then reaching across the table.\n5.  **0:22-0:27:** The person rises and walks out of frame.\n\n**Abrupt or Unnatural Scene Transitions:**\n\n*   **0:11-0:13:** The burst of static at is very jarring and completely disrupts the flow of the video. It serves no purpose and feels like a mistake. It's an abrupt cut to nothingness.\n\n**Overall:**\n\nThe general sequence of the person putting on the leg brace and getting ready to leave the table is logical. The main issue is the static, which stands out as a clear error or interruption.",
+    "confidence_assessment": "Here's a breakdown of the video:\n\n*   **Setting:** The video appears to be shot in an indoor dining area.\n*   **Objects in the scene:** The main focus is a round dining table with an elaborate, possibly vintage, metal base. On the table, there is a variety of items including:\n\n    *   A box of Reese's Puffs cereal.\n    *   Other cereal boxes or containers.\n    *   A blue cup.\n    *   A vase with white flowers.\n    *   Mugs or small cups.\n    *   Some papers or documents.\n    * A jar\n    * Possible bowls.\n\n    Around the table, there are two chairs. To the left, there's a cluttered desk area with what appears to be a microwave and other miscellaneous items. There's a door in the background and a wall clock.\n*   **Action:** From frames 00:06 to 00:21 A man enters the frame. He's wearing a dark blue shirt and dark pants. He picks up a few of the items from the table, rearranges them, and examines them.\n\n*   **Other Details:**\n\n    *   The lighting is somewhat dim.\n    *   The camera is stationary.\n    * A bright flash is present in frame 00:12.\n    * A blurred box covers the face of the clock in frame 00:13.\n*   **Confidence Level:** I'm reasonably confident in this description based on the visual information.\n\nLet me know if you want me to focus on a specific aspect or object in the scene."
+  },
+  "scores": {
+    "content_accuracy": 3.8000000000000003,
+    "anomaly_detection": 7.8999999999999995,
+    "confidence_calibration": 4.0,
+    "hallucination": 2.8000000000000003,
+    "overall": 4.625
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 4,
+      "accuracy_score": 3,
+      "detail_level_score": 5,
+      "overall_assessment": "The model's description lacks key actions and elements from the ground truth.",
+      "correctly_described_elements": [
+        "dining room",
+        "man sitting at the table"
+      ],
+      "missing_elements": [
+        "taking off shoes",
+        "putting coffee on the table",
+        "running into the dining room"
+      ],
+      "incorrect_descriptions": [
+        "examining a cup",
+        "leaving the shot"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 8,
+      "accuracy_score": 7,
+      "false_positive_score": 9,
+      "overall_assessment": "The model identified significant anomalies but missed some specific details.",
+      "detected_anomalies": [
+        "digital_noise",
+        "sudden_appearance"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "frame_shuffling",
+        "frame_reversal",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 3,
+      "confidence_appropriateness_score": 5,
+      "calibration_score": 4,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks confidence in its assessments, leading to calibration issues.",
+      "uncertainty_indicators": [
+        "incomplete activity recognition",
+        "lack of detail in actions"
+      ],
+      "confidence_indicators": [
+        "description of the scene",
+        "identification of main activity"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "overconfidence in scene description"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 4,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and items present in the video.",
+      "hallucinated_elements": [
+        "vase of white flowers",
+        "box of Reese's Puffs cereal",
+        "canister",
+        "blue cup",
+        "bowls",
+        "papers",
+        "desk",
+        "computer",
+        "wall clock",
+        "picture"
+      ],
+      "factual_errors": [
+        "man sitting at the table",
+        "examining an item",
+        "walking out of the shot"
+      ],
+      "speculative_content": [
+        "neutral-colored walls",
+        "cluttered with various items",
+        "red cloth draping part of the table"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:09:36.890749"
+}

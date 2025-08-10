@@ -1,0 +1,110 @@
+{
+  "video_name": "anomaly_video_0012.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0012.mp4",
+    "original_video_id": "F56YP",
+    "original_scene": "Stairs",
+    "original_script": "A person is closing a box and sneezing, then kissing a picture in a glass frame on the stairs.",
+    "combined_video_id": "4Q3N9",
+    "combined_script": "As the person walks into the closet smiling, they realized the glass mirror is dirty and starts laughing.",
+    "original_actions": "c039 0.00 4.80;c040 0.00 9.00;c084 8.30 17.00;c042 0.00 9.70;c088 7.70 17.00;c083 7.50 13.60;c086 13.50 17.00",
+    "decoded_actions": "c039 0.00 4.80 (Closing a box);c040 0.00 9.00 (Holding a box);c084 8.30 17.00 (Holding a picture);c042 0.00 9.70 (Putting a box somewhere);c088 7.70 17.00 (Watching/looking at a picture);c083 7.50 13.60 (Reaching for and grabbing a picture);c086 13.50 17.00 (Putting a picture somewhere)",
+    "anomalies_applied": "combined_videos_F56YP_4Q3N9;object_insertion;noise_injection;combined_scenes_Stairs_Bedroom;frame_shuffling;geometric_distortion;color_shift",
+    "anomaly_timestamps": "scene_mixing 15.58 35.80;video_combination 0.00 35.80;frame_shuffling 0.00 3.57;frame_shuffling 3.57 7.14;frame_shuffling 7.14 10.71;frame_shuffling 10.71 14.28;frame_shuffling 14.28 17.85;frame_shuffling 17.85 21.42;frame_shuffling 21.42 24.99;frame_shuffling 24.99 28.56;frame_shuffling 28.56 32.13;frame_shuffling 32.13 35.70;frame_shuffling 35.70 35.80;object_insertion 0.00 1.00;color_shift 0.03 1.03;noise_injection 0.03 1.03;geometric_distortion 0.23 1.23;noise_injection 0.33 1.33;geometric_distortion 0.63 1.63;color_shift 1.03 2.03;object_insertion 1.13 2.13;object_insertion 1.17 2.17;object_insertion 1.67 2.67;color_shift 1.97 2.97;noise_injection 2.00 3.00;object_insertion 2.07 3.07;object_insertion 2.77 3.77;color_shift 3.07 4.07;color_shift 3.24 4.24;noise_injection 3.47 4.47;noise_injection 3.57 4.57;noise_injection 3.64 4.64;noise_injection 3.74 4.74;object_insertion 3.97 4.97;object_insertion 4.00 5.00;geometric_distortion 4.74 5.74;object_insertion 5.04 6.04;object_insertion 6.14 7.14;color_shift 6.97 7.97;object_insertion 7.91 8.91;noise_injection 7.94 8.94;color_shift 8.17 9.17;geometric_distortion 8.78 9.78;object_insertion 9.04 10.04;noise_injection 9.78 10.78;color_shift 10.48 11.48;noise_injection 10.64 11.64;noise_injection 10.71 11.71;object_insertion 10.94 11.94;color_shift 11.28 12.28;object_insertion 11.51 12.51;object_insertion 11.58 12.58;object_insertion 12.25 13.25;color_shift 12.61 13.61;geometric_distortion 13.05 14.05;object_insertion 13.61 14.61;geometric_distortion 13.71 14.71;color_shift 13.75 14.75;geometric_distortion 13.85 14.85;noise_injection 13.98 14.98;geometric_distortion 14.21 15.21;noise_injection 15.05 16.05;geometric_distortion 15.78 16.78;color_shift 16.15 17.15;object_insertion 16.18 17.18;geometric_distortion 16.42 17.42;geometric_distortion 16.85 17.85;object_insertion 17.48 18.48;noise_injection 17.52 18.52;object_insertion 17.85 18.85;object_insertion 18.15 19.15;noise_injection 18.28 19.28;object_insertion 18.72 19.72;noise_injection 20.15 21.15;noise_injection 20.25 21.25;object_insertion 20.42 21.42;geometric_distortion 20.45 21.45;object_insertion 20.52 21.52;geometric_distortion 20.55 21.55;color_shift 20.99 21.99;noise_injection 21.09 22.09;color_shift 21.12 22.12;object_insertion 21.15 22.15;color_shift 21.19 22.19;noise_injection 21.69 22.69;geometric_distortion 22.82 23.82;noise_injection 23.69 24.69;color_shift 24.16 25.16;object_insertion 24.39 25.39;object_insertion 24.56 25.56;noise_injection 24.59 25.59;object_insertion 24.69 25.69;noise_injection 24.82 25.82;noise_injection 25.53 26.53;color_shift 25.56 26.56;object_insertion 25.89 26.89;object_insertion 25.99 26.99;object_insertion 26.09 27.09;color_shift 26.56 27.56;geometric_distortion 26.56 27.56;object_insertion 27.09 28.09;color_shift 27.16 28.16;object_insertion 27.56 28.56;color_shift 27.63 28.63;color_shift 27.69 28.69;color_shift 27.89 28.89;noise_injection 27.89 28.89;color_shift 28.80 29.80;noise_injection 28.83 29.83;object_insertion 28.93 29.93;object_insertion 29.30 30.30;object_insertion 29.66 30.66;object_insertion 30.23 31.23;object_insertion 30.60 31.60;color_shift 30.73 31.73;noise_injection 31.43 32.43;object_insertion 31.50 32.50;object_insertion 32.33 33.33;geometric_distortion 32.40 33.40;object_insertion 33.00 34.00;object_insertion 33.10 34.10;noise_injection 33.17 34.17;object_insertion 33.77 34.77;noise_injection 33.97 34.97;noise_injection 34.63 35.63;object_insertion 34.87 35.87;color_shift 34.87 35.87;object_insertion 34.97 35.97;geometric_distortion 34.97 35.97;noise_injection 35.20 36.20;object_insertion 35.24 36.24;geometric_distortion 35.44 36.44;object_insertion 35.74 36.74",
+    "anomaly_count": 7
+  },
+  "responses": {
+    "basic_description": "Here's a breakdown of the video:\n\n**Part 1 (0:00-0:13):**\n\n*   **Setting:** The video appears to be shot indoors, specifically on a carpeted staircase in a house. The staircase has wooden railings with decorative spindles.\n*   **Subject:** A young man is sitting on one of the steps. He's wearing a dark-colored hooded jacket.\n*   **Activity:** The young man is holding a small cardboard box, which looks like an Amazon package. He opens it and removes a picture frame. He examines the frame, looks at its front and back, adjusts the stand, and holds it up to his face.\n\n**Part 2 (0:14-0:35):**\n\n*   **Setting:** The scene shifts to a bedroom, lit by warm-toned lighting. There's a mirror on the wall, and several framed pictures. A dresser is visible in the background.\n*   **Subject:** A man, presumably older than the first, enters the room. He's wearing a light-colored t-shirt and glasses.\n*   **Activity:** The second man walks over to the mirror and adjusts something near his shirt or belt. He then walks towards a door, exits the room, and the camera view rests on the dresser and the doorway.\n\n**Overall Analysis:**\n\n*   **Unboxing:** The first part of the video is a typical unboxing segment, where someone is revealing the contents of a recently received package.\n*   **Room Transition:** The video cuts abruptly to a different room, suggesting a change in subject or location.\n*   **Mirror and Exit:** The second man's actions seem mundane \u2013 he's simply adjusting his appearance briefly before leaving the room.\n\nWithout further context, it's difficult to determine the relationship between the two men or the purpose of the video. It could be a vlog-style video with different segments, or perhaps a test video showcasing different rooms in a house.",
+    "anomaly_detection": "Okay, I've analyzed the video and here's what I've noticed:\n\n**Unusual Elements & Potential Anomalies:**\n\n*   **Sudden Video Quality Change (Frame 3):** There's a brief but intense burst of video noise/grain/artifacting at the 0:03 mark. It's significant enough to suggest a potential editing point or corruption in the video file.\n*   **Sudden Scene Change (Frame 14):** At timestamp 0:14 the video switches to another scene abruptly. This is another obvious edit point.\n*   **Green Screen (Frame 17):** A green screen filter is applied on the painting in the center\n*   **Gray Screen (Frame 31):** A gray screen filter is applied on the table\n\n**Other Observations:**\n\n*   **The Stairs Scene:** The initial part of the video features a young man sitting on the stairs. He appears to be holding and manipulating a box.\n*   **The Bedroom Scene:** The video goes into a room with a lamp and a table at timestamp 0:14\n*   **Lighting:** The lighting is very warm in the bedroom scene.\n\nIn summary, the video appears to have been edited. The sudden change and burst of artifacts suggests that parts of the video may have been manipulated or altered.",
+    "temporal_analysis": "The video appears to be playing normally, with no obvious signs of reversed playback or shuffled frames. However, there is a brief moment around the 3-second mark where there's significant digital noise or artifacting that obscures the image momentarily, but this appears to be a data corruption issue rather than intentional manipulation of the temporal order. The rest of the video flows smoothly in a forward direction.",
+    "spatial_analysis": "Here's an analysis of the video:\n\n**Scene Description:**\n\n*   **Initial scene:** A person sits on a staircase inside a house. There's an Amazon cardboard box in their lap. The staircase has wooden railings and the steps are carpeted.\n*   **Later Scene:** The camera shifts to a room with an orange lighting. There's a mirror, artwork on the walls, a dresser with items on it, and a lamp in the room. A person walks into the room and touches the mirror.\n\n**Objects that Don't Belong/Contextual Analysis:**\n\n*   In the initial scene of the staircase, there is nothing that obviously \"doesn't belong\". All of the objects are typical items found in that area.\n\n**Color Distortions and Visual Artifacts:**\n\n*   The color balance in the first scene seems fairly normal, but in the second the room is strongly colored orange. This could be due to lighting conditions or the white balance setting on the camera.\n*   The video quality is generally low, with some graininess or blurriness evident, especially in the low-light portions.\n\n**Specific observations:**\n\n*   The shift in scene from the staircase to the room is a sudden change.\n*   The second room has a very strong orange/yellow cast.\n\nIn summary, the video seems generally normal. There are no objects which would be out of place for these scenes, but there are issues related to lighting and color balance.",
+    "semantic_analysis": "The sequence of events in the video proceeds as follows:\n\n1.  A person is sitting on the stairs holding an Amazon shipping box.\n\n2.  The person experiences some strange static disruption in the video.\n\n3.  After the static, the person is still sitting on the stairs with the box.\n\n4.  They pull something out of the box, which is a framed photo. They examine it for a bit, then put it back in the box.\n\n5.  The scene cuts abruptly to an interior room with a warm, yellow lighting.\n\n6.  An older person is standing in front of a mirror. They stare at the reflection and do some finger tapping.\n\n7.  The older person then walks out of the room into an adjacent room.\n\nThe abrupt transition from the person sitting on the stairs opening a package to a completely different individual standing in a bedroom is jarring. There appears to be no clear connection between the two scenes, and there is no narrative or visual cue to explain the jump in location or character. Without more context or narrative, the scene change seems unnatural. It also leaves the viewer questioning the purpose of the opening scene with the box.",
+    "confidence_assessment": "Okay, here is an analysis of the video:\n\n**Initial Scene (0:00-0:13):**\n\n*   **Setting:** The video begins with a young man sitting on the stairs of a house. The stairs have green carpet and a wooden banister.\n*   **Subject:** He is wearing a black hooded sweatshirt.\n*   **Action:** He is holding a small cardboard box, which appears to be an Amazon package based on the markings. He seems to be trying to open the package. There's a brief period (0:03) where there's visual distortion or noise. After opening the box, he takes out a framed picture and shows it to the camera, moving it around slightly.\n\n**Subsequent Scene (0:14-end):**\n\n*   **Setting:** The camera pans to a room with a strong yellow hue.\n*   **Objects:** In the room are a tall mirror with a gold frame, artwork on the walls, a dresser, a table lamp with a bright light, and two doors.\n*   **Subject:** A middle-aged man with dark hair and glasses enters the scene around 0:17 and looks at himself in the mirror. He is wearing a light-colored T-shirt.\n*   **Action:** He adjusts something (potentially his hair or shirt) while looking in the mirror. Then, he walks past the dresser into another room, before the video ends.\n\n**Confidence Level:**\n\nI am highly confident about the details regarding the physical descriptions (clothing, setting, objects) and the actions taking place. The main areas where I have less confidence are:\n\n*   **Intent of Actions:** I can describe what the people *do*, but I can't know their motivation or what they're thinking.\n*   **Exact Identity of the Subjects:** I am estimating age and gender based on visual cues.\n\nIs there any specific part you would like me to elaborate on?"
+  },
+  "scores": {
+    "content_accuracy": 4.800000000000001,
+    "anomaly_detection": 6.9,
+    "confidence_calibration": 5.4,
+    "hallucination": 3.2,
+    "overall": 5.075
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 5,
+      "accuracy_score": 4,
+      "detail_level_score": 6,
+      "overall_assessment": "The model response captures some elements of the video but misses key actions and context.",
+      "correctly_described_elements": [
+        "holding a box",
+        "examining a picture frame"
+      ],
+      "missing_elements": [
+        "sneezing",
+        "kissing a picture",
+        "putting a box somewhere"
+      ],
+      "incorrect_descriptions": [
+        "second man adjusting appearance",
+        "room transition unrelated to main actions"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 7,
+      "accuracy_score": 6,
+      "false_positive_score": 8,
+      "overall_assessment": "The model identified some anomalies but missed key ones and included some false positives.",
+      "detected_anomalies": [
+        "Sudden Video Quality Change",
+        "Sudden Scene Change"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "frame_shuffling",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": [
+        "Green Screen",
+        "Gray Screen"
+      ]
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 5,
+      "confidence_appropriateness_score": 6,
+      "calibration_score": 5,
+      "overall_assessment": "The model shows moderate recognition of uncertainty but lacks clarity in connecting actions and subjects.",
+      "uncertainty_indicators": [
+        "ambiguous relationship between subjects",
+        "lack of context for actions"
+      ],
+      "confidence_indicators": [
+        "detailed description of settings",
+        "identification of activities"
+      ],
+      "calibration_issues": [
+        "inconsistent scene transitions",
+        "unclear purpose of video segments"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 4,
+      "speculation_control_score": 5,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and subjects in the video.",
+      "hallucinated_elements": [
+        "second man",
+        "bedroom setting"
+      ],
+      "factual_errors": [
+        "no sneezing or kissing a picture",
+        "incorrect subject description"
+      ],
+      "speculative_content": [
+        "relationship between the two men",
+        "purpose of the video"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:05:19.040651"
+}

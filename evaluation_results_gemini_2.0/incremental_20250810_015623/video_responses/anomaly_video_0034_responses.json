@@ -1,0 +1,108 @@
+{
+  "video_name": "anomaly_video_0034.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0034.mp4",
+    "original_video_id": "GHJCC",
+    "original_scene": "Bedroom",
+    "original_script": "A person is lying on a sofa watch a television and throws a pillow at the tv.",
+    "combined_video_id": "U45LK",
+    "combined_script": "A person is standing in a closet organizing their wardrobe. As they are leaving, they close the door.",
+    "original_actions": "c122 0.00 24.20;c076 0.00 32.00;c135 0.00 24.20;c078 0.00 24.30;c134 0.00 24.50;c079 21.40 27.30;c154 20.00 27.20;c132 0.00 23.40;c077 19.90 32.00",
+    "decoded_actions": "c122 0.00 24.20 (Lying on a sofa/couch);c076 0.00 32.00 (Holding a pillow);c135 0.00 24.20 (Sitting in a bed);c078 0.00 24.30 (Snuggling with a pillow);c134 0.00 24.50 (Lying on a bed);c079 21.40 27.30 (Taking a pillow from somewhere);c154 20.00 27.20 (Someone is standing up from somewhere);c132 0.00 23.40 (Watching television);c077 19.90 32.00 (Putting a pillow somewhere)",
+    "anomalies_applied": "object_insertion;combined_videos_GHJCC_U45LK;speed_change;noise_injection;combined_scenes_Bedroom_Closet / Walk-in closet / Spear closet;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "scene_mixing 31.45 81.79;video_combination 0.00 81.79;frame_reversal 0.00 81.79;speed_change 0.00 81.79;color_shift 0.18 1.18;color_shift 0.24 1.24;geometric_distortion 0.84 1.84;object_insertion 2.04 3.04;color_shift 2.04 3.04;color_shift 2.10 3.10;color_shift 3.30 4.30;color_shift 4.08 5.08;noise_injection 4.44 5.44;geometric_distortion 4.56 5.56;object_insertion 4.62 5.62;color_shift 5.40 6.40;object_insertion 6.90 7.90;color_shift 6.90 7.90;color_shift 7.14 8.14;geometric_distortion 7.38 8.38;geometric_distortion 8.10 9.10;object_insertion 10.26 11.26;geometric_distortion 10.26 11.26;noise_injection 10.92 11.92;noise_injection 11.64 12.64;geometric_distortion 12.66 13.66;color_shift 13.32 14.32;noise_injection 13.50 14.50;geometric_distortion 14.64 15.64;geometric_distortion 15.00 16.00;object_insertion 15.42 16.42;geometric_distortion 16.32 17.32;noise_injection 16.38 17.38;geometric_distortion 16.86 17.86;noise_injection 16.86 17.86;object_insertion 17.52 18.52;color_shift 18.18 19.18;noise_injection 18.60 19.60;color_shift 18.96 19.96;object_insertion 19.02 20.02;noise_injection 19.44 20.44;object_insertion 19.56 20.56;geometric_distortion 19.68 20.68;noise_injection 19.86 20.86;object_insertion 19.98 20.98;geometric_distortion 20.22 21.22;color_shift 20.70 21.70;noise_injection 21.72 22.72;geometric_distortion 23.46 24.46;color_shift 23.70 24.70;object_insertion 24.06 25.06;geometric_distortion 24.12 25.12;geometric_distortion 25.14 26.14;color_shift 26.04 27.04;color_shift 27.00 28.00;color_shift 27.12 28.12;color_shift 27.60 28.60;object_insertion 28.02 29.02;noise_injection 28.50 29.50;object_insertion 28.74 29.74;noise_injection 29.52 30.52;object_insertion 29.82 30.82;color_shift 29.82 30.82;color_shift 30.06 31.06;object_insertion 30.42 31.42;color_shift 31.57 32.57;geometric_distortion 31.93 32.93;object_insertion 31.99 32.99;noise_injection 32.59 33.59;object_insertion 32.71 33.71;geometric_distortion 33.43 34.43;object_insertion 33.61 34.61;color_shift 33.61 34.61;object_insertion 34.45 35.45;geometric_distortion 34.81 35.81;noise_injection 34.81 35.81;color_shift 35.47 36.47;color_shift 35.65 36.65;geometric_distortion 36.01 37.01;noise_injection 36.01 37.01;geometric_distortion 36.31 37.31;geometric_distortion 36.85 37.85;noise_injection 37.63 38.63;object_insertion 38.11 39.11;noise_injection 39.31 40.31;color_shift 39.37 40.37;noise_injection 40.09 41.09;noise_injection 40.75 41.75",
+    "anomaly_count": 8
+  },
+  "responses": {
+    "basic_description": "Here's a detailed description of what I see in the video:\n\n**Setting:**\n\nThe video appears to be shot in a small, simply furnished room. The walls are painted a light pink or peach color. There's a window with a barred frame, electrical outlets and switches, and a small TV mounted on the wall. A mirror is also hanging on the wall. The room contains a single bed with white bedding.\n\n**Activities:**\n\n*   **Initial Standing:** The video starts with a man standing in the room. He's wearing a dark blue jacket over a shirt with patterned cuffs and blue jeans. He's holding a folded white sheet.\n*   **Movement and Adjustment:** The man moves around, trying to arrange the white sheet in a way that seems comfortable for him.\n*   **Lying Down:** Eventually, he sits on the bed and uses the white sheet as a makeshift pillow or cushion. He leans back against the wall and gets into a more comfortable, reclining position.\n*   **Relaxation:** He relaxes in the bed for some time.\n*   **Movement:** He moves and shifts his weight. He seems to be getting comfortable, and eventually appears to settle down.\n\n**Overall Impression:**\n\nThe video gives the impression of someone trying to make themselves comfortable in a basic room. The man seems to be improvising with the white sheet to create a more relaxed or comfortable seating arrangement.",
+    "anomaly_detection": "Here's a detailed analysis of the video:\n\n**Summary**\n\nThe video shows a man in a room. He initially walks around, interacts with a white cloth, sits on a bed, and eventually reclines against the wall.\n\n**Possible Unusual Aspects**\n\n*   **The cloth:** The man's purpose or intention with the white cloth is unclear. The way he handles it might seem unusual.\n*   **Room:** The room itself looks quite basic or perhaps from a budget hotel. The overall setting lacks detail.\n\n**Visual Anomalies and Distortions**\n\n*   **Low Video Quality:** The video is of low resolution, which makes it harder to perceive details and identify potential visual anomalies.\n*   **Lighting:** The lighting appears somewhat inconsistent and might contribute to the perceived lower quality.\n*   **Camera Instability:** The video seems to be taken from an unsteady camera, which leads to shakiness and quick changes in perspective.\n\n**Conclusion**\n\nThe \"unusual\" aspect of the video lies mostly in the man's seemingly random actions with the cloth and the general, basic nature of the room. However, the video is normal and there are no suspicious distortions or anomalies.",
+    "temporal_analysis": "The video appears to be playing normally. There are no obvious signs of reversed playback or shuffled frames. The actions of the person in the video seem natural and follow a logical sequence.",
+    "spatial_analysis": "Here's a detailed analysis of the provided video:\n\n**Objects that might seem out of place:**\n\n*   **The laptop** (appears around 0:02): While laptops are common in many settings, depending on the context (e.g., a hostel room vs. a luxury hotel room), it might be more or less expected.\n\n*   **The electrical wiring/outlets on the wall:** These are fairly standard, but the way they're situated and how the wires are connected can sometimes seem a bit messy or haphazard, depending on the standard of the room.\n\n**Color Distortions/Visual Artifacts:**\n\n*   **Overall Color Cast:** The video has a distinct warm color cast (leaning towards yellow/orange). This could be due to the lighting in the room or the camera's white balance settings.\n\n*   **Resolution/Quality:** The video's resolution is low, leading to a lack of sharpness and some pixelation. This is most evident when looking at finer details.\n\n*   **Blur:** There's some motion blur, especially when the man is moving quickly. This is a typical artifact in videos with lower frame rates or slower shutter speeds.\n\nIn terms of whether these things \"belong,\" it's a judgment call based on what the scene is supposed to depict. If this is meant to be a high-end hotel room, the wiring and image quality might be considered a flaw. In a simpler setting, they would be normal. The video is very casual.",
+    "semantic_analysis": "Here's a breakdown of the video and the logic of its progression:\n\n**Description of Events:**\n\nThe video appears to show a man in a room, seemingly a hotel room.\n\n*   **0:00-0:02:** The man is seen moving around, initially holding a white sheet-like object. He's near a television and then moves towards a desk area.\n*   **0:02-0:06:** The man moves toward a bed.\n*   **0:06-0:15:** The man sits, then lies down on the bed and leans against the wall. He appears to try and get comfortable.\n\n**Logical Sense:**\n\nThe sequence of events is generally logical. A person enters a room, is holding a sheet, and eventually ends up relaxing on the bed.\n\n**Scene Transitions:**\n\nThe video doesn't have any cuts, so there are no scene transitions in the typical cinematic sense. The camera remains in the same position.\n\n**Abruptness or Unnatural Elements:**\n\n*   The only slightly odd thing is the man holding the sheet. There's no clear explanation for this within the video itself.\n*   However, this isn't abrupt or unnatural. It may imply he's just found it, and is looking for the right way to place it to be comfy.\n\n**Overall:** The sequence of events is logical and follows a natural progression. There are no jarring transitions, as the video is essentially a single shot. The only slightly unclear element is the man and the sheet, but even that doesn't significantly disrupt the flow or logic of the video.",
+    "confidence_assessment": "Here is a detailed description of the video:\n\nThe video appears to be taken in a small, simply furnished room, likely a hotel room or a similar budget lodging. The walls are a pale pinkish-beige color.\n\nAt the start of the video, a man is standing in the room, facing away from the camera. He's holding a white sheet or large piece of cloth. A television is mounted on the wall to his right, displaying what appears to be a game show. There's a window to his left with a partially visible view of the outside.\n\nThe man turns around, revealing that he's wearing a black shirt, blue jeans and has short dark hair. He struggles with the white sheet, seemingly trying to make a pillowcase out of it.\n\nHe then moves towards a single bed, which is covered with a white sheet and has a green plaid blanket lying on it. He puts the white material that he was trying to modify on top of the pillow, lies down on the bed, leans back against the wall, and rests his head. He seems to be relaxing and enjoying his time.\n\nHe remains lying down for the remainder of the video, occasionally shifting his position. A dark brown trash can is sitting in the corner. The video ends with him lying down, seemingly content.\n\nConfidence level: High. I am quite confident in the accuracy of the description. The details are clearly visible in the video."
+  },
+  "scores": {
+    "content_accuracy": 2.2,
+    "anomaly_detection": 3.8000000000000003,
+    "confidence_calibration": 2.4,
+    "hallucination": 2.2,
+    "overall": 2.6500000000000004
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 2,
+      "accuracy_score": 2,
+      "detail_level_score": 3,
+      "overall_assessment": "The model's description does not accurately reflect the actions and setting described in the ground truth.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "lying on a sofa",
+        "throwing a pillow at the TV",
+        "watching television"
+      ],
+      "incorrect_descriptions": [
+        "man standing in the room",
+        "using a white sheet as a pillow",
+        "relaxing in bed"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 2,
+      "accuracy_score": 4,
+      "false_positive_score": 8,
+      "overall_assessment": "The model failed to identify the actual anomalies present in the video and provided an inaccurate description.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "speed_change",
+        "noise_injection",
+        "frame_reversal",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": [
+        "low video quality",
+        "lighting",
+        "camera instability"
+      ]
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 2,
+      "confidence_appropriateness_score": 3,
+      "calibration_score": 2,
+      "overall_assessment": "The model's response shows significant misalignment with the ground truth, indicating low confidence calibration.",
+      "uncertainty_indicators": [
+        "Inaccurate description of actions",
+        "Mismatch with ground truth scene"
+      ],
+      "confidence_indicators": [
+        "Detailed setting description",
+        "Describes activities in the video"
+      ],
+      "calibration_issues": [
+        "Overconfidence in the accuracy of actions",
+        "Failure to recognize discrepancies with ground truth"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 2,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and setting described in the ground truth.",
+      "hallucinated_elements": [
+        "man standing",
+        "white sheet",
+        "bed with white bedding"
+      ],
+      "factual_errors": [
+        "person lying on a sofa",
+        "throwing a pillow at the tv"
+      ],
+      "speculative_content": [
+        "trying to arrange the white sheet",
+        "improvising with the white sheet"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:20:04.354499"
+}

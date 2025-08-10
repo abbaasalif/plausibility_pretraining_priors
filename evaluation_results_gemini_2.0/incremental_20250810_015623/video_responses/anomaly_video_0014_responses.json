@@ -1,0 +1,105 @@
+{
+  "video_name": "anomaly_video_0014.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0014.mp4",
+    "original_video_id": "I77FD",
+    "original_scene": "Living room",
+    "original_script": "One person is laughing and fixing a desk as another person is washing a table with dishes on it.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c119 9.00 20.00;c013 1.30 20.80;c009 0.00 31.00;c118 0.40 31.00;c014 0.00 31.00;c012 3.80 31.00;c120 5.70 11.20;c038 0.00 31.00",
+    "decoded_actions": "c119 9.00 20.00 (Putting a dish/es somewhere);c013 1.30 20.80 (Washing a table);c009 0.00 31.00 (Putting something on a table);c118 0.40 31.00 (Holding a dish);c014 0.00 31.00 (Working at a table);c012 3.80 31.00 (Tidying up a table);c120 5.70 11.20 (Taking a dish/es from somewhere);c038 0.00 31.00 (Washing something with a towel)",
+    "anomalies_applied": "object_insertion;temporal_cut;noise_injection;geometric_distortion;color_shift",
+    "anomaly_timestamps": "temporal_cut 7.38 22.19;object_insertion 0.00 1.00;noise_injection 0.42 1.42;noise_injection 0.75 1.75;noise_injection 1.17 2.17;geometric_distortion 1.63 2.63;object_insertion 2.50 3.50;color_shift 3.34 4.34;color_shift 3.46 4.46;object_insertion 3.71 4.71;noise_injection 3.75 4.75;object_insertion 4.25 5.25;color_shift 4.63 5.63;object_insertion 4.92 5.92;color_shift 5.26 6.26;geometric_distortion 5.26 6.26;object_insertion 5.34 6.34;noise_injection 5.55 6.55;color_shift 5.96 6.96;object_insertion 7.01 8.01;noise_injection 7.55 8.55;object_insertion 7.63 8.63;noise_injection 7.76 8.76;object_insertion 7.92 8.92;geometric_distortion 8.01 9.01;object_insertion 8.22 9.22;color_shift 8.55 9.55;object_insertion 8.88 9.88;object_insertion 9.47 10.47;noise_injection 10.43 11.43;color_shift 10.47 11.47;color_shift 10.93 11.93;geometric_distortion 11.26 12.26;color_shift 11.80 12.80;noise_injection 12.18 13.18;object_insertion 12.35 13.35;color_shift 12.43 13.43;color_shift 12.60 13.60;color_shift 12.76 13.76;geometric_distortion 13.14 14.14;object_insertion 13.47 14.47;noise_injection 13.60 14.60;color_shift 13.93 14.93",
+    "anomaly_count": 5
+  },
+  "responses": {
+    "basic_description": "Here is a detailed description of what I see in the video:\n\n**Setting:**\n\n*   The video is shot indoors, likely in a room of a house. The room appears somewhat cluttered, with boxes, bags, and other items stacked against the walls.\n*   There is a window with a barred security grill visible in the background.\n*   The floor has a marbled or swirled pattern.\n*   Furniture visible includes wooden chairs, and a small blue plastic stool on which there is a small plate, and a bowl of yellow fruit (likely oranges or mangoes). There's also a brown folding table.\n*   A vacuum cleaner is sitting on the floor.\n\n**People:**\n\n*   There are two men in the video.\n*   One man is wearing an orange t-shirt and dark pants.\n*   The other man is wearing a white tank top and dark pants.\n\n**Activities:**\n\n*   Both men are shown rummaging through boxes and containers. They seem to be searching for something or organizing the items.\n*   The man in the white tank top is standing next to the brown folding table. He is moving items around on the table and in the boxes nearby.\n*   The man in the orange t-shirt is bending over boxes and seems to be sorting through the contents.\n*   At times, they are handling what appears to be packaged food or snacks.\n*   The overall activity appears to be a clean-up, unpacking, or organizing process.",
+    "anomaly_detection": "After analyzing the video, nothing seems overtly unusual or out of place for the scenario depicted. The room appears to be cluttered with various items, indicating it might be a storage area or a room that's undergoing some organization.\n\nHere are some observations:\n*   **Cluttered Environment**: There are boxes, bags, a vacuum cleaner, and other items scattered around the room. This isn't necessarily unusual, especially if the room is being used for storage.\n*   **Two Individuals**: Two men are present, seemingly going through the contents of the boxes.\n*   **Household Items**: The presence of a table, chairs, and household appliances suggests the room is part of a home.\n*   **Lighting**: The lighting is normal for an indoor environment.\n*   **No Visual Distortions**: There aren't any obvious visual distortions or anomalies in the video. The camera angle and quality seem standard.\n\nIn conclusion, based solely on visual inspection, the video doesn't contain anything that would immediately raise red flags or suggest something unusual is happening. The scene appears to depict a typical domestic environment with people engaged in cleaning or organizing.",
+    "temporal_analysis": "After analyzing the video, it appears to be playing normally. There are no obvious signs of reversed playback or shuffled frames. The movements of the people in the video seem natural and consistent with real-time motion. Therefore, the video seems to be playing in the correct temporal order.",
+    "spatial_analysis": "Here's an analysis of the provided video:\n\n**Objects that might seem out of place:**\n\n*   **General Clutter:** The room is quite cluttered. The presence of boxes, plastic bags, random items piled up, and what appears to be a vacuum cleaner in the middle of the room might suggest a disorganized or storage space.\n\n*   **Oranges on a stool:** The presence of a bowl of oranges on a small stool seems unusual given the overall clutter. It could be considered an odd arrangement.\n\n*   **Chairs:** The number of chairs in the scene seems excessive for such a small space. There's a set against the wall and another small stool with a bowl of fruit.\n\n**Color Distortions and Visual Artifacts:**\n\n*   The video appears to have slight color variations at different points (slight yellow, green and sometimes normal color) which can be due to white balance adjustments or camera settings.\n\n*   The overall video quality is adequate but not exceptionally high definition.\n\n**Overall Impression:**\n\nThe room gives off a sense of being used for storage or currently undergoing a de-cluttering process. The items themselves don't inherently seem \"wrong,\" but the arrangement and volume of items crammed into the space might be considered unusual.",
+    "semantic_analysis": "The video shows two men in a cluttered room. Both men are leaning forward and looking into boxes or containers. One of the men is standing next to a small wooden table and appears to be sorting through items. The sequence of events is straightforward: the men are simply going through their belongings. There are no scene transitions in the video. Based on the single view that has been provided, the sequence of events is logical and there aren't any transitions or edits that need to be analyzed.",
+    "confidence_assessment": "Here is a description of the video:\n\n**General Description:**\nThe video shows two men in a cluttered room. They appear to be involved in some sort of task or organizing/cleaning. The overall impression is one of a somewhat messy or crowded space.\n\n**Visual Details:**\n\n*   **People:** Two men are present. One is wearing an orange t-shirt and black pants, while the other wears a white tank top and black shorts.\n*   **Setting:** The video appears to be shot indoors, likely in a room in a home or apartment.\n*   **Objects and Clutter:** The room is filled with various objects including:\n    *   Cardboard boxes of different sizes\n    *   A vacuum cleaner\n    *   A small blue stool with a bowl of fruit on it\n    *   A small brown table with Tamil writing on it\n    *   Bottles (one filled with a yellow/orange liquid)\n    *   Loose items piled in boxes\n    *   Chairs in the background\n*   **Activity:** The men are bent over, looking through or working with the items in the room.\n\nIf you need further description of any specific moment in the video please let me know!"
+  },
+  "scores": {
+    "content_accuracy": 2.8,
+    "anomaly_detection": 3.5,
+    "confidence_calibration": 4.2,
+    "hallucination": 2.2,
+    "overall": 3.175
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 3,
+      "accuracy_score": 2,
+      "detail_level_score": 4,
+      "overall_assessment": "The model response contains significant inaccuracies and misses key elements from the ground truth.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "laughing person",
+        "washing table",
+        "dishes",
+        "living room setting"
+      ],
+      "incorrect_descriptions": [
+        "two men rummaging through boxes",
+        "cluttered room with vacuum cleaner"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 0,
+      "accuracy_score": 5,
+      "false_positive_score": 10,
+      "overall_assessment": "The model failed to detect any anomalies despite the presence of multiple identified issues.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "temporal_cut",
+        "noise_injection",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 5,
+      "calibration_score": 3,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks confidence in its assessment of the actions and context.",
+      "uncertainty_indicators": [
+        "incomplete action recognition",
+        "ambiguous scene description"
+      ],
+      "confidence_indicators": [
+        "detailed setting description",
+        "identification of people"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "failure to address anomalies"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 2,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions.",
+      "hallucinated_elements": [
+        "vacuum cleaner",
+        "packaged food or snacks",
+        "boxes and containers"
+      ],
+      "factual_errors": [
+        "two men",
+        "orange t-shirt",
+        "white tank top"
+      ],
+      "speculative_content": [
+        "searching for something",
+        "clean-up",
+        "unpacking"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:06:40.542371"
+}

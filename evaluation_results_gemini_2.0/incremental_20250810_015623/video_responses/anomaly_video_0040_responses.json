@@ -1,0 +1,108 @@
+{
+  "video_name": "anomaly_video_0040.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0040.mp4",
+    "original_video_id": "F56YP",
+    "original_scene": "Stairs",
+    "original_script": "A person is closing a box and sneezing, then kissing a picture in a glass frame on the stairs.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c039 0.00 4.80;c040 0.00 9.00;c084 8.30 17.00;c042 0.00 9.70;c088 7.70 17.00;c083 7.50 13.60;c086 13.50 17.00",
+    "decoded_actions": "c039 0.00 4.80 (Closing a box);c040 0.00 9.00 (Holding a box);c084 8.30 17.00 (Holding a picture);c042 0.00 9.70 (Putting a box somewhere);c088 7.70 17.00 (Watching/looking at a picture);c083 7.50 13.60 (Reaching for and grabbing a picture);c086 13.50 17.00 (Putting a picture somewhere)",
+    "anomalies_applied": "object_insertion;noise_injection;color_shift;geometric_distortion",
+    "anomaly_timestamps": "noise_injection 0.07 1.07;color_shift 0.10 1.10;noise_injection 0.60 1.60;noise_injection 1.97 2.97;color_shift 2.24 3.24;geometric_distortion 2.30 3.30;geometric_distortion 2.40 3.40;object_insertion 2.97 3.97;object_insertion 3.14 4.14;color_shift 3.14 4.14;object_insertion 3.30 4.30;color_shift 3.34 4.34;noise_injection 3.57 4.57;noise_injection 3.67 4.67;color_shift 4.24 5.24;noise_injection 4.60 5.60;geometric_distortion 4.87 5.87;color_shift 5.07 6.07;object_insertion 5.61 6.61;geometric_distortion 5.74 6.74;object_insertion 5.77 6.77;object_insertion 6.97 7.97;color_shift 8.11 9.11;color_shift 8.51 9.51;noise_injection 8.94 9.94;object_insertion 9.71 10.71;geometric_distortion 10.21 11.21;noise_injection 10.38 11.38;object_insertion 10.84 11.84;color_shift 10.91 11.91;color_shift 10.94 11.94;object_insertion 11.11 12.11;object_insertion 11.14 12.14;object_insertion 11.24 12.24;object_insertion 11.31 12.31;color_shift 11.61 12.61;noise_injection 11.98 12.98;object_insertion 12.11 13.11;geometric_distortion 12.15 13.15;object_insertion 12.25 13.25;object_insertion 12.28 13.28;color_shift 12.28 13.28;geometric_distortion 12.41 13.41;color_shift 13.18 14.18;noise_injection 13.25 14.25;object_insertion 13.75 14.75;color_shift 14.48 15.48;object_insertion 14.71 15.71;noise_injection 14.78 15.78;noise_injection 15.12 16.12",
+    "anomaly_count": 4
+  },
+  "responses": {
+    "basic_description": "Here's a detailed description of the video:\n\n**Visuals:**\n\n*   **Setting:** The video is shot indoors, presumably inside a house. The subject is sitting on the bottom steps of a staircase. The staircase has wooden banisters and carpeted steps.\n*   **Subject:** A young person with curly hair is sitting facing the camera, wearing a dark hooded sweatshirt.\n*   **Objects:** The subject is holding an Amazon-branded cardboard box. Later, a picture frame is taken out of the box. A backpack can be seen on one of the steps behind the person.\n\n**Activities:**\n\n1.  **Holding the Box:** The video begins with the subject sitting and holding a sealed Amazon box on their lap.\n2.  **Shoulder Movement:** They then briefly rub their shoulder, appearing to have an itch or some discomfort.\n3.  **Opening the Box:** The person proceeds to open the box and removes the cardboard flaps.\n4.  **Revealing the Frame:** The subject removes a framed picture from the box.\n5.  **Examining the Frame:** They hold the frame up, look at the back of it, and then hold it up to their face briefly before looking back at it.\n\n**Analysis:**\n\nThe video is likely an unboxing video. The individual is presumably sharing the experience of receiving a package, specifically a picture frame. The brief shoulder movement seems unrelated to the package opening. The overall tone appears casual and personal.",
+    "anomaly_detection": "Here's an analysis of the video:\n\n**Unusual Aspects and Potential Anomalies:**\n\n*   **The Setting:** The subject is sitting on a chair placed on stairs, which is a bit odd and not a typical setup for a video.\n*  **The package:** The man sitting on stairs is holding and opening up an Amazon package.\n*   **Sudden Cut and Lighting Change (0:14):** At around 0:14 there's a sudden slight shift in the brightness and overall lighting of the image. This could indicate a slight edit or a change in lighting in the environment.\n\n**Summary:**\nThe video is mostly unremarkable. However, the unexpected camera or lighting cut at 0:14 could be a sign of editing.",
+    "temporal_analysis": "The video appears to be playing normally. There are no obvious signs of reversed playback or shuffled frames. The person's movements and actions within the video seem natural and consistent with real-time.",
+    "spatial_analysis": "Here's an analysis of the video you provided:\n\n**Scene Description**\n\n*   **Setting:** The scene is indoors on a set of stairs in a house. The staircase is wooden with carpeted steps.\n*   **Objects:** The main objects in the scene are:\n    *   A person (appears to be a young man) sitting on the stairs.\n    *   An Amazon cardboard box.\n    *   A bag behind the person on the stairs.\n    *   A picture frame.\n    *   Other ordinary items on the stairs, like shoes.\n*   **Activities:** The person is holding an Amazon box. They open it and reveal a picture frame.\n\n**Objects That Might Not Belong (Context-Dependent)**\n\nWithout context, it's difficult to say with certainty what \"doesn't belong.\" Everything visible seems plausible in a home setting.\n\n*   The bag in the background could be perceived as slightly out of place if it's full of things or is not typically stored on the stairs.\n\n**Color Distortions and Visual Artifacts**\n\n*   **Lighting:** The lighting appears somewhat uneven. The scene seems well-lit, but there's a general lack of contrast.\n*   **White Balance:** The white balance appears slightly off. There's a subtle yellowish or greenish tint.\n\nOverall, the video quality is decent but not high definition.\n\nLet me know if you want a deeper dive into any specific aspect!",
+    "semantic_analysis": "The video shows a young man sitting on a staircase, holding a package from Amazon. He then scratches his arm and opens the package. Inside the package, is a picture frame. He looks at it for a brief period.\n\nOverall, the sequence of events is logical and makes sense. The transitions between each event are natural and not abrupt.",
+    "confidence_assessment": "Here's a detailed description of the video, with my confidence level:\n\n**Overall Confidence:** I'm quite confident in this description. The video is short and the main actions are clear.\n\n**Description:**\n\nThe video features a young person sitting on a chair placed on the bottom step of a carpeted staircase. They are wearing a black hooded sweatshirt.\n\nAt the beginning of the video, they are holding a small, rectangular Amazon shipping box. They seem to be scratching at their neck or shoulder with their arm, and then proceed to open the box. They discard the box. Inside the box is a picture frame. The person then holds up the picture frame for closer inspection, revealing the back of the frame. They briefly hold it up in front of their face as if to examine it more closely, then return it to its original position. The frame is brown with a black back and a pop-out stand."
+  },
+  "scores": {
+    "content_accuracy": 5.800000000000001,
+    "anomaly_detection": 4.4,
+    "confidence_calibration": 6.200000000000001,
+    "hallucination": 3.8,
+    "overall": 5.050000000000001
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 6,
+      "accuracy_score": 5,
+      "detail_level_score": 7,
+      "overall_assessment": "The description captures some key elements but misses important actions and context.",
+      "correctly_described_elements": [
+        "holding a box",
+        "holding a picture"
+      ],
+      "missing_elements": [
+        "sneezing",
+        "kissing a picture",
+        "putting a box somewhere",
+        "watching/looking at a picture"
+      ],
+      "incorrect_descriptions": [
+        "shoulder movement",
+        "opening the box",
+        "revealing the frame",
+        "examining the frame"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 3,
+      "accuracy_score": 5,
+      "false_positive_score": 7,
+      "overall_assessment": "The model identified some unusual aspects but missed key anomalies and included some irrelevant observations.",
+      "detected_anomalies": [
+        "lighting_change"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "color_shift",
+        "geometric_distortion"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 6,
+      "confidence_appropriateness_score": 7,
+      "calibration_score": 5,
+      "overall_assessment": "The model demonstrates a moderate level of uncertainty recognition but lacks full confidence in its analysis.",
+      "uncertainty_indicators": [
+        "brief shoulder movement may indicate discomfort",
+        "casual tone suggests uncertainty about the context"
+      ],
+      "confidence_indicators": [
+        "detailed description of visuals",
+        "clear identification of activities"
+      ],
+      "calibration_issues": [
+        "lack of clarity on the relevance of shoulder movement",
+        "assumption of unboxing without explicit confirmation"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 5,
+      "speculation_control_score": 4,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and context.",
+      "hallucinated_elements": [
+        "Amazon-branded cardboard box",
+        "backpack on the steps"
+      ],
+      "factual_errors": [
+        "subject rubbing shoulder",
+        "unboxing video context"
+      ],
+      "speculative_content": [
+        "casual and personal tone",
+        "subject's discomfort"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:23:50.057089"
+}

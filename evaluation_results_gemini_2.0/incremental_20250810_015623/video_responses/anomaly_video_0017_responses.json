@@ -1,0 +1,110 @@
+{
+  "video_name": "anomaly_video_0017.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0017.mp4",
+    "original_video_id": "TETZ7",
+    "original_scene": "Entryway (A hall that is generally located at the entrance of a house)",
+    "original_script": "A person is standing in the entryway looking out the window.  The person grabs their camera and laughs as they leave through the doorway.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c092 0.00 10.40;c097 14.40 23.50;c149 7.00 12.60;c141 14.30 21.60;c152 6.30 12.40;c018 12.50 19.50;c008 14.00 20.60;c015 11.50 17.40",
+    "decoded_actions": "c092 0.00 10.40 (Watching/Looking outside of a window);c097 14.40 23.50 (Walking through a doorway);c149 7.00 12.60 (Someone is laughing);c141 14.30 21.60 (Grasping onto a doorknob);c152 6.30 12.40 (Someone is smiling);c018 12.50 19.50 (Taking a phone/camera from somewhere);c008 14.00 20.60 (Opening a door);c015 11.50 17.40 (Holding a phone/camera)",
+    "anomalies_applied": "object_insertion;speed_change;noise_injection;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_reversal 0.00 22.82;speed_change 0.00 22.82;color_shift 0.43 1.43;color_shift 0.50 1.50;noise_injection 0.80 1.80;noise_injection 0.97 1.97;color_shift 1.03 2.03;object_insertion 2.04 3.04;color_shift 2.27 3.27;geometric_distortion 2.44 3.44;color_shift 2.84 3.84;color_shift 3.24 4.24;noise_injection 3.57 4.57;geometric_distortion 3.64 4.64;color_shift 3.70 4.70;color_shift 4.84 5.84;color_shift 4.90 5.90;object_insertion 5.31 6.31;noise_injection 5.64 6.64;noise_injection 5.74 6.74;object_insertion 6.14 7.14;geometric_distortion 6.27 7.27;object_insertion 6.34 7.34;color_shift 6.47 7.47;noise_injection 6.67 7.67;object_insertion 6.94 7.94;geometric_distortion 7.11 8.11;object_insertion 7.31 8.31;object_insertion 7.37 8.37;object_insertion 7.61 8.61;color_shift 8.04 9.04;noise_injection 8.04 9.04;noise_injection 8.17 9.17;noise_injection 8.27 9.27;color_shift 8.51 9.51;color_shift 8.78 9.78;noise_injection 9.01 10.01;noise_injection 9.08 10.08;color_shift 9.74 10.74;color_shift 10.04 11.04;color_shift 10.28 11.28;noise_injection 10.61 11.61;color_shift 10.64 11.64;object_insertion 10.71 11.71;object_insertion 11.21 12.21;noise_injection 11.31 12.31;noise_injection 11.88 12.88;object_insertion 11.95 12.95;color_shift 12.11 13.11;geometric_distortion 12.28 13.28;object_insertion 12.35 13.35;object_insertion 12.51 13.51;color_shift 12.65 13.65;object_insertion 13.58 14.58;noise_injection 13.65 14.65;noise_injection 13.68 14.68;object_insertion 13.75 14.75;object_insertion 14.61 15.61;color_shift 15.32 16.32;object_insertion 15.45 16.45;noise_injection 15.65 16.65;noise_injection 16.22 17.22;object_insertion 16.25 17.25;color_shift 16.25 17.25;geometric_distortion 16.32 17.32;object_insertion 16.58 17.58;geometric_distortion 16.62 17.62;object_insertion 17.65 18.65;noise_injection 17.72 18.72;noise_injection 17.88 18.88;geometric_distortion 18.12 19.12;geometric_distortion 19.25 20.25;object_insertion 19.39 20.39;color_shift 19.79 20.79;geometric_distortion 21.55 22.55;noise_injection 21.89 22.89;geometric_distortion 21.99 22.99;noise_injection 22.46 23.46;object_insertion 22.82 23.82;object_insertion 23.09 24.09;geometric_distortion 23.12 24.12;noise_injection 23.32 24.32;object_insertion 23.59 24.59;object_insertion 23.62 24.62;noise_injection 23.96 24.96;geometric_distortion 24.02 25.02;object_insertion 24.06 25.06;object_insertion 24.09 25.09;color_shift 24.26 25.26;noise_injection 24.32 25.32;color_shift 24.46 25.46;noise_injection 24.82 25.82;noise_injection 24.89 25.89;object_insertion 25.43 26.43;geometric_distortion 25.69 26.69;noise_injection 27.46 28.46;noise_injection 27.83 28.83;object_insertion 28.06 29.06;noise_injection 28.06 29.06;geometric_distortion 28.53 29.53;object_insertion 28.66 29.66;noise_injection 28.80 29.80;geometric_distortion 29.16 30.16;object_insertion 29.46 30.46;color_shift 30.90 31.90;noise_injection 30.96 31.96;noise_injection 31.23 32.23;object_insertion 31.43 32.43;geometric_distortion 31.50 32.50;geometric_distortion 31.77 32.77;noise_injection 31.87 32.87;object_insertion 32.97 33.97;noise_injection 33.73 34.73;noise_injection 34.13 35.13;geometric_distortion 34.27 35.27;color_shift 34.93 35.93;noise_injection 35.07 36.07;noise_injection 35.14 36.14;object_insertion 35.17 36.17;geometric_distortion 35.20 36.20;color_shift 35.27 36.27;object_insertion 35.44 36.44;noise_injection 35.50 36.50;geometric_distortion 35.70 36.70;object_insertion 35.94 36.94;object_insertion 36.57 37.57;object_insertion 36.84 37.84;color_shift 36.97 37.97;noise_injection 37.07 38.07;object_insertion 37.17 38.17;color_shift 37.27 38.27;object_insertion 37.54 38.54;object_insertion 37.84 38.84;color_shift 37.90 38.90;object_insertion 37.97 38.97;geometric_distortion 38.00 39.00;noise_injection 38.00 39.00;object_insertion 38.44 39.44;color_shift 38.67 39.67;noise_injection 39.71 40.71;color_shift 39.87 40.87;object_insertion 40.47 41.47;object_insertion 40.64 41.64;object_insertion 41.24 42.24;noise_injection 41.67 42.67;object_insertion 42.54 43.54;noise_injection 42.61 43.61;object_insertion 42.71 43.71;noise_injection 43.01 44.01;geometric_distortion 43.04 44.04;color_shift 43.48 44.48;color_shift 43.58 44.58;noise_injection 43.71 44.71;noise_injection 44.04 45.04;color_shift 44.11 45.11;noise_injection 44.28 45.28;object_insertion 44.61 45.61;noise_injection 44.61 45.61;object_insertion 44.84 45.84;geometric_distortion 45.01 46.01;object_insertion 45.15 46.15;noise_injection 45.31 46.31",
+    "anomaly_count": 6
+  },
+  "responses": {
+    "basic_description": "Here is a detailed description of the video:\n\n**Visual Description:**\n\nThe video is shot from inside a room, looking towards a doorway. The doorway leads to an entryway or small room where an exterior door with glass panes is visible. A green and white checkered curtain hangs to the side of the door. To the right of the doorway, there's a glimpse of another room with items like a small table, cleaning supplies, and decorative items.\n\n**Activities:**\n\n*   **Person at the Door:** Initially, a person with light-colored hair is seen through the glass panes of the exterior door. They appear to be looking outside.\n*   **Opening the Door:** The person inside comes and opens the exterior door.\n*   **Entering the Room:** The person walks into the room where the camera is located. As they walk in, we can see that the person is wearing dark-colored pants, and a maroon sweater. After they are in the room, the man stares outside the door.\n\n**Analysis:**\n\n*   **Point of View:** The video is shot from a fixed perspective, suggesting a static camera placement.\n*   **Environment:** The interior setting seems to be a hallway or entryway of a home.\n*   **Lighting:** The lighting is generally dim, with the area outside the exterior door appearing brighter.\n*   **Focus:** The focus is primarily on the person and the doorway. The surrounding details are less sharp, drawing attention to the interaction between the individual and the outside world.\n*   **Atmosphere:** The video evokes a sense of anticipation or curiosity, as the viewer watches someone enter from the outside.\n* Censored: The person in the video has censored portions on their face and on parts of their body.\n\nOverall, the video presents a simple scene of someone entering a room from the outside. The fixed camera angle and limited activity create a sense of observation, inviting the viewer to speculate about the person's actions and intentions.",
+    "anomaly_detection": "After analyzing the video, I have noticed the following:\n\n1.  **Sudden Color Shifts:** Throughout the video, there are instances where the colors shift, becoming more reddish or pinkish. This could be due to lighting changes or perhaps some form of color correction/adjustment that isn't consistent.\n2.  **Obfuscations:** There are some instances where the video is edited to obscure regions, specifically at [00:00:12], [00:00:35], [00:00:38], and [00:00:40].\n3.  **Inconsistent Light:** The room appears generally dim, but there are bright lights coming through the door.\n4.  **Subject's Actions:** The person outside the door opens it and lingers near the window for a significant amount of time. It's not clear what they're doing or looking at.\n\nThese anomalies suggest the video may have been altered, possibly to remove certain details or create a specific effect. The reasons for these changes aren't clear from the visual information alone.",
+    "temporal_analysis": "After analyzing the video, I can confirm that it appears to be playing normally. There are no obvious signs of reversed playback, shuffled frames, or any other temporal anomalies. The movement of the person opening the door and entering the room seems natural and consistent throughout the video.",
+    "spatial_analysis": "After analyzing the video, here's a detailed breakdown:\n\n**Objects that may not belong:**\n\n*   It is difficult to say definitively if there is an object that does not belong.\n\n**Color distortions or visual artifacts:**\n\n*   Between [00:00:05-00:00:07], the video undergoes a color distortion, introducing a red tint.\n*   A similar color distortion occurs between [00:00:42-00:00:44], this time introducing a pink tint.\n*   From [00:00:11-00:00:12], a rectangular shape is superimposed over the image, concealing the face of the person in the image.\n*   Additional rectangular shapes obscure the image from [00:00:34-00:00:41]\n\nIf you have other videos or images you would like me to analyze, feel free to send them over.",
+    "semantic_analysis": "Here's a detailed analysis of the video in terms of the logical sequence of events and the naturalness of the scene transitions.\n\n**Description of Events:**\n\nThe video shows a person standing at a doorway with a window. This person opens the door, walks inside, and closes the door. Then, they turn around and look back out the window.\n\n**Logical Sequence Analysis:**\n\nThe sequence of events presented in the video is generally logical and follows a coherent narrative.\n\n1.  **Initial Setup:** The person is positioned outside the doorway.\n2.  **Entering:** The person opens the door, enters the room, and then closes the door behind them. This is a natural sequence of actions for someone entering a space.\n3.  **Looking Back:** The person then turns around to look back out the window of the door.\n\n**Naturalness of Scene Transitions:**\n\nThe transitions between these actions are, for the most part, smooth. There aren't any abrupt jumps in time or location that would disrupt the viewer's understanding of the scene.\n\n**Areas for Improvement/Consideration:**\n\n*   **Motivation:** The video's one weakness is the lack of clear motivation. Why is the person looking in the window of the door? This lack of backstory or purpose could be considered an abrupt change in action if the viewer is expecting more context.\n\n**Conclusion:**\n\nThe sequence of events in this video is logically sound, and the transitions between actions are generally smooth. The video could benefit from more context to motivate the person's action.",
+    "confidence_assessment": "Here's a description of the video, including my confidence level:\n\n**Overall Description**\n\nThe video shows a person opening an exterior door from inside a building. The shot is framed by an interior doorway, giving a \"framed\" view of the scene. The lighting inside the building is dim, and it appears to be nighttime outside.\n\n**Detailed Breakdown**\n\n*   **Framing:** The video is filmed through an open doorway looking towards another door at the end of a short hallway. The camera remains static throughout the entire video.\n*   **Main Subject:** The main subject is a person seen initially through the windowed part of a white exterior door. This person, presumably male, is wearing a long-sleeved striped shirt (possibly maroon or dark red with grey stripes) and dark pants.\n*   **Action:** The person opens the exterior door, walks through, pauses, and then seems to adjust something on or around the door or window frame. They appears to tap or scrape something on the window trim.\n*   **Setting:** The interior hallway is narrow and painted white. To the right of the exterior door, there is a glimpse into what appears to be a cluttered room or space, perhaps a bathroom or storage room. There are items like cleaning supplies, a star-shaped decorative object, and what looks like a decorated sink or toilet. The exterior door has a green and white checkered curtain hanging to the side.\n\n**Confidence Level & Uncertainties**\n\nI am relatively confident (85%):\n\n*   In describing the actions of the person and the general layout of the scene.\n*   Identifying the objects that are clearly visible.\n*   The striped shirt (color and orientation)\n\nI am less certain (15%):\n\n*   The exact color of the striped shirt: The lighting is poor, so determining the precise colors is difficult.\n*   The specific nature of the cluttered items on the right.\n*   The exact nature of the person's final action on the door. It's difficult to see clearly what they are doing with their hand around the window or doorframe.\n\nI have added some color blocks to denote areas in question within the video."
+  },
+  "scores": {
+    "content_accuracy": 6.200000000000001,
+    "anomaly_detection": 5.9,
+    "confidence_calibration": 6.200000000000001,
+    "hallucination": 3.8,
+    "overall": 5.525000000000001
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 7,
+      "accuracy_score": 6,
+      "detail_level_score": 5,
+      "overall_assessment": "The model response captures some key elements but misses specific actions and details from the ground truth.",
+      "correctly_described_elements": [
+        "person looking outside",
+        "opening the door",
+        "entryway setting"
+      ],
+      "missing_elements": [
+        "laughing",
+        "grasping onto a doorknob",
+        "taking a phone/camera"
+      ],
+      "incorrect_descriptions": [
+        "censored portions on their face and body (not mentioned in ground truth)"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 5,
+      "accuracy_score": 6,
+      "false_positive_score": 8,
+      "overall_assessment": "The model identified some anomalies but missed key ones and included irrelevant claims.",
+      "detected_anomalies": [
+        "Sudden Color Shifts",
+        "Obfuscations",
+        "Inconsistent Light"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "speed_change",
+        "noise_injection",
+        "frame_reversal",
+        "geometric_distortion"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 6,
+      "confidence_appropriateness_score": 7,
+      "calibration_score": 5,
+      "overall_assessment": "The model demonstrates a moderate understanding of the scene but lacks precision in recognizing all actions and anomalies.",
+      "uncertainty_indicators": [
+        "incomplete action recognition",
+        "missing anomalies"
+      ],
+      "confidence_indicators": [
+        "detailed visual description",
+        "clear activity analysis"
+      ],
+      "calibration_issues": [
+        "overconfidence in scene interpretation",
+        "lack of acknowledgment of anomalies"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 7,
+      "factual_accuracy_score": 5,
+      "speculation_control_score": 4,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and details of the scene.",
+      "hallucinated_elements": [
+        "green and white checkered curtain",
+        "cleaning supplies",
+        "decorative items"
+      ],
+      "factual_errors": [
+        "person with light-colored hair",
+        "dark-colored pants",
+        "maroon sweater"
+      ],
+      "speculative_content": [
+        "anticipation or curiosity",
+        "interaction between the individual and the outside world"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:08:54.439466"
+}

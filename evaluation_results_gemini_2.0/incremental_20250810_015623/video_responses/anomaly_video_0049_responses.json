@@ -1,0 +1,107 @@
+{
+  "video_name": "anomaly_video_0049.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0049.mp4",
+    "original_video_id": "E7Q3R",
+    "original_scene": "Dining room",
+    "original_script": "A person runs into their dining room, puts their coffee on the table, and takes off their shoes.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c057 9.70 18.70;c151 3.80 9.80;c009 5.20 12.40;c154 18.60 23.40;c109 5.20 12.40;c107 3.00 12.10;c150 19.20 23.90;c118 2.90 12.10;c107 0.00 2.80;c059 0.00 23.00;c150 0.00 2.60;c011 4.00 23.10;c118 0.00 2.80",
+    "decoded_actions": "c057 9.70 18.70 (Taking off some shoes);c151 3.80 9.80 (Someone is going from standing to sitting);c009 5.20 12.40 (Putting something on a table);c154 18.60 23.40 (Someone is standing up from somewhere);c109 5.20 12.40 (Putting a cup/glass/bottle somewhere);c107 3.00 12.10 (Holding a cup/glass/bottle of something);c150 19.20 23.90 (Someone is running somewhere);c118 2.90 12.10 (Holding a dish);c107 0.00 2.80 (Holding a cup/glass/bottle of something);c059 0.00 23.00 (Sitting in a chair);c150 0.00 2.60 (Someone is running somewhere);c011 4.00 23.10 (Sitting at a table);c118 0.00 2.80 (Holding a dish)",
+    "anomalies_applied": "object_insertion;noise_injection;color_shift;geometric_distortion",
+    "anomaly_timestamps": "object_insertion 0.00 1.00;noise_injection 0.03 1.03;noise_injection 0.23 1.23;noise_injection 0.27 1.27;noise_injection 1.00 2.00;object_insertion 1.27 2.27;color_shift 1.84 2.84;noise_injection 1.90 2.90;object_insertion 3.04 4.04;object_insertion 3.24 4.24;object_insertion 3.50 4.50;noise_injection 3.50 4.50;object_insertion 3.97 4.97;color_shift 4.37 5.37;object_insertion 4.40 5.40;color_shift 4.54 5.54;object_insertion 5.00 6.00;noise_injection 6.04 7.04;object_insertion 6.27 7.27;object_insertion 6.67 7.67;object_insertion 6.94 7.94;object_insertion 6.97 7.97;color_shift 6.97 7.97;object_insertion 7.01 8.01;object_insertion 7.17 8.17;object_insertion 7.44 8.44;object_insertion 7.64 8.64;object_insertion 7.87 8.87;noise_injection 8.84 9.84;color_shift 9.74 10.74;object_insertion 10.08 11.08;color_shift 10.18 11.18;geometric_distortion 10.24 11.24;color_shift 10.68 11.68;noise_injection 10.71 11.71;noise_injection 11.11 12.11;noise_injection 11.38 12.38;geometric_distortion 11.54 12.54;object_insertion 11.91 12.91;geometric_distortion 11.98 12.98;geometric_distortion 12.01 13.01;color_shift 12.11 13.11;object_insertion 12.68 13.68;noise_injection 12.71 13.71;color_shift 12.88 13.88;object_insertion 13.08 14.08;object_insertion 13.51 14.51;geometric_distortion 13.51 14.51;color_shift 13.61 14.61;geometric_distortion 13.65 14.65;noise_injection 13.65 14.65;color_shift 14.01 15.01;object_insertion 14.35 15.35;object_insertion 14.88 15.88;noise_injection 15.22 16.22;color_shift 15.35 16.35;color_shift 15.48 16.48;noise_injection 15.55 16.55;color_shift 16.25 17.25;noise_injection 16.35 17.35;object_insertion 16.48 17.48;object_insertion 16.65 17.65;geometric_distortion 16.88 17.88;object_insertion 16.98 17.98;object_insertion 17.02 18.02;object_insertion 17.05 18.05;color_shift 17.08 18.08;noise_injection 17.32 18.32;noise_injection 17.78 18.78;object_insertion 17.92 18.92;color_shift 18.28 19.28;noise_injection 18.39 19.39;color_shift 19.05 20.05;object_insertion 19.25 20.25;color_shift 19.75 20.75;geometric_distortion 19.79 20.79;color_shift 19.95 20.95;color_shift 20.39 21.39;object_insertion 20.65 21.65;object_insertion 21.12 22.12;color_shift 21.25 22.25;color_shift 21.96 22.96;color_shift 22.09 23.09;object_insertion 22.26 23.26;geometric_distortion 22.26 23.26;object_insertion 22.69 23.69;noise_injection 22.82 23.82;object_insertion 22.99 23.99;color_shift 23.49 24.49;object_insertion 23.79 24.79;color_shift 24.02 25.02;color_shift 24.09 25.09;object_insertion 24.12 25.12;object_insertion 24.19 25.19;noise_injection 24.36 25.36;color_shift 25.73 26.73;geometric_distortion 25.86 26.86;object_insertion 25.99 26.99;object_insertion 26.29 27.29;color_shift 26.36 27.36;color_shift 26.46 27.46;object_insertion 26.69 27.69;object_insertion 26.73 27.73;object_insertion 26.83 27.83;noise_injection 27.16 28.16;geometric_distortion 27.26 28.26",
+    "anomaly_count": 4
+  },
+  "responses": {
+    "basic_description": "Here's a detailed description of what I observed in the video:\n\n**Setting:**\n\n*   The video is shot indoors in what appears to be a dining area of a home or apartment.\n*   The walls are painted an off-white or light beige color.\n*   On the wall, there's a decorative clock hanging and a small framed picture. A light switch is also visible.\n\n**Objects/Furniture:**\n\n*   A round wooden table with a wrought iron base is in the center of the frame.\n*   There are two chairs visible at the table, both upholstered.\n*   The table has various items on it:\n    *   A vase of white roses.\n    *   Boxes of cereal (Reese's Puffs is visible).\n    *   A blue plastic cup.\n    *   Other containers and items partially obscured.\n    *   Loose papers.\n    *   A red tablecloth is partially draped over the table.\n*   To the left, there's a desk or storage unit with more items on top, including what looks like a computer tower and various containers.\n\n**Activity:**\n\n*   At the start, the scene is static, showing the room and its contents.\n*   At [00:00:05], a man enters the frame. He's wearing a blue T-shirt and dark-colored pants.\n*   He places a mug on the table.\n*   He sits down in a chair.\n*   He puts his feet up on the table.\n*   He picks up a pair of black sneakers from the floor.\n*   He sits with his shoes in his hands.\n*   He puts the shoes back on the floor, and picks the mug off of the table and holds it.\n*   At [00:00:21], he exits the frame.\n\n**Overall Impression:**\n\nThe video seems to show a casual, informal scene in someone's dining area. The room appears slightly cluttered, with various items on the table and desk. The main activity involves the man entering the room, sitting down, fiddling with objects, and then leaving. It's difficult to discern the purpose of the video without additional context.",
+    "anomaly_detection": "Here's an analysis of the video you provided:\n\n**Overall Observations:**\n\n*   **Standard Indoor Scene:** The video shows a typical indoor scene of what appears to be a dining area or small apartment. There is a table with various items on it, chairs, and other furniture.\n*   **Subject Enters and Sits:** A man enters the frame, picks up a mug, takes a seat at the table, picks up another object and puts both objects on the table.\n*   **Stable Camera:** The camera is stationary, with the frame focused on the table.\n*   **Lighting:** The room is lit, although the lighting seems to be uneven and perhaps a bit dim.\n\n**Potential Visual Anomalies or Unusual Aspects:**\n\n*   **Clutter:** The table is quite cluttered with various items, including cereal boxes, jars, a vase with flowers, and other miscellaneous objects.\n*   **Flash of Pink** At timestamp 0:16 there is a faint pink rectangle flashing on the wall behind the man.\n*   **Color Shift:** At timestamp 0:15 there appears to be a green shift in colors.\n\n**In summary:** The video appears to be a simple, unedited recording of a person in an indoor environment. There is one possible visual anomaly.",
+    "temporal_analysis": "The video appears to be playing normally. There are no obvious signs of reversed playback or shuffled frames. The movement of the person is fluid and consistent with real-time recording.",
+    "spatial_analysis": "Here is my analysis of the video:\n\n**Objects that don't belong:**\n\n*   It's difficult to say definitively what objects don't \"belong\" without knowing the context of the scene. However, the clutter on the table (cereal boxes, various containers, a blue cup, and papers) could be considered out of place, especially if this is meant to be a dining area, and if this mess is considered a common occurrence,\n\n**Color distortions or visual artifacts:**\n\n*   The overall lighting seems a bit dim, and there is a slight yellow tint throughout the video, which could be due to the lighting in the room or camera settings.\n*   There are no readily apparent digital artifacts like pixelation or excessive noise, though the video resolution is not particularly high, so subtle artifacts might be hard to detect.\n\nIn terms of color distortion, the lighting seems to affect the colors. Overall, the video looks like it was taken indoors with artificial light, which is likely affecting the color balance.",
+    "semantic_analysis": "The video shows a sequence of events that are generally logical but lack context. Here's a breakdown:\n\n*   **0:00-0:04:** The video starts with a static shot of a dining table with various items on it, including a box of Reese's Puffs cereal.\n*   **0:05-0:14:** A person walks into the frame, sits down at the table, picks up a mug, and seemingly inspects it. This is a straightforward action and makes sense.\n*   **0:15-0:21:** The person appears to put his feet up on the chair, picks up an item (possibly a shoe), and appears to examine it. Then, he gets up and leaves the frame. This is a little strange. There's no clear action.\n*   **0:22-0:27:** The video ends as it started, with a static shot of the dining table again.\n\n**Overall Assessment:**\n\n*   The sequence of the person entering, sitting, handling objects, and leaving is logical within itself.\n\n*   There are no abrupt scene transitions because it is a single static shot.\n\n*   There is a lack of context. Why did the person come and go, handling objects, and then just leaving without saying or doing anything else?\n\n**In summary,** the video has a very simple sequence of events that, while logical, lacks context and purpose. It feels like a random slice of life with no beginning, middle, or end.",
+    "confidence_assessment": "Okay, here's a detailed description of the video, along with my confidence levels:\n\n**Overall Description:**\n\nThe video appears to be shot indoors, likely in a dining area or kitchen.  The primary focus is on a round dining table surrounded by chairs. A man enters the frame, briefly sits at the table with a coffee mug, and then sits back in his chair and grabs something on the floor, takes a sip from the mug, puts it down on the table and then leaves the frame again.\n\n**Detailed Breakdown:**\n\n*   **Setting:**\n    *   Walls are off-white or light beige.\n    *   A white door is visible in the background.\n    *   A clock and a framed picture hang on the wall.\n    *   There is a dark-colored desk or counter to the left of the table.\n\n*   **Objects on the Table:**\n    *   A vase with white flowers (likely roses).\n    *   A box of Reese's Puffs cereal.\n    *   Other containers and objects are partially obscured.\n    *   A blue cup\n    *   Paper, possible documents or notes.\n    *   Various small jars and containers\n\n*   **Furniture:**\n    *   Round dining table with an ornately designed base, possibly made of metal.\n    *   Two chairs visible, one on the left and one on the right.\n    *   A dark-colored desk is visible on the left of the frame.\n\n*   **Person:**\n    *   A man wearing a dark-colored t-shirt and pants.\n\n*   **Action:**\n    *   The man approaches the table, sits down briefly with a mug.\n    *   He sits back in his chair, grabs something on the floor, and puts it in his lap\n    *   He picks up the mug, drinks from it, then puts it back on the table\n    *   He then gets up and leaves the frame again.\n\n**Confidence Levels and Uncertainties:**\n\n*   **High Confidence:** I'm very confident in my description of the room layout, the furniture, and the visible objects. The Reese's Puffs box is easily identifiable.\n*   **Medium Confidence:**\n    *   I'm less certain about the exact contents of the smaller jars and containers on the table due to their size and the video quality.\n    *   It's hard to know precisely what object the man grabs off of the floor.\n*   **Low Confidence:** I can't determine the time the clock is showing.\n*   It is hard to determine the nature of items behind the chair on the left, near the desk.\n\nOverall, I believe the description is accurate based on the information in the provided screenshots.  The limitations are primarily due to video quality and the obscuring of some objects."
+  },
+  "scores": {
+    "content_accuracy": 5.800000000000001,
+    "anomaly_detection": 6.199999999999999,
+    "confidence_calibration": 6.200000000000001,
+    "hallucination": 3.2,
+    "overall": 5.3500000000000005
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 6,
+      "accuracy_score": 5,
+      "detail_level_score": 7,
+      "overall_assessment": "The description captures some elements of the scene but misses key actions and includes inaccuracies.",
+      "correctly_described_elements": [
+        "dining area",
+        "man entering the frame",
+        "placing a mug on the table"
+      ],
+      "missing_elements": [
+        "taking off shoes",
+        "sitting down",
+        "putting shoes back on the floor"
+      ],
+      "incorrect_descriptions": [
+        "putting feet up on the table",
+        "fiddling with objects"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 5,
+      "accuracy_score": 7,
+      "false_positive_score": 8,
+      "overall_assessment": "The model identified some anomalies but missed several key ones.",
+      "detected_anomalies": [
+        "color_shift"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "noise_injection",
+        "geometric_distortion"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 6,
+      "confidence_appropriateness_score": 7,
+      "calibration_score": 5,
+      "overall_assessment": "The model shows a moderate level of uncertainty recognition but lacks precision in action identification.",
+      "uncertainty_indicators": [
+        "incomplete action descriptions",
+        "lack of context for video purpose"
+      ],
+      "confidence_indicators": [
+        "detailed description of the setting",
+        "identification of objects"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "overconfidence in scene interpretation"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 4,
+      "speculation_control_score": 5,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and objects present in the video.",
+      "hallucinated_elements": [
+        "vase of white roses",
+        "boxes of cereal",
+        "blue plastic cup",
+        "red tablecloth",
+        "computer tower"
+      ],
+      "factual_errors": [
+        "man sitting with shoes in hands",
+        "man putting feet up on table"
+      ],
+      "speculative_content": [
+        "purpose of the video"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:30:20.008761"
+}

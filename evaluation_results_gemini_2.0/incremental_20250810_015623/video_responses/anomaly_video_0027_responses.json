@@ -1,0 +1,106 @@
+{
+  "video_name": "anomaly_video_0027.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0027.mp4",
+    "original_video_id": "DNB5L",
+    "original_scene": "Laundry room",
+    "original_script": "A person grasps a box of laundry soap from the shelf, then pours the detergent into the machine and starts washing clothes.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": NaN,
+    "decoded_actions": NaN,
+    "anomalies_applied": "object_insertion;geometric_distortion;color_shift;noise_injection",
+    "anomaly_timestamps": "geometric_distortion 0.17 1.17;color_shift 0.20 1.20;noise_injection 0.23 1.23;color_shift 0.67 1.67;object_insertion 0.74 1.74;object_insertion 0.94 1.94;noise_injection 1.00 2.00;noise_injection 1.41 2.41;color_shift 1.51 2.51;noise_injection 1.64 2.64;color_shift 1.77 2.77;noise_injection 2.17 3.17;object_insertion 2.48 3.48;object_insertion 3.18 4.18;object_insertion 3.21 4.21;color_shift 3.28 4.28;object_insertion 3.88 4.88;object_insertion 3.91 4.91;color_shift 3.95 4.95;object_insertion 4.08 5.08;noise_injection 4.12 5.12;object_insertion 4.52 5.52;object_insertion 4.55 5.55;noise_injection 4.65 5.65;noise_injection 4.72 5.72;color_shift 5.72 6.72;geometric_distortion 5.79 6.79;geometric_distortion 6.26 7.26;color_shift 6.49 7.49;object_insertion 6.73 7.73;color_shift 6.83 7.83;noise_injection 6.86 7.86;noise_injection 6.93 7.93;noise_injection 7.09 8.09;object_insertion 7.23 8.23;object_insertion 7.33 8.33;color_shift 7.43 8.43;object_insertion 8.03 9.03;object_insertion 8.20 9.20;noise_injection 8.20 9.20;color_shift 8.43 9.43;noise_injection 8.77 9.77;noise_injection 9.03 10.03;geometric_distortion 9.33 10.33;noise_injection 9.50 10.50;color_shift 9.80 10.80;noise_injection 9.97 10.97;noise_injection 10.10 11.10;noise_injection 10.57 11.57;noise_injection 10.81 11.81;object_insertion 10.87 11.87;color_shift 11.24 12.24;object_insertion 11.44 12.44;noise_injection 11.88 12.88;noise_injection 11.91 12.91;color_shift 12.71 13.71;noise_injection 13.15 14.15;object_insertion 13.32 14.32;geometric_distortion 13.38 14.38;color_shift 14.32 15.32;noise_injection 14.69 15.69;color_shift 14.82 15.82;object_insertion 15.36 16.36;noise_injection 15.39 16.39;object_insertion 15.66 16.66;noise_injection 16.23 17.23;color_shift 16.49 17.49;noise_injection 16.63 17.63;geometric_distortion 16.66 17.66;color_shift 17.23 18.23;color_shift 17.90 18.90;color_shift 17.97 18.97;object_insertion 18.34 19.34;object_insertion 18.40 19.40;object_insertion 19.27 20.27;color_shift 19.61 20.61;noise_injection 20.51 21.51;color_shift 20.58 21.58;object_insertion 20.64 21.64;noise_injection 20.74 21.74;noise_injection 20.84 21.84;color_shift 20.88 21.88;noise_injection 21.01 22.01;color_shift 21.58 22.58;geometric_distortion 21.98 22.98;object_insertion 22.12 23.12;object_insertion 22.18 23.18;noise_injection 23.15 24.15;object_insertion 23.32 24.32;object_insertion 23.52 24.52;color_shift 23.59 24.59;color_shift 23.62 24.62;noise_injection 24.02 25.02;color_shift 24.52 25.52;noise_injection 24.63 25.63;noise_injection 25.16 26.16;object_insertion 25.43 26.43;object_insertion 25.96 26.96;geometric_distortion 26.33 27.33;object_insertion 26.47 27.47;object_insertion 26.83 27.83;noise_injection 26.83 27.83;object_insertion 27.54 28.54;noise_injection 27.54 28.54;noise_injection 27.90 28.90;color_shift 28.91 29.91;color_shift 29.81 30.81;geometric_distortion 30.55 31.55;object_insertion 30.61 31.61;noise_injection 30.68 31.68;noise_injection 30.95 31.95;color_shift 32.19 33.19;object_insertion 32.29 33.29;color_shift 32.89 33.89;noise_injection 33.19 34.19;geometric_distortion 33.46 34.46;object_insertion 34.09 35.09;object_insertion 34.23 35.23;object_insertion 34.36 35.36;object_insertion 34.40 35.40;object_insertion 34.83 35.83;object_insertion 34.93 35.93;noise_injection 35.13 36.13;noise_injection 35.16 36.16",
+    "anomaly_count": 4
+  },
+  "responses": {
+    "basic_description": "Here is a detailed description of the video:\n\nThe video is shot in what appears to be a kitchen or laundry area with brown wooden cabinets. A man wearing a black t-shirt and dark gray sweatpants is standing in front of a white top-load washing machine. \n\nHe starts by opening a brown wooden cabinet located above the washing machine. He rummages inside briefly. He then turns his attention to the washing machine. He places his hands on top of the machine as if inspecting it, perhaps checking the controls or simply leaning on it. He lingers there for a while, seeming focused on something related to the machine. The video ends with him still standing by the washing machine.",
+    "anomaly_detection": "Here's an analysis of the video, noting potential anomalies and unusual elements:\n\n**Overall Impression:**\n\nThe video appears to be a home recording, likely taken with a smartphone or similar device. It shows a person (male-presenting) in a kitchen/laundry room area. The person opens an overhead cabinet, appears to take something out, and then attends to a washing machine.\n\n**Potential Unusual Elements and Anomalies:**\n\n1.  **Lighting:** The lighting is quite bright and flat, which could be due to the overhead light and the video being overexposed or having excessive digital noise reduction. This somewhat washes out details and shadows, making depth perception slightly more difficult.\n\n2.  **Camera Angle/Perspective:** The camera angle is relatively low, looking upwards. This could be to accommodate height differences, or it could be because the camera operator simply placed the camera on a lower surface.\n\n3.  **Focus:** The focus seems a bit soft overall, which isn't necessarily unusual for smartphone video but makes it harder to discern fine details.\n\n4.  **Composition:** The composition is a bit awkward. The main subject is positioned off to the side of the frame for a lot of the time. This may also be because they are standing right in front of the washing machine so the videographer had to step out of the way and angle upward.\n\nIn short, the video doesn't contain strong evidence of manipulation or something wildly out of the ordinary. However, the overall poor video quality, overexposure, and awkward camera position may indicate the videographer didn't want the video to be clearly visible.",
+    "temporal_analysis": "The video appears to be playing normally. The actions of the person in the video are consistent and follow a logical progression. No temporal issues such as reversed playback or shuffled frames are observed.",
+    "spatial_analysis": "Here is an analysis of the video:\n\n**Scene Description:**\n\nThe video appears to be taken in a kitchen. Visible objects include:\n\n*   Wooden kitchen cabinets (some hanging above)\n*   A washing machine\n*   A stove\n*   Countertop with cleaning supplies\n*   A person wearing a black t-shirt and grey pants\n\n**Object Assessment:**\n\nEverything in the scene appears to belong there. The objects are consistent with the setting of a typical kitchen/laundry area.\n\n**Visual Artifacts and Distortions:**\n\n*   **Lighting:** The lighting seems to be somewhat uneven, with areas that are quite bright and some shadows. The video is slightly overexposed at some points, causing some areas to appear washed out.\n*   **Camera angle:** The camera has a low angle shot, which makes the person in the shot appear taller.\n\nIn summary, the scene seems to be a typical kitchen/laundry area with objects that are logically placed and belong to the setting. The lighting and camera angle may have slight distortions, but it's nothing major.",
+    "semantic_analysis": "Here's a breakdown of the video and an assessment of its flow:\n\n**Video Description:**\n\nThe video shows a person in a kitchen. The person is wearing a black shirt and dark pants. They are seen reaching into a cabinet above a washing machine. They then close the cabinet and appear to be interacting with the washing machine.\n\n**Sequence of Events and Logical Sense:**\n\n*   **Reaching into Cabinet:** The person opens an overhead kitchen cabinet. This suggests they are retrieving something from the cabinet.\n*   **Closing Cabinet:** They then close the cabinet.\n*   **Interacting with Washing Machine:** Finally, the person then appears to inspect or attempt to fix the washing machine.\n\n**Logical Sense Assessment:**\n\nThe sequence of events makes sense. It is plausible that the person may have been looking for an item in the cabinet to use on the washing machine or looking for a tool to repair it. The cabinet is also above the washing machine. This would indicate that they needed to retrieve something before interacting with it.\n\n**Scene Transitions:**\n\nThe video has no cuts, edits, or scene transitions. There is a smooth flow of the event of the person searching in the cabinet and looking at the washing machine. Therefore, there are no abrupt or unnatural scene transitions.",
+    "confidence_assessment": "Here's a breakdown of the video:\n\n*   **Setting:** The video appears to be taken in a small kitchen.\n*   **Main Subject:** A man wearing a black t-shirt and dark sweatpants/joggers is the main focus. He appears to be of medium build.\n*   **Action:** The man is initially standing near a washing machine. He reaches up and opens a cabinet above the washing machine, rummages around inside, and then closes it. After the man closed the cabinet, he turns towards the washing machine and places his hands on the washing machine top.\n*   **Objects:** A white washing machine is visible to the left. In the background, there are brown cabinets, various cleaning products, and what looks like an oven.\n*   **Camera Angle:** The video is shot from a low angle, looking up at the man. The framing is tight, focusing on the man's back and the immediate area.\n\nI'm reasonably confident in this description, but things that are difficult to ascertain:\n\n*   **Facial Expressions:** The man's face is mostly obscured. I can not accurately assess his feelings or what he is looking at.\n*   **Precise Contents of the Cabinet:** I can only see vague shapes inside the cabinet when it's opened.\n*   **Intentions:** It is not possible to know why he did this."
+  },
+  "scores": {
+    "content_accuracy": 3.8000000000000003,
+    "anomaly_detection": 4.1,
+    "confidence_calibration": 3.0000000000000004,
+    "hallucination": 2.3,
+    "overall": 3.3
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 3,
+      "accuracy_score": 4,
+      "detail_level_score": 5,
+      "overall_assessment": "The description lacks key actions and elements from the ground truth.",
+      "correctly_described_elements": [
+        "laundry area",
+        "washing machine"
+      ],
+      "missing_elements": [
+        "box of laundry soap",
+        "pouring detergent",
+        "starting washing clothes"
+      ],
+      "incorrect_descriptions": [
+        "kitchen",
+        "man inspecting controls"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 2,
+      "accuracy_score": 5,
+      "false_positive_score": 8,
+      "overall_assessment": "The model failed to identify the specific anomalies present in the video, leading to a low anomaly detection score.",
+      "detected_anomalies": [],
+      "missed_anomalies": [
+        "object_insertion",
+        "geometric_distortion",
+        "color_shift",
+        "noise_injection"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 2,
+      "confidence_appropriateness_score": 4,
+      "calibration_score": 3,
+      "overall_assessment": "The model shows low recognition of uncertainty and has issues with confidence calibration.",
+      "uncertainty_indicators": [
+        "lack of action recognition",
+        "no mention of anomalies"
+      ],
+      "confidence_indicators": [
+        "detailed description",
+        "specificity about the setting"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "failure to address anomalies"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 3,
+      "speculation_control_score": 2,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and setting.",
+      "hallucinated_elements": [
+        "kitchen",
+        "man wearing a black t-shirt",
+        "brown wooden cabinets"
+      ],
+      "factual_errors": [
+        "no mention of laundry soap",
+        "no pouring of detergent",
+        "no starting of washing machine"
+      ],
+      "speculative_content": [
+        "inspecting the machine",
+        "leaning on the machine",
+        "focused on something related to the machine"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:15:41.800153"
+}

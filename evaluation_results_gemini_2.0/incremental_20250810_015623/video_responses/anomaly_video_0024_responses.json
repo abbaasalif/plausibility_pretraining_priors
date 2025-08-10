@@ -1,0 +1,109 @@
+{
+  "video_name": "anomaly_video_0024.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0024.mp4",
+    "original_video_id": "9SP9P",
+    "original_scene": "Living room",
+    "original_script": "A person sits in a chair while holding a sandwich and starts drinking from a cup.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c059 0.00 33.00;c106 5.70 13.00;c067 0.90 33.00;c110 0.10 33.00;c063 0.40 33.00;c069 0.60 5.70;c107 0.00 33.00;c061 0.90 28.30",
+    "decoded_actions": "c059 0.00 33.00 (Sitting in a chair);c106 5.70 13.00 (Drinking from a cup/glass/bottle);c067 0.90 33.00 (Holding a sandwich);c110 0.10 33.00 (Taking a cup/glass/bottle from somewhere);c063 0.40 33.00 (Taking food from somewhere);c069 0.60 5.70 (Taking a sandwich from somewhere);c107 0.00 33.00 (Holding a cup/glass/bottle of something);c061 0.90 28.30 (Holding some food)",
+    "anomalies_applied": "object_insertion;noise_injection;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_reversal 0.00 31.89;noise_injection 0.74 1.74;color_shift 1.04 2.04;geometric_distortion 1.14 2.14;geometric_distortion 1.31 2.31;object_insertion 1.74 2.74;object_insertion 1.81 2.81;object_insertion 2.15 3.15;color_shift 2.28 3.28;geometric_distortion 2.38 3.38;object_insertion 3.96 4.96;geometric_distortion 4.12 5.12;object_insertion 4.33 5.33;noise_injection 4.49 5.49;geometric_distortion 4.83 5.83;color_shift 5.00 6.00;geometric_distortion 5.03 6.03;geometric_distortion 5.16 6.16;geometric_distortion 5.40 6.40;noise_injection 6.67 7.67;noise_injection 6.87 7.87;object_insertion 7.24 8.24;geometric_distortion 7.28 8.28;object_insertion 7.91 8.91;object_insertion 7.95 8.95;object_insertion 8.22 9.22;color_shift 8.38 9.38;object_insertion 8.72 9.72;color_shift 8.72 9.72;geometric_distortion 8.79 9.79;noise_injection 8.95 9.95;color_shift 9.02 10.02;noise_injection 9.29 10.29;geometric_distortion 9.36 10.36;object_insertion 9.66 10.66;noise_injection 9.89 10.89;noise_injection 10.50 11.50;object_insertion 10.66 11.66;object_insertion 11.10 12.10;object_insertion 11.17 12.17;object_insertion 11.50 12.50;color_shift 11.77 12.77;object_insertion 12.51 13.51;noise_injection 12.64 13.64;noise_injection 13.08 14.08;object_insertion 13.28 14.28;noise_injection 13.75 14.75;noise_injection 14.15 15.15;object_insertion 14.25 15.25;geometric_distortion 14.25 15.25;color_shift 14.79 15.79;noise_injection 14.96 15.96;object_insertion 15.39 16.39;noise_injection 15.49 16.49;object_insertion 15.56 16.56;object_insertion 16.33 17.33;noise_injection 16.53 17.53;color_shift 16.67 17.67;object_insertion 16.77 17.77;geometric_distortion 16.93 17.93;object_insertion 17.14 18.14;noise_injection 17.27 18.27;object_insertion 17.34 18.34;noise_injection 17.34 18.34;object_insertion 17.47 18.47;object_insertion 17.57 18.57;object_insertion 17.77 18.77;object_insertion 17.91 18.91;color_shift 17.91 18.91;object_insertion 18.04 19.04;color_shift 18.48 19.48;object_insertion 18.91 19.91;noise_injection 18.95 19.95;noise_injection 18.98 19.98;noise_injection 19.18 20.18;noise_injection 19.21 20.21;color_shift 19.95 20.95;color_shift 21.29 22.29;noise_injection 21.63 22.63;noise_injection 21.80 22.80;noise_injection 21.83 22.83;color_shift 22.27 23.27;object_insertion 22.50 23.50;object_insertion 22.67 23.67;object_insertion 23.31 24.31;color_shift 23.47 24.47;noise_injection 24.01 25.01;color_shift 24.04 25.04;color_shift 24.21 25.21;color_shift 24.48 25.48;object_insertion 24.85 25.85;object_insertion 24.92 25.92;object_insertion 25.02 26.02;color_shift 25.32 26.32;object_insertion 25.82 26.82;noise_injection 25.95 26.95;geometric_distortion 26.63 27.63;object_insertion 26.69 27.69;object_insertion 27.06 28.06;geometric_distortion 27.06 28.06;noise_injection 27.36 28.36;noise_injection 27.67 28.67;noise_injection 27.73 28.73;noise_injection 27.80 28.80;color_shift 28.07 29.07;geometric_distortion 28.27 29.27;color_shift 28.91 29.91;noise_injection 29.04 30.04;object_insertion 29.14 30.14;object_insertion 29.54 30.54;noise_injection 31.19 32.19;geometric_distortion 31.22 32.22",
+    "anomaly_count": 5
+  },
+  "responses": {
+    "basic_description": "Here is a description of the video:\n\n**Visual Description:**\n\nThe video shows a man sitting on a white plastic chair indoors. He is wearing a blue polo shirt with white trim and plaid pajamas. He has dark hair and appears to be in his late 20s or early 30s. He is holding a mug in one hand and a piece of bread in the other. The mug seems to have an image on it.\n\nThe room is fairly simple. There's a wooden door to the left, and a window with vertical bars to the right. The walls are a light color. A marble floor is visible.\n\n**Activities:**\n\nThe main activity taking place is the man eating while holding a mug and operating his smartphone. He first presses the mug to his lips. After a few moments, he places the mug down and eats a piece of the bread in his hand. Once he is finished, he sets the remainder of the bread down and leans over to open a door slightly behind him. It is unclear if he eats and drinks from the mug at the same time or not.",
+    "anomaly_detection": "After carefully analyzing the video, here's what I noticed:\n\n**Unusual Behavior:**\n\n*   **Eating With Device on Face:** The man is holding a phone or device directly against his face while eating. This is unusual and seems unhygienic and impractical for viewing content.\n\n**Potential Visual Anomalies:**\n\n*   **Color Changes:** Starting at \\[00:00:17] the colors seem to change and it appears as though the video has a green tint.\n*   **Noise Distortions**: At \\[00:00:04], \\[00:00:10] and \\[00:00:15] there appears to be random colored noise that heavily distorts the image.\n\n**Overall Impression:**\n\n*   The video seems like a casual recording of a person in their home. The unusual behavior is the main element that stands out, along with several visual distortions.",
+    "temporal_analysis": "The video appears to be playing normally. I don't see any evidence of reversed playback or shuffled frames. The actions of the person in the video, like drinking from the mug and eating a sandwich, seem to be progressing naturally in a forward direction.",
+    "spatial_analysis": "Here's an analysis of the video:\n\n**Objects that don't belong:**\n\n*   There isn't anything particularly out of place in the room. A man sitting on a chair, dressed in a blue shirt and plaid pants, is holding a black mug. He is in a room with a wooden door, and a white wall.\n\n**Color Distortions or Visual Artifacts:**\n\n*   The video seems to have some minor color distortion at times, with a slight greenish tint appearing occasionally.\n\nIn general, the scene appears relatively normal and consistent with a typical domestic setting.",
+    "semantic_analysis": "The sequence of events in the video makes logical sense, though the intention might be comedic or satirical:\n\n1.  **0:00-0:04:** A man is sitting in a chair looking at a phone/device in his hands. He then puts the device up to his face, as if he is interacting with it.\n2.  **0:04 - 0:05** There is a static burst in the recording.\n3.  **0:05-0:10:** He repeats the process in #1.\n4.  **0:10 - 0:11** There is a static burst in the recording.\n5.  **0:11-0:16:** He repeats the process in #1\n6.  **0:16-0:17** A bright green box briefly appears.\n7.  **0:17-0:18** The recording is tinted a yellow-green.\n8.  **0:18-0:23:** The man repeats the process in #1, while holding a sandwich in the other hand.\n9.  **0:23-0:31:** He stops looking at his phone, eats the sandwich, and then appears to try to open the nearby door.\n\n**Scene Transitions and Abruptness:**\n\n*   The only unnatural scene transition would be the addition of the static burst, though it is possible it was the intention of the video creator.\n*   The bright green box at 0:16-0:17, and the greenish hue from 0:17-0:18 are the only unnatural transitions.\n\nOverall, the sequence is a single shot and quite coherent in that sense. Any oddness or comedy would come from the unusual actions of the man.",
+    "confidence_assessment": "Here's a detailed analysis of the video, with my confidence levels:\n\n**Overall Description:**\n\nThe video shows a man sitting on a white plastic chair indoors. He is wearing a blue polo shirt and blue and white checkered pajamas.  He is holding a black mug with images on it, bringing it up to his mouth as if to drink. He also holds a sandwich in the other hand, bringing it up to his mouth, alternating between food and drink. The background consists of a wooden door and pale wall.  He eats and drinks, then reaches over and grabs something off a table and hands it to someone off camera.\n\n**Confidence Level:** High\n\n**Breakdown by Detail:**\n\n*   **Man's Appearance:** I'm confident in describing his clothing and general appearance.\n*   **Chair and Room:**  The description of the chair and the room (colors, materials of the door, wall) is accurate to the best of my ability.\n*   **Actions:** I'm highly confident about the sequence of his actions (holding the mug, eating, drinking, grabbing an item).\n*   **Mug and Sandwich** Identifying the mug and sandwich with fair confidence.\n*   **What is handed to someone off camera**: What the table holds, or what he hands over, cannot be defined or identified, therefore I have little confidence in this aspect.\n\n**Parts I'm Least Certain About:**\n\n*   **Specifics of the images on the mug**: I can see there are images, but can't describe what the image depicts.\n*   **Details of the room beyond the immediate visible area:** I can only describe what I can see, not infer what is beyond the frame.\n*   **Emotional State of the Man:** Without audio or clear facial expressions, it's impossible to accurately assess his mood.\n*   **Identity and location of receiver of object at end of the video:** Cannot confirm who or what the object is that is handed to someone outside of the frame.\n\nOverall, the video is straightforward, and my description is based on clearly visible elements. The primary uncertainty comes from the limitations of the video quality and the lack of context beyond what is visually presented."
+  },
+  "scores": {
+    "content_accuracy": 4.800000000000001,
+    "anomaly_detection": 6.1,
+    "confidence_calibration": 5.4,
+    "hallucination": 2.8000000000000003,
+    "overall": 4.775
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 5,
+      "accuracy_score": 4,
+      "detail_level_score": 6,
+      "overall_assessment": "The description captures some elements but misses key actions and includes inaccuracies.",
+      "correctly_described_elements": [
+        "sitting in a chair",
+        "holding a sandwich"
+      ],
+      "missing_elements": [
+        "drinking from a cup",
+        "taking a cup from somewhere",
+        "taking food from somewhere"
+      ],
+      "incorrect_descriptions": [
+        "operating his smartphone",
+        "eating while holding a mug"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 6,
+      "accuracy_score": 5,
+      "false_positive_score": 8,
+      "overall_assessment": "The model identified some visual anomalies but misinterpreted the behavior as unusual.",
+      "detected_anomalies": [
+        "color_changes",
+        "noise_distortions"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "frame_reversal",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": [
+        "eating_with_device_on_face"
+      ]
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 5,
+      "confidence_appropriateness_score": 6,
+      "calibration_score": 5,
+      "overall_assessment": "The model shows moderate recognition of uncertainty and appropriate confidence, but calibration could be improved.",
+      "uncertainty_indicators": [
+        "unclear if he eats and drinks simultaneously",
+        "description lacks specific actions timing"
+      ],
+      "confidence_indicators": [
+        "detailed visual description",
+        "identification of main activities"
+      ],
+      "calibration_issues": [
+        "inconsistency in action timing",
+        "lack of clarity on simultaneous actions"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 4,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the actions and objects present in the video.",
+      "hallucinated_elements": [
+        "man operating his smartphone",
+        "mug with an image",
+        "eating while drinking"
+      ],
+      "factual_errors": [
+        "man wearing plaid pajamas",
+        "marble floor"
+      ],
+      "speculative_content": [
+        "unclear if he eats and drinks at the same time",
+        "leaning over to open a door"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:13:20.185692"
+}

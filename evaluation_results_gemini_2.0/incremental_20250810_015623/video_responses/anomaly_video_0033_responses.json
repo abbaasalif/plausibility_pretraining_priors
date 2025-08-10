@@ -1,0 +1,107 @@
+{
+  "video_name": "anomaly_video_0033.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0033.mp4",
+    "original_video_id": "OLH8O",
+    "original_scene": "Hallway",
+    "original_script": "A person is grasping a doorknob while another person is snuggling with a vacuum.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c137 0.00 31.00;c141 16.00 20.90",
+    "decoded_actions": "c137 0.00 31.00 (Holding a vacuum);c141 16.00 20.90 (Grasping onto a doorknob)",
+    "anomalies_applied": "object_insertion;temporal_cut;speed_change;frame_shuffling;noise_injection;frame_reversal;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_reversal 0.00 30.16;frame_shuffling 0.00 3.00;frame_shuffling 3.00 6.01;frame_shuffling 6.01 9.01;frame_shuffling 9.01 12.01;frame_shuffling 12.01 15.02;frame_shuffling 15.02 18.02;frame_shuffling 18.02 21.02;frame_shuffling 21.02 24.02;frame_shuffling 24.02 27.03;frame_shuffling 27.03 30.03;frame_shuffling 30.03 30.16;speed_change 0.00 30.16;temporal_cut 15.08 45.25;object_insertion 0.40 1.40;noise_injection 0.73 1.73;object_insertion 0.87 1.87;color_shift 1.03 2.03;noise_injection 2.30 3.30;object_insertion 2.77 3.77;object_insertion 3.30 4.30;noise_injection 3.44 4.44;color_shift 3.64 4.64;color_shift 4.04 5.04;object_insertion 4.10 5.10;object_insertion 4.64 5.64;object_insertion 4.67 5.67;object_insertion 4.74 5.74;object_insertion 5.04 6.04;color_shift 5.04 6.04;object_insertion 5.11 6.11;object_insertion 5.14 6.14;object_insertion 5.17 6.17;noise_injection 5.71 6.71;object_insertion 6.01 7.01;noise_injection 7.21 8.21;object_insertion 7.24 8.24;geometric_distortion 7.87 8.87;color_shift 8.11 9.11;noise_injection 8.41 9.41;geometric_distortion 8.51 9.51;geometric_distortion 9.21 10.21;noise_injection 9.51 10.51;color_shift 9.58 10.58;noise_injection 9.64 10.64;geometric_distortion 9.78 10.78;noise_injection 10.61 11.61;object_insertion 10.81 11.81;noise_injection 10.98 11.98;noise_injection 11.01 12.01;object_insertion 11.81 12.81;object_insertion 11.88 12.88;noise_injection 12.15 13.15;object_insertion 12.41 13.41;object_insertion 12.71 13.71;noise_injection 12.88 13.88;object_insertion 12.91 13.91;noise_injection 12.95 13.95;noise_injection 13.28 14.28;object_insertion 13.95 14.95;color_shift 13.95 14.95;object_insertion 14.01 15.01;color_shift 14.05 15.05;object_insertion 14.58 15.58;noise_injection 14.61 15.61;object_insertion 15.12 16.12;noise_injection 15.12 16.12;geometric_distortion 15.58 16.58;object_insertion 15.65 16.65;color_shift 15.65 16.65;color_shift 15.95 16.95;noise_injection 16.05 17.05;noise_injection 16.28 17.28;object_insertion 16.62 17.62;object_insertion 16.68 17.68;color_shift 16.88 17.88;color_shift 16.92 17.92;object_insertion 16.95 17.95;geometric_distortion 17.08 18.08;object_insertion 17.42 18.42;color_shift 17.65 18.65;object_insertion 17.72 18.72;geometric_distortion 17.78 18.78;noise_injection 17.82 18.82;color_shift 19.19 20.19;geometric_distortion 19.45 20.45;object_insertion 19.75 20.75;object_insertion 19.95 20.95;color_shift 20.22 21.22;geometric_distortion 20.42 21.42;object_insertion 20.49 21.49;noise_injection 20.52 21.52;noise_injection 20.82 21.82;color_shift 21.15 22.15;object_insertion 21.82 22.82;noise_injection 22.46 23.46;noise_injection 22.49 23.49;geometric_distortion 23.56 24.56;object_insertion 23.66 24.66;geometric_distortion 23.89 24.89;color_shift 24.19 25.19;noise_injection 24.22 25.22;object_insertion 24.69 25.69;color_shift 24.76 25.76;geometric_distortion 24.86 25.86;object_insertion 25.39 26.39;noise_injection 25.59 26.59;noise_injection 25.63 26.63;object_insertion 25.86 26.86;noise_injection 26.03 27.03;color_shift 26.99 27.99;color_shift 27.33 28.33;object_insertion 27.56 28.56;geometric_distortion 27.76 28.76;object_insertion 27.96 28.96;noise_injection 28.03 29.03;object_insertion 28.13 29.13;color_shift 28.29 29.29;color_shift 28.36 29.36;object_insertion 28.76 29.76;geometric_distortion 28.83 29.83;color_shift 29.30 30.30;noise_injection 29.63 30.63",
+    "anomaly_count": 8
+  },
+  "responses": {
+    "basic_description": "Here's a detailed analysis of the video:\n\n**Visual Description:**\n\n*   **Setting:** The video appears to be taken inside a house. We see a hallway or doorway that leads to another room. To the left is a stainless steel refrigerator.\n*   **People:** There are two people visible:\n    *   A man, who is in the right side of the video, in the doorway. He is wearing dark dress pants, and a gray sweater. He is also wearing dress shoes. He is holding a purple vacuum cleaner in front of him.\n    *   A younger person (likely a child/teen), wearing a bright blue t-shirt and dark pants. They are standing slightly behind the man and further into the other room (beyond the doorway).\n*   **Objects:** In addition to the people and refrigerator, we see wooden doors and frames, a mirror, and what appears to be the entry way in the distance.\n\n**Activities:**\n\n*   The man is trying to figure out how to work the vacuum cleaner. He is looking at it closely and adjusting some parts.\n*   The younger person is just watching the man and occasionally moving their arms. They seem to be waiting for something.\n\n**Overall Impression:**\n\nThe scene suggests a domestic setting, possibly a father and child at home. The man seems to be preparing to do some cleaning, and the video captures his struggle to figure out the vacuum cleaner. The younger person is observing, possibly waiting to help or for the man to finish.",
+    "anomaly_detection": "Here's a detailed analysis of the video:\n\n**Observations:**\n\n*   **Setting:** The video appears to be shot inside a home, likely near the kitchen area, based on the presence of a refrigerator and doorways.\n*   **Subject 1:** A man stands holding a purple vacuum cleaner.\n*   **Subject 2:** A younger person (appears to be a boy) is visible through a doorway behind the man.\n*   **Visual Distortion:** At around 0:19, there's an attempt to block the man with yellow, and at 0:22, the entire frame is covered with rainbow colored noise.\n\n**Anomalies and Unusual Aspects:**\n\n*   The blocking and noise appear artificial.\n\n**Conclusion:**\n\nThe video seems to be altered by a poor digital editor.",
+    "temporal_analysis": "The video appears to be playing normally. There are no obvious signs of reversed playback or shuffled frames. The actions and movements within the video are consistent and flow naturally.",
+    "spatial_analysis": "Here's a detailed analysis of the provided video:\n\n**Objects That Don't Belong:**\n\n*   Without additional context, it's difficult to definitively say if anything *doesn't belong*. The scene appears to be a shot within a home. Objects like the refrigerator, doors, and household items (vacuum cleaner) seem like they could reasonably be present. The vacuum cleaner may seem a bit out of place as it's being carried, but it's a common household object.\n\n**Color Distortions or Visual Artifacts:**\n\n*   There is no strong evidence of significant color distortions or visual artifacts in the video. The colors appear mostly natural.\n*   A yellow box and white outline appears at [00:00:20] for one frame\n\n**Overall Impression:**\n\nThe video appears to be a relatively normal shot within a home setting. Unless specific knowledge of the typical layout and items within this particular space is available, there's no obvious evidence to suggest the presence of objects that are out of place. There is a yellow box and white outline appears at [00:00:20] for one frame.",
+    "semantic_analysis": "From the camera position, the video shows a person with a vacuum cleaner in their hands, standing in a doorway. Another person is standing in the adjacent room. It appears that the person with the vacuum is attempting to install or adjust something on the machine.\n\n**Analysis of Sequence and Transitions:**\n\nThe entire video is a single continuous shot from a fixed position. There are no scene transitions, so the concept of \"abrupt or unnatural\" transitions doesn't apply. The sequence of events involves a man holding a vacuum cleaner and apparently fiddling with a part of it, observed by a boy standing at the far end of the doorway.\n\n**Logical Sense:**\n\nThe events shown in the video make logical sense. It's plausible that the man is trying to fix, assemble, or adjust the vacuum cleaner. However, without more context, it's difficult to infer a complete narrative.",
+    "confidence_assessment": "Here's a detailed description of the video:\n\n**Overall Impression:** The video shows two people, likely a father and son, standing in a doorway. The father is holding a vacuum cleaner and appears to be attempting to fix it.\n\n**Detailed Description:**\n\n*   **Setting:** The scene takes place inside a home, likely near the kitchen. The view is framed by a doorway leading to another room. To the left, there is a stainless steel refrigerator with magnets on it. To the right is a wooden door.\n*   **People:**\n    *   **Man (Likely Father):** He is on the right side of the doorway, wearing glasses, dark colored pants and shoes, and a grey sweatshirt. He is holding a purple and gray upright vacuum cleaner. He appears to be examining it and fiddling with the components.\n    *   **Boy (Likely Son):** The boy is standing in the other room to the left of the doorway. He is wearing a blue t-shirt and dark pants, and is barefoot. He is looking at the father.\n*   **Action:** The father is mostly stationary, holding the vacuum cleaner and manipulating its parts. The boy is standing still, watching the father.\n\n**Confidence Level:** I am very confident in my description of the visual elements: the objects, people, clothing, and general setting. It is very clear in the video.\n\n**Uncertainties:** I am making an assumption about the relationship between the people (father and son). They could be a different relationship. I am also uncertain about the exact nature of the vacuum cleaner issue, though I can infer that the father is attempting to fix or adjust it."
+  },
+  "scores": {
+    "content_accuracy": 4.800000000000001,
+    "anomaly_detection": 5.9,
+    "confidence_calibration": 6.200000000000001,
+    "hallucination": 2.8000000000000003,
+    "overall": 4.925000000000001
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 5,
+      "accuracy_score": 4,
+      "detail_level_score": 6,
+      "overall_assessment": "The model's description contains some accurate elements but misses key actions and has inaccuracies.",
+      "correctly_described_elements": [
+        "vacuum cleaner",
+        "hallway"
+      ],
+      "missing_elements": [
+        "grasping a doorknob",
+        "snuggling with a vacuum"
+      ],
+      "incorrect_descriptions": [
+        "man struggling with vacuum",
+        "younger person waiting"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 5,
+      "accuracy_score": 6,
+      "false_positive_score": 8,
+      "overall_assessment": "The model identified some anomalies but missed key ones and included some inaccuracies.",
+      "detected_anomalies": [
+        "noise_injection"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "temporal_cut",
+        "speed_change",
+        "frame_shuffling",
+        "frame_reversal",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 6,
+      "confidence_appropriateness_score": 7,
+      "calibration_score": 5,
+      "overall_assessment": "The model demonstrates a moderate understanding of the scene but lacks precision in recognizing the actions and anomalies.",
+      "uncertainty_indicators": [
+        "generalization of actions",
+        "lack of specific details on anomalies"
+      ],
+      "confidence_indicators": [
+        "detailed visual description",
+        "identification of people and objects"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "overconfidence in scene interpretation"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 4,
+      "speculation_control_score": 3,
+      "overall_assessment": "The model's response contains significant hallucinations and inaccuracies regarding the actions and objects present in the video.",
+      "hallucinated_elements": [
+        "stainless steel refrigerator",
+        "man adjusting vacuum parts"
+      ],
+      "factual_errors": [
+        "man holding a purple vacuum cleaner",
+        "younger person wearing a bright blue t-shirt"
+      ],
+      "speculative_content": [
+        "father and child relationship",
+        "man preparing to clean"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:19:30.374990"
+}

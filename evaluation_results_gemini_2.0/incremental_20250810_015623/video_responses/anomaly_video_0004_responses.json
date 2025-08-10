@@ -1,0 +1,107 @@
+{
+  "video_name": "anomaly_video_0004.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0004.mp4",
+    "original_video_id": "FPU57",
+    "original_scene": "Living room",
+    "original_script": "A person is holding a bottle of medicine and walking through the door in the recreation room / man cave.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c006 6.00 11.50;c008 1.00 9.00;c151 11.40 17.90;c088 16.70 24.40;c144 19.40 25.10;c144 16.20 28.90;c097 3.20 9.20;c141 4.20 9.00;c059 10.90 16.70;c154 24.90 30.30",
+    "decoded_actions": "c006 6.00 11.50 (Closing a door);c008 1.00 9.00 (Opening a door);c151 11.40 17.90 (Someone is going from standing to sitting);c088 16.70 24.40 (Watching/looking at a picture);c144 19.40 25.10 (Fixing their hair);c144 16.20 28.90 (Fixing their hair);c097 3.20 9.20 (Walking through a doorway);c141 4.20 9.00 (Grasping onto a doorknob);c059 10.90 16.70 (Sitting in a chair);c154 24.90 30.30 (Someone is standing up from somewhere)",
+    "anomalies_applied": "object_insertion;speed_change;frame_shuffling;noise_injection;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_shuffling 0.00 3.33;frame_shuffling 3.33 6.67;frame_shuffling 6.67 10.00;frame_shuffling 10.00 13.33;frame_shuffling 13.33 16.67;frame_shuffling 16.67 20.00;frame_shuffling 20.00 23.33;frame_shuffling 23.33 26.67;frame_shuffling 26.67 30.00;frame_shuffling 30.00 33.33;frame_shuffling 33.33 33.43;speed_change 0.00 33.43;noise_injection 0.30 1.30;noise_injection 0.77 1.77;object_insertion 1.07 2.07;noise_injection 1.23 2.23;noise_injection 1.60 2.60;object_insertion 1.90 2.90;color_shift 2.47 3.47;color_shift 2.93 3.93;color_shift 2.97 3.97;object_insertion 3.13 4.13;color_shift 3.37 4.37;geometric_distortion 3.57 4.57;object_insertion 3.77 4.77;object_insertion 3.93 4.93;geometric_distortion 4.17 5.17;color_shift 4.60 5.60;noise_injection 4.63 5.63;geometric_distortion 5.00 6.00;object_insertion 5.67 6.67;color_shift 6.77 7.77;noise_injection 6.77 7.77;color_shift 6.80 7.80;color_shift 6.90 7.90;noise_injection 6.97 7.97;noise_injection 7.10 8.10;object_insertion 8.13 9.13;object_insertion 8.27 9.27;geometric_distortion 8.40 9.40;object_insertion 8.67 9.67;object_insertion 8.73 9.73;color_shift 8.77 9.77;object_insertion 9.00 10.00;geometric_distortion 9.10 10.10;noise_injection 9.17 10.17;object_insertion 10.33 11.33;noise_injection 10.40 11.40;object_insertion 11.23 12.23;noise_injection 11.37 12.37;noise_injection 11.83 12.83;noise_injection 11.87 12.87;noise_injection 12.23 13.23;color_shift 13.37 14.37;color_shift 13.60 14.60;object_insertion 13.73 14.73;geometric_distortion 13.73 14.73;noise_injection 14.10 15.10;noise_injection 14.23 15.23;color_shift 14.50 15.50;color_shift 14.60 15.60;object_insertion 14.63 15.63;color_shift 14.73 15.73;object_insertion 15.27 16.27;object_insertion 15.77 16.77;object_insertion 15.93 16.93;noise_injection 15.97 16.97;geometric_distortion 16.27 17.27;object_insertion 16.43 17.43",
+    "anomaly_count": 6
+  },
+  "responses": {
+    "basic_description": "Here's a detailed analysis of the video:\n\n**Setting:**\n\n*   The video appears to be filmed indoors in a small room. The room is illuminated by a window covered with blinds, which lets in bright daylight.\n*   The floor is tiled with light-colored squares.\n*   The walls are painted in a light color.\n*   There's a door on the left side of the frame.\n*   Against the back wall, there's a black shelving unit holding a monitor with a computer interface displayed.\n*   Near the shelf is a cooler.\n*   A structure constructed from concrete blocks and wooden planks appears to be a bed frame.\n\n**Activities and Events:**\n\n*   **0:00-0:02:** The room is empty.\n*   **0:03-0:05:** A woman enters the room from the doorway on the left. She is wearing a pink shirt and jeans and appears to be holding a mobile phone. She is moving slowly.\n*   **0:06-0:14:** The woman sits down on the makeshift bed, looking as if she is observing something.\n*   **0:15-0:16:** The woman stands up and walks into the hallway.\n\n**Objects and Details:**\n\n*   **Monitor/Computer Interface:** The monitor displays a computer interface, possibly related to scientific or engineering measurements. It is difficult to determine exactly what is being shown without a clearer view.\n*   **Makeshift Bed:** The bed frame is built with concrete blocks and wooden planks, giving the impression that it is temporary or constructed for a specific purpose.\n*   **Cooler:** The presence of the cooler in the room could indicate the room is being used in an unusual way.\n\nIn summary, the video shows a small room that appears to be temporarily furnished, possibly for a project or a temporary living situation. A woman enters the room, sits on the bed, and then leaves.",
+    "anomaly_detection": "Here's a detailed analysis of the video:\n\n**Overall Impression:**\n\nThe room appears cluttered and hastily arranged.  The furniture is a mix of temporary or makeshift items.  The television display is unusual and warrants closer examination.\n\n**Specific Observations:**\n\n*   **Strange Furniture/Arrangement:** The room has a strange setup. The bed-like structure seems to be constructed from cinder blocks and wooden planks.  The materials look temporary or unfinished.\n*   **Unusual Television Display:** The TV shows a screen with geometric shapes, lines, and a blue outline, resembling some sort of visual readout or calibration interface. This isn't typical for a standard TV setup.\n*   **Clutter:** The area surrounding the TV is cluttered with items. This adds to the impression of a makeshift setup.\n*   **Lighting:** The lighting is uneven and overly bright near the window, which causes the room to look a bit washed out and affects the clarity of the image.\n*   **Woman Entering Room:** A woman enters the room, carrying what looks like a phone and walks to the bed.\n\n**Potential Visual Anomalies and Distortions:**\n\n*   **Color Distortion (Possible):** The overall color balance seems slightly off. This could be due to camera settings, lighting, or slight color correction applied in post-processing.\n*   **Sharpness/Focus:** The edges of objects, especially those in the periphery of the frame, appear slightly soft or blurred. This might be attributed to the camera's lens quality or focus.\n\n**What Might Be Unusual:**\n\n1.  **The TV Display:** This is the most significant oddity. It strongly suggests the room may be used for some specific kind of technical work, research, or monitoring that requires a specialized display.\n2.  **The Cinder Block Bed:** This adds to the impression that the room is either temporary or improvised. It could suggest a lack of resources or a deliberate choice of a spartan setup.\n3.  **The Combination:** The combination of the unusual display, makeshift furniture, and clutter suggests that the room serves a non-standard purpose.\n\nLet me know if you want me to focus on any specific aspect!",
+    "temporal_analysis": "The video appears to be playing normally. There are no obvious signs of reversed playback or shuffled frames. The movement of the woman seems natural and continuous.",
+    "spatial_analysis": "Here's an analysis of the video:\n\n**Objects that seem out of place or unusual:**\n\n*   **The barrier:** The most immediately noticeable object is the construction/barrier made of what appear to be cinder blocks and a wooden rail. It's unusual to see such a structure indoors, especially in a room with a tiled floor and other furnishings.\n*   **The TV Display** The TV has blue lines and a white background which seems computer generated and out of place.\n*   **The organization**: The room itself seems slightly cluttered. It doesn't look like a dedicated living space.\n\n**Color Distortions/Visual Artifacts:**\n\n*   **Slight color casts**: There is a general slight color cast and the colors aren't especially saturated.\n\nIn summary, the indoor setting itself appears normal enough, but the barrier, computer generated image on the TV, and clutter create a sense of incongruity.",
+    "semantic_analysis": "The sequence of events in this video is logical and straightforward. It begins with a static shot of a room, then a woman enters, walks towards the objects in the center, and climbs over them. There are no abrupt or unnatural scene transitions. The video is simply capturing a woman moving within a single space.",
+    "confidence_assessment": "Here's a breakdown of the video, with a confidence assessment:\n\n**General Description:**\n\nThe video shows a small, sparsely furnished room.  There's a door on the left, a window straight ahead (covered with a white blind), and what appears to be some kind of DIY furniture or construction project in the foreground. A woman enters the room and sits on the DIY furniture.\n\n**Detailed Breakdown & Confidence Levels:**\n\n*   **Room:**\n    *   Small room: **High Confidence**. The camera angle and contents suggest a limited space.\n    *   Sparse furnishing: **High Confidence**. Few items beyond the main focus.\n    *   Tiled floor: **High Confidence**. The floor appears to be made of tiles.\n    *   Light-colored walls: **High Confidence**. Walls appear light, possibly white or light beige.\n    *   Door on the left: **High Confidence**. Clear visual.\n    *   Window straight ahead with white blinds: **High Confidence**.\n\n*   **Furniture/Construction Project:**\n    *   In the foreground: **High Confidence**. Dominates the near space.\n    *   Made of cinder blocks and wood: **High Confidence**. The materials are visually identifiable.\n    *   Appears to be a DIY bench or table: **Medium Confidence**. The structure looks like it could be used as a bench.\n\n*   **Electronics Area (against the back wall):**\n    *   Television: **High Confidence**. A screen displaying graphical information, outlined in blue.\n    *   Electronics stand: **High Confidence**. The TV is on a stand with multiple shelves.\n    *   Various cables: **High Confidence**. Cables are seen going into the stand.\n    *   Cooler and various items: **Medium Confidence**. It's difficult to distinguish due to the camera quality.\n\n*   **Person:**\n    *   Woman enters: **High Confidence**.\n    *   Wearing a pink shirt and jeans: **High Confidence**.\n    *   She approaches and briefly sits on the bench: **High Confidence**.\n\n**Areas of Uncertainty:**\n\n*   **Nature of the screen content:** The screen is showing a display, which looks like information related to the bench that is being constructed or some other graphical output.\n*   **Purpose of the video:** There's no clear indication of why this video was taken. The woman looks like she is recording the video.\n\nIn summary, I am very confident in the description of the basic elements of the scene. The uncertainties revolve around the function of the device and the intentions of the video recording."
+  },
+  "scores": {
+    "content_accuracy": 2.8,
+    "anomaly_detection": 7.7,
+    "confidence_calibration": 5.0,
+    "hallucination": 2.3,
+    "overall": 4.45
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 3,
+      "accuracy_score": 2,
+      "detail_level_score": 4,
+      "overall_assessment": "The model response contains significant inaccuracies and misses key elements from the ground truth.",
+      "correctly_described_elements": [],
+      "missing_elements": [
+        "bottle of medicine",
+        "man cave",
+        "actions related to door opening/closing",
+        "sitting and fixing hair"
+      ],
+      "incorrect_descriptions": [
+        "woman instead of a person",
+        "mobile phone instead of a bottle of medicine",
+        "makeshift bed instead of a recreation room"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 7,
+      "accuracy_score": 8,
+      "false_positive_score": 9,
+      "overall_assessment": "The model identified some relevant anomalies but missed a few key ones.",
+      "detected_anomalies": [
+        "color_distortion",
+        "geometric_distortion"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "speed_change",
+        "frame_shuffling",
+        "noise_injection"
+      ],
+      "false_positives": []
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 6,
+      "calibration_score": 5,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks clarity in certain details.",
+      "uncertainty_indicators": [
+        "inability to identify the exact purpose of the monitor",
+        "vague description of the room's use"
+      ],
+      "confidence_indicators": [
+        "detailed description of the room",
+        "identification of the woman's actions"
+      ],
+      "calibration_issues": [
+        "misidentification of the person as a woman instead of a person",
+        "lack of mention of the medicine bottle"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 3,
+      "speculation_control_score": 2,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the scene and actions.",
+      "hallucinated_elements": [
+        "woman",
+        "mobile phone",
+        "makeshift bed"
+      ],
+      "factual_errors": [
+        "woman entering",
+        "sitting on bed",
+        "walking into hallway"
+      ],
+      "speculative_content": [
+        "room usage",
+        "temporary living situation"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T01:59:45.937029"
+}

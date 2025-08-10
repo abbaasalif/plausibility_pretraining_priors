@@ -1,0 +1,110 @@
+{
+  "video_name": "anomaly_video_0047.mp4",
+  "ground_truth": {
+    "anomaly_video_name": "anomaly_video_0047.mp4",
+    "original_video_id": "9VK0J",
+    "original_scene": "Closet / Walk-in closet / Spear closet",
+    "original_script": "A person is standing around snuggling a blanket with a pillow under their shirt.",
+    "combined_video_id": NaN,
+    "combined_script": NaN,
+    "original_actions": "c070 0.80 29.00;c072 1.00 29.00;c076 2.10 28.50;c079 20.90 26.40",
+    "decoded_actions": "c070 0.80 29.00 (Holding a blanket);c072 1.00 29.00 (Snuggling with a blanket);c076 2.10 28.50 (Holding a pillow);c079 20.90 26.40 (Taking a pillow from somewhere)",
+    "anomalies_applied": "object_insertion;noise_injection;frame_shuffling;geometric_distortion;color_shift",
+    "anomaly_timestamps": "frame_shuffling 0.00 2.73;frame_shuffling 2.73 5.47;frame_shuffling 5.47 8.20;frame_shuffling 8.20 10.94;frame_shuffling 10.94 13.67;frame_shuffling 13.67 16.41;frame_shuffling 16.41 19.14;frame_shuffling 19.14 21.88;frame_shuffling 21.88 24.61;frame_shuffling 24.61 27.35;frame_shuffling 27.35 27.56;object_insertion 0.91 1.91;noise_injection 1.09 2.09;color_shift 1.86 2.86;object_insertion 2.10 3.10;geometric_distortion 2.28 3.28;color_shift 2.73 3.73;color_shift 3.19 4.19;object_insertion 3.26 4.26;color_shift 3.33 4.33;noise_injection 3.33 4.33;noise_injection 3.37 4.37;object_insertion 3.58 4.58;object_insertion 4.00 5.00;geometric_distortion 4.66 5.66;object_insertion 4.80 5.80;object_insertion 5.15 6.15;object_insertion 5.82 6.82;noise_injection 5.82 6.82;geometric_distortion 6.24 7.24;object_insertion 6.56 7.56;color_shift 6.63 7.63;geometric_distortion 7.12 8.12;noise_injection 7.47 8.47;color_shift 7.89 8.89;object_insertion 8.17 9.17;color_shift 8.69 9.69;object_insertion 8.76 9.76;geometric_distortion 8.91 9.91;object_insertion 9.33 10.33;color_shift 9.33 10.33;noise_injection 9.68 10.68;object_insertion 9.78 10.78;object_insertion 9.85 10.85;color_shift 10.38 11.38;noise_injection 10.80 11.80;object_insertion 11.60 12.60;geometric_distortion 11.71 12.71;geometric_distortion 11.74 12.74;noise_injection 11.99 12.99;object_insertion 12.20 13.20;geometric_distortion 12.31 13.31;geometric_distortion 12.45 13.45;object_insertion 12.48 13.48;object_insertion 12.69 13.69;geometric_distortion 12.76 13.76;object_insertion 13.22 14.22;noise_injection 13.32 14.32;object_insertion 13.78 14.78;noise_injection 14.02 15.02;object_insertion 14.06 15.06;object_insertion 14.44 15.44;object_insertion 14.62 15.62;object_insertion 15.67 16.67;noise_injection 16.09 17.09;noise_injection 16.20 17.20;object_insertion 16.27 17.27;geometric_distortion 16.65 17.65;noise_injection 17.18 18.18;color_shift 17.42 18.42;noise_injection 17.56 18.56;object_insertion 17.71 18.71;noise_injection 17.71 18.71;object_insertion 18.09 19.09;color_shift 18.34 19.34;geometric_distortion 19.07 20.07;noise_injection 19.18 20.18;geometric_distortion 19.53 20.53;object_insertion 19.60 20.60;object_insertion 20.12 21.12;geometric_distortion 20.12 21.12;noise_injection 20.69 21.69;object_insertion 20.97 21.97;color_shift 21.07 22.07;noise_injection 21.63 22.63;color_shift 21.84 22.84;color_shift 22.09 23.09;color_shift 22.23 23.23;noise_injection 22.40 23.40;object_insertion 22.65 23.65;object_insertion 22.68 23.68;geometric_distortion 22.72 23.72;color_shift 23.00 24.00;noise_injection 23.17 24.17;object_insertion 23.28 24.28;color_shift 23.52 24.52;color_shift 23.56 24.56;noise_injection 24.30 25.30;color_shift 24.37 25.37;object_insertion 24.47 25.47;object_insertion 24.68 25.68;object_insertion 24.86 25.86;color_shift 25.07 26.07;color_shift 25.21 26.21;noise_injection 25.66 26.66;color_shift 25.70 26.70;color_shift 26.15 27.15;object_insertion 26.68 27.68;noise_injection 26.75 27.75;color_shift 27.07 28.07;color_shift 27.42 28.42;noise_injection 27.45 28.45",
+    "anomaly_count": 5
+  },
+  "responses": {
+    "basic_description": "Here is a detailed description of the video:\n\nThe video shows a woman standing in front of an open closet. She is wearing a dark zip-up hoodie, and blue and white star-patterned pajama pants. She has red hair pulled back in a bun. She is holding a pile of folded clothes and a patterned pillow against her stomach and chest, almost hugging them. The woman appears to be pregnant. She briefly rests her head against the pile of clothes and pillow, seemingly nuzzling it. She then looks down at the items she's holding, before looking at the camera. She then starts to remove the pillow. The closet has clothes hanging on a rod and shelves with items stored on them. The room is generally brightly lit.",
+    "anomaly_detection": "After analyzing the video, here's what I observed:\n\n*   **Unusual bulge**: The woman in the video seems to have an unusually large bulge around her midsection. This is likely what stands out as unusual.\n*   **Low video quality**: The video is of low resolution, which affects clarity.\n*  **Noise**: There is visual noise present, especially noticeable in frame 7.\n*   **Possible manipulation**: It is not clear whether the video has been intentionally manipulated, but the situation presented looks as though the woman is faking a pregnancy.",
+    "temporal_analysis": "The video appears to be playing normally. I don't see any reversed playback or shuffled frames. The actions of the woman are consistent with a normal forward-playing video.",
+    "spatial_analysis": "Here's an analysis of the video:\n\n**Objects that don't belong:**\n\n*   This depends on the context. The woman seems to be taking out items from the closet, so those items are \"meant\" to be removed at the time. Generally, the objects present (clothes, shoes, a storage box) seem to belong in the context of a closet, with the exception of the pillow she pulls out in the last few frames. It does not seem like it belongs in a closet.\n\n**Color Distortions/Visual Artifacts:**\n\n*   The video quality is not great. There's some general blurriness.\n*   Around frame 7 there is a very distinct visual artifact as the screen is highly pixelated.\n\nIn summary, the general objects in the scene are appropriate to the context of a closet. The visual quality is a bit poor.",
+    "semantic_analysis": "Here is an analysis of the video:\n\n**Sequence of Events and Logical Sense:**\n\nThe video depicts a woman standing in front of a closet and holding a stack of clothes and a pillow. She briefly rests her head on the clothes before discarding them into her skirt and throwing the pillow to the side. \n\nThe sequence of events generally makes logical sense. A person might pick clothes from a closet, briefly pause to admire them, and then decide to discard them as the woman in this video seems to do.\n\n**Scene Transitions:**\n\nThe scene transitions are abrupt due to the cuts in the video. The camera seems to start and stop recording at random intervals.\n\n**Overall Impression:**\n\nThe video appears to be a short, simple, and somewhat humorous recording of a woman's behavior in front of a closet. The video quality is relatively low, and there aren't any complex or intricate elements involved in the scene.",
+    "confidence_assessment": "Here is a description of the video:\n\nThe video shows a woman standing in front of an open closet. She is wearing a dark-colored hooded sweatshirt and blue pajamas with stars and moons on them. She has her hair up in a bun. She's holding a large pile of laundry and what appears to be a pillow or cushion in front of her, seemingly mimicking pregnancy. She has a patterned pillow or cushion tucked under her sweatshirt to make her look pregnant.\n\nThe closet behind her has clothes hanging on a rod and a shelf with items on it. There's also a shelf at the top of the closet with some boxes and other items. The lighting is somewhat bright and the video quality is low.\n\nConfidence Level: High. The actions and items are clearly visible, and the overall scene is easy to interpret.\n\nUncertainties: The exact pattern on the cushion or pillow under her sweatshirt and in her hands could be described in more detail, but it does not seem to alter the meaning of the video."
+  },
+  "scores": {
+    "content_accuracy": 4.800000000000001,
+    "anomaly_detection": 5.9,
+    "confidence_calibration": 5.0,
+    "hallucination": 2.7,
+    "overall": 4.6000000000000005
+  },
+  "judgments": {
+    "content_accuracy": {
+      "content_coverage_score": 5,
+      "accuracy_score": 4,
+      "detail_level_score": 6,
+      "overall_assessment": "The description contains some accurate elements but misses key actions and context.",
+      "correctly_described_elements": [
+        "holding a pillow",
+        "snuggling"
+      ],
+      "missing_elements": [
+        "holding a blanket",
+        "taking a pillow from somewhere"
+      ],
+      "incorrect_descriptions": [
+        "woman appears to be pregnant",
+        "holding a pile of folded clothes"
+      ]
+    },
+    "anomaly_detection": {
+      "anomaly_detection_score": 6,
+      "accuracy_score": 5,
+      "false_positive_score": 7,
+      "overall_assessment": "The model identified some anomalies but missed key ones and included a false positive.",
+      "detected_anomalies": [
+        "noise"
+      ],
+      "missed_anomalies": [
+        "object_insertion",
+        "frame_shuffling",
+        "geometric_distortion",
+        "color_shift"
+      ],
+      "false_positives": [
+        "faking a pregnancy"
+      ]
+    },
+    "confidence_calibration": {
+      "uncertainty_recognition_score": 4,
+      "confidence_appropriateness_score": 6,
+      "calibration_score": 5,
+      "overall_assessment": "The model shows some recognition of uncertainty but lacks precision in confidence levels.",
+      "uncertainty_indicators": [
+        "inaccurate description of actions",
+        "lack of clarity in scene details"
+      ],
+      "confidence_indicators": [
+        "specificity in clothing description",
+        "detailed actions"
+      ],
+      "calibration_issues": [
+        "misalignment with ground truth actions",
+        "overconfidence in scene interpretation"
+      ]
+    },
+    "hallucination_detection": {
+      "hallucination_severity_score": 8,
+      "factual_accuracy_score": 3,
+      "speculation_control_score": 4,
+      "overall_assessment": "The model response contains significant hallucinations and inaccuracies regarding the subject's appearance and actions.",
+      "hallucinated_elements": [
+        "woman",
+        "dark zip-up hoodie",
+        "blue and white star-patterned pajama pants",
+        "red hair pulled back in a bun",
+        "pile of folded clothes"
+      ],
+      "factual_errors": [
+        "woman appears to be pregnant",
+        "nuzzling the pile of clothes"
+      ],
+      "speculative_content": [
+        "briefly rests her head against the pile of clothes",
+        "looking at the camera",
+        "removing the pillow"
+      ]
+    }
+  },
+  "timestamp": "2025-08-10T02:28:54.217773"
+}
